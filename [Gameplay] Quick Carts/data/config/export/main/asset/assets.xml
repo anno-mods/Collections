@@ -1,0 +1,30 @@
+<ModOps>
+    <!-- Base Wagon -->
+    <ModOp Type="add" GUID='1010104' Path="/Values/Transporter7">
+	  <ProcessingTimes>
+		<LoadingTime>10</LoadingTime>
+		<UnloadingTime>10</UnloadingTime>
+	  </ProcessingTimes>	
+    </ModOp>
+	<!-- Electric version -->
+    <ModOp Type="merge" GUID='120028' Path="/Values/Transporter7/ProcessingTimes">
+	  <ProcessingTimes>
+		<LoadingTime>20</LoadingTime>
+		<UnloadingTime>20</UnloadingTime>
+	  </ProcessingTimes>        
+    </ModOp>
+    <!-- Base Warehouse Wagon -->
+    <ModOp Type="add" GUID='1010105' Path="/Values/Transporter7">
+	  <ProcessingTimes>
+		<LoadingTime>10</LoadingTime>
+		<UnloadingTime>10</UnloadingTime>
+	  </ProcessingTimes>	
+    </ModOp>	
+	<!-- Electric Warehouse version -->
+    <ModOp Type="merge" GUID='120027' Path="/Values/Transporter7/ProcessingTimes">
+	  <ProcessingTimes>
+		<LoadingTime>20</LoadingTime>
+		<UnloadingTime>20</UnloadingTime>
+	  </ProcessingTimes>        
+    </ModOp>
+</ModOps>
