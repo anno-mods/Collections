@@ -1,0 +1,5 @@
+- Influence gain per resident population level from 15 -> 16
+- Starting influence 100 -> 150
+- Engineers now give +1 influence
+- Optimisation buildings (trade union, townhall, etc.) cost 20 -> 18
+- 2 or 3 extra influence-free warships, tradeships and zoo/museum modules
