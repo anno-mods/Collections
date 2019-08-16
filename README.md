@@ -3,13 +3,17 @@
 </p>
 <h1 align="center">Anno 1800 Mod Collection</h1>
 
-Download [Mod Manager](https://github.com/anno-mods/Anno) for easy usage
+Download [Mod Manager](https://github.com/anno-mods/Anno) for an easy usage
 
 ## Content
 
-* [Anno 1800 Mod Loader](https://github.com/xforce/anno1800-mod-loader)
-* [Spice it Up Collection](https://www.nexusmods.com/anno1800/mods/5)
-* Nature Ornaments, Archibalds Castle, Train-Stations...
+* [Spice it Up](https://www.nexusmods.com/anno1800/mods/5)
+* [Cheat Mod](https://www.nexusmods.com/anno1800/mods/4)
+* [Modular Production Boost](https://www.nexusmods.com/anno1800/mods/6)
+* [Nature Ornaments Mod](https://www.nexusmods.com/anno1800/mods/7)
+* [Archibalds Castle](https://www.nexusmods.com/anno1800/mods/9)
+* [Train-Stations](https://www.nexusmods.com/anno1800/mods/8)
+* and much more...
 
 ## Credit
 
