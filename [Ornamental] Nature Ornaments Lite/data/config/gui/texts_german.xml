@@ -1,0 +1,60 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>992041</GUID>
+            <Text>NOM Forest Low Density</Text>
+        </Text>
+        <Text>
+            <GUID>992042</GUID>
+            <Text>NOM Forest Medium Density</Text>
+        </Text>
+        <Text>
+            <GUID>992043</GUID>
+            <Text>NOM Forest High Density</Text>
+        </Text>
+        <Text>
+            <GUID>992044</GUID>
+            <Text>NOM Dead Forest</Text>
+        </Text>
+        <Text>
+            <GUID>992045</GUID>
+            <Text>NOM Fir Forest</Text>
+        </Text>
+        <Text>
+            <GUID>992046</GUID>
+            <Text>NOM Forest Tall</Text>
+        </Text>
+        <Text>
+            <GUID>992047</GUID>
+            <Text>NOM Fir Forest Tall</Text>
+        </Text>
+        <Text>
+            <GUID>992048</GUID>
+            <Text>NOM Tree Stumps</Text>
+        </Text>        
+        <Text>
+            <GUID>992081</GUID>
+            <Text>NOM Palm Jungle</Text>
+        </Text>
+        <Text>
+            <GUID>992082</GUID>
+            <Text>NOM Jungle Large</Text>
+        </Text>
+        <Text>
+            <GUID>992083</GUID>
+            <Text>NOM Jungle Very Large</Text>
+        </Text>
+        <Text>
+            <GUID>992084</GUID>
+            <Text>NOM Jungle Mixed</Text>
+        </Text>
+        <Text>
+            <GUID>992095</GUID>
+            <Text>NOM Forests</Text>
+        </Text>
+        <Text>
+            <GUID>992098</GUID>
+            <Text>NOM Forests</Text>
+        </Text>
+    </ModOp>
+</ModOps>

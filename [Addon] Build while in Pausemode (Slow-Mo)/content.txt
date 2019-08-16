@@ -1,0 +1,1 @@
+Fügt eine extra langsame Spielgeschwindigkeit hinzu, die mit der Taste 'Q' aktiviert wird.

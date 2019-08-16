@@ -1,0 +1,1 @@
+Fügt einen dynamischen Tag-Nacht-Wechsel hinzu.

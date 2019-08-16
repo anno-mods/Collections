@@ -1,0 +1,73 @@
+<ModOps>
+  <!-- Remove royal taxes-->
+
+
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010000']/Values/">
+      <EconomyFeature7>
+              <MetropolisFactor>
+                <ConfigPerPopulation>
+                  <Item>
+                    <PopulationLevel>15000000</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>12500</Interval>
+                    <EffectPerInterval>0</EffectPerInterval>
+                    <EffectMaximum>0</EffectMaximum>
+                  </Item>
+                  <Item>
+                    <PopulationLevel>15000001</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>12500</Interval>
+                    <EffectPerInterval>0</EffectPerInterval>
+                    <EffectMaximum>0</EffectMaximum>
+                  </Item>
+                  <Item>
+                    <PopulationLevel>15000002</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>12500</Interval>
+                    <EffectPerInterval>1</EffectPerInterval>
+                    <EffectMaximum>40</EffectMaximum>
+                  </Item>
+                  <Item>
+                    <PopulationLevel>15000003</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>12500</Interval>
+                    <EffectPerInterval>0</EffectPerInterval>
+                    <EffectMaximum>0</EffectMaximum>
+                  </Item>
+                  <Item>
+                    <PopulationLevel>15000004</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>12500</Interval>
+                    <EffectPerInterval>0</EffectPerInterval>
+                    <EffectMaximum>0</EffectMaximum>
+                  </Item>
+                  <Item>
+                    <PopulationLevel>15000005</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>10000</Interval>
+                    <EffectPerInterval>0</EffectPerInterval>
+                    <EffectMaximum>0</EffectMaximum>
+                  </Item>
+                  <Item>
+                    <PopulationLevel>15000006</PopulationLevel>
+                    <StartOffset>1000000</StartOffset>
+                    <Interval>10000</Interval>
+                    <EffectPerInterval>0</EffectPerInterval>
+                    <EffectMaximum>0</EffectMaximum>
+                  </Item>
+                </ConfigPerPopulation>
+              </MetropolisFactor>
+              <SaturationTrackerSharpnessDivisor>6</SaturationTrackerSharpnessDivisor>
+              <MissingWorkforce>
+                <AreaNotification>501310</AreaNotification>
+                <PoolNotification>112114</PoolNotification>
+                <WorkforceThresholdInPercent>10</WorkforceThresholdInPercent>
+                <Interval>360000</Interval>
+                <MaxTriggers>3</MaxTriggers>
+              </MissingWorkforce>
+            </EconomyFeature7>
+  </ModOp>
+
+
+</ModOps>
+

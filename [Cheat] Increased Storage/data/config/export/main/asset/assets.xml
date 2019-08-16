@@ -1,0 +1,5 @@
+<ModOps>
+	<ModOp Type="merge" GUID="1010519" Path="/Values/Warehouse/WarehouseStorage">
+		<StorageMax>2500</StorageMax>
+	</ModOp>
+</ModOps>

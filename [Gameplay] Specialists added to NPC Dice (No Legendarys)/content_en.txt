@@ -1,0 +1,1 @@
+Specialists are added to the NPC dice roll (no legendaries).

@@ -1,0 +1,471 @@
+<ModOps>
+    <!-- Building Size for Harbors/Beachlines increased from 28 to 42 -->
+    <ModOp Type="merge" GUID='2001241' Path="/Values/BuildingBaseTiles/HarbourConstructionAreaRadius">
+        <HarbourConstructionAreaRadius>42</HarbourConstructionAreaRadius>
+    </ModOp>
+    <!-- Lighthouse North -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='101642']">
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>901006</GUID>
+                    <Name>lighthouse_harbor_moderate</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_kontor.png</IconFilename>
+                    <InfoDescription>900206</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <TerrainType>Water</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>100446</GroundDecalAsset>
+                    <GroundDecalInvisible>101008</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/3rd_party_questobject/3rd_party_questobject.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>8000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>12</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                    <DefenseByAIFactor>310</DefenseByAIFactor>
+                    <TakeOverEffect>OnDeath</TakeOverEffect>
+                    <MoralePower>50</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase />
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>50</Amount>
+                            <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <DefaultLockedState>1</DefaultLockedState>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- New Triggers (97602x) -->
+    <ModOp Type="addNextSibling" GUID='15000024'>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>976020</GUID>
+                    <Name>intermediate moderate 3.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>901006</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>976021</GUID>
+                    <Name>intermediate moderate 3.1</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>250</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>901006</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>976022</GUID>
+                    <Name>intermediate colony01 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>901007</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>976023</GUID>
+                    <Name>intermediate colony01 2.1</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>901007</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- moderate construction menu harbour02 (tier) -->
+    <ModOp Type="add" GUID='500953' Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>901006</Building>
+        </Item>
+    </ModOp>
+    <!-- moderate construction menu harbor (category) -->
+    <ModOp Type="add" GUID='500903' Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>901006</Building>
+        </Item>
+    </ModOp>
+    <!-- Lighthouse South -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='101642']">
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>901007</GUID>
+                    <Name>lighthouse_harbor_colony</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_kontor.png</IconFilename>
+                    <InfoDescription>900207</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <TerrainType>Water</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>101008</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/3rd_party_questobject/3rd_party_questobject.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>8000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>12</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                    <DefenseByAIFactor>310</DefenseByAIFactor>
+                    <TakeOverEffect>OnDeath</TakeOverEffect>
+                    <MoralePower>50</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase />
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>50</Amount>
+                            <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <DefaultLockedState>1</DefaultLockedState>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- sa construction menu harbour 02 (tier) -->
+    <ModOp Type="add" GUID='501008' Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>901007</Building>
+        </Item>
+    </ModOp>
+    <!-- sa construction menu harbour (category) -->
+    <ModOp Type="add" GUID='25000195' Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>901007</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type = "remove" GUID = '100519' Path = "/Values/Blocking/HarbourAreaExpand">
+    
+    </ModOp>
+</ModOps>

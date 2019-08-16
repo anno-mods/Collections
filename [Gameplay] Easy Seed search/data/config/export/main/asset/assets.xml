@@ -1,0 +1,11 @@
+<ModOps>
+	<!-- Seedsuche -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='140885']/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/PlayerCounter" />
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='140885']/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/Context" />
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='140885']/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount" />
+	<ModOp Type="add" GUID='140885' Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter">
+		<PlayerCounter>PopulationByLevel</PlayerCounter>
+		<Context>15000000</Context>
+		<CounterAmount>20</CounterAmount>
+	</ModOp>
+</ModOps>

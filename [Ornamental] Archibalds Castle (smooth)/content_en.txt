@@ -1,0 +1,28 @@
+Archibalds Castle v1.2.2:
+
+This Mod adds 10 modular buildable parts of a castle into the game (2 main-buildings and 8 side-buildings), unlocked at 750 investors. The castle mainly consists of buildings from Archibald Blake (3rd Party) and some parts of other buldings.
+
+Explanation: You got the choice! Do you want a straight castle but with an offset between the individual modules (choose straight) OR a crooked castle but with smooth connections between the modules (choose smooth)
+
+After you installed the mod, you can find the castle at the building-menu of investors (castle icon).
+
+Just push Shift + v for choosing between the individual main-buildings (left icon) or side-buildings (right icon).
+
+
+Update 1.2.2 Notes:
+
+  Fixes:
+
+    - Mod was incompatible with Version 2.5 of the mod Spice-it-up! This issue is fixed now!
+        
+
+  Innovations:
+
+    - Added new building-menu of castle (you can find it at investors building-menu) 
+
+    - mod is compatible with savegames on it's own now, no more savegame-unlocker is needed!
+
+
+your faithfully
+
+Fishboss

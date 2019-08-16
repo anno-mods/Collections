@@ -1,0 +1,1 @@
+Removes all incidents from the game.

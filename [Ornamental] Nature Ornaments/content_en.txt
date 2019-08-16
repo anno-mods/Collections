@@ -1,0 +1,18 @@
+Main version of Nature Ornaments Mod. Includes Vanilla Paths Fix and all park elements and ornaments.
+
+SAVE GAME COMPATIBILITY:
+Nature Ornaments Mod does not have any in-game triggers like e.g. "reach Artisans", so it should be save-game friendly. It has been tested on many saves and works fine, but... With that in mind, it adds over 50 new GUIDs (and those still have a funny way of not liking old-saves) and even more elements and variations, so if you encounter any issues just drop me a message on Reddit, or any contact listed at the bottom.
+
+WHAT IS THIS MOD:
+Nature Ornaments Mod adds all vanilla park ornaments without the ugly grass decals and is not replacing vanilla ones. Few tree options were omitted (like temperate grove), but (almost) all  in-game trees are there with tons of variations. Some have been stripped from too many props (Apple Tree has no ladders, crates, etc.), but overall, there are far more trees than in vanilla game. It also adds natural forests and jungles that can easily be mixed with by-game-randomly placed trees on every island. 
+All items are divided into three categories in Old World Farmers Menu and New World Jornaleros Menu. Of course the categories are also included in culture sorting.
+- NOM Parks - mostly vegetation with a few ornaments and some flowers / bushes borrowed from the other world. Every park element is stripped of dark decal, but it has a grass detail to maintain the man-made park look. 
+- NOM Ornaments - these are like park elements too, but vary from promenade paths, fences, canals to statues, fountains and 3x3 ornaments. With a lot of new stuff. 
+- NOM Forests - these are a little different from park elements. They also don't have the vanilla decals, but don't have the grass detail from parks and don't remove the natural grass from the ground, for more natural look. Unfortunately this is not a proper tree brush and every tree works like ornaments, so you will have to delete them before placing anything else.
+
+FEATURES:
+- Vanilla Paths Fix - vanilla paths had straight one-pixel cut-lines between some grass / paths connections. Not noticable at first, but once you see it you cannot unsee it. So once I started to work on this mod and paths I just couldn't release same paths as part of my mod. Textures and .cfg's are now fixed for more seamless connections.
+- GUID Selection - some trees and ornaments have been difficult to find, so I implemented simple GUID selection. Selecting one placed element highlights every single one of it's type. 
+- Shift-V functionality - every element with more than one variation can be changed with Shift+V combination (you can change key bindings in game menu). More random elements like trees and forests will give a totally different output, but every item with (switch icon) has a number of variants (2-6) to choose from that can be switched in sequence (eg. switching Morris Column will give you one, or the other, and switching Flower Bed will give you White-Yellow-Red-Blue-Purple in this exact sequence).
+
+Nature Ornaments Mod v1.0 by Ghostfire (u/Niebracki)

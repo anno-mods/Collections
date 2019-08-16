@@ -1,0 +1,1 @@
+Removed the construction materials requirements for some buildings (Commuter Pier, Warehouse, Hospital, Pier, Depot).

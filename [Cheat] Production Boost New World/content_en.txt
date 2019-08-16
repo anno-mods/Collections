@@ -1,0 +1,12 @@
+Boost Production in new world x10 and also lower workforce requirements of most factories to 1. 
+
+***Important***: 
+You need to have the raw material far away from the factory to force both the raw material and factory to use Warehouse. 
+
+For example place Sugar cane plantation, cocoa Plantation, etc in one side of the island and Rum Distillery, Chocolate Factory, etc on the other side. 
+
+This is happening because raw material farm/field produce x10 but the factory need only 1 to input. 
+
+Although, if the raw material field/farm is in range of the factory it will still try to unload 10 materials in factory and will stuck. 
+
+Just keep your production chain separated so its forced to use warehouse. Chocolate factory uses sugar cane directly instead of sugar, so no need for sugar refinery.

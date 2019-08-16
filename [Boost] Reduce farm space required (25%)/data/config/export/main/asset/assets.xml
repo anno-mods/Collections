@@ -1,0 +1,43 @@
+<ModOps>
+  <!-- Reduces the space required for farm area by all farms by 25%-->
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010265']/Values/ModuleOwner">
+      <ModuleLimit>54</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010262']/Values/ModuleOwner">
+      <ModuleLimit>108</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010264']/Values/ModuleOwner">
+      <ModuleLimit>72</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='100654']/Values/ModuleOwner">
+      <ModuleLimit>81</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='100655']/Values/ModuleOwner">
+      <ModuleLimit>96</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010329']/Values/ModuleOwner">
+      <ModuleLimit>96</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010330']/Values/ModuleOwner">
+      <ModuleLimit>144</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010331']/Values/ModuleOwner">
+      <ModuleLimit>108</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010332']/Values/ModuleOwner">
+      <ModuleLimit>96</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010333']/Values/ModuleOwner">
+      <ModuleLimit>108</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='101251']/Values/ModuleOwner">
+      <ModuleLimit>126</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='101263']/Values/ModuleOwner">
+      <ModuleLimit>96</ModuleLimit>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='101270']/Values/ModuleOwner">
+      <ModuleLimit>126</ModuleLimit>
+  </ModOp>
+</ModOps>
+

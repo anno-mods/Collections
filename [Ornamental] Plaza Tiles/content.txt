@@ -1,0 +1,2 @@
+Fügt die Plaza hinzu. 
+Fügt eine Plaza mit Straßenfunktion hinzu.

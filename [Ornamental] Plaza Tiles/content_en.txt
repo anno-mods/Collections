@@ -1,0 +1,1 @@
+Adds the white square back into the game, as well as a variant which functions like a street. 

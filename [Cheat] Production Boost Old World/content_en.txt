@@ -1,0 +1,3 @@
+Just like in new world. Keep raw materials separated from final product factory. I also changed some production chains: Soap Factory now input directly pig, no need for rendering works.
+
+Bakery input grain and Brewery Input grain and hops, so no need for malthouse and flour mill either. Fur Dealer now uses wool (sheep Farm) instead of cotton from new world.

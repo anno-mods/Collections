@@ -1,0 +1,44 @@
+<ModOps>
+  <!-- Increases the production of animals by 40%-->
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010269']/Values/FactoryBase">
+    <FactoryOutputs>
+      <Item>
+        <Product>1010199</Product>
+        <Amount>1</Amount>
+        <StorageAmount>4</StorageAmount>
+      </Item>
+    </FactoryOutputs>
+    <CycleTime>36</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='101272']/Values/FactoryBase">
+    <CycleTime>18</CycleTime>
+  </ModOp>
+    <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010263']/Values/FactoryBase">
+    <FactoryOutputs>
+      <Item>
+        <Product>1010193</Product>
+        <Amount>1</Amount>
+        <StorageAmount>1</StorageAmount>
+      </Item>
+    </FactoryOutputs>
+    <CycleTime>72</CycleTime>
+  </ModOp>
+   <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010267']/Values/FactoryBase">
+    <CycleTime>18</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='101269']/Values/FactoryBase">
+    <CycleTime>36</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010278']/Values/FactoryBase">
+    <CycleTime>18</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='101262']/Values/FactoryBase">
+    <CycleTime>18</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010558']/Values/FactoryBase">
+    <CycleTime>36</CycleTime>
+  </ModOp>
+
+
+</ModOps>
+

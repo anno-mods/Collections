@@ -1,0 +1,283 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>992001</GUID>
+            <Text>NOM Grass</Text>
+        </Text>
+        <Text>
+            <GUID>992002</GUID>
+            <Text>NOM Flower Bed</Text>
+        </Text>
+        <Text>
+            <GUID>992003</GUID>
+            <Text>NOM Shrubbery</Text>
+        </Text>
+        <Text>
+            <GUID>992004</GUID>
+            <Text>NOM Mature Shrubbery</Text>
+        </Text>
+        <Text>
+            <GUID>992005</GUID>
+            <Text>NOM Small Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992006</GUID>
+            <Text>NOM Poplar</Text>
+        </Text>
+        <Text>
+            <GUID>992007</GUID>
+            <Text>NOM Elm Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992008</GUID>
+            <Text>NOM Trembling Aspen</Text>
+        </Text>
+        <Text>
+            <GUID>992009</GUID>
+            <Text>NOM Mature Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992010</GUID>
+            <Text>NOM Cypress</Text>
+        </Text>
+        <Text>
+            <GUID>992011</GUID>
+            <Text>NOM Tall Cypress</Text>
+        </Text>
+        <Text>
+            <GUID>992012</GUID>
+            <Text>NOM Apple Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992013</GUID>
+            <Text>NOM City Park</Text>
+        </Text>
+        <Text>
+            <GUID>992014</GUID>
+            <Text>NOM Tool Hut</Text>
+        </Text>
+        <Text>
+            <GUID>992015</GUID>
+            <Text>NOM Well</Text>
+        </Text>
+        <Text>
+            <GUID>992016</GUID>
+            <Text>NOM Watering Place</Text>
+        </Text>
+        <Text>
+            <GUID>992021</GUID>
+            <Text>NOM Park Path Straight</Text>
+        </Text>
+        <Text>
+            <GUID>992022</GUID>
+            <Text>NOM Park Path Elements</Text>
+        </Text>
+        <Text>
+            <GUID>992023</GUID>
+            <Text>NOM Park Path Lamps Straight</Text>
+        </Text>
+        <Text>
+            <GUID>992024</GUID>
+            <Text>NOM Park Path Lamps Elements</Text>
+        </Text>
+        <Text>
+            <GUID>992025</GUID>
+            <Text>NOM Park Hedge Straight</Text>
+        </Text>
+        <Text>
+            <GUID>992026</GUID>
+            <Text>NOM Park Hedge Elements</Text>
+        </Text>
+        <Text>
+            <GUID>992027</GUID>
+            <Text>NOM Park Fence Straight</Text>
+        </Text>
+        <Text>
+            <GUID>992028</GUID>
+            <Text>NOM Park Fence Elements</Text>
+        </Text>
+        <Text>
+            <GUID>992029</GUID>
+            <Text>NOM Park Canal Straight</Text>
+        </Text>
+        <Text>
+            <GUID>992030</GUID>
+            <Text>NOM Park Canal Elements</Text>
+        </Text>
+        <Text>
+            <GUID>992031</GUID>
+            <Text>NOM Park Path Benches Straight</Text>
+        </Text>
+        <Text>
+            <GUID>992032</GUID>
+            <Text>NOM Park Path Lamps Benches Straight</Text>
+        </Text>
+         <Text>
+            <GUID>992033</GUID>
+            <Text>NOM Garden Benches</Text>
+        </Text>
+         <Text>
+            <GUID>992034</GUID>
+            <Text>NOM Newsstand</Text>
+        </Text>
+         <Text>
+            <GUID>992035</GUID>
+            <Text>NOM Memorial Statue</Text>
+        </Text>
+         <Text>
+            <GUID>992036</GUID>
+            <Text>NOM Morris Column</Text>
+        </Text>
+         <Text>
+            <GUID>992037</GUID>
+            <Text>NOM Flags</Text>
+        </Text>
+        <Text>
+            <GUID>992038</GUID>
+            <Text>NOM Billboard</Text>
+        </Text>
+        <Text>
+            <GUID>992039</GUID>
+            <Text>NOM Park Ornaments 2x2</Text>
+        </Text>
+        <Text>
+            <GUID>992040</GUID>
+            <Text>NOM Park Ornaments 3x3</Text>
+        </Text>
+
+        <Text>
+            <GUID>992041</GUID>
+            <Text>NOM Forest Low Density</Text>
+        </Text>
+        <Text>
+            <GUID>992042</GUID>
+            <Text>NOM Forest Medium Density</Text>
+        </Text>
+        <Text>
+            <GUID>992043</GUID>
+            <Text>NOM Forest High Density</Text>
+        </Text>
+        <Text>
+            <GUID>992044</GUID>
+            <Text>NOM Dead Forest</Text>
+        </Text>
+        <Text>
+            <GUID>992045</GUID>
+            <Text>NOM Fir Forest</Text>
+        </Text>
+        <Text>
+            <GUID>992046</GUID>
+            <Text>NOM Forest Tall</Text>
+        </Text>
+        <Text>
+            <GUID>992047</GUID>
+            <Text>NOM Fir Forest Tall</Text>
+        </Text>
+        <Text>
+            <GUID>992048</GUID>
+            <Text>NOM Tree Stumps</Text>
+        </Text>
+        
+        <Text>
+            <GUID>992071</GUID>
+            <Text>NOM Philodendron</Text>
+        </Text>
+        <Text>
+            <GUID>992072</GUID>
+            <Text>NOM Small Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992073</GUID>
+            <Text>NOM Ferns</Text>
+        </Text>
+        <Text>
+            <GUID>992074</GUID>
+            <Text>NOM Flowering Shrub</Text>
+        </Text>
+        <Text>
+            <GUID>992075</GUID>
+            <Text>NOM Bush</Text>
+        </Text>
+        <Text>
+            <GUID>992076</GUID>
+            <Text>NOM Shrub</Text>
+        </Text>
+        <Text>
+            <GUID>992077</GUID>
+            <Text>NOM Small Palm Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992078</GUID>
+            <Text>NOM Palm Tree</Text>
+        </Text>
+        <Text>
+            <GUID>992079</GUID>
+            <Text>NOM Park Ornaments 2x2</Text>
+        </Text>
+        <Text>
+            <GUID>992080</GUID>
+            <Text>NOM Park Ornaments 3x3</Text>
+        </Text>
+        
+        <Text>
+            <GUID>992081</GUID>
+            <Text>NOM Palm Jungle</Text>
+        </Text>
+        <Text>
+            <GUID>992082</GUID>
+            <Text>NOM Jungle Large</Text>
+        </Text>
+        <Text>
+            <GUID>992083</GUID>
+            <Text>NOM Jungle Very Large</Text>
+        </Text>
+        <Text>
+            <GUID>992084</GUID>
+            <Text>NOM Jungle Mixed</Text>
+        </Text>
+        <Text>
+            <GUID>992085</GUID>
+            <Text>NOM Hedge Straight South</Text>
+        </Text>
+        <Text>
+            <GUID>992086</GUID>
+            <Text>NOM Hedge Elements South</Text>
+        </Text>
+        <Text>
+            <GUID>992087</GUID>
+            <Text>NOM Southern Shrubs, Ferns, Bushes</Text>
+        </Text>
+        <Text>
+            <GUID>992088</GUID>
+            <Text>NOM Fence Straight South</Text>
+        </Text>
+        <Text>
+            <GUID>992089</GUID>
+            <Text>NOM Fence Elements South</Text>
+        </Text>
+        <Text>
+            <GUID>992093</GUID>
+            <Text>NOM Parks</Text>
+        </Text>
+        <Text>
+            <GUID>992094</GUID>
+            <Text>NOM Ornaments</Text>
+        </Text>
+        <Text>
+            <GUID>992095</GUID>
+            <Text>NOM Forests</Text>
+        </Text>
+        <Text>
+            <GUID>992096</GUID>
+            <Text>NOM Parks</Text>
+        </Text>
+        <Text>
+            <GUID>992097</GUID>
+            <Text>NOM Ornaments</Text>
+        </Text>
+        <Text>
+            <GUID>992098</GUID>
+            <Text>NOM Forests</Text>
+        </Text>
+    </ModOp>
+</ModOps>

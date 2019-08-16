@@ -1,0 +1,3 @@
+Increase the distance coverage of most buildings (except Marketplace, Fire Station, Police Station and Hospital). 
+
+Although, a single Fire station/Police/Hospital will lower the chance of Fire/Explosion/Riot/Illness of whole island by 99%.

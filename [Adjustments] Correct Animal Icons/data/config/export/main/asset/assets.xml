@@ -1,0 +1,14 @@
+<ModOps>
+      <!-- Condor/ Cordillera Set icon -->
+        <ModOp Type="merge" GUID="191069,191114,191132," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/modgraphics/icon_condor.png</IconFilename>
+        </ModOp>
+      <!-- Sperm Whale icon -->
+		<ModOp Type="merge" GUID="191098,500819," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/modgraphics/icon_spermwhale_v3.png</IconFilename>
+        </ModOp>
+      <!-- Bird of Paradise icon -->
+		<ModOp Type="merge" GUID="191093,192337," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/modgraphics/icon_birdofparadise_v2.png</IconFilename>
+        </ModOp>
+</ModOps>

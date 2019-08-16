@@ -1,0 +1,1 @@
+Specialists are now added to the npc dice roll.

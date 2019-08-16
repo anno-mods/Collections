@@ -1,0 +1,31 @@
+Train-Stations v1.0.3:
+
+This Mod adds 2 new buildings. 1 Central train-station and 1 small train-station. The Central station "produces" travelers, which want to be driven to the small train-stations. If they are constantly supplied with travelers, they satisfy the market needs.
+
+One Central train-station can supply up to 3 or 4 small train-stations, depending on logistical circumstances.
+
+It is possible to combine both railway-systems: the oil-system and the traveler-system. The trains will transport both of them at the same time. But with seperate systems, the supply is more secured for all train-dependent buildings.
+
+In addition the look of the train has been slightly modified and a wagon for transportation of travelers has been added.
+
+The train-stations will be unlocked at 1000 engineers.
+
+After you installed the mod, you can find the train-stations in the added train-station-building-menu in the engineer-building-menu (train icon).
+
+
+Update 1.0.3
+
+  Bugfixes:
+  
+  - The Central Station, the train and the passenger-wagons always disappeared when you zoom out too far. This issue has now been resolved
+
+  - new clock hands have been inserted at the main station, since the old ones have disappeared since patch 4.x.
+
+  - the symbols which always appeared above the stations, if these are e.g. not connected to the oil port, now no longer be appearing (stations need no oil port!)
+
+  - The bug that the stations supplied power to businesses has been fixed (electricity pylons are still appearing on the adjacent roads)
+
+
+your faithfully
+
+Fishboss

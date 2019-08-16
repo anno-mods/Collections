@@ -1,0 +1,5 @@
+You start with 8 Cargo Ships and 1 Oil Tanker. Cargo Ships have Coffee, Rum, Gold (pocket Watches) and Caoutscouc(Bicycle). 
+
+This is to make the transition from Artisans to Engineers very easy, and use these cargo ships for trading between old/new world.
+
+Also lowered maintenance cost of Oil Tanker and cargo ship to 1, and doubled the speed of cargo ship.

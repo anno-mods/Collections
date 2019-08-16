@@ -1,0 +1,31 @@
+<ModOps>
+  <!-- All Incidents like Plague, Fire, Explosions, Riots etc. are disabled -->
+  <ModOp Type="merge" Path="//Asset[Template='GeneralIncidentConfiguration']/Values/GeneralIncidentConfiguration/ParticipantIncidents">
+    <ParticipantIncidents>
+      <Human0>
+        <allowIncidents>0</allowIncidents>
+      </Human0>
+      <Human1>
+        <allowIncidents>0</allowIncidents>
+      </Human1>
+      <Human2>
+        <allowIncidents>0</allowIncidents>
+      </Human2>
+      <Human3>
+        <allowIncidents>0</allowIncidents>
+      </Human3>
+      <Human4>
+        <allowIncidents>0</allowIncidents>
+      </Human4>
+      <Human5>
+        <allowIncidents>0</allowIncidents>
+      </Human5>
+      <Human6>
+        <allowIncidents>0</allowIncidents>
+      </Human6>
+      <Human7>
+        <allowIncidents>0</allowIncidents>
+      </Human7>
+    </ParticipantIncidents>
+  </ModOp>
+</ModOps>

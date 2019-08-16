@@ -1,0 +1,8 @@
+Adds the Barquentine as a craftable ship. Most item slots and capacity than a clipper, but comes at a cost.
+
+
+Credits:
+
+Design and coding: LePheel
+
+Balance and slot capacity consultation: MystiqueBee84

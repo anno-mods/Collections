@@ -1,0 +1,61 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>901000</GUID>
+      <Text>Lehmgruben Schleier (Visuell)</Text>
+    </Text>
+    <Text>
+      <GUID>901001</GUID>
+      <Text>Öl Schleier (Visuell)</Text>
+    </Text>
+    <Text>
+      <GUID>901002</GUID>
+      <Text>Lehmgruben Schleier (Visuell)</Text>
+    </Text>
+    <Text>
+      <GUID>901003</GUID>
+      <Text>Öl Schleier (Visuell)</Text>
+    </Text>
+    <Text>
+      <GUID>900200</GUID>
+      <Text>Warenhaus als Lehmgruben-Cover, durchschaltbar mit Shift+V.</Text>
+    </Text>
+    <Text>
+      <GUID>900201</GUID>
+      <Text>Nord Residenzen als Öl-Cover, durchschaltbar mit Shift+V.</Text>
+    </Text>
+    <Text>
+      <GUID>900202</GUID>
+      <Text>Warenhaus als Lehmgruben-Cover, durchschaltbar mit Shift+V.</Text>
+    </Text>
+    <Text>
+      <GUID>900203</GUID>
+      <Text>Süd Residenzen als Öl-Cover, durchschaltbar mit Shift+V.</Text>
+    </Text>
+    <Text>
+      <GUID>902290</GUID>
+      <Text>Baugelände I</Text>
+    </Text>
+    <Text>
+      <GUID>902291</GUID>
+      <Text>Baugelände II</Text>
+    </Text>
+    <Text>
+      <GUID>902292</GUID>
+      <Text>Baugelände I</Text>
+    </Text>
+    <Text>
+      <GUID>902293</GUID>
+      <Text>Baugelände II</Text>
+    </Text>
+
+    <Text>
+      <GUID>901898</GUID>
+      <Text>Baugruben und Schleier</Text>
+    </Text>
+    <Text>
+      <GUID>901899</GUID>
+      <Text>Baugruben und Schleier</Text>
+    </Text>
+  </ModOp>
+</ModOps>

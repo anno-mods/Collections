@@ -1,0 +1,68 @@
+<ModOps>
+  <!-- Remove royal taxes-->
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='140057']/Values/">
+    <StreetOverlayFeature>
+      <DirectDeliveryColors>
+        <CurrentDeliveryColor>3735551</CurrentDeliveryColor>
+        <CurrentDeliveryInefficientColor>1694466048</CurrentDeliveryInefficientColor>
+        <DynamicRangeColors>
+          <Item>
+            <RangeColor>-1771310445</RangeColor>
+          </Item>
+        </DynamicRangeColors>
+      </DirectDeliveryColors>
+      <CostColorGradient>
+        <FullColor>-3345059</FullColor>
+        <StartColor>-2078753</StartColor>
+        <MidColor>-7908552</MidColor>
+        <EndColor>-761658</EndColor>
+      </CostColorGradient>
+      <FactorySelection>
+        <PotentialConsumerHighlight>
+          <Color>0</Color>
+          <BorderColor>1684993383</BorderColor>
+        </PotentialConsumerHighlight>
+        <PotentialProducerHighlight>
+          <Color>7074451</Color>
+          <BorderColor>-771751937</BorderColor>
+        </PotentialProducerHighlight>
+        <PotentialWarehouseHighlight>
+          <Color>7074451</Color>
+          <BorderColor>-771751937</BorderColor>
+        </PotentialWarehouseHighlight>
+        <AssignedConsumerHighlight>
+          <Color>16440171</Color>
+          <BorderColor>-337045</BorderColor>
+          <PathEnabled>0</PathEnabled>
+          <PathColor>-336786</PathColor>
+        </AssignedConsumerHighlight>
+        <CurrentTargetHighlight>
+          <Color>16440171</Color>
+          <BorderColor>1630216971</BorderColor>
+          <PathColor>-256</PathColor>
+          <PathTexture>data/graphics/ui/region_view/route_energy_highlight.png</PathTexture>
+          <PathTiling>1E-06</PathTiling>
+        </CurrentTargetHighlight>
+        <RangeHighlight>
+          <PathColor>2054092135</PathColor>
+        </RangeHighlight>
+        <RangeHighlightWhileBuilding>
+          <Enabled>1</Enabled>
+          <PathColor>2054092135</PathColor>
+        </RangeHighlightWhileBuilding>
+      </FactorySelection>
+      <RadiusBuildings>
+        <PotentialAffectedHighlight>
+          <BorderColor>1683674838</BorderColor>
+        </PotentialAffectedHighlight>
+        <ActualAffectedHighlight>
+          <Color>-16711681</Color>
+          <BorderColor>-16711681</BorderColor>
+        </ActualAffectedHighlight>
+      </RadiusBuildings>
+    </StreetOverlayFeature>
+  </ModOp>
+
+
+</ModOps>
+

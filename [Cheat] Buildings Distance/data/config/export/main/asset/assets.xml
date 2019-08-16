@@ -1,0 +1,46 @@
+<ModOps>
+	<ModOp Type="merge" GUID="1010358" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010360" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010365" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010359" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010361" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010362" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010364" Path="/Values/PublicService">
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010462" Path="/Values/IncidentInfluencer/Influence/Riot">
+        <Influence>-99</Influence>
+        <Distance>500</Distance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010463" Path="/Values/IncidentInfluencer/Influence/Fire">
+        <Influence>-99</Influence>
+        <Distance>500</Distance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010463" Path="/Values/IncidentInfluencer/Influence/Explosion">
+        <Influence>-99</Influence>
+        <Distance>500</Distance>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010464" Path="/Values/IncidentInfluencer/Influence/Illness">
+        <Influence>-99</Influence>
+        <Distance>500</Distance>
+    </ModOp>
+</ModOps>

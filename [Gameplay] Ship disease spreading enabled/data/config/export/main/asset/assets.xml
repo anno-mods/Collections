@@ -1,0 +1,10 @@
+<ModOps>
+<!-- Disease spread radius -->
+    <ModOp Type="merge" GUID='140585' Path="/Values/Incident/ShipIncidentSpreadRadius">
+        <ShipIncidentSpreadRadius>25</ShipIncidentSpreadRadius>
+    </ModOp>
+<!-- Disease effect duration -->
+    <ModOp Type="merge" GUID='140585' Path="/Values/Incident/ShipIncidentDefaultDuration">
+        <ShipIncidentDefaultDuration>200000</ShipIncidentDefaultDuration>
+    </ModOp>
+</ModOps>

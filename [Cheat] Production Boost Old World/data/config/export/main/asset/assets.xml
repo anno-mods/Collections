@@ -1,0 +1,111 @@
+<ModOps>
+	<ModOp Type="remove" GUID="1010280,1010283,1010286,1010285,1010289,1010291,1010292,1010295,1010316,1010296,1010302,1010303,1010282,1010320,1010321,1010324" Path="/Values/FactoryBase/CycleTime">
+	</ModOp>
+	<ModOp Type="remove" GUID="1010326,1010327,101250" Path="/Values/FactoryBase/CycleTime">
+	</ModOp>
+	<ModOp Type="add" GUID="1010265,1010267,1010278,1010560,1010297,1010298,1010319" Path="/Values/FactoryBase">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010262,1010263,1010264,1010269,1010558,100654,100655" Path="/Values/FactoryBase/CycleTime">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010262,1010263,1010264,1010265,1010266,1010267,1010269,1010558,100654,100655,1010278,100451,1010297,1010319" Path="/Values/FactoryBase/FactoryOutputs/Item">
+        <Amount>10</Amount>
+        <StorageAmount>80</StorageAmount>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010280,1010281,1010283,1010325,1010286,1010285,1010288,1010289,1010291,1010292,1010295,1010294,1010316,100659,1010296" Path="/Values/FactoryBase/FactoryOutputs/Item">
+        <Amount>10</Amount>
+        <StorageAmount>40</StorageAmount>
+    </ModOp>
+    <ModOp Type="merge" GUID="1010302,1010303,1010282,1010315,1010323,1010324,1010284,1010326,1010327,1010328,101250" Path="/Values/FactoryBase/FactoryOutputs/Item">
+        <Amount>10</Amount>
+        <StorageAmount>40</StorageAmount>
+    </ModOp>
+    <ModOp Type="merge" GUID="1010266,1010263,1010264,1010265,1010267,1010269,1010558,100654,100655,1010278,100451,1010294" Path="/Values/Maintenance/Maintenances/Item[Product='1010052']">
+   		<Product>1010052</Product>
+   		<Amount>5</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010315" Path="/Values/Maintenance/Maintenances/Item[Product='1010052']"> <!-- Farmers -->
+   		<Product>1010052</Product>
+   		<Amount>5</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010560,1010281,1010283,1010288,100416,1010291,1010292,1010316,1010296,1010297,1010298" Path="/Values/Maintenance/Maintenances/Item[Product='1010115']">
+   		<Product>1010115</Product>
+   		<Amount>5</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010282,1010304,1010305,1010307,1010308,1010309,101331" Path="/Values/Maintenance/Maintenances/Item[Product='1010115']">
+   		<Product>1010115</Product>
+   		<Amount>5</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010325,1010285,1010295,100659,1010319,1010284,1010328" Path="/Values/Maintenance/Maintenances/Item[Product='1010116']">
+   		<Product>1010116</Product>
+   		<Amount>5</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010280,1010286,1010289,1010302,1010303,1010321,1010323,1010324,1010326,1010327,101250" Path="/Values/Maintenance/Maintenances/Item[Product='1010117']">
+   		<Product>1010117</Product>
+   		<Amount>5</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010266" Path="/Values/FreeAreaProductivity/NeededAreaPercent">
+    	<NeededAreaPercent>10</NeededAreaPercent>
+	</ModOp>
+	 <ModOp Type="merge" GUID="101331" Path="/Values/FactoryBase/FactoryOutputs/Item">
+        <Amount>10</Amount>
+        <StorageAmount>2000</StorageAmount>
+    </ModOp>
+	<ModOp Type="merge" GUID="1010295" Path="/Values/FactoryBase/FactoryInputs">
+		<FactoryInputs>
+			<Item>
+				<Product>1010193</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010198</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010281" Path="/Values/FactoryBase/FactoryInputs/Item">
+		<Item>
+			<Product>1010199</Product>
+			<Amount>1</Amount>
+			<StorageAmount>4</StorageAmount>
+		</Item>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010291" Path="/Values/FactoryBase/FactoryInputs/Item">
+		<Item>
+			<Product>1010192</Product>
+			<Amount>1</Amount>
+			<StorageAmount>4</StorageAmount>
+		</Item>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010292" Path="/Values/FactoryBase/FactoryInputs">
+		<FactoryInputs>
+			<Item>
+				<Product>1010192</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010194</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010325" Path="/Values/FactoryBase/FactoryInputs">
+		<FactoryInputs>
+			<Item>
+				<Product>1010209</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010197</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+</ModOps>

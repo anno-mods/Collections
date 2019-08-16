@@ -1,0 +1,66 @@
+<ModOps>
+	<ModOp Type="add" GUID="1010329" Path="/Values/FactoryBase">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010330,1010332,1010333,101251,1010339" Path="/Values/FactoryBase/CycleTime">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010329,1010330,1010332,1010333,101251,1010339" Path="/Values/FactoryBase/FactoryOutputs/Item">
+        <Amount>10</Amount>
+        <StorageAmount>80</StorageAmount>
+    </ModOp>
+	<ModOp Type="merge" GUID="101273,1010340,1010341,101252,101264,101271,101266,1010342" Path="/Values/FactoryBase/FactoryOutputs/Item">
+        <Amount>10</Amount>
+        <StorageAmount>40</StorageAmount>
+    </ModOp>
+    <ModOp Type="merge" GUID="1010329,1010330,1010331,1010332,1010333,101251,1010339,1010340,101264,101266" Path="/Values/Maintenance/Maintenances/Item[Product='1010366']">
+   		<Product>1010366</Product>
+   		<Amount>1</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="101273,1010341,101252,101271,1010342" Path="/Values/Maintenance/Maintenances/Item[Product='1010367']">
+   		<Product>1010367</Product>
+   		<Amount>1</Amount>
+	</ModOp>
+	<ModOp Type="merge" GUID="101267,101268,101311" Path="/Values/Maintenance/Maintenances">
+   		<Maintenances>
+            <Item>
+                <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                        <Entry>
+                        	<TemplateName>SlotFactoryBuilding7</TemplateName>
+                       		<Index>0</Index>
+                        </Entry>
+                    </InheritanceMapV2>
+                </VectorElement>
+            </Item>
+            <Item>
+                <VectorElement>
+                    <InheritedIndex>1</InheritedIndex>
+                    <InheritanceMapV2>
+                        <Entry>
+                       		<TemplateName>SlotFactoryBuilding7</TemplateName>
+                       		<Index>1</Index>
+                        </Entry>
+                    </InheritanceMapV2>
+                </VectorElement>
+            	<Product>1010367</Product>
+           		<Amount>1</Amount>
+            </Item>
+    	</Maintenances>
+	</ModOp>
+	<ModOp Type="merge" GUID="1010341" Path="/Values/FactoryBase/FactoryInputs">
+		<FactoryInputs>
+			<Item>
+				<Product>1010251</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010254</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+</ModOps>

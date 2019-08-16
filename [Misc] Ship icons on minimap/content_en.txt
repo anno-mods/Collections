@@ -1,0 +1,1 @@
+Added ship icons to the minimap instead of those shitty dots.

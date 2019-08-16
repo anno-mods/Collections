@@ -1,0 +1,631 @@
+<ModOps>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130072']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859980</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>250</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets />
+		    <UnhideAssets>
+                      <Item>
+                        <Asset>850009</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850010</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130071']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859981</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850009</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850010</Asset>
+                      </Item>
+		    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- moderate engineers city (tier) -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501486']">
+                        <Asset>
+                          <Template>ConstructionCategory</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>859982</GUID>
+                              <Name>moderate engineers city (tier)</Name>
+                              <IconFilename>data/modgraphics/icons/icon_station_build.png</IconFilename>
+                            </Standard>
+                            <ConstructionCategory>
+                              <BuildingList>
+                                <Item>
+                                  <Building>850009</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850010</Building>
+                                </Item>
+                              </BuildingList>
+                              <CategoryDescription>100003</CategoryDescription>
+                            </ConstructionCategory>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Elaborate Esplanade</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>27170</LineID>
+                            </Text>
+                            <Locked />
+                          </Values>
+                        </Asset>
+  </ModOp>
+    <ModOp Type="addNextSibling" GUID='25000192' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500954']">
+        <Item>
+            <Building>859982</Building>
+        </Item>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                        <Asset>
+                          <Template>PowerplantBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850009</GUID>
+                              <Name>greater_trainstation</Name>
+                              <IconFilename>data/modgraphics/icons/icon_station1.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <BuildingCategoryName>100003</BuildingCategoryName>
+                              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking>
+                              <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                            </Blocking>
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>25000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>50</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>40</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>25</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/stations/train_station.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <ParticipantMessageArcheType>Resident_tier05</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Oil Power Plant</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>7000</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <UpgradeList />
+                            <RandomDummySpawner />
+                            <AmbientMoodProvider />
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>400</Amount>
+                                  <InactiveAmount>200</InactiveAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010117</Product>
+                                  <Amount>150</Amount>
+                                  <ShutdownThreshold>0.5</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>3500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfectable />
+                            <FactoryBase>
+                              <FactoryOutputs>
+                                <Item>
+                                  <Product>850011</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>1000</StorageAmount>
+                                </Item>
+                              </FactoryOutputs>
+                              <CycleTime>1</CycleTime>
+                              <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                              <ProductivityPoints>1</ProductivityPoints>
+                            </FactoryBase>
+                            <ItemGenerator />
+                            <PublicService>
+                              <FullSatisfactionDistance>30</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>60</NoSatisfactionDistance>
+                              <PublicServiceOutputs>
+                                <Item>
+                                  <Product>1010353</Product>
+                                </Item>
+                              </PublicServiceOutputs>
+                            </PublicService>
+                            <LogisticNode>
+                              <QueueConfiguration>
+                                <ProcessingQueueParallelCount>0</ProcessingQueueParallelCount>
+                              </QueueConfiguration>
+                            </LogisticNode>
+                            <TrainStation>
+                              <MaxTrainCount>5</MaxTrainCount>
+                            </TrainStation>
+                            <Ornament>
+                              <OrnamentUnit>1</OrnamentUnit>
+                              <OrnamentDescritpion>850014</OrnamentDescritpion>
+                            </Ornament>
+                            <Culture>
+                            <Attractiveness>20</Attractiveness>
+                              <CultureSpawnGroup>1</CultureSpawnGroup>
+                            </Culture>
+                            <Powerplant>
+                              <ElectricityDistance>0</ElectricityDistance>
+                            </Powerplant>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                        <Asset>
+                          <Template>PowerplantBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850010</GUID>
+                              <Name>smaller_trainstation</Name>
+                              <IconFilename>data/modgraphics/icons/icon_station2.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <BuildingCategoryName>100003</BuildingCategoryName>
+                              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking>
+                              <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                            </Blocking>
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>25000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>50</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>40</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>25</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/stations/train_station_small.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Oil Power Plant</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>7000</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <UpgradeList />
+                            <RandomDummySpawner />
+                            <LogisticNode />
+                            <AmbientMoodProvider />
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>400</Amount>
+                                  <InactiveAmount>200</InactiveAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010117</Product>
+                                  <Amount>150</Amount>
+                                  <ShutdownThreshold>0.5</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>3500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfectable />
+                            <FactoryBase>
+                              <FactoryOutputs>
+                                <Item>
+                                  <Product>850012</Product>
+                                  <Amount>0.0000001</Amount>
+                                  <StorageAmount>1</StorageAmount>
+                                </Item>
+                              </FactoryOutputs>
+                              <FactoryInputs>
+                                <Item>
+                                  <Product>850011</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>100</StorageAmount>
+                                </Item>
+                              </FactoryInputs>
+                              <CycleTime>5</CycleTime>
+                              <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                              <ProductivityPoints>1</ProductivityPoints>
+                            </FactoryBase>
+                            <Culture />
+                            <ItemGenerator />
+                            <PublicService>
+                              <FullSatisfactionDistance>30</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>60</NoSatisfactionDistance>
+                              <PublicServiceOutputs>
+                                <Item>
+                                  <Product>120020</Product>
+                                </Item>
+                              </PublicServiceOutputs>
+                            </PublicService>
+                            <Ornament>
+                              <OrnamentDescritpion>850015</OrnamentDescritpion>
+                            </Ornament>
+                            <Powerplant>
+                              <ElectricityDistance>0</ElectricityDistance>
+                            </Powerplant>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010566'>
+                    <Asset>
+                      <Template>Product</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850011</GUID>
+                          <Name>travelers</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/icon_commuter_pier.png</IconFilename>
+                          <InfoDescription>11793</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Oil</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>3756</LineID>
+                        </Text>
+                        <Locked />
+                        <Product>
+                          <ProductCategory>11797</ProductCategory>
+                          <BasePrice>4</BasePrice>
+                          <CivLevel>4</CivLevel>
+                          <PathLayer>Railway</PathLayer>
+                        </Product>
+                        <ExpeditionAttribute>
+                          <BaseMorale>5</BaseMorale>
+                        </ExpeditionAttribute>
+                      </Values>
+                    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010566'>
+                    <Asset>
+                      <Template>Product</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850012</GUID>
+                          <Name>market</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/icon_market.png</IconFilename>
+                          <InfoDescription>11793</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Oil</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>3756</LineID>
+                        </Text>
+                        <Locked />
+                        <Product>
+                          <ProductCategory>11797</ProductCategory>
+                          <BasePrice>4</BasePrice>
+                          <CivLevel>4</CivLevel>
+                          <PathLayer>Railway</PathLayer>
+                        </Product>
+                        <ExpeditionAttribute>
+                          <BaseMorale>5</BaseMorale>
+                        </ExpeditionAttribute>
+                      </Values>
+                    </Asset>
+  </ModOp>
+  <ModOp Type="replace" GUID='2001174'>
+                        <Asset>
+                          <Template>TrafficFeedbackUnit</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>2001174</GUID>
+                              <Name>Default Train</Name>
+                              <IconFilename>data/ui/2kimages/main/3dicons/icon_railway.png</IconFilename>
+                            </Standard>
+                            <TrafficFeedbackUnit>
+                              <UnitType>Train</UnitType>
+                              <CfgPath>data/modgraphics/vehicle/railway_01/railway_01.cfg</CfgPath>
+                              <SpeedSource>Managed</SpeedSource>
+                            </TrafficFeedbackUnit>
+                            <Trailer>
+                              <TrailerType>TrainDynamic</TrailerType>
+                              <TrailerCount>3</TrailerCount>
+                              <LinkedCfgVariations>
+                                <Item>
+                                  <LinkedCfgVariation>data/modgraphics/vehicle/railway_01/railway_oil_01.cfg</LinkedCfgVariation>
+                                </Item>
+                                <Item>
+                                  <LinkedCfgVariation>data/modgraphics/vehicle/railway_01/railway_oil_02.cfg</LinkedCfgVariation>
+                                  <RelativeProbability>5</RelativeProbability>
+                                </Item>
+                              </LinkedCfgVariations>
+                            </Trailer>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="replace" GUID='1010174'>
+                    <Asset>
+                      <Template>FeedbackVehicle</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>1010174</GUID>
+                          <Name>Railway 01</Name>
+                        </Standard>
+                        <Object>
+                          <Variations>
+                            <Item>
+                              <Filename>data/modgraphics/vehicle/railway_01/railway_01.cfg</Filename>
+                            </Item>
+                          </Variations>
+                          <DefaultParticipant>Human0</DefaultParticipant>
+                        </Object>
+                        <Mesh>
+                          <MeshPlacement>OnTerrainSlope</MeshPlacement>
+                        </Mesh>
+                        <Selection>
+                          <Selectable>0</Selectable>
+                          <DestructSelectable>0</DestructSelectable>
+                        </Selection>
+                        <Walking>
+                          <PathPlannerLayer>Railway</PathPlannerLayer>
+                          <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+                          <LeaningMaxAngle>10</LeaningMaxAngle>
+                          <ForwardSpeed>8.4</ForwardSpeed>
+                        </Walking>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Tourism Ship</Text>
+                            </English>
+                          </LocaText>
+                        </Text>
+                        <SoundEmitter />
+                        <CommandQueue>
+                          <FollowRadius>4</FollowRadius>
+                          <FormationPriority>1</FormationPriority>
+                        </CommandQueue>
+                        <Drifting>
+                          <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+                          <Length>2.7</Length>
+                          <Width>0.8</Width>
+                          <AffectedByDriftingWhileIdle>0</AffectedByDriftingWhileIdle>
+                          <AffectedByDriftingWhileMoving>0</AffectedByDriftingWhileMoving>
+                          <CausesDrifting>0</CausesDrifting>
+                          <UseSlowDownTactic>0</UseSlowDownTactic>
+                        </Drifting>
+                        <MinimapToken />
+                        <QuestObject />
+                        <Infolayer />
+                        <FeedbackController />
+                      </Values>
+                    </Asset>
+  </ModOp>
+  <ModOp Type="replace" GUID='2001096' Path="/Values/FeedbackSessionDescription/TrailerStyleToCfgs/Oil/TrailerCfgs">
+                              <TrailerCfgs>
+                                <Item>
+                                  <RelativeProbability>200</RelativeProbability>
+                                  <TrailerCfg>data/modgraphics/vehicle/railway_01/railway_oil_01.cfg</TrailerCfg>
+                                </Item>
+                                <Item>
+                                  <RelativeProbability>150</RelativeProbability>
+                                  <TrailerCfg>data/graphics/vehicle/railway_oil_02/railway_oil_02.cfg</TrailerCfg>
+                                </Item>
+                              </TrailerCfgs>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850014</GUID>
+                                      <Name>big_station_fluff</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850015</GUID>
+                                      <Name>small_station_fluff</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+</ModOps>

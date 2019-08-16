@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>850009</GUID>
+      <Text>Hauptbahnhof</Text>
+    </Text>
+    <Text>
+      <GUID>850010</GUID>
+      <Text>Kleiner Bahnhof</Text>
+    </Text>
+    <Text>
+      <GUID>850011</GUID>
+      <Text>Reisende</Text>
+    </Text>
+    <Text>
+      <GUID>850012</GUID>
+      <Text>Marktplatz</Text>
+    </Text>
+    <Text>
+      <GUID>850014</GUID>
+      <Text>Beherbergt Reisende, die zu verschieden Orten Ihrer Stadt reisen wollen</Text>
+    </Text>
+    <Text>
+      <GUID>850015</GUID>
+      <Text>Stillt bei kontinuirlicher Ankunft von Reisenden, das Marktbedürfniss</Text>
+    </Text>
+    <Text>
+      <GUID>859982</GUID>
+      <Text>Bahnhöfe</Text>
+    </Text>
+  </ModOp>
+</ModOps>

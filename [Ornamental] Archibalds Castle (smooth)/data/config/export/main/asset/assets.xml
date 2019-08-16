@@ -1,0 +1,423 @@
+<ModOps>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130072']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859983</GUID>
+          <Name>intermediate moderate 5.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>250</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets />
+		    <UnhideAssets>
+                      <Item>
+                        <Asset>850001</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850002</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130071']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859984</GUID>
+          <Name>intermediate moderate 5.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850001</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850002</Asset>
+                      </Item>
+		    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- moderate engineers city (tier) -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501486']">
+                        <Asset>
+                          <Template>ConstructionCategory</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>859985</GUID>
+                              <Name>moderate engineers city (tier)</Name>
+                              <IconFilename>data/modgraphics/icons/castle_icon.png</IconFilename>
+                            </Standard>
+                            <ConstructionCategory>
+                              <BuildingList>
+                                <Item>
+                                  <Building>850001</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850002</Building>
+                                </Item>
+                              </BuildingList>
+                              <CategoryDescription>100003</CategoryDescription>
+                            </ConstructionCategory>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Elaborate Esplanade</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>27170</LineID>
+                            </Text>
+                            <Locked />
+                          </Values>
+                        </Asset>
+  </ModOp>
+    <ModOp Type="addNextSibling" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501485']">
+        <Item>
+            <Building>859985</Building>
+        </Item>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                            <Asset>
+                              <Template>OrnamentalBuilding</Template>
+                              <Values>
+                                <Standard>
+                                  <GUID>850001</GUID>
+                                  <Name>park_1x1_stand</Name>
+                                  <IconFilename>data/ui/2kimages/main/icons/icon_monument_phase_3_grey.png</IconFilename>
+                                </Standard>
+                                <Text />
+                                <Blocking>
+                                  <HidePropsRadius>0</HidePropsRadius>
+                                  <DeletePropsRadius>0</DeletePropsRadius>
+                                </Blocking>
+                                <Building>
+                                  <BuildingCategoryName>11149</BuildingCategoryName>
+                                  <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                                  <AssociatedRegions>Moderate</AssociatedRegions>
+                                </Building>
+                                <Cost>
+                                  <Costs>
+                                    <Item>
+                                      <Ingredient>1010017</Ingredient>
+                                      <Amount>80000</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010196</Ingredient>
+                                      <Amount>30</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010205</Ingredient>
+                                      <Amount>60</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010218</Ingredient>
+                                      <Amount>10</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010207</Ingredient>
+                                      <Amount>40</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010202</Ingredient>
+                                      <Amount>40</Amount>
+                                    </Item>
+                                  </Costs>
+                                </Cost>
+                                <Selection>
+                                  <Colors>
+                                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                                  </Colors>
+                                </Selection>
+                                <Object>
+                                  <Variations>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_center.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_main.cfg</Filename>
+                                    </Item>
+                                  </Variations>
+                                </Object>
+                                <Constructable />
+                                <Mesh>
+                                  <MeshPlacement>OnTerrainSlope</MeshPlacement>
+                                </Mesh>
+                                <SoundEmitter>
+                                  <ActiveSounds>
+                                    <Item>
+                                      <Sound>200853</Sound>
+                                    </Item>
+                                  </ActiveSounds>
+                                  <DestroySounds>
+                                    <Item>
+                                      <Sound>9818756</Sound>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>OrnamentalBuilding</TemplateName>
+                                            <Index>0</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                    </Item>
+                                  </DestroySounds>
+                                </SoundEmitter>
+                                <Locked />
+                                <FeedbackController />
+                                <AmbientMoodProvider />
+                                <Pausable />
+                                <Infolayer />
+                                <Ornament>
+                                  <OrnamentUnit>9</OrnamentUnit>
+                                  <OrnamentDescritpion>850003</OrnamentDescritpion>
+                                </Ornament>
+                                <Culture>
+                                  <Attractiveness>50</Attractiveness>
+                                  <CultureSpawnGroup>1</CultureSpawnGroup>
+                                </Culture>
+                              </Values>
+                            </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                            <Asset>
+                              <Template>OrnamentalBuilding</Template>
+                              <Values>
+                                <Standard>
+                                  <GUID>850002</GUID>
+                                  <Name>park_1x1_stand</Name>
+                                  <IconFilename>data/ui/2kimages/main/icons/icon_monument_phase_3_grey.png</IconFilename>
+                                </Standard>
+                                <Text />
+                                <Blocking>
+                                  <HidePropsRadius>0</HidePropsRadius>
+                                  <DeletePropsRadius>0</DeletePropsRadius>
+                                </Blocking>
+                                <Building>
+                                  <PickingAsset>850002</PickingAsset>
+                                  <BuildingCategoryName>11149</BuildingCategoryName>
+                                  <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                                  <AssociatedRegions>Moderate</AssociatedRegions>
+                                </Building>
+                                <Cost>
+                                  <Costs>
+                                    <Item>
+                                      <Ingredient>1010017</Ingredient>
+                                      <Amount>50000</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010196</Ingredient>
+                                      <Amount>20</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010205</Ingredient>
+                                      <Amount>40</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010218</Ingredient>
+                                      <Amount>5</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010207</Ingredient>
+                                      <Amount>30</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010202</Ingredient>
+                                      <Amount>30</Amount>
+                                    </Item>
+                                  </Costs>
+                                </Cost>
+                                <Selection>
+                                  <Colors>
+                                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                                  </Colors>
+                                </Selection>
+                                <Object>
+                                  <Variations>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_corner.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_hall.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_t_piece.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_end_short.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_end_long.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_t_piece2.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_tower_hall.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_entrance.cfg</Filename>
+                                    </Item>
+                                  </Variations>
+                                </Object>
+                                <Constructable />
+                                <Mesh>
+                                  <MeshPlacement>OnTerrainSlope</MeshPlacement>
+                                </Mesh>
+                                <SoundEmitter>
+                                  <DestroySounds>
+                                    <Item>
+                                      <Sound>9818756</Sound>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>OrnamentalBuilding</TemplateName>
+                                            <Index>0</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                    </Item>
+                                  </DestroySounds>
+                                </SoundEmitter>
+                                <Locked />
+                                <FeedbackController />
+                                <AmbientMoodProvider />
+                                <Pausable />
+                                <Infolayer />
+                                <Ornament>
+                                  <OrnamentUnit>4</OrnamentUnit>
+                                  <OrnamentDescritpion>850004</OrnamentDescritpion>
+                                </Ornament>
+                                <Culture>
+                                  <Attractiveness>20</Attractiveness>
+                                </Culture>
+                              </Values>
+                            </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='130156'>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>850007</GUID>
+                    <Name>asset pool plaza obreros</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/Temporary_Ornament/icon_ornamental_forest_small.png</IconFilename>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                      <Item>
+                        <Asset>850001</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850002</Asset>
+                      </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850003</GUID>
+                                      <Name>Castle_Main_fluff</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A magnificent addendum to your monument,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850004</GUID>
+                                      <Name>Castle_Side_fluff</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A magnificent addendum to your monument,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+</ModOps>

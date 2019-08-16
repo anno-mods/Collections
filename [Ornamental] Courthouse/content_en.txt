@@ -1,0 +1,5 @@
+This mod is outdated and is only included for backwards compability with saves before the launch of the mod [Addon] AI Shipyard.
+
+The courthouse was given a proper function there, so this mod only ensures that previously built courthouses remain where they are. 
+
+However only the new version of the courthouse (The embassy) of the AI-Shipyard Mod gets unlocked and is buildable in your savegames from now on. 

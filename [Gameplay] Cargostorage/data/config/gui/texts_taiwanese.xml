@@ -1,0 +1,52 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>901004</GUID>
+      <Text>Warehouse Depot</Text>
+    </Text>
+    <Text>
+      <GUID>901005</GUID>
+      <Text>Warehouse Depot</Text>
+    </Text>
+    <Text>
+      <GUID>900204</GUID>
+      <Text>Increases the Islandstorage by 60 tons. Comes with 4 loading ramps for goods.</Text>
+    </Text>
+    <Text>
+      <GUID>900205</GUID>
+      <Text>Different Depoots</Text>
+    </Text>
+    <Text>
+      <GUID>902296</GUID>
+      <Text>Small Warehouse</Text>
+    </Text>
+    <Text>
+      <GUID>902297</GUID>
+      <Text>Medium Warehouse</Text>
+    </Text>
+        <Text>
+      <GUID>902298</GUID>
+      <Text>Small Warehouse</Text>
+    </Text>
+    <Text>
+      <GUID>902299</GUID>
+      <Text>Medium Warehouse</Text>
+    </Text>
+    <Text>
+      <GUID>900208</GUID>
+      <Text>Increases the Islandstorage by 20 tons. Comes with 2 loading ramps for goods.</Text>
+    </Text>
+    <Text>
+      <GUID>900209</GUID>
+      <Text>Increases the Islandstorage by 40 tons. Comes with 3 loading ramps for goods.</Text>
+    </Text>
+    <Text>
+      <GUID>902300</GUID>
+      <Text>Depots</Text>
+    </Text>
+    <Text>
+      <GUID>902301</GUID>
+      <Text>Depots</Text>
+    </Text>
+  </ModOp>
+</ModOps>

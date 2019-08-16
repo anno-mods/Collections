@@ -1,0 +1,73 @@
+<ModOps>
+  <!-- Increases the Cargolimit for Ship of the Line, Frigate, Clipper, Battlecruiser and all Trader/Pirate variants -->
+  <ModOp Type="add" GUID="100440,100439,100441,100442,101364,101365,101366,101368,101921,101922,101923,101929,101931,101997,102430,102431,102421,102419,102425,102428,102427" Path="/Values/ItemContainer">
+    <StackLimit>75</StackLimit>
+  </ModOp>
+  <!-- Increases the Cargolimit of the Freighter, Extravaganza and the Great Eastern -->
+  <ModOp Type="add" GUID='1010062,101370,101373,102455' Path="/Values/ItemContainer">
+    <StackLimit>100</StackLimit>
+  </ModOp>
+  <!-- Increases the Cargolimit if the Oil Tanker -->
+  <ModOp Type="replace" GUID='100853,101932' Path="/Values/ItemContainer/StackLimit">
+    <StackLimit>500</StackLimit>
+  </ModOp>
+  <!-- Traderoute settings to reflect the change above -->
+  <ModOp Type="merge" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal">
+    <Normal>
+      <ExcludingGoods>
+        <Item>
+          <Good>120021</Good>
+        </Item>
+        <Item>
+          <Good>1010566</Good>
+        </Item>
+      </ExcludingGoods>
+      <MaxGoodTransferAmount>100</MaxGoodTransferAmount>
+      <DefaultGoodTransferAmount>100</DefaultGoodTransferAmount>
+      <MaxTradeActionsPerStation>6</MaxTradeActionsPerStation>
+    </Normal>
+  </ModOp>
+  <!-- Oil Powerplant Stacklimit doubled -->
+  <ModOp Type="merge" GUID='100780' Path="/Values/FactoryBase">
+    <FactoryBase>
+      <FactoryInputs>
+        <Item>
+          <Product>1010566</Product>
+          <Amount>1</Amount>
+          <StorageAmount>200</StorageAmount>
+        </Item>
+      </FactoryInputs>
+    </FactoryBase>
+  </ModOp>
+  <!-- Traderoute settings to reflect the change above -->
+  <ModOp Type="merge" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil">
+    <Oil>
+      <RestrictedGood>
+        <Item>
+          <Good>1010566</Good>
+        </Item>
+      </RestrictedGood>
+      <MaxGoodTransferAmount>500</MaxGoodTransferAmount>
+      <DefaultGoodTransferAmount>500</DefaultGoodTransferAmount>
+      <MaxTradeActionsPerStation>1</MaxTradeActionsPerStation>
+      <Unlock>141416</Unlock>
+    </Oil>
+  </ModOp>
+  <!-- Increases the Storagelimit per Island in incremeansts of 5t -->
+  <ModOp Type="merge" GUID='1010371' Path="/Values/Warehouse/WarehouseStorage">
+    <WarehouseStorage>
+      <StorageMax>5</StorageMax>
+    </WarehouseStorage>
+  </ModOp>
+  <ModOp Type="merge" GUID='100516' Path="/Values/Warehouse/WarehouseStorage">
+    <WarehouseStorage>
+      <StorageMax>10</StorageMax>
+    </WarehouseStorage>
+  </ModOp>
+  <ModOp Type="merge" GUID='100517' Path="/Values/Warehouse/WarehouseStorage">
+    <WarehouseStorage>
+      <StorageMax>15</StorageMax>
+    </WarehouseStorage>
+  </ModOp>
+</ModOps>
+

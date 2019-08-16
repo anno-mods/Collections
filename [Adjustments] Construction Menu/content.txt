@@ -1,0 +1,1 @@
+Ordnet das Baumenü so um, dass Ornamente immer am Ende einer Kategorie stehen. 

@@ -1,0 +1,5 @@
+Nur enthalten zu Kompabilitätszwecken, damit vor Veröffentlichung der KI-Schiffswerft gebaute Gerichtsgebäude erhalten bleiben. 
+
+Dieser Mod ist von der Zeit überholt, da das Gerichtsgebäude in der Mod [Addon] Shipyard AI seine Funktion erhalten hat.
+
+Die Variante des Gerichtsgebäudes wird weder in neuen Spielständen freigeschaltet noch im Baumenü angezeigt. 
