@@ -1,0 +1,343 @@
+<!-- GUID 8855001 & 8855002 - INFOTEXT 8850001 & 8850002 - TRIGGER 8855101 & 8855102 -->
+
+<ModOps>
+	<!-- New Harbor Warehouse -- Moderate -->
+	<ModOp Type="addNextSibling" GUID='1010519'>
+		<Asset>
+			<Template>Warehouse</Template>
+			<Values>
+				<Standard>
+					<GUID>8855001</GUID>
+					<Name>Harbor_Warehouse</Name>
+					<IconFilename>data/modgraphics/icons/icon_harbor_warehouse_2.png</IconFilename>
+                    <InfoDescription>8850001</InfoDescription>
+				</Standard>
+				<Building>
+                     <BuildingCategoryName>11151</BuildingCategoryName>
+					 <TerrainType>Water</TerrainType>
+                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                     <AssociatedRegions>Moderate</AssociatedRegions>
+					 <BuildingType>Logistic</BuildingType>
+                </Building>
+                <Blocking>
+                     <GroundDecalAsset>100446</GroundDecalAsset>
+                     <GroundDecalInvisible>101008</GroundDecalInvisible>
+                     <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                     <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/special/harbor_01/harbor_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/special/harbor_01/harbor_01_var02.cfg</Filename>
+                         </Item>
+                     </Variations>
+                 </Object>
+                 <AmbientMoodProvider>
+                     <Murmur>Harbor</Murmur>
+                 </AmbientMoodProvider>
+                 <Constructable />
+                 <Selection>
+				     <GUIType>Warehouse</GUIType>
+                     <Colors>
+                         <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                     </Colors>
+                 </Selection>
+				 <Text />
+				 <Cost>
+                     <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>4000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+							<Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                     </Costs>
+                 </Cost>
+                 <Warehouse>
+                     <WarehouseStorage>
+					 <!-- orginal Storage Capacity / Lagerkapazität == 50 -->
+                         <StorageMax>75</StorageMax>
+					     <StorageType>Warehouse</StorageType>
+                     </WarehouseStorage>
+                 </Warehouse>
+			     <LogisticNode>
+					 <TransporterCountMax>0</TransporterCountMax>
+					 <!-- Number of Loading Ramps / Anzahl Laderampen == 2 -->
+					 <QueueConfiguration>
+						 <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+					 </QueueConfiguration> 
+				 </LogisticNode>
+                 <Locked />
+                 <Maintenance>
+                     <Maintenances>
+                         <Item>
+                            <Product>1010017</Product>
+                            <Amount>30</Amount>
+                            <InactiveAmount>30</InactiveAmount>
+                         </Item>
+                     </Maintenances>
+                 </Maintenance>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- DEPOT orginal Storage Capacity / Depot Lagerkapazität == 50 -->
+	<ModOp Type="replace" GUID='1010519' Path="Values/Warehouse/WarehouseStorage/StorageMax">
+		<StorageMax>75</StorageMax>
+	</ModOp>
+	
+	<!-- DEPOT orginal Maintenance Costs / Depot Unterhalt == 20 -->
+	<ModOp Type="replace" GUID='1010519' Path="Values/Maintenance/Maintenances">
+		<Maintenances>
+             <Item>
+                <Product>1010017</Product>
+                 <Amount>20</Amount>
+                 <InactiveAmount>20</InactiveAmount>
+             </Item>
+        </Maintenances>
+	</ModOp>
+	
+    <!-- New Harbor Warehouse -- South -->
+	<ModOp Type="addNextSibling" GUID='1010519'>
+		<Asset>
+			<Template>Warehouse</Template>
+			<Values>
+				<Standard>
+					<GUID>8855002</GUID>
+					<Name>Harbor_Warehouse_colony</Name>
+					<IconFilename>data/modgraphics/icons/icon_harbor_warehouse_2.png</IconFilename>
+                    <InfoDescription>8850002</InfoDescription>
+				</Standard>
+				<Building>
+                     <BuildingCategoryName>11151</BuildingCategoryName>
+					 <TerrainType>Water</TerrainType>
+                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                     <AssociatedRegions>Colony01</AssociatedRegions>
+					 <BuildingType>Logistic</BuildingType>
+                </Building>
+                <Blocking>
+                     <GroundDecalAsset>102460</GroundDecalAsset>
+                     <GroundDecalInvisible>102459</GroundDecalInvisible>
+                     <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />	
+                <Object>
+                     <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/special/harbor_01_colony_01/harbor_01_colony_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/special/harbor_01_colony_01/harbor_01_colony_01_var02.cfg</Filename>
+                         </Item>
+                     </Variations>
+                 </Object>
+                 <AmbientMoodProvider>
+                     <Murmur>Harbor</Murmur>
+                 </AmbientMoodProvider>
+                 <Constructable />
+                 <Selection>
+				     <GUIType>Warehouse</GUIType>
+                     <Colors>
+                         <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                     </Colors>
+                 </Selection>
+				 <Text />
+				 <Cost>
+                     <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>4000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+							<Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                     </Costs>
+                 </Cost>
+                 <Warehouse>
+                     <WarehouseStorage>
+					 <!-- orginal Storage Capacity / Lagerkapazität == 50 -->
+                         <StorageMax>75</StorageMax>
+					     <StorageType>Warehouse</StorageType>
+                     </WarehouseStorage>
+                 </Warehouse>
+			     <LogisticNode>
+					 <TransporterCountMax>0</TransporterCountMax>
+					 <!-- Number of Loading Ramps / Anzahl Laderampen == 2 -->
+					 <QueueConfiguration>
+						 <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+					 </QueueConfiguration> 
+				 </LogisticNode>
+                 <Locked />
+                 <Maintenance>
+                     <Maintenances>
+                         <Item>
+                            <Product>1010017</Product>
+                            <Amount>30</Amount>
+                            <InactiveAmount>30</InactiveAmount>
+                         </Item>
+                     </Maintenances>
+                 </Maintenance>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  <!-- Trigger Moderate Intermediate 2.1 -->
+  <ModOp Type="addNextSibling" GUID='130089'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>8855101</GUID>
+          <Name>intermediate 2.1</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000001</Context>
+                <CounterAmount>150</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>8855001</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>   	
+	
+  <!-- Trigger South Intermediate 2.1 -->
+  <ModOp Type="addNextSibling" GUID='130084'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>8855102</GUID>
+          <Name>intermediate_colony01_1.1</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000005</Context>
+                <CounterAmount>50</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>8855002</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>   	
+	
+	<!-- Construction Menu Moderate -->	
+    <ModOp Type="addNextSibling" GUID='500952' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010519']">
+        <Item>
+            <Building>8855001</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='500903' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010519']">
+        <Item>
+            <Building>8855001</Building>
+        </Item>
+    </ModOp>   
+
+   
+	<!-- Construction Menu South -->
+    <ModOp Type="addNextSibling" GUID='501007'   Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101278']">
+        <Item>
+            <Building>8855002</Building>
+        </Item>
+    </ModOp>	
+	<ModOp Type="addNextSibling" GUID='25000195' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101278']">
+        <Item>
+            <Building>8855002</Building>
+        </Item>
+    </ModOp>	
+	
+	
+	<!-- Converts Quay into Streets / Kaimauer als Straße -->
+	<ModOp Type="replace" GUID='1010567,100446,101339,102460,102459' Path="Values/Street/IsLogicRoad">
+		<IsLogicRoad>1</IsLogicRoad>
+	</ModOp>
+
+	
+
+</ModOps>

@@ -1,0 +1,3 @@
+Adds a new Depot variety as Harbor Warehouse and converts the quay wall into a street.
+Also, can make adjustments to storage capacity and loading ramps as well as maintenance 
+costs for both Depots and the new Harbor Warhouse. (Read comments in the Assets.xml)

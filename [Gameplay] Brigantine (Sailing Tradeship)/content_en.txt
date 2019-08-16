@@ -1,0 +1,3 @@
+Adds the sailing ship Brigante into the game, which is a lightly armed Tradeship 
+that can carry double the amount of goods as the smaller Schooner.
+(750 Worker needed)

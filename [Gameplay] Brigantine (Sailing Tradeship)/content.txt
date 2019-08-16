@@ -1,0 +1,5 @@
+Fügt das Segelschiff Brigante ins Spiel ein, dass ein leicht bewaffnetes Handelsschiff ist 
+und doppelt soviel Ware transportieren kann als der kleinere Schoner. 
+(750 Arbeiter benötigt)
+
+

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>8855003</GUID>
+		<Text>Brigantine</Text>
+	</Text>
+	<Text>
+		<GUID>8850003</GUID>
+		<Text>Ein kleines Transportschiff mit leichter Bewaffnung.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

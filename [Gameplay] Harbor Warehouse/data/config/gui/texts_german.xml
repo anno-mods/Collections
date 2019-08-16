@@ -1,0 +1,21 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>8855001</GUID>
+		<Text>Hafen-Lagerhaus</Text>
+	</Text>
+    <Text>
+		<GUID>8855002</GUID>
+		<Text>Hafen-Lagerhaus</Text>
+	</Text>
+	<Text>
+		<GUID>8850001</GUID>
+		<Text>Erhöht das Insellager um 50 Tonnen. Hat 2 Laderampen für Güter</Text>
+    </Text>
+		<Text>
+		<GUID>8850002</GUID>
+		<Text>Erhöht das Insellager um 50 Tonnen. Hat 2 Laderampen für Güter</Text>
+    </Text>
+
+  </ModOp>
+</ModOps>

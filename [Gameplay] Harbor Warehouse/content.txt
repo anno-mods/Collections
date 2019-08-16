@@ -1,0 +1,5 @@
+Fügt eine neue Variante der Depots als Hafen-Lagerhaus hinzu und konvertiert die 
+Kaimauer in eine Straße. Außerdem ist es möglich die Werte für Lagerkapazität und 
+Laderampen sowie die Unterhaltskosten sowohl für die Depots als auch das neue
+Hafen-Lagerhaus anzupassen. (Dazu einfach die Kommentare in der Assets.xml lesen.)
+
