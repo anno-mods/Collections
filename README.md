@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Anno 1800 Mod Collection</h1>
 
-Download [Mod Manager](https://github.com/anno-mods/Anno) for an easy usage
+Download [Mod Manager](https://git.io/anno-mods) for an easy usage
 
 ## Content
 
