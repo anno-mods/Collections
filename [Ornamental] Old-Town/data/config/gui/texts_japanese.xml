@@ -1,0 +1,52 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>859988</GUID>
+      <Text>Oldtown I</Text>
+    </Text>
+    <Text>
+      <GUID>859993</GUID>
+      <Text>Oldtown II</Text>
+    </Text>
+    <Text>
+      <GUID>850016</GUID>
+      <Text>Oldtown-Villa</Text>
+    </Text>
+    <Text>
+      <GUID>850017</GUID>
+      <Text>Oldtown-Mansion</Text>
+    </Text>
+    <Text>
+      <GUID>850020</GUID>
+      <Text>Opera</Text>
+    </Text>
+    <Text>
+      <GUID>850021</GUID>
+      <Text>Senate</Text>
+    </Text>
+    <Text>
+      <GUID>850018</GUID>
+      <Text>Higher Culture</Text>
+    </Text>
+    <Text>
+      <GUID>850019</GUID>
+      <Text>Might</Text>
+    </Text>
+    <Text>
+      <GUID>850022</GUID>
+      <Text>Inn</Text>
+    </Text>
+    <Text>
+      <GUID>850023</GUID>
+      <Text>triumphal arc</Text>
+    </Text>
+    <Text>
+      <GUID>850024</GUID>
+      <Text>Old Townhall</Text>
+    </Text>
+    <Text>
+      <GUID>850025</GUID>
+      <Text>A souvenir of your successful construction of a city</Text>
+    </Text>
+  </ModOp>
+</ModOps>
