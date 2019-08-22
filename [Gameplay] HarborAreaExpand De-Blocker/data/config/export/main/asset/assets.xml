@@ -1,0 +1,20 @@
+<ModOps>
+   
+    <!-- Blocking :: HarbourArea Expand -->
+    <!-- Factories -->
+    <ModOp Type = "remove" GUID = '1010278,1010560,1010310,1010339,101262' Path = "/Values/Blocking/HarbourAreaExpand">
+    </ModOp>
+
+    <!-- Shipyards & Oil Harbor -->
+    <ModOp Type = "remove" GUID = '1010520,101277,1010521,100783,101403,101404,101329,101405,101406' Path = "/Values/Blocking/HarbourAreaExpand">
+    </ModOp>
+
+    <!-- Piers -->
+    <ModOp Type = "remove" GUID = '100429,102284,101642,100519,101344' Path = "/Values/Blocking/HarbourAreaExpand">
+    </ModOp>
+
+    <!-- Kontore -->
+    <ModOp Type = "remove" GUID = '1010517,100510,100511,101290,101291,101292,1010540,100514,100515,101293,101294,101295' Path = "/Values/Blocking/HarbourAreaExpand"> 
+    </ModOp>
+
+</ModOps>

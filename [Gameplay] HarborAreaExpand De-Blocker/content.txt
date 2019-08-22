@@ -1,0 +1,1 @@
+Hebt den Block auf, durch den es nicht möglich war Ein und Auslaufzonen im Hafen zu überlappen.
