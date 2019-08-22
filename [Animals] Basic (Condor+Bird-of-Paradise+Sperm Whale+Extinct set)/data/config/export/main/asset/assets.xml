@@ -1,0 +1,26 @@
+<ModOps>
+      <!-- Condor/Cordillera set icon -->
+        <ModOp Type="merge" GUID="191069,191114,191132," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/graphics/icon_condor.png</IconFilename>
+        </ModOp>
+	  <!-- Condor skin -->
+        <ModOp Type="merge" GUID="1000150" Path="/Values/Object/Variations/Item/Filename">
+             <Filename>data/graphics/condor/condor.cfg</Filename>
+        </ModOp>
+      <!-- Bird of Paradise icon -->
+		<ModOp Type="merge" GUID="191093,192337," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/graphics/icon_birdofparadise_v2.png</IconFilename>
+        </ModOp>
+      <!-- Sperm Whale icon -->
+		<ModOp Type="merge" GUID="191098,500819," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/graphics/icon_spermwhale_v3.png</IconFilename>
+        </ModOp>
+      <!-- Extinct Animals set icon -->
+        <ModOp Type="merge" GUID="191116,191134," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_kolponomos.png</IconFilename>
+        </ModOp>
+	  <!-- Giant Deer skin -->
+        <ModOp Type="merge" GUID="101780" Path="/Values/Object/Variations/Item/Filename">
+             <Filename>data/graphics/giant_deer/irish_elk.cfg</Filename>
+        </ModOp>
+</ModOps>

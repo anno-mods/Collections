@@ -1,0 +1,13 @@
+Mathilde the Parrot
+
+In the game Mathilde (unique quest reward) has the same icon as Iguaca (Puerto-Rican amazon), and after you place her in the Zoo, her aviary is just filled with a bunch of random parrots from every parrot species which exists in the game, even ones you don’t have in your items inventory. This random bunch might not even include Iguaca, the species Mathilde is supposed to belong. I created a unique icon and skin exclusively for Mathilde (Hyacinth macaw), and she will ALLWAYS appear in her cage
+
+You can choose between two variants of Mathilde mod:
+
+A. Mathilde is the ONLY bird in her cage; other random parrots don’t spawn there.
+
+B. You can keep other parrots in to give Mathilde some company. ;) Again, it will be a bunch of random parrots, some of which you might not yet have in your collection.
+
+Important Note: You can’t activate both variants at the same time, you must choose ONE!
+
+Animals Mod 2.0 by Noodneek

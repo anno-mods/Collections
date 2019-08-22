@@ -1,0 +1,197 @@
+<ModOps>
+    <!-- Mathilde, the parrot icon -->
+		<ModOp Type="merge" GUID="192331" Path="/Values/Standard/IconFilename">
+             <IconFilename>data/graphics/icon_hyacinth_macaw.png</IconFilename>
+        </ModOp>
+	<!-- Mathilde new enclosure-->
+		<ModOp Type="merge" GUID="192331" Path="/Values/CultureUpgrade/ChangeModule">
+			<ChangeModule>960001</ChangeModule>
+        </ModOp>
+	<!-- Mathilde new enclosure to PlayerCounterContextPool-->	 
+		 <ModOp Type="add" GUID='700134' Path="/Values/PlayerCounterContextPool/Contexts">
+			<Item>
+				<Asset>960001</Asset>
+			</Item>
+         </ModOp>
+	<!-- Mathilde new enclosure asset-->
+		<ModOp Type="addNextSibling" GUID='100812'>
+								<Asset>
+                                  <Template>CultureModule</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>960001</GUID>
+                                      <Name>culture_01_module_01_parrot</Name>
+                                      <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+                                      <InfoDescription>118026</InfoDescription>
+                                    </Standard>
+                                    <Building>
+                                      <PickingAsset>100455</PickingAsset>
+                                      <AssociatedRegions>Moderate</AssociatedRegions>
+                                    </Building>
+                                    <Blocking />
+                                    <Cost>
+                                      <Costs>
+                                        <Item>
+                                          <Ingredient>1010017</Ingredient>
+                                          <Amount>500</Amount>
+                                        </Item>
+                                        <Item>
+                                          <Ingredient>1010196</Ingredient>
+                                        </Item>
+                                        <Item>
+                                          <Ingredient>1010205</Ingredient>
+                                        </Item>
+                                        <Item>
+                                          <Ingredient>1010218</Ingredient>
+                                        </Item>
+                                        <Item>
+                                          <Ingredient>1010207</Ingredient>
+                                        </Item>
+                                        <Item>
+                                          <Ingredient>1010202</Ingredient>
+                                        </Item>
+                                      </Costs>
+                                      <InfluenceCostType>ZooModule</InfluenceCostType>
+                                    </Cost>
+                                    <Object>
+                                      <Variations>
+                                        <Item>
+                                          <Filename>data/graphics/buildings/cultural_01_module_01/cultural_01_module_01_parrot.cfg</Filename>
+                                        </Item>
+                                      </Variations>
+                                    </Object>
+                                    <Mesh />
+                                    <Selection>
+                                      <Colors>
+                                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                                      </Colors>
+                                    </Selection>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>Verdant Aviary</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>2</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                      <LineID>6990</LineID>
+                                    </Text>
+                                    <Constructable />
+                                    <Locked>
+                                      <DefaultLockedState>0</DefaultLockedState>
+                                    </Locked>
+                                    <SoundEmitter />
+                                    <FeedbackController />
+                                    <Infolayer />
+                                    <RandomDummySpawner />
+                                    <BuildingModule />
+                                    <ItemContainer />
+                                    <Attackable>
+                                      <HasRuinState>1</HasRuinState>
+                                      <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                                    </Attackable>
+                                    <QuestObject />
+                                    <AmbientMoodProvider />
+                                  </Values>
+                                </Asset>
+        </ModOp>								
+  <!-- Ornamental Aviary -->
+    <ModOp Type="add" GUID='501488' Path="/Values/ConstructionCategory/BuildingList">
+       <Item>
+         <Building>960002</Building>
+       </Item>
+     </ModOp>
+     <ModOp Type="addNextSibling" GUID='102176'>
+                            <Asset>
+                              <Template>OrnamentalBuilding</Template>
+                              <Values>
+                                <Standard>
+                                  <GUID>960002</GUID>
+                                  <Name>Ornamental Aviary</Name>
+                                  <IconFilename>data/graphics/icon_hyacinth_macaw.png</IconFilename>
+                                </Standard>
+                                <Text />
+                                <Blocking>
+                                  <HidePropsRadius>0</HidePropsRadius>
+                                  <DeletePropsRadius>0</DeletePropsRadius>
+                                </Blocking>
+                                <Building>
+                                  <BuildingCategoryName>11149</BuildingCategoryName>
+                                  <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                                  <AssociatedRegions>Moderate</AssociatedRegions>
+                                </Building>
+                                <Cost>
+                                  <Costs>
+                                    <Item>
+                                      <Ingredient>1010017</Ingredient>
+                                      <Amount>1</Amount>
+                                    </Item>
+                                   </Costs>
+                                </Cost>
+                                <Selection>
+                                  <Colors>
+                                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                                  </Colors>
+                                </Selection>
+                                <Object>
+                                  <Variations>
+                                    <Item>
+                                      <Filename>data/graphics/buildings/cultural_01_module_01/cultural_01_module_01_parrot.cfg</Filename>
+                                    </Item>
+                                  </Variations>
+                                </Object>
+                                <Constructable />
+                                <Mesh>
+                                  <MeshPlacement>OnTerrainSlope</MeshPlacement>
+                                </Mesh>
+                                <SoundEmitter>
+                                  <DestroySounds>
+                                    <Item>
+                                      <Sound>9818756</Sound>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>OrnamentalBuilding</TemplateName>
+                                            <Index>0</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                    </Item>
+                                  </DestroySounds>
+                                </SoundEmitter>
+                                <Locked>
+                                    <DefaultLockedState>0</DefaultLockedState>
+                                </Locked>
+                                <FeedbackController />
+                                <AmbientMoodProvider />
+                                <Pausable />
+                                <Infolayer />
+                                <Ornament>
+                                  <OrnamentUnit>200</OrnamentUnit>
+                                  <OrnamentDescritpion>850003</OrnamentDescritpion>
+                                </Ornament>
+                                <Culture>
+                                  <Attractiveness>80</Attractiveness>
+                                  <CultureSpawnGroup>1</CultureSpawnGroup>
+                                </Culture>
+                              </Values>
+                            </Asset>
+   </ModOp>
+   <ModOp Type="addNextSibling" GUID='130156'>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                 <AssetPool>
+                    <AssetList>
+                      <Item>
+                        <Asset>960002</Asset>
+                      </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

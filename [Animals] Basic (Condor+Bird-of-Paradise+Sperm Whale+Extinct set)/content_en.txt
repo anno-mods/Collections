@@ -1,0 +1,16 @@
+Basic mod includes:
+
+1. Condor - new icon and 3D model skin to replace default vulture icon and skin.
+
+2. Bird-of-Paradise – new icon.
+I took a liberty to adjust Bird-of-paradise colors to somewhat match the colors of the model the devs created for it (although anyone with some knowledge can see it's a parrot and not a bird of paradise, but unfortunately as of now it’s not possible to edit shapes of 3D models). It's a fictional universe after all, maybe their birds of paradise have different colors... ;)
+
+3. Sperm Whale - new icon.
+(Sperm whale model in the game is fine, unlike its icon, which is a whale shark instead of the actual whale).
+
+4. Extinct Species Set – different icon and slightly changed Giant Deer skin.
+Default icon of Extinct Species Set is Okapi, which is not even in the game, but most importantly, in the real world this animal is critically endangered, but NOT extinct!
+
+I replaced Okapi’s icon with the icon of the animal which is included in the set. Giant deer (Irish elk) model now has light stripes on its back to give it more “prehistoric” look and as homage to the way this animal is depicted in Far Cry Primal.
+
+Animals Mod 2.0 by Noodneek

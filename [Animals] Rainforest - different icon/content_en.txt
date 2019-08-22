@@ -1,0 +1,13 @@
+Rainforest Set
+
+Default icon the devs chose for Rainforest set is Parrot (Scarlet macaw), which is not even included in the set. You can choose between two variants of Rainforest mod:
+
+A.
+The icon of the set is changed from the Parrot to Iguaca (Puerto-Rican amazon, which IS included in Rainforest set).
+
+B.
+The Parrot is included in the set instead of the Pelican (which is far from being an animal that represents rain forest habitat; none of its species actually lives in the Amazonian jungle, unlike the Scarlet macaw which inhabits the very heart of it). * I increased the attractiveness value of the Parrot from 20 to 30 (without changing its rareness category) to compensate for the swap, so that Rainforest set as a whole will give the same attractiveness boost.
+
+Note: You can activate both variants of the Rainforest mod at the same time, they will work, just if you use the 2nd variant, changing the icon with the 1st variant is unnecessary.
+
+Animals Mod 2.0 by Noodneek

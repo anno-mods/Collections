@@ -1,0 +1,12 @@
+<ModOps>
+    <!-- Pelican out of Raiforest set -->
+		<ModOp Type="remove" GUID="191080" Path="/Values/Item/ItemSet" />
+	<!-- Parrot into Raiforest set-->
+		<ModOp Type="add" GUID="190007" Path="/Values/Item">
+			<ItemSet>191118</ItemSet>
+        </ModOp>
+	<!-- Parrot attractiveness value compensation-->
+		<ModOp Type="merge" GUID="190007" Path="/Values/CultureUpgrade/AttractivenessUpgrade/Value">
+			<Value>30</Value>
+        </ModOp>
+</ModOps>

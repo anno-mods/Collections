@@ -1,0 +1,6 @@
+<ModOps>
+      <!-- Rainforest Set icon -->
+        <ModOp Type="merge" GUID="191118,191136," Path="/Values/Standard/IconFilename">
+             <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_puerto_rican_amazon.png</IconFilename>
+        </ModOp>
+</ModOps>
