@@ -1,1 +1,0 @@
-﻿Erweitert die Depots um eine Lagerhausfunktion und wandelt die Kaimauer in eine Straße um.

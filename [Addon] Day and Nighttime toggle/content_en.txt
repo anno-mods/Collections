@@ -1,2 +1,0 @@
-Ingame Daytime can be changed by pressing 'Y'
-.

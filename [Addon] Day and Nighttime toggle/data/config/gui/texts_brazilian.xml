@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>90000</GUID>
-      <Text>Day and Night Mode</Text>
-    </Text>
-  </ModOp>
-</ModOps>
