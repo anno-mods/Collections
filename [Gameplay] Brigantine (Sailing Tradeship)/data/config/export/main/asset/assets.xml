@@ -11,7 +11,7 @@
   
   <!-- Add Brigantine -->
   <ModOp Type="addNextSibling" GUID='101121'>
-	<Asset>
+  	<Asset>
         <Template>TradeShip</Template>
             <Values>
                 <Standard>
@@ -219,7 +219,7 @@
   </ModOp>
 
   <!-- Unlock Action -->
-  <ModOp Type="addNextSibling" GUID='141003'>
+  <ModOp Type="addNextSibling" GUID='130218'>
     <Asset>
       <Template>Trigger</Template>
       <Values>

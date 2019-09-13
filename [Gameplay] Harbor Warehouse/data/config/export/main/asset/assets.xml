@@ -1,8 +1,11 @@
-<!-- GUID 8855001 & 8855002 - INFOTEXT 8850001 & 8850002 - TRIGGER 8855101 & 8855102 -->
+<!-- Warehouse Mod - Stand 19.08.2019 -->
+<!-- GUID-RANGE 8855xxx / Trigger 88551xx  / Text 8850xxx -->
 
 <ModOps>
-	<!-- New Harbor Warehouse -- Moderate -->
-	<ModOp Type="addNextSibling" GUID='1010519'>
+
+<!-- ############################################################################################################## -->
+<!-- ####### New Building - Harbor Warehouse ###################################################################### -->
+	<ModOp Type="addNextSibling" GUID='1010519'>  <!-- Moderate -->
 		<Asset>
 			<Template>Warehouse</Template>
 			<Values>
@@ -72,20 +75,8 @@
                         </Item>
                      </Costs>
                  </Cost>
-                 <Warehouse>
-                     <WarehouseStorage>
-					 <!-- orginal Storage Capacity / Lagerkapazität == 50 -->
-                         <StorageMax>75</StorageMax>
-					     <StorageType>Warehouse</StorageType>
-                     </WarehouseStorage>
-                 </Warehouse>
-			     <LogisticNode>
-					 <TransporterCountMax>0</TransporterCountMax>
-					 <!-- Number of Loading Ramps / Anzahl Laderampen == 2 -->
-					 <QueueConfiguration>
-						 <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
-					 </QueueConfiguration> 
-				 </LogisticNode>
+                 <Warehouse />
+			     <LogisticNode />
                  <Locked />
                  <Maintenance>
                      <Maintenances>
@@ -99,25 +90,8 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	
-	<!-- DEPOT orginal Storage Capacity / Depot Lagerkapazität == 50 -->
-	<ModOp Type="replace" GUID='1010519' Path="Values/Warehouse/WarehouseStorage/StorageMax">
-		<StorageMax>75</StorageMax>
-	</ModOp>
-	
-	<!-- DEPOT orginal Maintenance Costs / Depot Unterhalt == 20 -->
-	<ModOp Type="replace" GUID='1010519' Path="Values/Maintenance/Maintenances">
-		<Maintenances>
-             <Item>
-                <Product>1010017</Product>
-                 <Amount>20</Amount>
-                 <InactiveAmount>20</InactiveAmount>
-             </Item>
-        </Maintenances>
-	</ModOp>
-	
-    <!-- New Harbor Warehouse -- South -->
-	<ModOp Type="addNextSibling" GUID='1010519'>
+	   
+	<ModOp Type="addNextSibling" GUID='1010519'>  <!-- South -->
 		<Asset>
 			<Template>Warehouse</Template>
 			<Values>
@@ -125,7 +99,7 @@
 					<GUID>8855002</GUID>
 					<Name>Harbor_Warehouse_colony</Name>
 					<IconFilename>data/modgraphics/icons/icon_harbor_warehouse_2.png</IconFilename>
-                    <InfoDescription>8850002</InfoDescription>
+                    <InfoDescription>8850001</InfoDescription>
 				</Standard>
 				<Building>
                      <BuildingCategoryName>11151</BuildingCategoryName>
@@ -187,20 +161,8 @@
                         </Item>
                      </Costs>
                  </Cost>
-                 <Warehouse>
-                     <WarehouseStorage>
-					 <!-- orginal Storage Capacity / Lagerkapazität == 50 -->
-                         <StorageMax>75</StorageMax>
-					     <StorageType>Warehouse</StorageType>
-                     </WarehouseStorage>
-                 </Warehouse>
-			     <LogisticNode>
-					 <TransporterCountMax>0</TransporterCountMax>
-					 <!-- Number of Loading Ramps / Anzahl Laderampen == 2 -->
-					 <QueueConfiguration>
-						 <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
-					 </QueueConfiguration> 
-				 </LogisticNode>
+                 <Warehouse />
+			     <LogisticNode />
                  <Locked />
                  <Maintenance>
                      <Maintenances>
@@ -215,8 +177,10 @@
 		</Asset>
 	</ModOp>
 
-  <!-- Trigger Moderate Intermediate 2.1 -->
-  <ModOp Type="addNextSibling" GUID='130089'>
+<!-- ############################################################################################################## -->
+<!-- ####### Trigger ############################################################################################## -->  
+
+  <ModOp Type="addNextSibling" GUID='130253'>  <!-- Trigger Moderate Intermediate 2.1 -->
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -261,8 +225,7 @@
     </Asset>
   </ModOp>   	
 	
-  <!-- Trigger South Intermediate 2.1 -->
-  <ModOp Type="addNextSibling" GUID='130084'>
+  <ModOp Type="addNextSibling" GUID='130237'>    <!-- Trigger South Intermediate 2.1 -->
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -306,38 +269,99 @@
       </Values>
     </Asset>
   </ModOp>   	
-	
+
+<!-- ############################################################################################################## -->
+<!-- ####### Construction Menu #################################################################################### -->  
+
 	<!-- Construction Menu Moderate -->	
-    <ModOp Type="addNextSibling" GUID='500952' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010519']">
+    <ModOp Type="add" GUID='500952' Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>8855001</Building>
         </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID='500903' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010519']">
+    <ModOp Type="add" GUID='500903' Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>8855001</Building>
         </Item>
     </ModOp>   
-
    
 	<!-- Construction Menu South -->
-    <ModOp Type="addNextSibling" GUID='501007'   Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101278']">
+    <ModOp Type="add" GUID='501007' Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>8855002</Building>
         </Item>
     </ModOp>	
-	<ModOp Type="addNextSibling" GUID='25000195' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101278']">
+	<ModOp Type="add" GUID='25000195' Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>8855002</Building>
         </Item>
-    </ModOp>	
+    </ModOp>
+
+
+<!-- ############################################################################################################## -->
+
+<!-- ############################################################################################################## -->
+<!-- ####### Converts Quay into Streets / Kaimauer als Straße ##################################################### -->	
+
+	<!-- Moderate -->
+	<ModOp Type="replace" GUID='1010567,100446,100691,100694,100695,100452,101008' Path="Values/Street/IsLogicRoad">
+		<IsLogicRoad>1</IsLogicRoad>
+	</ModOp>
 	
-	
-	<!-- Converts Quay into Streets / Kaimauer als Straße -->
-	<ModOp Type="replace" GUID='1010567,100446,101339,102460,102459' Path="Values/Street/IsLogicRoad">
+	<!-- South -->
+	<ModOp Type="replace" GUID='101339,102459,102460' Path="Values/Street/IsLogicRoad">
 		<IsLogicRoad>1</IsLogicRoad>
 	</ModOp>
 
+
+
+
+<!-- ############################################################################################################## -->
+<!-- ####### Storage, Maintenance, Loading Ramps ################################################################## -->  
+
+	<!-- Depot & Lagerhalle // Original Storag Capacity == 50 -->
+	<ModOp Type="replace" GUID='1010519,101278,8855001,8855002' Path="Values/Warehouse">
+		<Warehouse>
+			<WarehouseStorage>
+				<StorageMax>50</StorageMax>
+			</WarehouseStorage>
+		</Warehouse>
+	</ModOp>
+	
+	<!-- Depot // Original Maintenance == 20 -->
+	<ModOp Type="replace" GUID='1010519,101278' Path="Values/Maintenance/Maintenances">
+		<Maintenances>
+			<Item>
+				<Product>1010017</Product>
+				<Amount>20</Amount>
+				<InactiveAmount>20</InactiveAmount>
+			</Item>
+		</Maintenances>
+	</ModOp>
+	
+	<!-- Harbor Warehouse // Original Maintenance == 30 -->
+	<ModOp Type="replace" GUID='8855001,8855002' Path="Values/Maintenance/Maintenances">
+		<Maintenances>
+			<Item>
+				<Product>1010017</Product>
+				<Amount>30</Amount>
+				<InactiveAmount>30</InactiveAmount>
+			</Item>
+		</Maintenances>
+	</ModOp>
+
+	<!-- Harbor Warehouse Loading Ramp / Laderampen -->
+	<ModOp Type="replace" GUID='8855001,8855002' Path="Values/Maintenance/LogisticNode">	
+	    <LogisticNode>
+            <QueueConfiguration>
+                <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+            </QueueConfiguration>
+        </LogisticNode>
+	</ModOp>
+ 
+	
 	
 
+	
+<!-- ############################################################################################################## -->
 </ModOps>
