@@ -10,6 +10,9 @@ Außerdem wurde das Aussehen des Zuges leicht verändert und ein Waggon für die Be
 
 Die Bahnhöfe werden ab 1000 Ingenieuren freigeschaltet.
 
+!!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
+
+
 Nachdem der Mod installiert wurde, befinden sich die Bahnhöfe in einem neuen Baumenü im Ingenieurs-Baumenü (Zug Symbol).
 
 

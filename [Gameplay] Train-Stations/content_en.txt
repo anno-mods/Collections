@@ -10,6 +10,9 @@ In addition the look of the train has been slightly modified and a wagon for tra
 
 The train-stations will be unlocked at 1000 engineers.
 
+!!!This mod is compatible with already existing savegames. No Unlocker is needed!!!
+
+
 After you installed the mod, you can find the train-stations in the added train-station-building-menu in the engineer-building-menu (train icon).
 
 

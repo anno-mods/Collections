@@ -8,6 +8,11 @@ After you installed the mod, you can find the castle at the building-menu of inv
 
 Just push Shift + v for choosing between the individual main-buildings (left icon) or side-buildings (right icon).
 
+Update 1.2.3 Notes:
+
+  Bugfixes:
+  
+  -now compatible with the DLC "Botanica"
 
 Update 1.2.2 Notes:
 

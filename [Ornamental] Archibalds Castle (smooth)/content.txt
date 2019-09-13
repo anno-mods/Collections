@@ -8,6 +8,11 @@ Nachdem ihr den Mod installiert habt, findet ihr das Schloss im Baumenü der Inve
 
 Drückt Shift + v um zwischen den einzelnen Hauptgebäuden (linkes Symbol) und Nebengebäuden (rechtes Symbol) auszuwählen.
 
+Update 1.2.3 Notes:
+
+  Bugfixes:
+  
+  -ist jetzt kompatibel mit dem DLC "Botanica"
 
 Update 1.2.2 Notes:
 

@@ -1,4 +1,4 @@
-Old-Town v1.0.1:
+﻿Old-Town v1.0.2:
 
 Dieser Mod fügt einige Gebäude aus Anno 1701 und 1404 hinzu. Ingenieure und Investoren haben ein neues Gebäudebedürfnis, welche durch die hinzugefügten Gebäude gestillt werden können.
 
@@ -19,6 +19,12 @@ Außerdem ist eine neue Kirchen-Version baubar (Shift + v), ein Gasthaus ist bau
 Das zusätzliche Rathaus hat neben einen höheren Radius auch einen Slot mehr (im Informationsfenster vom Rathaus scrollen)
 
 !!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
+
+Update-Notes 1.0.2:
+
+	Bugfixes:
+
+	- ist jetzt kompatibel mit dem DLC "Botanica"
 
 Update-Notes 1.0.1:
 
