@@ -309,7 +309,7 @@
 	</ModOp>
 	
 	<!-- South -->
-	<ModOp Type="replace" GUID='101339,102459,102460' Path="Values/Street/IsLogicRoad">
+	<ModOp Type="replace" GUID='102459,102460' Path="Values/Street/IsLogicRoad">
 		<IsLogicRoad>1</IsLogicRoad>
 	</ModOp>
 
@@ -319,7 +319,7 @@
 <!-- ############################################################################################################## -->
 <!-- ####### Storage, Maintenance, Loading Ramps ################################################################## -->  
 
-	<!-- Depot & Lagerhalle // Original Storag Capacity == 50 -->
+	<!-- Depot & Lagerhalle // Original Storage Capacity == 50 -->
 	<ModOp Type="replace" GUID='1010519,101278,8855001,8855002' Path="Values/Warehouse">
 		<Warehouse>
 			<WarehouseStorage>
@@ -329,14 +329,16 @@
 	</ModOp>
 	
 	<!-- Depot // Original Maintenance == 20 -->
-	<ModOp Type="replace" GUID='1010519,101278' Path="Values/Maintenance/Maintenances">
-		<Maintenances>
-			<Item>
-				<Product>1010017</Product>
-				<Amount>20</Amount>
-				<InactiveAmount>20</InactiveAmount>
-			</Item>
-		</Maintenances>
+	<ModOp Type="replace" GUID='1010519,101278' Path="Values/Maintenance/">
+    <Maintenance>
+      <Maintenances>
+        <Item>
+          <Product>1010017</Product>
+          <Amount>20</Amount>
+          <InactiveAmount>20</InactiveAmount>
+        </Item>
+      </Maintenances>
+    </Maintenance>
 	</ModOp>
 	
 	<!-- Harbor Warehouse // Original Maintenance == 30 -->
@@ -351,7 +353,7 @@
 	</ModOp>
 
 	<!-- Harbor Warehouse Loading Ramp / Laderampen -->
-	<ModOp Type="replace" GUID='8855001,8855002' Path="Values/Maintenance/LogisticNode">	
+	<ModOp Type="replace" GUID='8855001,8855002' Path="Values/LogisticNode">	
 	    <LogisticNode>
             <QueueConfiguration>
                 <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>

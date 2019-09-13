@@ -1,7 +1,7 @@
 <ModOps>
   
   <!-- New Triggers (97600x) Anlegestelle -->
-  <ModOp Type="addNextSibling" GUID='130089'>
+  <ModOp Type="addNextSibling" GUID='130252'>
     <Asset>
       <Template>Trigger</Template>
       <Values>
