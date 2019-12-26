@@ -36,5 +36,4 @@ class AI_Spawner:
 			else:
 				self.accept(self.aiTrigger[GUID])		
 ai_spawner = AI_Spawner()
-Anno6.GameEvents.onGUIDUnlocked.append(ai_spawner.trigger)
 

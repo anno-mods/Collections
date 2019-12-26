@@ -3,7 +3,7 @@
     <Name>BoundingBox</Name>
     <Position>
       <xf>-0.4394932</xf>
-      <yf>20</yf>
+      <yf>5</yf>
       <zf>-0.09849429</zf>
     </Position>
     <Rotation>
@@ -22,7 +22,7 @@
     <Name>MeshBoundingBox</Name>
     <Position>
       <xf>-0.07218266</xf>
-      <yf>20</yf>
+      <yf>5</yf>
       <zf>0</zf>
     </Position>
     <Rotation>
@@ -42,7 +42,7 @@
     <Name>Hitbox7765</Name>
     <Position>
       <xf>-0.1159039</xf>
-      <yf>20</yf>
+      <yf>5</yf>
       <zf>0.009030998</zf>
     </Position>
     <Rotation>
@@ -346,7 +346,7 @@
     <Name>infolayer</Name>
     <Position>
       <xf>0</xf>
-      <yf>25</yf>
+      <yf>5</yf>
       <zf>0</zf>
     </Position>
     <Rotation>

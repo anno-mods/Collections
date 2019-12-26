@@ -11,12 +11,12 @@
     </Item>
   </ModOp>
   <!-- New Triggers (97600x) -->
-  <ModOp Type="addNextSibling" GUID='130089'>
+  <ModOp Type="addNextSibling" GUID='130248'>
     <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>976000</GUID>
+          <GUID>989777</GUID>
           <Name>intermediate colony01 2.1</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
         </Standard>
@@ -58,7 +58,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>976001</GUID>
+          <GUID>989778</GUID>
           <Name>intermediate colony01 2.1</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
         </Standard>
@@ -120,7 +120,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/special/workforce_transfer_building/workforce_transfer_building.cfg</Filename>
+              <Filename>data/modgraphics/buildings/special/workforce_transfer_building/workforce_transfer_building.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -166,7 +166,6 @@
                 </InheritanceMapV2>
               </VectorElement>
               <Ingredient>1010218</Ingredient>
-              <Amount>50</Amount>
             </Item>
             <Item>
               <VectorElement>
@@ -179,7 +178,6 @@
                 </InheritanceMapV2>
               </VectorElement>
               <Ingredient>1010207</Ingredient>
-              <Amount>40</Amount>
             </Item>
             <Item>
               <VectorElement>

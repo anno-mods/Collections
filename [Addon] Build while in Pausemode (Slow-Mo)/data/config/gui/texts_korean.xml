@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>90001</GUID>
-      <Text>Build in Pausemode (Slow Mo)</Text>
-    </Text>
-  </ModOp>
-</ModOps>

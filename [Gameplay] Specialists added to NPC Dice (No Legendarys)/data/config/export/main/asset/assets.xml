@@ -10,25 +10,6 @@
       <ItemLink>190282</ItemLink>
     </Item>
   </ModOp>
-  <!-- Isabel -->
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='29']/Values/Trader/Progression/EarlyGame/MaxItemsToOffer">
-    <MaxItemsToOffer>4</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='29']/Values/Trader/Progression/EarlyMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>5</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='29']/Values/Trader/Progression/MidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>6</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='29']/Values/Trader/Progression/LateMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>7</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='29']/Values/Trader/Progression/LateGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='29']/Values/Trader/Progression/EndGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
-  </ModOp>
   <!-- Isabel Itempools -->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='192760']">
     <Asset>
@@ -114,25 +95,6 @@
         <Locked />
       </Values>
     </Asset>
-  </ModOp>
-  <!-- Archibald -->
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='45']/Values/Trader/Progression/EarlyGame/MaxItemsToOffer">
-    <MaxItemsToOffer>4</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='45']/Values/Trader/Progression/EarlyMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>5</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='45']/Values/Trader/Progression/MidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>6</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='45']/Values/Trader/Progression/LateMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>7</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='45']/Values/Trader/Progression/LateGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='45']/Values/Trader/Progression/EndGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
   </ModOp>
   <!-- Archibald Itempools -->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='192745']">
@@ -237,25 +199,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- Eli Jailor -->
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='46']/Values/Trader/Progression/EarlyGame/MaxItemsToOffer">
-    <MaxItemsToOffer>4</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='46']/Values/Trader/Progression/EarlyMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>5</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='46']/Values/Trader/Progression/MidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>6</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='46']/Values/Trader/Progression/LateMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>7</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='46']/Values/Trader/Progression/LateGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='46']/Values/Trader/Progression/EndGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
-  </ModOp>
   <!-- Eli Itempools -->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='193097']">
     <Asset>
@@ -355,25 +298,6 @@
         <Locked />
       </Values>
     </Asset>
-  </ModOp>
-  <!-- Madame Kahina -->
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='78']/Values/Trader/Progression/EarlyGame/MaxItemsToOffer">
-    <MaxItemsToOffer>4</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='78']/Values/Trader/Progression/EarlyMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>5</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='78']/Values/Trader/Progression/MidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>6</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='78']/Values/Trader/Progression/LateMidGame/MaxItemsToOffer">
-    <MaxItemsToOffer>7</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='78']/Values/Trader/Progression/LateGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
-  </ModOp>
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='78']/Values/Trader/Progression/EndGame/MaxItemsToOffer">
-    <MaxItemsToOffer>8</MaxItemsToOffer>
   </ModOp>
   <!-- Madame Kahina Itempools -->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='193082']">

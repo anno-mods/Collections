@@ -4,28 +4,6 @@
         <Item>
             <Filename>data/graphics/city_ornaments/uplay/fountain_01.cfg</Filename>
         </Item>
-
-
-        create new 3x3
-        <Item>
-            fountain (102110)
-            <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_3x3/park_props_system_3x3_02.cfg</Filename>
-        </Item>
-
-        <Item>
-            fountain (102110)
-            <Filename>data/graphics/buildings/ornamental/park_colony01_props_system/park_props_system_3x3/park_props_system_3x3_02.cfg</Filename>
-        </Item>
-        create new 3x3
-        <Item>
-            pavillon (102111)
-            <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_3x3/park_props_system_3x3_03.cfg</Filename>
-        </Item>
-        <Item>
-            pavillon (102111)
-            <Filename>data/graphics/buildings/ornamental/park_colony01_props_system/park_props_system_3x3/park_props_system_3x3_03.cfg</Filename>
-        </Item>
-
     </ModOp>
 
 
@@ -1286,7 +1264,7 @@
         </Item>
     </ModOp>
     <!-- New Triggers (97649x)-->
-    <ModOp Type="addNextSibling" GUID='15000032'>
+    <ModOp Type="addNextSibling" GUID='130248'>
         <Asset>
             <Template>Trigger</Template>
             <Values>

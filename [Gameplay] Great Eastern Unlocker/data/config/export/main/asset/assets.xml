@@ -6,7 +6,7 @@
     </Item>
   </ModOp>
   <!-- Modified Great Eastern -->
-  <ModOp Type="replace" Path="//Asset[Values/Standard/GUID='101373']">
+  <ModOp Type="replace" GUID='101373'>
     <Asset>
       <Template>TradeShip</Template>
       <Values>
@@ -155,7 +155,7 @@
                   </Entry>
                 </InheritanceMapV2>
               </VectorElement>
-              <Amount>150000</Amount>
+              <Amount>1500000</Amount>
             </Item>
           </Baseprice>
         </Sellable>
@@ -170,91 +170,7 @@
   </ModOp>
 
   <!-- New Triggers (97601x) -->
-  <ModOp Type="addNextSibling" GUID='141008'>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>976012</GUID>
-          <Name>intermediate moderate 5.0</Name>
-          <IconFilename>data/ui/2kimages/main/profiles/resident_tier05.png</IconFilename>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition />
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000004</Context>
-                <CounterAmount>1</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>902260</Asset>
-                      </Item>
-                    </UnlockAssets>
-                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>976011</GUID>
-          <Name>intermediate moderate 4.1</Name>
-          <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition />
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000003</Context>
-                <CounterAmount>500</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnhideAssets>
-                      <Item>
-                        <Asset>902260</Asset>
-                      </Item>
-                    </UnhideAssets>
-                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
+  <ModOp Type="addNextSibling" GUID='130218'>
     <Asset>
       <Template>Trigger</Template>
       <Values>

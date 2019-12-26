@@ -19,6 +19,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
+                    <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
                     <Costs>
@@ -115,6 +116,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
+                    <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
                     <Costs>
@@ -208,6 +210,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
                     <Costs>
@@ -225,7 +228,6 @@
                         </Item>
                         <Item>
                             <Ingredient>1010218</Ingredient>
-                            <Amount>5</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010207</Ingredient>
@@ -303,6 +305,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
                     <Costs>
@@ -320,7 +323,6 @@
                         </Item>
                         <Item>
                             <Ingredient>1010218</Ingredient>
-                            <Amount>10</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010207</Ingredient>
@@ -398,6 +400,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
+                    <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
                     <Costs>
@@ -415,7 +418,6 @@
                         </Item>
                         <Item>
                             <Ingredient>1010218</Ingredient>
-                            <Amount>10</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010207</Ingredient>
@@ -496,6 +498,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
                     <Costs>
@@ -572,53 +575,137 @@
             </Values>
         </Asset>
     </ModOp>
-    <!-- intermediate moderate 3.1 -->
-    <ModOp Type="add" GUID='15000026' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets">
-        <Item>
-            <Asset>902296</Asset>
-        </Item>
-        <Item>
-            <Asset>902297</Asset>
-        </Item>
-        <Item>
-            <Asset>901004</Asset>
-        </Item>
+    <ModOp Type="addNextSibling" GUID='130217'>
+        <Asset>
+            <BaseAssetGUID>130217</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>976063</GUID>
+                </Standard>
+                <Trigger>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>902296</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>902297</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901004</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
     </ModOp>
-    <!-- intermediate moderate 3.2-->
-    <ModOp Type="add" GUID='15000027' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets">
-        <Item>
-            <Asset>902296</Asset>
-        </Item>
-        <Item>
-            <Asset>902297</Asset>
-        </Item>
-        <Item>
-            <Asset>901004</Asset>
-        </Item>
+    <ModOp Type="addNextSibling" GUID='130218'>
+        <Asset>
+            <BaseAssetGUID>130218</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>976064</GUID>
+                </Standard>
+                <Trigger>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>902296</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>902297</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901004</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
     </ModOp>
-    <!-- intermediate colony01 2.0 -->
-    <ModOp Type="add" GUID='130088' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets">
-        <Item>
-            <Asset>902298</Asset>
-        </Item>
-        <Item>
-            <Asset>902299</Asset>
-        </Item>
-        <Item>
-            <Asset>901005</Asset>
-        </Item>
+    <ModOp Type="addNextSibling" GUID='130241'>
+        <Asset>
+            <BaseAssetGUID>130241</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>976065</GUID>
+                </Standard>
+                <Trigger>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>902298</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>902299</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901005</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
     </ModOp>
-    <!-- intermediate colony01 2.1-->
-    <ModOp Type="add" GUID='130089' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets">
-        <Item>
-            <Asset>902298</Asset>
-        </Item>
-        <Item>
-            <Asset>902299</Asset>
-        </Item>
-        <Item>
-            <Asset>901005</Asset>
-        </Item>
+    <ModOp Type="addNextSibling" GUID='130242'>
+        <Asset>
+            <BaseAssetGUID>130242</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>976066</GUID>
+                </Standard>
+                <Trigger>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>902298</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>902299</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901005</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
     </ModOp>
     <!-- moderate construction menu 3 (tier) -->
     <ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500953']">
@@ -667,7 +754,7 @@
                             <Building>901004</Building>
                         </Item>
                     </BuildingList>
-                    <CategoryDescription />
+                    <CategoryDescription>989001</CategoryDescription>
                 </ConstructionCategory>
                 <Text>
                     <LocaText>
@@ -706,7 +793,7 @@
                             <Building>901005</Building>
                         </Item>
                     </BuildingList>
-                    <CategoryDescription />
+                    <CategoryDescription>989001</CategoryDescription>
                 </ConstructionCategory>
                 <Text>
                     <LocaText>

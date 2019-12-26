@@ -1,6 +1,6 @@
 <ModOps>
     <!-- Artisan Plaza Tiles -->
-    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='102114']">
+    <ModOp Type="addNextSibling" GUID = '102114'>
         <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -3781,7 +3781,7 @@
     </ModOp>
 
     <!-- New Triggers (97604x) -->
-    <ModOp Type="addNextSibling" GUID='15000026'>
+    <ModOp Type="addNextSibling" GUID='130218'>
         <Asset>
             <Template>Trigger</Template>
             <Values>

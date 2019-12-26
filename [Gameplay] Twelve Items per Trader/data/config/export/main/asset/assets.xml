@@ -1,0 +1,25 @@
+<ModOps>
+    <!-- Isabel -->
+    <ModOp Type="replace" GUID='29,78,46,45,77,237' Path="/Values/Trader/Progression/EarlyGame/MaxItemsToOffer">
+        <MaxItemsToOffer>4</MaxItemsToOffer>
+    </ModOp>
+    <ModOp Type="replace" GUID='29,78,46,45,77,237' Path="/Values/Trader/Progression/EarlyMidGame/MaxItemsToOffer">
+        <MaxItemsToOffer>6</MaxItemsToOffer>
+    </ModOp>
+    <ModOp Type="replace" GUID='29,78,46,45,77,237' Path="/Values/Trader/Progression/MidGame/MaxItemsToOffer">
+        <MaxItemsToOffer>8</MaxItemsToOffer>
+    </ModOp>
+    <ModOp Type="replace" GUID='29,78,46,45,77,237' Path="/Values/Trader/Progression/LateMidGame/MaxItemsToOffer">
+        <MaxItemsToOffer>10</MaxItemsToOffer>
+    </ModOp>
+    <ModOp Type="replace" GUID='29,78,46,45,77,237' Path="/Values/Trader/Progression/LateGame/MaxItemsToOffer">
+        <MaxItemsToOffer>12</MaxItemsToOffer>
+    </ModOp>
+    <ModOp Type="replace" GUID='29,78,46,45,77,237' Path="/Values/Trader/Progression/EndGame/MaxItemsToOffer">
+        <MaxItemsToOffer>12</MaxItemsToOffer>
+    </ModOp>
+
+    <ModOp Type ="replace" GUID = '220' Path = "/Values/ConstructionAI/ItemTradeConfig/ItemCount">
+        <ItemCount>12</ItemCount>
+    </ModOp>
+</ModOps>

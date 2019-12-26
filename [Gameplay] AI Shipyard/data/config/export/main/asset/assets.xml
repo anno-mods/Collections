@@ -183,7 +183,7 @@
 			<Building>930100</Building>
 		</Item>
 	</ModOp>
-	<ModOp GUID="15000024" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -230,7 +230,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="15000024" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -306,7 +306,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="15000024" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -579,7 +579,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>600000</CraftingTime>
+					<CraftingTime>600</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -1381,7 +1381,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1451,7 +1451,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1521,7 +1521,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1591,7 +1591,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1661,7 +1661,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1731,7 +1731,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1801,7 +1801,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1871,7 +1871,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -1941,7 +1941,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -2011,7 +2011,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -2081,7 +2081,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -2151,7 +2151,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -2307,16 +2307,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930201</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/bente.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2344,16 +2340,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930202</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/qing.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2381,16 +2373,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930203</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/willie.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2418,16 +2406,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930204</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/smith.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2455,16 +2439,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930205</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/beryl.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2492,16 +2472,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930206</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/artur.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2529,16 +2505,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930207</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/carl.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2566,16 +2538,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930208</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/gravez.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2603,16 +2571,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930209</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/silva.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2640,16 +2604,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930210</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/hunt.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2677,16 +2637,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930211</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/hugo.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -2714,16 +2670,12 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionUnlockAsset</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionUnlockAsset>
-													<UnlockAssets>
-														<Item>
-															<Asset>930212</Asset>
-														</Item>
-													</UnlockAssets>
-												</ActionUnlockAsset>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/nate.py</ScriptFileName>
+												</ActionExecuteScript>
 											</Values>
 										</Action>
 									</Item>
@@ -6120,9 +6072,6 @@
 					<MaximumHitPoints>1000</MaximumHitPoints>
 				</Attackable>
 				<Pausable/>
-				<IslandUnique>
-					<UniqueType>CoalHarbor</UniqueType>
-				</IslandUnique>
 				<UpgradeList/>
 				<Electric>
 					<BoostedByElectricity>0</BoostedByElectricity>
@@ -6238,9 +6187,6 @@
 					<MaximumHitPoints>1000</MaximumHitPoints>
 				</Attackable>
 				<Pausable/>
-				<IslandUnique>
-					<UniqueType>CoalHarbor</UniqueType>
-				</IslandUnique>
 				<UpgradeList/>
 				<Electric/>
 				<QuestObject/>
@@ -6354,9 +6300,6 @@
 					<MaximumHitPoints>1000</MaximumHitPoints>
 				</Attackable>
 				<Pausable/>
-				<IslandUnique>
-					<UniqueType>CoalHarbor</UniqueType>
-				</IslandUnique>
 				<UpgradeList/>
 				<Electric/>
 				<QuestObject/>
@@ -6425,16 +6368,13 @@
 					<MaximumHitPoints>1000</MaximumHitPoints>
 				</Attackable>
 				<Pausable/>
-				<IslandUnique>
-					<UniqueType>CoalHarbor</UniqueType>
-				</IslandUnique>
 				<UpgradeList/>
 				<Electric/>
 				<QuestObject/>
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -6567,7 +6507,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -6621,7 +6561,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -6666,7 +6606,7 @@
 			</Values>
 		</Asset>
 	</ModOp>
-	<ModOp GUID="130072" Type="addNextSibling">
+	<ModOp GUID="130216" Type="addNextSibling">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>

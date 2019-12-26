@@ -1,14 +1,14 @@
 <ModOps>
   <!-- Increases the Cargolimit for Ship of the Line, Frigate, Clipper, Battlecruiser and all Trader/Pirate variants -->
-  <ModOp Type="add" GUID="100440,100439,100441,100442,101364,101365,101366,101368,101921,101922,101923,101929,101931,101997,102430,102431,102421,102419,102425,102428,102427" Path="/Values/ItemContainer">
+  <ModOp Type="add" GUID="100440,100439,100441,100442,102430,102431,102421,102419,102425,102428,102427,114166" Path="/Values/ItemContainer">
     <StackLimit>75</StackLimit>
   </ModOp>
   <!-- Increases the Cargolimit of the Freighter, Extravaganza and the Great Eastern -->
-  <ModOp Type="add" GUID='1010062,101370,101373,102455' Path="/Values/ItemContainer">
+  <ModOp Type="add" GUID='1010062,101373,102455' Path="/Values/ItemContainer">
     <StackLimit>100</StackLimit>
   </ModOp>
   <!-- Increases the Cargolimit if the Oil Tanker -->
-  <ModOp Type="replace" GUID='100853,101932' Path="/Values/ItemContainer/StackLimit">
+  <ModOp Type="replace" GUID='100853' Path="/Values/ItemContainer/StackLimit">
     <StackLimit>500</StackLimit>
   </ModOp>
   <!-- Traderoute settings to reflect the change above -->
