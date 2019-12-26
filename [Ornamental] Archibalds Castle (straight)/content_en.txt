@@ -1,4 +1,4 @@
-Archibalds Castle v1.2.2:
+Archibalds Castle v1.3:
 
 This Mod adds 10 modular buildable parts of a castle into the game (2 main-buildings and 8 side-buildings), unlocked at 750 investors. The castle mainly consists of buildings from Archibald Blake (3rd Party) and some parts of other buldings.
 
@@ -8,25 +8,21 @@ After you installed the mod, you can find the castle at the building-menu of inv
 
 Just push Shift + v for choosing between the individual main-buildings (left icon) or side-buildings (right icon).
 
-Update 1.2.3 Notes:
+Update 1.3 Notes:
+
+  Inventions:
+
+  - All buildings of the castle does have lights now
+
+  - The side-entrance-module now has an opened passage
+
+  - some small changes at behavior of feedback-pedestrians
 
   Bugfixes:
   
-  -now compatible with the DLC "Botanica"
+  - some flaws of the main-building with the 3 towers have been revised
 
-Update 1.2.2 Notes:
-
-  Fixes:
-
-    - Mod was incompatible with Version 2.5 of the mod Spice-it-up! This issue is fixed now!
-        
-
-  Innovations:
-
-    - Added new building-menu of castle (you can find it at investors building-menu) 
-
-    - mod is compatible with savegames on it's own now, no more savegame-unlocker is needed!
-
+  - entrance-module now has another ground-texture
 
 your faithfully
 

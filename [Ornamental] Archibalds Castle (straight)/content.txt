@@ -1,4 +1,4 @@
-Archibalds Castle v1.2.2:
+Archibalds Castle v1.3:
 
 Diese Mod fügt 10 Teile eines modular baubaren Schlosses hinzu (2 Hauptgebäude and 8 Nebengebäude), welches ab 750 Investoren freigeschalten ist. Das Schloss besteht hauptsächlich aus Gebäuden von Archibald Blake (3rd Party) und Teilen anderer Gebäude.
 
@@ -8,24 +8,21 @@ Nachdem ihr den Mod installiert habt, findet ihr das Schloss im Baumenü der Inve
 
 Drückt Shift + v um zwischen den einzelnen Hauptgebäuden (linkes Symbol) und Nebengebäuden (rechtes Symbol) auszuwählen.
 
-Update 1.2.3 Notes:
-
-  Bugfixes:
-  
-  -ist jetzt kompatibel mit dem DLC "Botanica"
-
-Update 1.2.2 Notes:
-
-  Fixes:
- 
-    - Mod war inkompatibel mit Version 2.5 des Mods Spice-it-up! Dieses Problem wurde behoben
-    
+Update 1.3 Notes:
 
   Neuerungen:
 
-    - Schloss hat jetzt eigenes Baumenü (zu finden im Investoren-Baumenü)
+  - es wurden Lichter an allen Schloss-Teilen eingefügt
 
-    - Mod ist von nun an selbstständig Savegame-kompatibel, es wird kein Savegame-Unlocker mehr gebraucht!
+  - das Seiteneingangs-Modul hat jetzt einen offenen Durchgang
+
+  - einige kleine Änderungen an Feedback-Passanten
+
+  Bugfixes:
+
+  - Einige Fehler des Hauptgebäudes mit den 3 Türmen wurden überarbeitet
+  
+  - Bodentextur des Eingangs-Gebäudes wurde geändert
 
 
 euer treuer
