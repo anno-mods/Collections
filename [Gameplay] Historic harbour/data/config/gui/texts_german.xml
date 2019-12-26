@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>850001</GUID>
+      <Text>Schloss Hauptgebäude</Text>
+    </Text>
+    <Text>
+      <GUID>850002</GUID>
+      <Text>Schloss Nebengebäude</Text>
+    </Text>
+    <Text>
+      <GUID>850003</GUID>
+      <Text>Ein prächtiges Schloss, welches den Glanz und die Gloria Ihrer Stadt perfekt wiederspiegelt</Text>
+    </Text>
+    <Text>
+      <GUID>850004</GUID>
+      <Text>Dieses Gebäude geht eine optische Symbiose mit dem Schloss ein, wodurch Ihre Stadt an Imposanz weiter dazugewinnt</Text>
+    </Text>
+    <Text>
+      <GUID>859985</GUID>
+      <Text>Schloss</Text>
+    </Text>
+  </ModOp>
+</ModOps>
