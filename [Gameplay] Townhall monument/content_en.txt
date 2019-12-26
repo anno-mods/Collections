@@ -1,0 +1,27 @@
+Townhall-monument 1.0.1
+
+This mod adds a special townhall, which you can build up in 3 stages. To compesate it's size it has some advantages compared to a normal townhall. 
+It does have a much wider radius and 6 slots for items/specialists (scroll up/down). The model is based on the Hamburg City Hall (not 100 % faithful).
+You need 7500 investors to unlock this building.
+
+!!!This mod is compatible with already existing savegames. No Unlocker is needed!!!
+
+After you installed the mod, you can find the townhall-monument in the investors-building-menu.
+
+
+Update 1.0.1 Notes:
+
+- An additional texture has been added highlighting the depths and elevations on the building, so the building now looks more realistic
+
+- the windows were darkened
+
+- the roof was slightly overworked
+
+- Lights at night have been improved
+
+- the clocks now show the current time
+
+
+Much fun wishes from
+
+Fishboss

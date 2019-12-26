@@ -1,0 +1,28 @@
+Rathaus-Denkmal 1.0.1
+
+Dieser Mod fügt ein spezielles Rathaus hinzu, das Sie in 3 Stufen aufbauen können. Um seine Größe zu kompensieren, hat es einige Vorteile gegenüber einem normalen Rathaus.
+Es hat einen viel größeren Radius und 6 Plätze für Items / Spezialisten (scrollen). Das Modell basiert auf dem Hamburger Rathaus (nicht 100% originalgetreu).
+Dieses gebäude wird ab 7500 Investoren freigeschaltet.
+
+!!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
+
+Nachdem der Mod installiert wurde, befindet sich das Rathaus im Ingenieurs-Baumenü.
+
+
+Update 1.0.1 Notes:
+
+- es wurde eine zusätzliche Textur eingefügt die Tiefen und Erhöhungen am Gebäude hervorhebt, somit sieht das Gebäude jetzt realistischer aus
+
+- die Fensterscheiben wurden verdunkelt
+
+- das Dach wurde leicht überarbeitet
+
+- Lichter bei Nacht wurden verbessert
+
+- die Uhren zeigen nun die aktuelle Uhrzeit an
+
+
+
+Viel Spaß wünscht euch
+
+Fishboss

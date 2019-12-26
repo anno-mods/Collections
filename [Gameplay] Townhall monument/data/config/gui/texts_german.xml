@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>850026</GUID>
+      <Text>Rathaus-Monument</Text>
+    </Text>
+    <Text>
+      <GUID>850027</GUID>
+      <Text>Rathaus-Monument</Text>
+    </Text>
+    <Text>
+      <GUID>850028</GUID>
+      <Text>Rathaus-Monument</Text>
+    </Text>
+    <Text>
+      <GUID>850029</GUID>
+      <Text>Dieses Monument wird in mehreren Phasen errichtet. Das Rathaus Monument hat einen größeren Radius und kann mehr Spezialisten beherbergen als ein normales Rathaus.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
