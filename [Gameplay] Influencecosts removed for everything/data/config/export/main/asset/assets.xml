@@ -50,12 +50,6 @@
                 <SubCategoryName>12072</SubCategoryName>
                 <SubCategoryInfotip>501674</SubCategoryInfotip>
             </MuseumModule>
-            <BotanicModule>
-                <FreeAmount>10</FreeAmount>
-                <InfluenceCosts>0</InfluenceCosts>
-                <SubCategoryName>114324</SubCategoryName>
-                <SubCategoryInfotip>114325</SubCategoryInfotip>
-            </BotanicModule>
             <Propaganda>
                 <InfluenceCosts>0</InfluenceCosts>
                 <SubCategoryName>12007</SubCategoryName>
