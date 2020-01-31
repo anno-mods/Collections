@@ -1,0 +1,9 @@
+This mod replaces some useless culture sets effects with more useful effects.
+
+Aegean Cultures, buff the World's Fair, attractiveness +1000
+Bronze Age, buff all mines and quarries, productivity +50%
+Icebound, buff all food and drink production buildings, productivity +50%
+Luminaries, buff all shipyards,construction cost -10%, construction time -50%
+Rainforest, buff all cabins and huts, productivity +50%, forest density -10%
+
+note, you may need to rebuild or rellocate buildings to let it take effect

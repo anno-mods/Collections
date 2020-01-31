@@ -1,0 +1,193 @@
+<ModOps>
+	<!--Aegean Cultures, buff the World's Fair-->
+	<ModOp Type="replace" GUID='191142'>
+		<Asset>
+			<Template>TownhallBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191142</GUID>
+					<Name>greek</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/museum/icon_scroll_anthology_myths.png</IconFilename>
+					<InfoDescription>15770</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>1010492</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Aegean Cultures Exhibition</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21930</LineID>
+				</Text>
+				<BuildingUpgrade />
+				<Buff>
+				</Buff>
+				<PopulationUpgrade />
+				<ResidenceUpgrade />
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade>
+					<AttractivenessUpgrade>
+						<Value>1000</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Bronze Age, buff all mines and quarries-->
+	<ModOp Type="replace" GUID='191141'>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191141</GUID>
+					<Name>celts</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_celts_stonehenge.png</IconFilename>
+					<InfoDescription>15774</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190786</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Bronze Age Exhibition</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21934</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<BuildingUpgrade />
+				<Buff />
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Icebound, buff all food and drink production buildings-->
+	<ModOp Type="add" GUID='193777' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>50</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+		</FactoryUpgrade>
+	</ModOp>
+
+
+	<!--Luminaries, buff all shipyards-->
+	<ModOp Type="replace" GUID='193404'>
+		<Asset>
+			<Template>HarbourOfficeBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>193404</GUID>
+					<Name>luminescent creatures</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_glowfish_03.png</IconFilename>
+					<InfoDescription>22239</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190783</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Luminaries Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>32636</LineID>
+				</Text>
+				<BuildingUpgrade />
+				<Buff />
+				<PopulationUpgrade />
+				<ResidenceUpgrade />
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade />
+				<ShipyardUpgrade>
+					<ConstructionCostInPercent>-10</ConstructionCostInPercent>
+					<ConstructionTimeInPercent>-50</ConstructionTimeInPercent>
+				</ShipyardUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Rainforest, buff all cabins and huts-->
+	<ModOp Type="replace" GUID='191136'>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191136</GUID>
+					<Name>amazonia</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_puerto_rican_amazon.png</IconFilename>
+					<InfoDescription>15761</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190778</GUID>
+						</Item>
+						<Item>
+							<GUID>1010298</GUID>
+						</Item>
+						<Item>
+							<GUID>1010558</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Rainforest Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21921</LineID>
+				</Text>
+				<BuildingUpgrade />
+				<Buff />
+				<PopulationUpgrade />
+				<ResidenceUpgrade />
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade />
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+					<NeededAreaPercentUpgrade>
+						<Value>-10</Value>
+					</NeededAreaPercentUpgrade>
+				</FactoryUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
