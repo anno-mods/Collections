@@ -1,0 +1,29 @@
+<ModOps>
+  <!-- 修改老奈特的制造列表、奖励池、居民物品池，加入金滑轮-->
+  <ModOp Type="add" GUID='77' Path="/Values/ItemCrafter/CraftableItemsInRegion/Arctic/CraftableItems">
+    <Item>
+       <Item>116174</Item>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='193803' Path="/Values/RewardPool/ItemsPool">
+    <Item>
+       <Item>116174</Item>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='116658' Path="/Values/AssetPool/AssetList">
+    <Item>
+       <Item>116174</Item>
+    </Item>
+  </ModOp>
+  <!-- 修改金滑轮属性，使其可以被制造，成本为100个天然气 -->
+  <ModOp Type="add" GUID='116174' Path="/Values">
+    <CraftableItem>
+       <CraftingCosts>
+           <Item>
+			 <Product>112706</Product>
+			 <Amount>100</Amount>
+          </Item>
+       </CraftingCosts>
+    </CraftableItem>
+  </ModOp>
+</ModOps>
