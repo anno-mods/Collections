@@ -1,0 +1,14 @@
+This mod unlocks the exclusive ships you either needed an extremely rare drop/reward to unlock... or had to purchase from pirates. This allows you to build a shipyard and build the exclusive ships as long as you have an Artisan on your island. No deviation from the building requirements however for each ship.
+
+This mod unlocks:
+(Shipyard)
+Pirate Gunboat
+Pirate Frigate
+Pirate Ship-of-the-Line
+Royal Ship-of-the-Line
+(Steam Shipyard)
+Pirate Monitor
+Pyrothian Monitor
+Pyrothian Warship
+Pyrothian Battle Cruiser
+Extravaganza Steamer

@@ -1,0 +1,106 @@
+<ModOps>
+	<ModOp  Type = "add" GUID = "1010520" Path = "/Values/Shipyard/AssemblyOptions">
+		<Item>
+			<Vehicle>102420</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102421</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102419</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102427</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>101121</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102437</Vehicle>
+		</Item>
+	</ModOp>
+	<ModOp  Type = "add" GUID = "1010521" Path = "/Values/Shipyard/AssemblyOptions">
+		<Item>
+			<Vehicle>102422</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102423</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102425</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102428</Vehicle>
+		</Item>
+		<Item>
+			<Vehicle>102455</Vehicle>
+		</Item>
+	</ModOp>	
+	<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>8859000 </GUID>
+          <Name>intermediate 1 Artisan</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_arctic_tier02.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                       <Item>
+      <Asset>102420</Asset>
+    </Item>
+    <Item>
+      <Asset>102421</Asset>
+    </Item>
+    <Item>
+      <Asset>102419</Asset>
+    </Item>
+    <Item>
+      <Asset>102427</Asset>
+    </Item>
+    <Item>
+      <Asset>102437</Asset>
+    </Item>
+    <Item>
+      <Asset>102422</Asset>
+    </Item>
+    <Item>
+      <Asset>102423</Asset>
+    </Item>
+    <Item>
+      <Asset>102425</Asset>
+    </Item>
+    <Item>
+      <Asset>102455</Asset>
+    </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
