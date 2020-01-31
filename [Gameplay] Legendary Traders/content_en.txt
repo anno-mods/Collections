@@ -1,0 +1,40 @@
+Old World traders now always offer a selection of 12 items out of all Legendary and Epic items available.
+
+Archibald Blake sells items for:
+
+    Ships
+    Sailing Ships
+    Steamships
+    Military Ships
+    Salvager
+    Airships
+
+
+Eli Bleakworth sells items for:
+
+    Trade Union
+    Town Hall
+    Harbourmaster's Office
+    Arctic Lodge
+
+
+Madame Kahina sells items for:
+
+    Museum
+    Zoo
+    Botanical Garden
+    Music Pavilion
+
+
+Update 1.1 - Isabel Sarmento (New World) sells Common, Uncommon and Rare items for:
+
+    Museum
+    Zoo
+    Botanical Garden
+    Music Pavilion
+
+
+Keep in mind that all these items are quite expensive to buy, and they will no longer offer any items below Epic quality. But if you're using this mod, you're probably also using a money cheat anyway ;)
+
+Issues:
+the re-roll button overlaps the last row of items In the small window that shows a trader's items for sale. It doesn't hurt the functionality, just looks ugly. It's not an issue in the large trade window between harbour and ship.
