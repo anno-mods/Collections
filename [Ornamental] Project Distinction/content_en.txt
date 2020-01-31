@@ -1,0 +1,23 @@
+This mod aims to create a more unique and distinct visual effect for engineer & investor's residential buildings.
+The roof colors will blend much better with the artisan and worker tier buildings, the additional taller buildings are part of the extended variations for the residential building.
+
+- Engineer residential buildings have had their blue roof color replaced with red& black.﻿
+- Engineer residential buildings has4 additional variations of taller buildings.
+- Investor residential buildings also have new roof textures that stays away from the green.
+- Investor residential buildings have multiple variations added to the list (shift + v) to change.
+- Workers residential buildings now have 2 new variations 
+- Farmers residential buildings now have 2 new variations
+
+This mod should have no compatibility issues, unless you have other mods that modifies your t4-5 residential buildings.
+
+Save game compatible.
+
+Compatible with most if not all other mods that does not modify your residential Tier 4 & 5 buildings. ( I built this mod while using spice it up, so there should be no issue there )
+
+When in game, use shitf + v or your own shortcut that changes the building variations to see the new buildings. 
+
+Bugs:
+
+You may notice some texture clipping issues on some of the new buildings, fear not some day I will fix those.
+
+You may notice when zoomed super far away some of the new buildings have a black box on them ( not noticeable ) if that is the case, you're shtout of luck. I haven't got a clue to how to fix that... (not a big issue unless you put your eyes on the screen)
