@@ -1,0 +1,35 @@
+Rework of the Mod "[Gameplay] Specialists added to NPC Dice"
+Added missing Epic and Legendary Specialists/Machines/Artifacts/Animals/Plants to the NPCs Itempool for Purchase
+Attention: Right Now, Eli still has all the (un)common/rare/epic specialists from the original game, I will change this later
+
+Archie:
++ Legendary Ship and Harbor-Items
++ Epic/Legendary Artifacts
++ City Institution/Public Building Specialists (Rare+)
+
+Kahina:
++ Botanic and Zoo (Epic+)
++ Cultural specialists (rare+)
++ Traders (rare+)
++ Legendary super seeds Old World
+- Removed museum items (Archie now has them on offer)
+
+Isabel:
++ Legendary ship items
++ Military specialists (Rare+)
++ All New World Specialists (Rare+)
++ Legendary super seed New World (exclusing Corn, these are not in the game)
++ Production machines (uncommon+ (in the endgame, normal machines are limited to industrial Thresher and Feed Yard))
+
+Eli:
++ All non-ship specialists Old World (Legendary)
++ Production machines (rare+)
+
+Nate:
++ 5 additional consumables (Corruption + Naval Combat)
++ Legendary diving boat specialists
+- Dive boat specialists removed from all pools except Nate's quests and his purchase pool
+
+
+TODO / WIP:
+~ Remove non-production specialists and New World specialists from Eli's original pool

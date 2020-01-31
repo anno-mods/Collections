@@ -1,0 +1,35 @@
+Rework des Mods "[Gameplay] Specialists added to NPC Dice"
+Fügt den Händlern fehlende Epische und Legendäre Spezialisten/Maschinen/Ausstellungsitems zum Kauf hinzu
+Hinweis: Eli hat weiterhin alle Gewöhliche/Ungewöhnliche/Seltene/Epische Spezialisten, aber man findet sie jetzt auch bei anderen.
+
+Archie:
++ Legendäre Schiff- und Hafen-Items
++ Museums-Artefakte (Selten+)
++ City Institution/Public Building Specialists (Selten+)
+
+Kahina:
++ Botanik und Zoo (Episch+)
++ Kulturelle Spezialisten Handelskammer/Rathaus/Hafen (Selten+)
++ Händler (Selten+)
++ Legendäre Supersamen Alte Welt
+- Museums Items entfernt (Archie hat sie jetzt im Angebot)
+
+Isabel:
++ Legendäre Schiffs-Items
++ Militär-Spezialisten (Selten+)
++ Alle Neue Welt Spezialisten (Selten+)
++ Legendäre Supersamen Neue Welt
++ Produktions-Maschinen (Gewöhnlich+ (Im Endgame beschränken sich gewöhnliche Maschinen auf Industrielle Hippe und Futterplatz))
+
+Eli:
++ Alle nicht-Schiff-Spezialisten Alte Welt (Legendär)
++ Produktions-Maschinen (Selten+)
+
+Nate:
++ 5 Zusätzliche Consumables (Corruption + Naval Combat)
++ Legendäre Taucherbootspezialisten
+- Tauchbootspezialisten aus allen Pools entfernt, ausser Nates Quests und seinem Kauf-Pool
+
+
+TODO/WIP:
+~ Nicht-Produktions-Spezialisten und Neue Welt Spezialisten aus Elis Original-Pool entfernen
