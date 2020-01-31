@@ -1,12 +1,19 @@
-﻿Die Speicherstadt!
+﻿Historic_harbour v1.0:
 
-Die roten Fenster erscheinen nur bei Dämmerung (entsteht durch beleuchtete Fenster bei Nacht, lässt sich leider nicht vermeiden)
+Dieser Mod fügt 3 neue Gebäude hinzu: eine neue Hafenmeisterei und 2 neue Lagerhäuser. Das Erscheinungsbild der Gebäude orientiert sich an der Hamburger Speicherstadt
 
-Sonst gibt es nicht viel zu sagen.
+Das neue Hafenmeisterbüro bietet insgesamt 5 Slots (im Menü nach unten scrollen) und einen 50% größeren Radius
 
-- 3 neue Gebäude (1 Hafenmeisterei 2 Lagerhäuser)
-- mehr Slots, höherer Radius / mehr Kapazität
-- teuer beim Bau und beim Unterhalt
+Die beiden Lager haben 30 Tonnen mehr Kapazität als ein normales Lager
 
-Euer
-Fishboss
+Im Gegenzug für ihre Vorteile sind die neuen Gebäude teurer in der Instandhaltung und teurer im Bau
+
+Die neuen Gebäude werden bei 3000 Ingenieuren freigeschaltet
+
+!!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
+
+
+Nach der Installation finden Sie die neuen Gebäude im Menü für den Hafenbau der Ingenieure
+
+
+Euer Fishboss
