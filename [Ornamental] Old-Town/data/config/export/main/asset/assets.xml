@@ -103,7 +103,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>859989</GUID>
+          <GUID>859997</GUID>
           <Name>intermediate moderate 4.0</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
         </Standard>
@@ -140,6 +140,9 @@
                       <Item>
                         <Asset>850024</Asset>
                       </Item>
+                      <Item>
+                        <Asset>850031</Asset>
+                      </Item>
                     </UnhideAssets>
                     <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                   </ActionUnlockAsset>
@@ -157,7 +160,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>859990</GUID>
+          <GUID>859996</GUID>
           <Name>intermediate moderate 4.0</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
         </Standard>
@@ -293,6 +296,102 @@
       </Values>
     </Asset>
   </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859998</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>7500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850031</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850032</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850033</Asset>
+                      </Item>
+		    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859999</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>10000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850034</Asset>
+                      </Item>
+		    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
   <!-- moderate engineers city (tier) -->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501486']">
                         <Asset>
@@ -359,6 +458,9 @@
                                 </Item>
                                 <Item>
                                   <Building>850024</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850031</Building>
                                 </Item>
                               </BuildingList>
                               <CategoryDescription>100003</CategoryDescription>
@@ -1540,11 +1642,6 @@
                                   <Filename>data/modgraphics/buildings/1701/official/church.cfg</Filename>
                                 </Item>
     </ModOp>
-    <ModOp Type="add" GUID='100415' Path="/Values/Object/Variations">
-                                <Item>
-                                  <Filename>data/modgraphics/buildings/1701/official/old_townhall.cfg</Filename>
-                                </Item>
-    </ModOp>
   <ModOp Type="addNextSibling" GUID='1010356'>
                         <Asset>
                           <Template>Product</Template>
@@ -1985,5 +2082,811 @@
                                     </Text>
                                   </Values>
                                 </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                        <Asset>
+                          <Template>Monument</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850031</GUID>
+                              <Name>monument_01_00</Name>
+                              <IconFilename>data/modgraphics/icons/cathedral_icon.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <PickingAsset>1010489</PickingAsset>
+                              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                              <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>300000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>100</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>120</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/1701/official/1800_cathedral/imperial_cathedral_21.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrainSlope</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <GUIType>Monument</GUIType>
+                              <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>World's Fair: Foundations</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>20107</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <FactoryBase>
+                              <FactoryInputs>
+                                <Item>
+                                  <Product>1010196</Product>
+                                  <Amount>10</Amount>
+                                  <StorageAmount>300</StorageAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010205</Product>
+                                  <Amount>10</Amount>
+                                  <StorageAmount>300</StorageAmount>
+                                </Item>
+                              </FactoryInputs>
+                              <CycleTime>60</CycleTime>
+                            </FactoryBase>
+                            <LogisticNode>
+                              <TransporterCountMax>2</TransporterCountMax>
+                            </LogisticNode>
+                            <Monument>
+                              <UpgradeTarget>850032</UpgradeTarget>
+                              <MicrophaseCount>30</MicrophaseCount>
+                              <UnfinishedIcon>500414</UnfinishedIcon>
+                              <FinishedIcon>500418</FinishedIcon>
+                              <ShutdownText>6783</ShutdownText>
+                              <MonumentFluff>850035</MonumentFluff>
+                              <MonumentHeadline>850034</MonumentHeadline>
+                              <BackgroundImage>
+                                <Blueprint>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_00.png</Blueprint>
+                                <PhasePlanned>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_01.png</PhasePlanned>
+                                <PhaseFinished>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_01_coloured.png</PhaseFinished>
+                              </BackgroundImage>
+                              <ProgressbarHeight>50</ProgressbarHeight>
+                            </Monument>
+                            <Culture />
+                            <AmbientMoodProvider>
+                              <Murmur>MonumentConstruction</Murmur>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010115</Product>
+                                  <Amount>1000</Amount>
+                                  <ShutdownThreshold>0.4</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                              <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>10000</MaximumHitPoints>
+                              <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <UpgradeList />
+                            <Electric />
+                            <QuestObject />
+                            <PublicService />
+                        <ItemContainer>
+                          <SocketCount>1</SocketCount>
+                          <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                          <SocketScope>Area</SocketScope>
+                              <InitSocketItems>
+                                <Item>
+                                  <Item>850038</Item>
+                                  <StackSize>1</StackSize>
+                                </Item>
+                              </InitSocketItems>
+                        </ItemContainer>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                        <Asset>
+                          <Template>Monument</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850032</GUID>
+                              <Name>monument_01_00</Name>
+                              <IconFilename>data/modgraphics/icons/cathedral_icon.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <PickingAsset>1010489</PickingAsset>
+                              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                              <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>300</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>300</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/1701/official/1800_cathedral/imperial_cathedral_22.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <GUIType>Monument</GUIType>
+                              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>World's Fair: Foundations</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>20107</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <FactoryBase>
+                              <FactoryInputs>
+                                <Item>
+                                  <Product>1010205</Product>
+                                  <Amount>14</Amount>
+                                  <StorageAmount>420</StorageAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010202</Product>
+                                  <Amount>10</Amount>
+                                  <StorageAmount>300</StorageAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010207</Product>
+                                  <Amount>15</Amount>
+                                  <StorageAmount>450</StorageAmount>
+                                </Item>
+                              </FactoryInputs>
+                              <CycleTime>60</CycleTime>
+                            </FactoryBase>
+                            <LogisticNode>
+                              <TransporterCountMax>2</TransporterCountMax>
+                            </LogisticNode>
+                            <Monument>
+                              <UpgradeTarget>850033</UpgradeTarget>
+                              <MicrophaseCount>30</MicrophaseCount>
+                              <UnfinishedIcon>500415</UnfinishedIcon>
+                              <FinishedIcon>500419</FinishedIcon>
+                              <ShutdownText>6783</ShutdownText>
+                              <MonumentFluff>850035</MonumentFluff>
+                              <MonumentHeadline>850034</MonumentHeadline>
+                              <BackgroundImage>
+                                <Blueprint>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_00.png</Blueprint>
+                                <PhasePlanned>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_01.png</PhasePlanned>
+                                <PhaseFinished>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_01_coloured.png</PhaseFinished>
+                              </BackgroundImage>
+                              <ProgressbarHeight>50</ProgressbarHeight>
+                            </Monument>
+                            <Culture />
+                            <AmbientMoodProvider>
+                              <Murmur>MonumentConstruction</Murmur>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010116</Product>
+                                  <Amount>1500</Amount>
+                                  <ShutdownThreshold>0.4</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                              <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>10000</MaximumHitPoints>
+                              <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <UpgradeList />
+                            <Electric />
+                            <QuestObject />
+                            <PublicService />
+                        <ItemContainer>
+                          <SocketCount>1</SocketCount>
+                          <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                          <SocketScope>Area</SocketScope>
+                              <InitSocketItems>
+                                <Item>
+                                  <Item>850038</Item>
+                                  <StackSize>1</StackSize>
+                                </Item>
+                              </InitSocketItems>
+                        </ItemContainer>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                        <Asset>
+                          <Template>Monument</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850033</GUID>
+                              <Name>monument_01_00</Name>
+                              <IconFilename>data/modgraphics/icons/cathedral_icon.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <PickingAsset>1010489</PickingAsset>
+                              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                              <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>450</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>0</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>300</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/1701/official/1800_cathedral/imperial_cathedral_23.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <GUIType>Monument</GUIType>
+                              <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>World's Fair: Foundations</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>20107</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <FactoryBase>
+                              <FactoryInputs>
+                                <Item>
+                                  <Product>1010205</Product>
+                                  <Amount>8</Amount>
+                                  <StorageAmount>240</StorageAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010208</Product>
+                                  <Amount>7</Amount>
+                                  <StorageAmount>210</StorageAmount>
+                                </Item>
+                                <Item>
+                                  <Product>120044</Product>
+                                  <Amount>7</Amount>
+                                  <StorageAmount>210</StorageAmount>
+                                </Item>
+                              </FactoryInputs>
+                              <CycleTime>60</CycleTime>
+                            </FactoryBase>
+                            <LogisticNode>
+                              <TransporterCountMax>2</TransporterCountMax>
+                            </LogisticNode>
+                            <Monument>
+                              <UpgradeTarget>850034</UpgradeTarget>
+                              <MicrophaseCount>30</MicrophaseCount>
+                              <UnfinishedIcon>500416</UnfinishedIcon>
+                              <FinishedIcon>500420</FinishedIcon>
+                              <ShutdownText>6783</ShutdownText>
+                              <MonumentFluff>850035</MonumentFluff>
+                              <MonumentHeadline>850034</MonumentHeadline>
+                              <BackgroundImage>
+                                <Blueprint>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_00.png</Blueprint>
+                                <PhasePlanned>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_01.png</PhasePlanned>
+                                <PhaseFinished>data/ui/2kimages/main/assets16/monument_constructions/monument_worldfair_01_coloured.png</PhaseFinished>
+                              </BackgroundImage>
+                              <ProgressbarHeight>50</ProgressbarHeight>
+                            </Monument>
+                            <Culture />
+                            <AmbientMoodProvider>
+                              <Murmur>MonumentConstruction</Murmur>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010117</Product>
+                                  <Amount>2000</Amount>
+                                  <ShutdownThreshold>0.4</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                              <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>10000</MaximumHitPoints>
+                              <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <UpgradeList />
+                            <Electric />
+                            <QuestObject />
+                            <PublicService />
+                        <ItemContainer>
+                          <SocketCount>1</SocketCount>
+                          <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                          <SocketScope>Area</SocketScope>
+                              <InitSocketItems>
+                                <Item>
+                                  <Item>850038</Item>
+                                  <StackSize>1</StackSize>
+                                </Item>
+                              </InitSocketItems>
+                        </ItemContainer>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                        <Asset>
+                          <Template>Monument</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850034</GUID>
+                              <Name>monument_01_04</Name>
+                              <IconFilename>data/modgraphics/icons/cathedral_icon.png</IconFilename>
+                              <ID>MonumentComplete</ID>
+                            </Standard>
+                            <Building>
+                              <PickingAsset>1010489</PickingAsset>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                              <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs />
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/1701/official/1800_cathedral/imperial_cathedral_24.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <GUIType>PublicService</GUIType>
+                              <ParticipantMessageArcheType>Resident_tier05_atWork</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>World's Fair</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>20111</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <ActiveSounds>
+                                <Item>
+                                  <Sound>200851</Sound>
+                                </Item>
+                              </ActiveSounds>
+                              <ConstructionSounds>
+                                <BuildSuccessful>
+                                  <Item>
+                                    <VectorElement>
+                                      <InheritedIndex>0</InheritedIndex>
+                                      <InheritanceMapV2>
+                                        <Entry>
+                                          <TemplateName>Monument</TemplateName>
+                                          <Index>0</Index>
+                                        </Entry>
+                                      </InheritanceMapV2>
+                                    </VectorElement>
+                                  </Item>
+                                  <Item>
+                                    <Sound>200912</Sound>
+                                  </Item>
+                                </BuildSuccessful>
+                                <BuildUpgrade>
+                                  <Item>
+                                    <VectorElement>
+                                      <InheritedIndex>0</InheritedIndex>
+                                      <InheritanceMapV2>
+                                        <Entry>
+                                          <TemplateName>Monument</TemplateName>
+                                          <Index>0</Index>
+                                        </Entry>
+                                      </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Sound>201232</Sound>
+                                  </Item>
+                                </BuildUpgrade>
+                              </ConstructionSounds>
+                              <SpawnSounds>
+                                <Item>
+                                  <Sound>200912</Sound>
+                                </Item>
+                              </SpawnSounds>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <FactoryBase />
+                            <LogisticNode>
+                              <TransporterCountMax>2</TransporterCountMax>
+                            </LogisticNode>
+                            <Monument>
+                              <UnfinishedIcon>500417</UnfinishedIcon>
+                              <FinishedIcon>500421</FinishedIcon>
+                              <MonumentEventsCategories>
+                                <Item>
+                                  <EventCategory>17003</EventCategory>
+                                </Item>
+                                <Item>
+                                  <EventCategory>17004</EventCategory>
+                                </Item>
+                                <Item>
+                                  <EventCategory>17005</EventCategory>
+                                </Item>
+                                <Item>
+                                  <EventCategory>114764</EventCategory>
+                                </Item>
+                              </MonumentEventsCategories>
+                              <ShutdownText>6783</ShutdownText>
+                              <MonumentHeadline>850034</MonumentHeadline>
+                              <BackgroundImage>
+                                <Blueprint>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_04_coloured.png</Blueprint>
+                              </BackgroundImage>
+                              <ProgressbarHeight>150</ProgressbarHeight>
+                            </Monument>
+                            <Culture>
+                              <Attractiveness>85</Attractiveness>
+                              <CultureSpawnGroup>1</CultureSpawnGroup>
+                            </Culture>
+                            <AmbientMoodProvider>
+                              <Murmur>MonumentEvent</Murmur>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>10000</MaximumHitPoints>
+                              <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <UpgradeList />
+                            <Electric />
+                            <QuestObject />
+                            <PublicService>
+                              <FullSatisfactionDistance>70</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>110</NoSatisfactionDistance>
+                              <PublicServiceOutputs>
+                                <Item>
+                                  <Product>1010350</Product>
+                                </Item>
+                                <Item>
+                                  <Product>850018</Product>
+                                </Item>
+                                <Item>
+                                  <Product>850019</Product>
+                                </Item>
+                              </PublicServiceOutputs>
+                            </PublicService>
+                        <ItemContainer>
+                          <SocketCount>1</SocketCount>
+                          <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                          <SocketScope>Area</SocketScope>
+                              <InitSocketItems>
+                                <Item>
+                                  <Item>850038</Item>
+                                  <StackSize>1</StackSize>
+                                </Item>
+                              </InitSocketItems>
+                        </ItemContainer>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850035</GUID>
+                                      <Name>Castle_Side_fluff</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A magnificent addendum to your monument,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                    <Asset>
+                      <Template>TownhallItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850038</GUID>
+                          <Name>cathedral buff</Name>
+                          <IconFilename>data/modgraphics/icons/cathedral_icon.png</IconFilename>
+                          <InfoDescription>19478</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Teetotalers Manifesto</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>26977</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Uncommon</Rarity>
+                          <ExclusiveGroup>AlcoholAct</ExclusiveGroup>
+                          <TradePrice>18600</TradePrice>
+                        </Item>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>190762</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <BuildingUpgrade />
+                        <PopulationUpgrade />
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <ItemDifficulties>Easy;Average</ItemDifficulties>
+                        </ExpeditionAttribute>
+                        <ResidenceUpgrade>
+                          <AdditionalHappiness>5</AdditionalHappiness>
+                          <GoodConsumptionUpgrade>
+                            <Item>
+                              <ProvidedNeed>1010200</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010237</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010216</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010238</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010213</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010203</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010214</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010217</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010206</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010247</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010257</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>120030</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>120032</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010208</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010245</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010246</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>120016</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010259</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010258</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010225</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010250</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010248</ProvidedNeed>
+                              <AmountInPercent>-5</AmountInPercent>
+                            </Item>
+                          </GoodConsumptionUpgrade>
+                        </ResidenceUpgrade>
+                        <VisitorHarborUpgrade />
+                        <CultureUpgrade />
+                        <IncidentInfectableUpgrade>
+                          <IncidentIllnessIncreaseUpgrade>
+                            <Value>-2</Value>
+                          </IncidentIllnessIncreaseUpgrade>
+                          <IncidentRiotIncreaseUpgrade>
+                            <Value>-2</Value>
+                          </IncidentRiotIncreaseUpgrade>
+                        </IncidentInfectableUpgrade>
+                        <IncidentInfluencerUpgrade />
+                        <Locked />
+                        <Buff />
+                      </Values>
+                    </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='167' Path="/Values/ConstructionAI">
+            <MonumentConfiguration>
+              <Item>
+                <MonumentBuilding>850031</MonumentBuilding>
+                <Region>Moderate</Region>
+                <SessionType>MainForRegion</SessionType>
+                <BlockScore>BlockAirshipHangar</BlockScore>
+              </Item>
+            </MonumentConfiguration>
     </ModOp>
 </ModOps>

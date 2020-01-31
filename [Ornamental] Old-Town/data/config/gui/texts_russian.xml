@@ -48,5 +48,17 @@
       <GUID>850025</GUID>
       <Text>A souvenir of your successful construction of a city</Text>
     </Text>
+    <Text>
+      <GUID>850034</GUID>
+      <Text>Imperial cathedral</Text>
+    </Text>
+    <Text>
+      <GUID>850035</GUID>
+      <Text>Once completed, this monumental church will symbolize the past glorious centuries of its city</Text>
+    </Text>
+    <Text>
+      <GUID>850038</GUID>
+      <Text>Imperial cathedral</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -1,4 +1,4 @@
-﻿Old-Town v1.0.2:
+﻿Old-Town v1.2 (by Fishboss & bloodwork129):
 
 This mod adds some buildings from Anno 1701 and 1404. Engineers and investors have a new building need, which can be satisfied by the added buildings.
 
@@ -6,13 +6,30 @@ Engineers have the need for higher culture, which is satisfied by the opera.
 
 For investors, the need for power comes, which is satisfied by the Senate.
 
-The opera will be unlocked when 20 old-town mansions are built
+Old-town mansions:
 
-The Senate will be unlocked when 20 old-town villas are built
+- unlocked at 1500 engineers
 
-The old town mansions are unlocked at 1500 engineers
+Old-town villas:
 
-The old town villas are unlocked at 2500 investors
+- unlocked at 2500 investors
+
+Opera:
+
+- Unlocked at 20 old-town mansions
+
+Senate:
+
+- unlocked at 20 old town villas
+
+Imperial Cathedral (Monument):
+
+- satisfies the need of the church, higher culture and power
+
+- All buildings on the island get +5 satisfaction, -5% consumption of all goods, -20% illness, -20% insurrection
+
+- First 3 stages unlocked at 7500 investors, last stage unlocked at 12500 investors
+
 
 In addition, a new church version is buildable (Shift + v), an inn is buildable (unlocked at 1500 investors) a new town hall is buildable (unlocked at 2500 investors) and a triumphal arch can be built, through which one  a road connection can be established (Shift + v for right and left) (unlocked at 2500 investors).
 
@@ -20,26 +37,31 @@ The additional town hall has a higher radius and one more slot (scroll in the in
 
 !!! This mod is compatible with previously started savegames. No unlocker is needed !!!
 
-Update-Notes 1.0.2:
+
+The building-menus can be found at engineer- & investor-building-menu
+
+
+Update-Notes 1.2:
+      
+        Inventions:
+
+        - added the imperial cathedral as a monument
+
 
 	Bugfixes:
 
-        - is now compatible with the DLC "Botanica"
+        - improved the textures of some buildings (more detailed shadows on surface)
 
-Update-Notes 1.0.1:
+        - it was possible that you can switch between new townhall and old townhall, when you want to build standard townhall. This bug has been fixed
 
-	Bugfixes:
-
-         - old town villas and the new town hall were darkened a bit, so they are not so bright anymore
-
-         - Only trade union-items could be put in the new town hall, now you can only put in Town Hall-items
-
-         - People are now spawning from the old town villas
-
-         - The ground texture of the triumphal arch has been redesigned
 
 
 Your faithful
 
 Fishboss
+
+Special Thanks:
+
+- bloodwork129 (did a great preliminary work)
+- taubenangriff
 

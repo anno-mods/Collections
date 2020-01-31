@@ -1,4 +1,4 @@
-﻿Old-Town v1.0.2:
+﻿Old-Town v1.2 (by Fishboss & bloodwork129):
 
 Dieser Mod fügt einige Gebäude aus Anno 1701 und 1404 hinzu. Ingenieure und Investoren haben ein neues Gebäudebedürfnis, welche durch die hinzugefügten Gebäude gestillt werden können.
 
@@ -6,40 +6,59 @@ Bei Ingenieuren kommt das Bedürfnis Höhere Kultur hinzu, welches durch das Sch
 
 Bei Investoren kommt das Bedürfnis Macht hinzu, welches durch den Senat gestillt wird.
 
-Das Schauspielhaus wird beim Errichten von 20 Altstadt-Prachtbauten freigeschalten
+Altstadt-Prachtbauten:
 
-Der Senat wird beim Errichten von 20 Altstadt-Villen freigeschalten
+- freigeschaltet bei 1500 Ingenieuren
 
-Die Altstadt-Prachtbauten werden bei 1500 Ingenieuren freigeschaltet
+Altstadt-Villen:
 
-Die Alstadt-Villen werden bei 2500 Investoren freigeschaltet
+- freigeschaltet bei 2500 Investoren
 
-Außerdem ist eine neue Kirchen-Version baubar (Shift + v), ein Gasthaus ist baubar (ab 1500 Investoren) ein neues Rathaus ist baubar (ab 2500 Investoren) und ein Triumphbogen kann errichtet werden, durch welchen man eine Straßenverbindung herstellen kann (Shift+v für rechts und linkes Stück) (ab 2500 Investoren).
+Schauspielhaus:
+
+- freigeschalten bei 20 Altstadt-Prachtbauten
+
+Senat:
+
+- freigeschalten bei 20 Altstadt-Villen
+
+Kaiserdom (Monument):
+
+- stillt Bedürfnis Kirche, Höhere Kultur und Macht
+
+- alle Gebäude auf der Insel bekommen +5 Zufriedenheit, -5% Verbrauch aller Waren, -20% Krankheit, -20% Aufstand
+
+- erste 3 Baustufen freigeschaltet bei 7500 Investoren, letzte Baustufe freigeschaltet bei 10000 Investoren
+
+
+Außerdem ist eine neue Kirchen-Version baubar (Shift + v), ein Gasthaus ist baubar (ab 1500 Investoren, hat die Funktion des Wirtshauses) ein neues Rathaus ist baubar (ab 2500 Investoren) und ein Triumphbogen kann errichtet werden, durch welchen man eine Straßenverbindung herstellen kann (Shift+v für rechts und linkes Stück) (ab 2500 Investoren).
 
 Das zusätzliche Rathaus hat neben einen höheren Radius auch einen Slot mehr (im Informationsfenster vom Rathaus scrollen)
 
 !!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
 
-Update-Notes 1.0.2:
+
+Update-Notes 1.2:
+      
+        Neuerungen:
+
+        - Der Kaiserdom wurde als Monument hinzugefügt
+
 
 	Bugfixes:
 
-	- ist jetzt kompatibel mit dem DLC "Botanica"
+        - Einige Texturen wurden verbessert (Schatten auf der Gebäude-Oberfläche sind nun detailierter)
 
-Update-Notes 1.0.1:
+        - Es war bisher möglich zwischen dem alten und dem neuen Rathaus zu wechseln wenn man das Standart-Rathaus bauen wollte. Dieser Bug wurde behoben 
 
-	Bugfixes:
-
-	- Investorenhäuser und Rathaus wurden etwas abgedunkelt, sodass sie nicht mehr so grell sind
-
-        - in das Rathaus konnten nur Handelskammer-Items gesockelt werden, jetzt kann man Rathaus-Items sockeln
-
-	- es spawnen nun auch Menschen aus den Altstadt-Villen
-
-        - die Bodentextur des Triumphbogens wurde überarbeitet
 
 
 Euer getreuer
 
 Fishboss
+
+Besonderer Dank:
+
+- bloodwork129 (hat eine riesige Vorarbeit geleistet)
+- taubenangriff
 
