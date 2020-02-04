@@ -1,0 +1,458 @@
+<!-- GUID 8866003 - INFOTEXT 8860003 - Trigger 8866603-->
+
+<ModOps>
+
+  <!-- Build menu Shipyard -->
+  <ModOp Type="addNextSibling" GUID='1010521' Path="/Values/Shipyard/AssemblyOptions/Item[Vehicle = '100853']">
+    <Item>
+      <Vehicle>8866003</Vehicle>
+    </Item>
+  </ModOp>
+  
+  <!-- Add Normal Steam Warship -->
+  <ModOp Type="addNextSibling" GUID='100442'>
+  	<Asset>
+      <Template>WarShip</Template>
+      <Values>
+        <Standard>
+          <GUID>8866003</GUID>
+          <Name>Steam Warship</Name>
+          <IconFilename>data/modgraphics/icons/icon_pyphorian_warship.png</IconFilename>
+          <InfoDescription>8860003</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh>
+          <MeshPlacement>OnWaterSlope</MeshPlacement>
+        </Mesh>
+        <Selection>
+          <ObjectmenuHeaderImage>data/ui/2kimages/main/3dicons/icon_ship.png</ObjectmenuHeaderImage>
+          <MultiSelectable>1</MultiSelectable>
+        </Selection>
+        <Walking>
+          <ShortenSailsAfter>0</ShortenSailsAfter>
+          <ReservationLength>16</ReservationLength>
+          <ReservationWidth>6</ReservationWidth>
+          <PathPlannerLayer>Water</PathPlannerLayer>
+          <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+          <TurnAroundRadius>6</TurnAroundRadius>
+          <Acceleration>1</Acceleration>
+          <Deceleration>2</Deceleration>
+          <TurnRadius>6</TurnRadius>
+          <TurnSpeed>60</TurnSpeed>
+          <TurnDeceleration>0</TurnDeceleration>
+          <TurnMovement>0</TurnMovement>
+          <LeaningMaxAngle>-10</LeaningMaxAngle>
+          <ForwardSpeed>5.3</ForwardSpeed>
+          <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+          <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
+          <CargoFullFactor>0.7</CargoFullFactor>
+          <DamageFullFactor>0.5</DamageFullFactor>
+          <MinSlowdownFactor>0.5</MinSlowdownFactor>
+          <CurveSegmentDensity>High</CurveSegmentDensity>
+        </Walking>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Steam Warship</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>25836</LineID>
+        </Text>
+        <CommandQueue>
+          <FormationPriority>3</FormationPriority>
+          <MilitaryShipPoints>3</MilitaryShipPoints>
+          <PriorityShipList>1</PriorityShipList>
+        </CommandQueue>
+        <Drifting>
+          <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+          <Length>4.5</Length>
+          <FactorMovement>0.7</FactorMovement>
+          <FactorRotation>0.65</FactorRotation>
+        </Drifting>
+        <Collector />
+        <Attackable>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <HPBarOffset>3.5</HPBarOffset>
+          <AlertRange>150</AlertRange>
+          <AccuracyWidth>2.5</AccuracyWidth>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+        </Attackable>
+        <Attacker>
+          <AttackRange>66</AttackRange>
+          <LineOfSightRange>100</LineOfSightRange>
+          <ReloadTime>55</ReloadTime>
+          <ProjectileAsset>101974</ProjectileAsset>
+          <ProjectileCount>10</ProjectileCount>
+          <BaseDamage>210</BaseDamage>
+          <Turrets>
+            <Item>
+              <TurnSpan>320</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_back.cfg</TurretCfg>
+            </Item>
+            <Item>
+              <TurnSpan>320</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_back.cfg</TurretCfg>
+            </Item>
+
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+	    <Item>
+              <TurnSpan>70</TurnSpan>
+              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
+            </Item>
+          </Turrets>
+          <AccuracyBase>1</AccuracyBase>
+          <AccuracyIncreaseOverDistance>80</AccuracyIncreaseOverDistance>
+          <AccuracySpeedDecay>20</AccuracySpeedDecay>
+	  <ShootingTracking>TurretFixed</ShootingTracking>
+          <FullVolleyTimeMin>1</FullVolleyTimeMin>
+          <MuzzleEffectAssets>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>WarShip</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <MuzzleEffectAsset>102220</MuzzleEffectAsset>
+            </Item>
+          </MuzzleEffectAssets>
+          <EmitProjectileTimeAfterStartAnimation>0.3</EmitProjectileTimeAfterStartAnimation>
+        </Attacker>
+        <MinimapToken>
+          <TokenAsset>2001947</TokenAsset>
+          <StrategicMapAsset>501018</StrategicMapAsset>
+        </MinimapToken>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>238318</Sound>
+            </Item>
+          </DestroySounds>
+          <VehicleSounds>
+            <MovementStart>
+              <Item>
+                <Sound>216019</Sound>
+              </Item>
+            </MovementStart>
+          </VehicleSounds>
+        </SoundEmitter>
+        <UpgradeList />
+        <QuestObject />
+        <Infolayer />
+        <ItemContainer>
+          <SocketCount>3</SocketCount>
+          <SocketAllocation>Ship;SteamShip;Warship</SocketAllocation>
+          <SlotCount>2</SlotCount>
+        </ItemContainer>
+        <FeedbackController />
+        <Draggable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010223</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>WarShip</InfluenceCostType>
+          <InfluenceCostPoints>18</InfluenceCostPoints>
+        </Cost>
+        <Craftable>
+          <CraftingTime>720000</CraftingTime>
+        </Craftable>
+        <TradeRouteVehicle />
+        <Locked />
+        <Nameable />
+        <MetaPersistent />
+        <ExpeditionAttribute>
+          <BaseMorale>50</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkMilitaryShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkSteamShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <ShipMaintenance>
+          <Maintenance>575</Maintenance>
+        </ShipMaintenance>
+        <Sellable>
+          <Baseprice>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>WarShip</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>55000</Amount>
+            </Item>
+          </Baseprice>
+        </Sellable>
+        <Stance />
+        <Rentable />
+        <WorldMapSound />
+        <Pausable />
+        <ShipIncident />
+        <SoundEmitterCommandBarks>
+          <BarkMapping>
+            <Selection>
+              <AudioPool>700087</AudioPool>
+            </Selection>
+            <AttackCommand>
+              <AudioPool>700088</AudioPool>
+            </AttackCommand>
+            <MoveCommand>
+              <AudioPool>700089</AudioPool>
+            </MoveCommand>
+            <SelectionDamaged>
+              <AudioPool>700116</AudioPool>
+            </SelectionDamaged>
+            <EscortCommand>
+              <AudioPool>700118</AudioPool>
+            </EscortCommand>
+            <PatrolCommand>
+              <AudioPool>700117</AudioPool>
+            </PatrolCommand>
+          </BarkMapping>
+        </SoundEmitterCommandBarks>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Unlock Action -->
+  <ModOp Type="addNextSibling" GUID='141008'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>8866603</GUID>
+          <Name>TRIGGER Unlock Steam WarShip</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>8866003</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Asset Pool (Player Ships) -->
+  <ModOp Type="add" GUID='101639' Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>8866003</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- Item Effect Pool -->
+    <!-- Militäry Ships -->
+  <ModOp Type="add" GUID='190608' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>8866003</GUID>
+    </Item>
+  </ModOp>
+    <!-- All Ships -->
+  <ModOp Type="add" GUID='191454' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>8866003</GUID>
+    </Item>
+  </ModOp>
+    <!-- Steamships -->
+  <ModOp Type="add" GUID='191456' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>8866003</GUID>
+    </Item>
+  </ModOp>
+  <!-- Warships -->
+  <ModOp Type="add" GUID='191458' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>8866003</GUID>
+    </Item>
+  </ModOp>
+
+<!-- Add Steam-Warship to Blake LateGame for Sale -->
+<ModOp Type ="add" GUID = '43' Path = "/Values/Trader/Progression/LateGame/ShipsForSale">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>1</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Blake EndGame for Sale -->
+<ModOp Type ="add" GUID = '43' Path = "/Values/Trader/Progression/EndGame/ShipsForSale">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>1</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Sarmento LateGame for Sale -->
+<ModOp Type ="add" GUID = '29' Path = "/Values/Trader/Progression/LateGame/ShipsForSale">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>1</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Sarmento EndGame for Sale -->
+<ModOp Type ="add" GUID = '29' Path = "/Values/Trader/Progression/EndGame/ShipsForSale">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>1</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Smith Fleet -->
+<ModOp Type ="add" GUID = '81' Path = "/Values/MilitaryAI/WarFleet/ShipList">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>2</Weight>>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Gasparov Fleet -->
+<ModOp Type ="add" GUID = '83' Path = "/Values/MilitaryAI/WarFleet/ShipList">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>2</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Malching Fleet -->
+<ModOp Type ="add" GUID = '11' Path = "/Values/MilitaryAI/WarFleet/ShipList">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>1</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Alonso Fleet -->
+<ModOp Type ="add" GUID = '48' Path = "/Values/MilitaryAI/WarFleet/ShipList">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>3</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Silva Fleet -->
+<ModOp Type ="add" GUID = '84' Path = "/Values/MilitaryAI/WarFleet/ShipList">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>4</Weight>
+  </Item>
+</ModOp>
+
+<!-- Add Steam-Warship to Hunt Fleet -->
+<ModOp Type ="add" GUID = '85' Path = "/Values/MilitaryAI/WarFleet/ShipList">
+  <Item>
+    <ShipAsset>8866003</ShipAsset>
+    <Weight>1</Weight>
+  </Item>
+</ModOp>
+
+</ModOps>
