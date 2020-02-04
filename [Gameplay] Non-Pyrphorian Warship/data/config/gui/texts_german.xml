@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>8866003</GUID>
+		<Text>Dampf Kriegschiff</Text>
+	</Text>
+	<Text>
+		<GUID>8860003</GUID>
+		<Text>Ein Dampfbetriebenes Hybrid Kriegschiff mit Geschütztürmen und seitlichen Kanonen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
