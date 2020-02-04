@@ -1,4 +1,4 @@
-﻿Old-Town v1.2 (by Fishboss & bloodwork129):
+﻿Old-Town v1.2.2:
 
 Dieser Mod fügt einige Gebäude aus Anno 1701 und 1404 hinzu. Ingenieure und Investoren haben ein neues Gebäudebedürfnis, welche durch die hinzugefügten Gebäude gestillt werden können.
 
@@ -38,18 +38,16 @@ Das zusätzliche Rathaus hat neben einen höheren Radius auch einen Slot mehr (i
 !!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
 
 
-Update-Notes 1.2:
-      
-        Neuerungen:
-
-        - Der Kaiserdom wurde als Monument hinzugefügt
-
+Update-Notes 1.2.2:
+     
 
 	Bugfixes:
 
-        - Einige Texturen wurden verbessert (Schatten auf der Gebäude-Oberfläche sind nun detailierter)
+        - Es war nicht möglich, zwischen der ursprünglichen und der neuen Kirche zu wechseln, man konnte nur die neue Kirche bauen. Dieser Fehler wurde behoben
 
-        - Es war bisher möglich zwischen dem alten und dem neuen Rathaus zu wechseln wenn man das Standart-Rathaus bauen wollte. Dieser Bug wurde behoben 
+        - Es sollten jetzt mehr Menschen aus den Altstadt Prachtbauten und Villen kommen
+
+        - Ein Fehler, der dazu führte, dass sich die KI nicht weiterentwickelte als bis zu den Handwerkern, wurde behoben
 
 
 
@@ -59,6 +57,5 @@ Fishboss
 
 Besonderer Dank:
 
-- bloodwork129 (hat eine riesige Vorarbeit geleistet)
 - taubenangriff
 

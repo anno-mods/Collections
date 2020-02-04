@@ -680,9 +680,7 @@
                           <PopulationLevel7>15000003</PopulationLevel7>
                           <ResidentMax>32</ResidentMax>
                         </Residence7>
-                        <LogisticNode>
-                          <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
-                        </LogisticNode>
+                        <LogisticNode />
                         <AmbientMoodProvider>
                           <AmbientMood>ResidenceTier5</AmbientMood>
                           <DynamicEnvironmentType>ResidenceT5</DynamicEnvironmentType>
@@ -767,7 +765,10 @@
                               <Building>1010346</Building>
                             </Item>
                             <Item>
-                              <Building>180016</Building>
+                              <Building>850016</Building>
+                            </Item>
+                            <Item>
+                              <Building>850017</Building>
                             </Item>
                             <Item>
                               <Building>1010347</Building>
@@ -953,9 +954,7 @@
                             </Item>
                           </InfluenceGeneration>
                         </Residence7>
-                        <LogisticNode>
-                          <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
-                        </LogisticNode>
+                        <LogisticNode />
                         <AmbientMoodProvider>
                           <AmbientMood>ResidenceTier5</AmbientMood>
                           <DynamicEnvironmentType>ResidenceT5</DynamicEnvironmentType>
@@ -1558,15 +1557,23 @@
                                   <Asset>850017</Asset>
                                 </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID='2001091' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='1010346']">
-                                <Item>
-                                  <Building>850016</Building>
-                                </Item>
+    <ModOp Type = "add" GUID = '2001091' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850016</Building>
+        </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID='2001092' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='1010347']">
-                                <Item>
-                                  <Building>850017</Building>
-                                </Item>
+    <ModOp Type = "add" GUID = '2001092' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850017</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '142785' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850016</Building>
+        </Item>
+        <Item>
+            <Building>850017</Building>
+        </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='190136' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010365']">
                     <Item>
@@ -1636,6 +1643,9 @@
                           <FullWeightPopulationCount>3000</FullWeightPopulationCount>
                           <NoWeightPopulationCount>2999</NoWeightPopulationCount>
                         </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='1010359' Path="/Values/Building">
+                              <AllowChangeVariation>1</AllowChangeVariation>
     </ModOp>
     <ModOp Type="add" GUID='1010359' Path="/Values/Object/Variations">
                                 <Item>
@@ -2888,5 +2898,27 @@
                 <BlockScore>BlockAirshipHangar</BlockScore>
               </Item>
             </MonumentConfiguration>
+    </ModOp>
+    <ModOp Type="add" GUID='220' Path="/Values/ConstructionAI/BuildingReplacements">
+        <Item>
+            <Building>850016</Building>
+            <Replacement>1010343</Replacement>
+        </Item>
+        <Item>
+            <Building>850017</Building>
+            <Replacement>1010343</Replacement>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='167' Path="/Values/ConstructionAI">
+        <BuildingReplacements>
+            <Item>
+                <Building>850016</Building>
+                <Replacement>1010343</Replacement>
+            </Item>
+            <Item>
+                <Building>850017</Building>
+                <Replacement>1010343</Replacement>
+            </Item>
+        </BuildingReplacements>
     </ModOp>
 </ModOps>

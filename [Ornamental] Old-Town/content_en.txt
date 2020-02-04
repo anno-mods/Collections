@@ -1,4 +1,4 @@
-﻿Old-Town v1.2 (by Fishboss & bloodwork129):
+﻿Old-Town v1.2.2:
 
 This mod adds some buildings from Anno 1701 and 1404. Engineers and investors have a new building need, which can be satisfied by the added buildings.
 
@@ -41,18 +41,16 @@ The additional town hall has a higher radius and one more slot (scroll in the in
 The building-menus can be found at engineer- & investor-building-menu
 
 
-Update-Notes 1.2:
-      
-        Inventions:
-
-        - added the imperial cathedral as a monument
+Update-Notes 1.2.2:
 
 
 	Bugfixes:
 
-        - improved the textures of some buildings (more detailed shadows on surface)
+        - it wasn't possible to switch between original church and new church, you only could build new church. This bug has been fixed
 
-        - it was possible that you can switch between new townhall and old townhall, when you want to build standard townhall. This bug has been fixed
+        - more people supposed to spawn from Old-Town mansions and villas now
+
+        - A bug which causes that AI don't evolve any further than to artisians is fixed now
 
 
 
@@ -62,6 +60,5 @@ Fishboss
 
 Special Thanks:
 
-- bloodwork129 (did a great preliminary work)
 - taubenangriff
 
