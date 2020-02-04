@@ -1,0 +1,13 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>8866003</GUID>
+		<Text>Nave da guerra a vapore</Text>
+	</Text>
+	<Text>
+		<GUID>8860003</GUID>
+		<Text>Una nave da guerra ibrida a vapore con torrette e cannoni lateral.</Text>
+    </Text>
+
+  </ModOp>
+</ModOps>
