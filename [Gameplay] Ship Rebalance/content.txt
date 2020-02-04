@@ -1,0 +1,10 @@
+Modifies the Speed, Health, Slot and Socket count, Damage per shot, Reload Time and Maintenance of Ships and the Monster Gun (Zeppelin included)
+
+This mod was made with the intention of making the game more realistic. 
+Ships out of Wood will have a strongly decreased Health.
+I have divided the cannons of the ships into small and big guns.
+The Battlecruiser uses the big guns while every single other ship uses the small ones.
+The Damage per shot depends on type of cannon and number of them in the ship.
+The Old cannons need 14s to reload, big modern guns(Battlecruiser) need 10s and modern guns with Autloader(Monitor) need 5s.
+The Monster Gun can now kill nearly every ship with a single shot but is therefore extremly fragile.
+The Speed of Sailing Ships depends now on scale and number of Sails. Clipper and Ship of the Line are the fastest ones.
