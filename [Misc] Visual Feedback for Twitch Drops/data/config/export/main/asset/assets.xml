@@ -55,6 +55,25 @@
             <Item>
               <Building>112305</Building>
             </Item>
+
+            <Item>
+              <Building>118229</Building>
+            </Item>
+            <Item>
+              <Building>118230</Building>
+            </Item>
+            <Item>
+              <Building>118231</Building>
+            </Item>
+            <Item>
+              <Building>118232</Building>
+            </Item>
+            <Item>
+              <Building>118233</Building>
+            </Item>
+            <Item>
+              <Building>118234</Building>
+            </Item>
           </Buildings>
           <BuildingRole>Other</BuildingRole>
         </FeedbackBuildingGroup>

@@ -9,7 +9,7 @@ class Speed:
 			scenes.ResourceBar.GlobalRightBarData.PlayBtn.ButtonReleasedL()
 		else:
 			scenes.ResourceBar.GlobalRightBarData.PauseBtn.Selected = 1
-			TextSources.TextSourceRoots.GameClock.SetSetGameSpeed(0)	
+			TextSources.TextSourceRoots.GameClock.SetSetGameSpeed(0)
 			
 speed = Speed();
 

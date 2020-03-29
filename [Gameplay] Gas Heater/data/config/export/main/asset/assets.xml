@@ -301,7 +301,6 @@
             </Values>
         </Asset>
     </ModOp>
-
     <ModOp GUID='112856' Type="addNextSibling">
 
         <Asset>
@@ -334,7 +333,6 @@
             </Values>
         </Asset>
     </ModOp>
-
     <!-- New Triggers (885710x) -->
     <ModOp Type="addNextSibling" GUID='130218'>
         <Asset>
@@ -424,10 +422,19 @@
             </Values>
         </Asset>
     </ModOp>
-
     <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
         <Item>
             <Building>8857102</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID='190611' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>8857100</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>8857100</Building>
         </Item>
     </ModOp>
 </ModOps>

@@ -1,8 +1,4 @@
 <ModOps>
-    <ModOp Type="replace" GUID='102159' Path="/Values/Object/Variations/Item/Filename">
-        <Filename>data/graphics/buildings/ornamentals/cultural_props_system/cultural_props_1x1_01.cfg</Filename>
-    </ModOp>
-
 
     <ModOp Type="addNextSibling" GUID="102114">
         <Asset>
@@ -84,6 +80,7 @@
                 <Text />
                 <Building>
                     <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                    <PickingAsset>987000</PickingAsset>
                 </Building>
                 <Ornament>
                     <OrnamentUnit>1</OrnamentUnit>

@@ -1,0 +1,1 @@
+makes the campaign map the default map 

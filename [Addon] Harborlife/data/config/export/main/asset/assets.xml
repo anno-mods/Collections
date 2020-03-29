@@ -3505,7 +3505,9 @@
                 <Locked />
                 <SoundEmitter />
                 <Text/>
-                <Building/>
+                <Building>
+                    <PickingAsset>978000</PickingAsset>
+                </Building>
             </Values>
         </Asset>
         <Asset>
@@ -3540,7 +3542,9 @@
                 <Locked />
                 <SoundEmitter />
                 <Text/>
-                <Building/>
+                <Building>
+                    <PickingAsset>978001</PickingAsset>
+                </Building>
             </Values>
         </Asset>
     </ModOp>
@@ -4604,7 +4608,7 @@
                                             </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
-                                            
+
                                         </UnhideAssets>
                                         <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                                     </ActionUnlockAsset>
@@ -5086,7 +5090,7 @@
                                             <Item>
                                                 <Asset>8855055</Asset>
                                             </Item>
-                                            
+
                                         </UnhideAssets>
                                         <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                                     </ActionUnlockAsset>
@@ -5340,7 +5344,7 @@
     <!-- ############################################################################################################### -->
     <!-- ########### [Freight Harbor] Item Pools ####################################################################### -->
     <!-- all Harbour Buildings -->
-    <ModOp Type="add" GUID='191508' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='191508' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8855001</GUID>
         </Item>
@@ -5448,7 +5452,7 @@
     </ModOp>
 
     <!-- all Buildings with Maintenance -->
-    <ModOp Type="add" GUID='190611' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190611' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8855001</GUID>
         </Item>
@@ -5556,7 +5560,7 @@
     </ModOp>
 
     <!-- all Fire Stations -->
-    <ModOp Type="add" GUID='190775' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190775' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8855050</GUID>
         </Item>
@@ -5568,7 +5572,7 @@
     </ModOp>
 
     <!-- all Police Stations -->
-    <ModOp Type="add" GUID='190776' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190776' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8855052</GUID>
         </Item>
@@ -5580,7 +5584,7 @@
     </ModOp>
 
     <!-- all Hospitals -->
-    <ModOp Type="add" GUID='190777' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190777' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8855054</GUID>
         </Item>
@@ -7178,7 +7182,10 @@
                 </Text>
                 <Constructable />
                 <Locked />
-                <Upgradable />
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
                 <SoundEmitter />
                 <Infolayer />
                 <FeedbackController />
@@ -9854,12 +9861,12 @@
     </ModOp>
     <!-- Bank -->
     <ModOp Type="addNextSibling" GUID='130226'>
-        <!-- UH HC Buildings - 1750 Engineers // TRG GUID 8855882-->
+        <!-- UH HC Buildings - 1750 Engineers // TRG GUID 8855884-->
         <Asset>
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>8855881</GUID>
+                    <GUID>8855884</GUID>
                     <Name>unhide_hc_buildings_ow</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
                 </Standard>
@@ -9907,7 +9914,7 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>8855882</GUID>
+                    <GUID>8855883</GUID>
                     <Name>intermediate moderate 5.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier05.png</IconFilename>
                 </Standard>
@@ -10988,9 +10995,10 @@
                             <Building>8856016</Building>
                             <!-- Power Plant -->
                         </Item>
-                        <!-- <Item>
-                      <Building>8856020</Building> <!- - Townhall - -> 
-                    </Item> -->
+                        <Item>
+                            <Building>8856020</Building>
+                            <!-- Townhall -->
+                        </Item>
                         <Item>
                             <Building>8855050</Building>
                             <!-- Fire Dep. -->
@@ -11062,9 +11070,9 @@
                             <Building>8856019</Building>
                             <!-- Boxing Arena -->
                         </Item>
-                        <!-- <Item>
-                      <Building>8856021</Building> <!- - Townhall - ->
-                    </Item> -->
+                        <Item>
+                            <Building>8856021</Building>
+                        </Item>
                         <Item>
                             <Building>8855051</Building>
                             <!-- Fire Dep. -->
@@ -11111,7 +11119,7 @@
     <!-- ########### [Harbor City] Item Pools ########################################################################## -->
     <!-- MAINTENANCE -->
     <!-- All Buildings with Maintenance -->
-    <ModOp Type="add" GUID='190611' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190611' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
 
         <Item>
             <GUID>8856001</GUID>
@@ -11204,7 +11212,7 @@
 
     <!-- RESIDENCES-->
     <!-- all Residences EU/SA -->
-    <ModOp Type="add" GUID='190762' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190762' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856001</GUID>
         </Item>
@@ -11236,7 +11244,7 @@
     </ModOp>
 
     <!-- all Residences in OW -->
-    <ModOp Type="add" GUID='190041' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190041' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856001</GUID>
         </Item>
@@ -11260,7 +11268,7 @@
     </ModOp>
 
     <!-- all Farmers & Worker Residences -->
-    <ModOp Type="add" GUID='192445' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='192445' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856001</GUID>
         </Item>
@@ -11272,7 +11280,7 @@
     </ModOp>
 
     <!-- all Engineer Buildings -->
-    <ModOp Type="add" GUID='192423' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='192423' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856004</GUID>
         </Item>
@@ -11284,7 +11292,7 @@
     </ModOp>
 
     <!-- all Investors & Oberos -->
-    <ModOp Type="add" GUID='192446' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='192446' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856005</GUID>
         </Item>
@@ -11297,7 +11305,7 @@
 
     <!-- PUBLIC / SERVICES-->
     <!-- all Public Services -->
-    <ModOp Type="add" GUID='191501' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='191501' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856008</GUID>
         </Item>
@@ -11350,7 +11358,7 @@
     </ModOp>
 
     <!-- all Public Buildings OW -->
-    <ModOp Type="add" GUID='190136' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190136' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856008</GUID>
         </Item>
@@ -11399,7 +11407,7 @@
     </ModOp>
 
     <!-- all Townhalls -->
-    <ModOp Type="add" GUID='190781' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190781' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856020</GUID>
         </Item>
@@ -11411,7 +11419,7 @@
     </ModOp>
 
     <!-- all Market Places -->
-    <ModOp Type="add" GUID='191540' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='191540' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856008</GUID>
         </Item>
@@ -11423,14 +11431,14 @@
     </ModOp>
 
     <!-- all Pubs -->
-    <ModOp Type="add" GUID='190782' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190782' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856009</GUID>
         </Item>
     </ModOp>
 
     <!-- all Churches -->
-    <ModOp Type="add" GUID='190784' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='190784' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856010</GUID>
         </Item>
@@ -11442,7 +11450,7 @@
     </ModOp>
 
     <!-- all Pubs & Boxing Arenas -->
-    <ModOp Type="add" GUID='192418' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='192418' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856009</GUID>
         </Item>
@@ -11454,7 +11462,7 @@
     </ModOp>
 
     <!-- all Productions -->
-    <ModOp Type="add" GUID='6000018' path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID='6000018' Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>8856016</GUID>
         </Item>
@@ -12306,7 +12314,7 @@
     </ModOp>
 
     <!-- Visual Feedback  -->
-    <ModOp Type = "add" GUID = '142785' Path = "/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID='142785' Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8856001</Building>
         </Item>
@@ -12330,7 +12338,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type = "add" GUID = '2001013' Path = "/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID='2001013' Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8856001</Building>
         </Item>
@@ -12338,7 +12346,7 @@
             <Building>8856006</Building>
         </Item>
     </ModOp>
-    <ModOp Type = "add" GUID = '2001089' Path = "/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID='2001089' Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8856002</Building>
         </Item>
@@ -12346,17 +12354,17 @@
             <Building>8856007</Building>
         </Item>
     </ModOp>
-    <ModOp Type = "add" GUID = '2001090' Path = "/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID='2001090' Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8856003</Building>
         </Item>
     </ModOp>
-    <ModOp Type = "add" GUID = '2001091' Path = "/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID='2001091' Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8856004</Building>
         </Item>
     </ModOp>
-    <ModOp Type = "add" GUID = '2001092' Path = "/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID='2001092' Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8856005</Building>
         </Item>

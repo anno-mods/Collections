@@ -28,12 +28,13 @@ class AI_Spawner:
 		TextSources.TextSourceRoots.Quests.StartQuestForCurrentPlayerNet(self.acceptQuest[aiName])
 	def trigger(self, GUID):
 		if (GUID in self.aiTrigger):
-			TextSources.TextSourceRoots.Unlock.SetRelock(GUID)
 			if (self.isAlreadyThere(self.aiTrigger[GUID])):
 				TextSources.TextSourceRoots.Quests.StartQuestForCurrentPlayerNet(930500)
 			elif (self.tooManyAIs()):
 				TextSources.TextSourceRoots.Quests.StartQuestForCurrentPlayerNet(930501)
 			else:
-				self.accept(self.aiTrigger[GUID])		
+				self.accept(self.aiTrigger[GUID])
+	def delete(self, ID):
+		TextSources.TextSourceRoots.Participants.SetRemoveParticipant(ID)
 ai_spawner = AI_Spawner()
 

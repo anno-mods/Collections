@@ -61,11 +61,11 @@
           <PriorityShipList>2</PriorityShipList>
         </CommandQueue>
         <Drifting>
-          <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
-          <Length>10</Length>
-          <Width>1.75</Width>
+          <OverrideAssetWidthAndLength>1</OverrideAssetWidthAndLength>
+          <Length>7</Length>
+          <Width>1.5</Width>
           <FactorMovement>0.7</FactorMovement>
-          <FactorRotation>0.5</FactorRotation>
+          <FactorRotation>0.65</FactorRotation>
         </Drifting>
         <Collector />
         <Attackable>

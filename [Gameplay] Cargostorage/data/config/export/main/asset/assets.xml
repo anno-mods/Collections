@@ -20,6 +20,7 @@
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
                     <BuildingCategoryName>989000</BuildingCategoryName>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Cost>
                     <Costs>
@@ -117,6 +118,7 @@
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
                     <BuildingCategoryName>989000</BuildingCategoryName>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Cost>
                     <Costs>
@@ -211,6 +213,7 @@
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
                     <BuildingCategoryName>989000</BuildingCategoryName>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Cost>
                     <Costs>
@@ -305,6 +308,7 @@
                     <BuildingType>Logistic</BuildingType>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                     <BuildingCategoryName>989000</BuildingCategoryName>
                 </Building>
                 <Cost>
@@ -401,6 +405,7 @@
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
                     <BuildingCategoryName>989000</BuildingCategoryName>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Cost>
                     <Costs>
@@ -499,6 +504,7 @@
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
                     <BuildingCategoryName>989000</BuildingCategoryName>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Cost>
                     <Costs>

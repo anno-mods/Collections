@@ -467,7 +467,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>30000</CraftingTime>
+					<CraftingTime>1</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle />
 				<Locked />
@@ -579,7 +579,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>600</CraftingTime>
+					<CraftingTime>1200000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -650,7 +650,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>600000</CraftingTime>
+					<CraftingTime>1200000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -721,7 +721,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>600000</CraftingTime>
+					<CraftingTime>1200000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -792,7 +792,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1200000</CraftingTime>
+					<CraftingTime>1800000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -863,7 +863,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1200000</CraftingTime>
+					<CraftingTime>1800000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -934,7 +934,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1200000</CraftingTime>
+					<CraftingTime>1800000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -1005,7 +1005,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1200000</CraftingTime>
+					<CraftingTime>1800000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -1076,7 +1076,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1800000</CraftingTime>
+					<CraftingTime>2400000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -1147,7 +1147,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1800000</CraftingTime>
+					<CraftingTime>2400000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -1218,7 +1218,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1800000</CraftingTime>
+					<CraftingTime>2400000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -1265,6 +1265,7 @@
 				<Draggable/>
 				<Cost>
 					<Costs>
+						<Item />
 						<Item>
 							<Ingredient>1010017</Ingredient>
 							<Amount>120000</Amount>
@@ -1289,7 +1290,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>1200000</CraftingTime>
+					<CraftingTime>1800000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked>
@@ -1363,7 +1364,7 @@
 					<InfluenceCostPoints>0</InfluenceCostPoints>
 				</Cost>
 				<Craftable>
-					<CraftingTime>2700000</CraftingTime>
+					<CraftingTime>3600000</CraftingTime>
 				</Craftable>
 				<TradeRouteVehicle/>
 				<Locked/>
@@ -2218,6 +2219,897 @@
 					</TriggerActions>
 				</Trigger>
 				<TriggerSetup/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334100</GUID>
+					<Name>Has Settled First Island: Bente</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_01_Jorgensen</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334101</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334101</GUID>
+					<Name>No Islands Left: Bente</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_01_Jorgensen</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/bente_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334102</GUID>
+					<Name>Has Settled First Island: Qing</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_02_Qing</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334103</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334103</GUID>
+					<Name>No Islands Left: Qing</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_02_Qing</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/qing_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334104</GUID>
+					<Name>Has Settled First Island: Willie</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_03_Wibblesock</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334105</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334105</GUID>
+					<Name>No Islands Left: Willie</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_03_Wibblesock</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/willie_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334106</GUID>
+					<Name>Has Settled First Island: Smith</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_04_Smith</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334107</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334107</GUID>
+					<Name>No Islands Left: Smith</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_04_Smith</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/smith_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334108</GUID>
+					<Name>Has Settled First Island: Omara</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_05_OMara</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334109</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334109</GUID>
+					<Name>No Islands Left: Omara</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_05_OMara</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/beryl_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334110</GUID>
+					<Name>Has Settled First Island: Artur</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_06_Gasparov</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334111</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334111</GUID>
+					<Name>No Islands Left: Artur</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_06_Gasparov</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/artur_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334112</GUID>
+					<Name>Has Settled First Island: Carl</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_07_von_Malching</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334113</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334113</GUID>
+					<Name>No Islands Left: Carl</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_07_von_Malching</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/carl_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334114</GUID>
+					<Name>Has Settled First Island: Alonso</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_08_Gravez</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334115</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334115</GUID>
+					<Name>No Islands Left: Alonso</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_08_Gravez</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/gravez_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334116</GUID>
+					<Name>Has Settled First Island: Silva</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_09_Silva</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334117</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334117</GUID>
+					<Name>No Islands Left: Silva</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_09_Silva</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/silva_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334118</GUID>
+					<Name>Has Settled First Island: Hunt</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_10_Hunt</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334119</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334119</GUID>
+					<Name>No Islands Left: Hunt</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_10_Hunt</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/hunt_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="130216" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334120</GUID>
+					<Name>Has Settled First Island: Mercier</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>1</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_11_Mercier</CheckedParticipant>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>99334121</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>99334121</GUID>
+					<Name>No Islands Left: Mercier</Name>
+					<IconFilename/>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>IslandSettled</PlayerCounter>
+								<CounterAmount>0</CounterAmount>
+								<CheckSpecificParticipant>1</CheckSpecificParticipant>
+								<CheckedParticipant>Second_ai_11_Mercier</CheckedParticipant>
+								<ComparisonOp>Equals</ComparisonOp>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/hugo_delete.py</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
 			</Values>
 		</Asset>
 	</ModOp>
@@ -3226,6 +4118,28 @@
 											</Values>
 										</Action>
 									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334100</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334122</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
 								</Actions>
 							</ActionList>
 						</Values>
@@ -3313,6 +4227,28 @@
 											</Values>
 										</Action>
 									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334102</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334123</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
 								</Actions>
 							</ActionList>
 						</Values>
@@ -3397,6 +4333,28 @@
 												<ObjectFilter>
 													<ObjectGUID>930003</ObjectGUID>
 												</ObjectFilter>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334104</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334124</TriggerAsset>
+												</ActionRegisterTrigger>
 											</Values>
 										</Action>
 									</Item>
@@ -3493,6 +4451,28 @@
 											</Values>
 										</Action>
 									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334106</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334125</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
 								</Actions>
 							</ActionList>
 						</Values>
@@ -3583,6 +4563,28 @@
 												<ObjectFilter>
 													<ObjectGUID>930005</ObjectGUID>
 												</ObjectFilter>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334108</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334126</TriggerAsset>
+												</ActionRegisterTrigger>
 											</Values>
 										</Action>
 									</Item>
@@ -3679,6 +4681,28 @@
 											</Values>
 										</Action>
 									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334110</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334127</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
 								</Actions>
 							</ActionList>
 						</Values>
@@ -3763,6 +4787,28 @@
 												<ObjectFilter>
 													<ObjectGUID>930007</ObjectGUID>
 												</ObjectFilter>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334112</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334128</TriggerAsset>
+												</ActionRegisterTrigger>
 											</Values>
 										</Action>
 									</Item>
@@ -3859,6 +4905,28 @@
 											</Values>
 										</Action>
 									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334114</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334129</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
 								</Actions>
 							</ActionList>
 						</Values>
@@ -3943,6 +5011,28 @@
 												<ObjectFilter>
 													<ObjectGUID>930009</ObjectGUID>
 												</ObjectFilter>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334116</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334130</TriggerAsset>
+												</ActionRegisterTrigger>
 											</Values>
 										</Action>
 									</Item>
@@ -4033,6 +5123,28 @@
 											</Values>
 										</Action>
 									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334118</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionRegisterTrigger</Template>
+											<Values>
+												<Action />
+												<ActionRegisterTrigger>
+													<TriggerAsset>99334131</TriggerAsset>
+												</ActionRegisterTrigger>
+											</Values>
+										</Action>
+									</Item>
 								</Actions>
 							</ActionList>
 						</Values>
@@ -4073,56 +5185,109 @@
 								<Actions>
 									<Item>
 										<Action>
-											<Template>ActionAddGoodsToItemContainer</Template>
+											<Template>ActionExecuteScript</Template>
 											<Values>
 												<Action/>
-												<ActionAddGoodsToItemContainer>
-													<Goods>
-														<Item>
-															<Good>1010196</Good>
-															<Amount>50</Amount>
-														</Item>
-														<Item>
-															<Good>1010218</Good>
-															<Amount>50</Amount>
-														</Item>
-													</Goods>
-													<ItemContainerObjects>
+												<ActionExecuteScript>
+													<ScriptFileName>mods/[Gameplay] AI Shipyard/data/scripts/hugo_addToSavegame.py</ScriptFileName>
+												</ActionExecuteScript>
+											</Values>
+										</Action>
+									</Item>
+									<Item>
+										<Action>
+											<Template>ActionDelayedActions</Template>
+											<Values>
+												<Action />
+												<ActionDelayedActions>
+													<ExecutionDelay>1000</ExecutionDelay>
+													<DelayedActions>
+														<Template>Actions</Template>
 														<Values>
-															<ObjectFilter>
-																<ObjectGUID>930011</ObjectGUID>
-															</ObjectFilter>
+															<ActionList>
+																<Actions>
+																	<Item>
+																		<Action>
+																			<Template>ActionAddGoodsToItemContainer</Template>
+																			<Values>
+																				<Action/>
+																				<ActionAddGoodsToItemContainer>
+																					<Goods>
+																						<Item>
+																							<Good>1010196</Good>
+																							<Amount>50</Amount>
+																						</Item>
+																						<Item>
+																							<Good>1010218</Good>
+																							<Amount>50</Amount>
+																						</Item>
+																					</Goods>
+																					<ItemContainerObjects>
+																						<Values>
+																							<ObjectFilter>
+																								<ObjectGUID>930011</ObjectGUID>
+																							</ObjectFilter>
+																						</Values>
+																					</ItemContainerObjects>
+																				</ActionAddGoodsToItemContainer>
+																			</Values>
+																		</Action>
+																	</Item>
+																	<Item>
+																		<Action>
+																			<Template>ActionChangeParticipant</Template>
+																			<Values>
+																				<Action/>
+																				<ActionChangeParticipant>
+																					<NewParticipantID>Second_ai_11_Mercier</NewParticipantID>
+																				</ActionChangeParticipant>
+																				<ObjectFilter>
+																					<ObjectGUID>930011</ObjectGUID>
+																				</ObjectFilter>
+																			</Values>
+																		</Action>
+																	</Item>
+																	<Item>
+																		<Action>
+																			<Template>ActionSetObjectGUID</Template>
+																			<Values>
+																				<Action/>
+																				<ActionSetObjectGUID>
+																					<NewGUID>101121</NewGUID>
+																				</ActionSetObjectGUID>
+																				<ObjectFilter>
+																					<ObjectGUID>930011</ObjectGUID>
+																				</ObjectFilter>
+																			</Values>
+																		</Action>
+																	</Item>
+																	<Item>
+																		<Action>
+																			<Template>ActionRegisterTrigger</Template>
+																			<Values>
+																				<Action />
+																				<ActionRegisterTrigger>
+																					<TriggerAsset>99334120</TriggerAsset>
+																				</ActionRegisterTrigger>
+																			</Values>
+																		</Action>
+																	</Item>
+																	<Item>
+																		<Action>
+																			<Template>ActionRegisterTrigger</Template>
+																			<Values>
+																				<Action />
+																				<ActionRegisterTrigger>
+																					<TriggerAsset>99334132</TriggerAsset>
+																				</ActionRegisterTrigger>
+																			</Values>
+																		</Action>
+																	</Item>
+																</Actions>
+															</ActionList>
 														</Values>
-													</ItemContainerObjects>
-												</ActionAddGoodsToItemContainer>
-											</Values>
-										</Action>
-									</Item>
-									<Item>
-										<Action>
-											<Template>ActionChangeParticipant</Template>
-											<Values>
-												<Action/>
-												<ActionChangeParticipant>
-													<NewParticipantID>Second_ai_11_Mercier</NewParticipantID>
-												</ActionChangeParticipant>
-												<ObjectFilter>
-													<ObjectGUID>930011</ObjectGUID>
-												</ObjectFilter>
-											</Values>
-										</Action>
-									</Item>
-									<Item>
-										<Action>
-											<Template>ActionSetObjectGUID</Template>
-											<Values>
-												<Action/>
-												<ActionSetObjectGUID>
-													<NewGUID>101121</NewGUID>
-												</ActionSetObjectGUID>
-												<ObjectFilter>
-													<ObjectGUID>930011</ObjectGUID>
-												</ObjectFilter>
+													</DelayedActions>
+												</ActionDelayedActions>
 											</Values>
 										</Action>
 									</Item>

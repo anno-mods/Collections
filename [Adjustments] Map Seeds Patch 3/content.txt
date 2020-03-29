@@ -1,1 +1,1 @@
-passt die Seeds so an, dass sie wie in Patch 3 funktionieren
+Alternative Mapseeds fürs Endlosspiel

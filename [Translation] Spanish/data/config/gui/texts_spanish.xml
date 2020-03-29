@@ -341,7 +341,10 @@
             <GUID>901999</GUID>
             <Text>Dirigible</Text>
         </Text>
-
+        <Text>
+            <GUID>9002077</GUID>
+            <Text>Dirigible</Text>
+        </Text>
         <Text>
             <GUID>977000</GUID>
             <Text>Recta de césped</Text>
@@ -1977,11 +1980,57 @@
             <GUID>8857207</GUID>
             <Text>Recursos variables</Text>
         </Text>
+        <Text>
+            <GUID>8855906</GUID>
+            <Text>[AssetData(8855900) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>8855907</GUID>
+            <Text>[AssetData(8855902) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>99334134</GUID>
+            <Text>[AssetData(249947) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334135</GUID>
+            <Text>[AssetData(249950) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334136</GUID>
+            <Text>[AssetData(269086) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334137</GUID>
+            <Text>[AssetData(269083) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334138</GUID>
+            <Text>[AssetData(269549) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334139</GUID>
+            <Text>[AssetData(269084) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334140</GUID>
+            <Text>[AssetData(269085) Text] </Text>
+        </Text>
+        <Text>
+            <GUID>99334142</GUID>
+            <Text>[AssetData(269602) Text] </Text>
+        </Text>
 	</ModOp>
     <ModOp Type = "replace" Path = "/TextExport/Texts/Text[GUID = '116038']">
         <Text>
 			<GUID>116038</GUID>
 			<Text>Recursos variables</Text>
 		</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '100660']">
+        <Text>
+            <GUID>100660</GUID>
+            <Text>[AssetData(100441) Text]</Text>
+        </Text>
     </ModOp>
 </ModOps>
