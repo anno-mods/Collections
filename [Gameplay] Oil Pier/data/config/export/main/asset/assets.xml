@@ -138,11 +138,7 @@
                     <ExplosionEffectsMax>2</ExplosionEffectsMax>
                 </Attackable>
                 <StorageBase>
-                    <StoredProducts>
-                        <Item>
-                            <Product>1010566</Product>
-                        </Item>
-                    </StoredProducts>
+                    <ProductStorageList>120056</ProductStorageList>
                 </StorageBase>
                 <LogisticNode>
                     <TransporterCountMax>0</TransporterCountMax>
@@ -298,11 +294,7 @@
                     <ExplosionEffectsMax>2</ExplosionEffectsMax>
                 </Attackable>
                 <StorageBase>
-                    <StoredProducts>
-                        <Item>
-                            <Product>1010566</Product>
-                        </Item>
-                    </StoredProducts>
+                    <ProductStorageList>120056</ProductStorageList>
                 </StorageBase>
                 <Warehouse>
                     <StorageType>Depot</StorageType>

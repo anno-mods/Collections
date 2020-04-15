@@ -94,6 +94,7 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <StorageBase />
             </Values>
         </Asset>
     </ModOp>
@@ -189,6 +190,7 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <StorageBase />
             </Values>
         </Asset>
     </ModOp>
@@ -283,6 +285,7 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <StorageBase />
             </Values>
         </Asset>
     </ModOp>
@@ -379,6 +382,7 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <StorageBase />
             </Values>
         </Asset>
     </ModOp>
@@ -478,6 +482,7 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <StorageBase />
             </Values>
         </Asset>
     </ModOp>
@@ -578,6 +583,7 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <StorageBase />
             </Values>
         </Asset>
     </ModOp>

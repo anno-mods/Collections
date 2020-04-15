@@ -70,15 +70,6 @@
 <!-- ################################################################################################################### -->
 
 
-<!-- EDIT = TAUBENANGRIFF -->
-<!-- Added Ornaments: 8855900, 8855902 (ow) and 8855906, 8855907 (sa)-->
-<!-- Those are currently not unlocked by any triggers yet. -->
-<!-- Added Triggers Ornaments: 8855901 (ow), 8855908 (sa) -->
-<!-- Changed the Harbor Warehouse to match its non-harbor counterpart -->
-<!-- moved the oil pier to an own mod -->
-<!-- Edited around texts a little bit to use existing localization. -->
-<!-- Added Localization in Spice it up Translation Mod-->
-<!-- Changed the triggers to what they actually should be-->
 <ModOps>
     <!-- Freight Harbor -->
     <!-- ############################################################################################################### -->
@@ -867,7 +858,6 @@
                         </Item>
                         <Item>
                             <Ingredient>1010207</Ingredient>
-                            <Amount>10</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010202</Ingredient>
@@ -3549,188 +3539,6 @@
         </Asset>
     </ModOp>
 
-    <!-- Trigger Old World -->
-    <ModOp Type="addNextSibling" GUID='130249'>
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855908</GUID>
-                    <Name>intermediate_colony01_2.0</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855906</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>8855907</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855901</GUID>
-                    <Name>intermediate_moderate_3.3</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855902</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>8855900</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>9780001</GUID>
-                    <Name>intermediate_moderate_1.1</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000000</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>978000</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>978001</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Trigger South -->
-    <ModOp Type="addNextSibling" GUID='130237'>
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>9780002</GUID>
-                    <Name>intermediate_colony01_1.1</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000005</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>978001</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
 
     <!-- Construction Menu Moderate -->
     <!-- Farmers after dirt road -->
@@ -3790,1366 +3598,7 @@
     <!-- Storage-->
     <!-- Warehouse Depot Moderate -->
     <!-- Unhide Harbor Police Moderate -->
-    <ModOp Type="addNextSibling" GUID='130253'>
-        <!-- UL 8855001 - 500 Artisans   // TRG GUID 8855101  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855101</GUID>
-                    <Name>wh_depot_ow_t1</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>500</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855001</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8855023</Asset>
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
     <!-- Unhide Lighthouse & Medium Depot Moderate -->
-    <ModOp Type="addNextSibling" GUID='130216'>
-        <!-- UL 8855002 - 1 Artisans   // TRG GUID 8855102  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855102</GUID>
-                    <Name>wh_depot_ow_t2</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855002</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8855014</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>901006</Asset>
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130221'>
-        <!-- UL 8855004 - 1 Ingeneur     // TRG GUID 8855104  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855104</GUID>
-                    <Name>wh_depot_ow_t3</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855003</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Warehouse Moderate -->
-    <ModOp Type="addNextSibling" GUID='130253'>
-        <!-- UL 8855008 - 150 Workers   // TRG GUID 8855108  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855108</GUID>
-                    <!-- -->
-                    <Name>harbor_warehouse_ow_t1</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000001</Context>
-                                <CounterAmount>150</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855008</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130216'>
-        <!-- UL 8855009 - 1 Artisans   // TRG GUID 8855109  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855109</GUID>
-                    <Name>harbor_warehouse_ow_t2</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855009</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130221'>
-        <!-- UL 8855010 - 1 Ingeneur     // TRG GUID 8855110  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855110</GUID>
-                    <Name>harbor_warehouse_ow_t3</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855010</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- TEMPORARY DOUBLE TRG -->
-    <!-- UL ALL STORAGE & LIGHTHOUSES S/N to date -->
-    <!-- <ModOp Type="addNextSibling" GUID='130253'>  
-                <Asset>
-                    <Template>Trigger</Template>
-                    <Values>
-                        <Standard>
-                            <GUID>8854000</GUID> 
-                            <Name>harbor_warehouse_ow_t1</Name>
-                            <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                        </Standard>
-                        <Trigger>
-                            <TriggerCondition>
-                                <Template>ConditionPlayerCounter</Template>
-                                <Values>
-                                    <Condition />
-                                    <ConditionPlayerCounter>
-                                        <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                        <Context>15000001</Context>
-                                        <CounterAmount>150</CounterAmount>
-                                    </ConditionPlayerCounter>
-                                </Values>
-                            </TriggerCondition>
-                            <TriggerActions>
-                                <Item>
-                                    <TriggerAction>
-                                        <Template>ActionUnlockAsset</Template>
-                                        <Values>
-                                            <Action />
-                                            <ActionUnlockAsset>
-                                                <UnlockAssets>
-                                                    <Item>
-                                                        <Asset>8855001</Asset> 
-                                                    </Item>
-                                                     <Item>
-                                                        <Asset>8855002</Asset> 
-                                                    </Item>
-                                                    <Item>
-                                                        <Asset>8855004</Asset> 
-                                                    </Item>     
-                                                    <Item>
-                                                        <Asset>8855005</Asset> 
-                                                    </Item>
-                                                     <Item>
-                                                        <Asset>8855006</Asset> 
-                                                    </Item>
-                                                    <Item>
-                                                        <Asset>8855007</Asset> 
-                                                    </Item>      
-                                                    <Item>
-                                                        <Asset>8855008</Asset> 
-                                                    </Item>
-                                                     <Item>
-                                                        <Asset>8855009</Asset> 
-                                                    </Item>
-                                                    <Item>
-                                                        <Asset>8855010</Asset> 
-                                                    </Item>   
-                                                    <Item>
-                                                        <Asset>8855011</Asset> 
-                                                    </Item>
-                                                     <Item>
-                                                        <Asset>8855012</Asset> 
-                                                    </Item>
-                                                    <Item>
-                                                        <Asset>8855013</Asset> 
-                                                    </Item>   
-                                                    <Item>
-                                                        <Asset>8855014</Asset> 
-                                                    </Item>    
-                                                     <Item>
-                                                        <Asset>8855015</Asset> 
-                                                    </Item>
-                                                     <Item>
-                                                        <Asset>8855016</Asset> 
-                                                    </Item>
-                                                    <Item>
-                                                        <Asset>8855017</Asset> 
-                                                    </Item>         
-                                                    <Item>
-                                                        <Asset>8855018</Asset> 
-                                                    </Item>
-                                                     <Item>
-                                                        <Asset>8855019</Asset> 
-                                                    </Item>
-                                                    <Item>
-                                                        <Asset>901006</Asset> 
-                                                    </Item>    
-                                                    <Item>
-                                                        <Asset>901007</Asset> 
-                                                    </Item>                                                                                                                                                                                                                                                                                                                                                  
-                                                </UnlockAssets>
-                                            <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                            </ActionUnlockAsset>
-                                        </Values>
-                                    </TriggerAction>
-                                </Item>
-                            </TriggerActions>
-                        </Trigger>
-                        <TriggerSetup />
-                    </Values>
-                </Asset>
-            </ModOp>   -->
-
-    <!-- Medium Depot Moderate -->
-    <ModOp Type="addNextSibling" GUID='130217'>
-        <!-- UL 8855014 - 250 Artisans  // TRG GUID 8855114 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855114</GUID>
-                    <Name>medium_depot_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>250</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855014</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Small Depot Moderate -->
-    <ModOp Type="addNextSibling" GUID='130253'>
-        <!-- UL 8855016 - 150 Workers   // TRG GUID 8855116  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855116</GUID>
-                    <Name>samll_depot_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000001</Context>
-                                <CounterAmount>150</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855016</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Small Storage Moderate -->
-    <ModOp Type="addNextSibling" GUID='130253'>
-        <!-- UL 8855018 - 150 Workers   // TRG GUID 8855118  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855118</GUID>
-                    <Name>small_storage_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000001</Context>
-                                <CounterAmount>150</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855018</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Others -->
-    <!-- Lighthouse Moderate -->
-    <ModOp Type="addNextSibling" GUID='130217'>
-        <!-- UL 901006 - 250 Artisans // TRG GUID 976021 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>976021</GUID>
-                    <Name>lighthouse_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>250</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>901006</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Harbor Fire Dep. Moderate -->
-    <ModOp Type="addNextSibling" GUID='130253'>
-        <!-- UL 8855050 - 750 Artisans // TRG GUID 8855150 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855150</GUID>
-                    <Name>harbor_fire_dp_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855050</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Harbor Police Dep. Moderate -->
-    <ModOp Type="addNextSibling" GUID='130255'>
-        <!-- UL 8855052 - 750 Artisans // TRG GUID 8855152 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855152</GUID>
-                    <Name>harbor_police_dp_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/portrait_icons_0014_resident_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855052</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Harbor Hospital Moderate -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UH 8855054 - 500 Artisans // TRG GUID 8855541 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855541</GUID>
-                    <Name>uh_harbor_hospital_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets />
-                                        >
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8855054</Asset>
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130219'>
-        <!-- UL 8855054 - 900 Artisans // TRg GUID 8855542 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855542</GUID>
-                    <Name>ul_harbor_hospital_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>900</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855054</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-
-
-    <!--////////// SOUTH /////////////// -->
-    <!-- Storage -->
-    <!-- Warehouse Depot South -->
-    <!-- Unhide Harbor Fire Dep. & Harbor Police South -->
-    <ModOp Type="addNextSibling" GUID='130237'>
-        <!-- UL 8855005 -  50 Jornaleros  // TRG GUID 8855105 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855105</GUID>
-                    <Name>wh_depot_sa_t1</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000005</Context>
-                                <CounterAmount>50</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855005</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets>
-
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Unhide Lighthouse & Medium Depot -->
-    <ModOp Type="addNextSibling" GUID='130241'>
-        <!-- UL 8855006 -  1 Obrero       // TRG GUID 8855106 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855106</GUID>
-                    <Name>wh_depot_sa_t2</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855006</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8855015</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>901007</Asset>
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130244'>
-        <!-- UL 8855007 -  1000 Obreros   // TRG GUID 8855107 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855107</GUID>
-                    <Name>wh_depot_sa_t3</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>1000</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855007</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Warehouse South -->
-    <ModOp Type="addNextSibling" GUID='130237'>
-        <!-- UL 8855011 -  50 Jornaleros  // TRG GUID 8855111 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855111</GUID>
-                    <Name>haror_warehous_sa_t1</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000005</Context>
-                                <CounterAmount>50</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855011</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130241'>
-        <!-- UL 8855012 -  1 Obrero       // TRG GUID 8855112 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855112</GUID>
-                    <Name>harbor_warehouse_sa_t2</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855012</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130244'>
-        <!-- UL 8855013 -  1000 Obreros   // TRG GUID 8855113 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855113</GUID>
-                    <Name>harbor_warehouse_sa_t3</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>1000</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855013</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Medium Depot South -->
-    <ModOp Type="addNextSibling" GUID='130242'>
-        <!-- UL 8855015 -  300 Obreros    // TRG GUID 8855115 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855115</GUID>
-                    <Name>medium_depot_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855015</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Small Depot South -->
-    <ModOp Type="addNextSibling" GUID='130237'>
-        <!-- UL 8855017 -  50 Jornaleros  // TRG GUID 8855117 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855117</GUID>
-                    <Name>small_depot_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000005</Context>
-                                <CounterAmount>50</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855017</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Small Storage South -->
-    <ModOp Type="addNextSibling" GUID='130237'>
-        <!-- UL 8855019 -  50 Jornaleros  // TRG GUID 8855119 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855119</GUID>
-                    <Name>small_storage_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000005</Context>
-                                <CounterAmount>50</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855019</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Others -->
-    <!-- Lighthouse South -->
-    <ModOp Type="addNextSibling" GUID='130242'>
-        <!-- UL 901007 -  300 Obreros    // TRG GUID 976023 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>976023</GUID>
-                    <Name>lighthouse_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>901007</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <!-- Trigger Harbor Hospital South -->
-    <ModOp Type="addNextSibling" GUID='130242'>
-        <!-- UH 8855055 -  300 Obreros // TRG GUID 8855551 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855551</GUID>
-                    <Name>uh_harbor_hospital_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets />
-
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8855055</Asset>
-                                            </Item>
-
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID='130243'>
-        <!-- UL 8855055 -  600 Obreros // TRG GUID 8855552 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855552</GUID>
-                    <Name>ul_harbor_hospital_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>600</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8855055</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets />
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
 
 
     <!--////////// ARCTIC ////////////// -->
@@ -8570,6 +7019,7 @@
                     <InfoDescription>8860020</InfoDescription>
                 </Standard>
                 <Building>
+                    <BuildingCategoryName>11152</BuildingCategoryName>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <AssociatedRegions>Moderate</AssociatedRegions>
                     <TerrainType>Water</TerrainType>
@@ -8781,35 +7231,7 @@
                     <NoSupplyDistance>70</NoSupplyDistance>
                 </Market>
                 <StorageBase>
-                    <StoredProducts>
-                        <Item>
-                            <Product>120033</Product>
-                        </Item>
-                        <Item>
-                            <Product>1010257</Product>
-                        </Item>
-                        <Item>
-                            <Product>120043</Product>
-                        </Item>
-                        <Item>
-                            <Product>120035</Product>
-                        </Item>
-                        <Item>
-                            <Product>1010259</Product>
-                        </Item>
-                        <Item>
-                            <Product>120037</Product>
-                        </Item>
-                        <Item>
-                            <Product>1010214</Product>
-                        </Item>
-                        <Item>
-                            <Product>120032</Product>
-                        </Item>
-                        <Item>
-                            <Product>1010206</Product>
-                        </Item>
-                    </StoredProducts>
+                    <ProductStorageList>120058</ProductStorageList>
                 </StorageBase>
                 <Attackable>
                     <CanBeAttackedByPlayer>1</CanBeAttackedByPlayer>
@@ -9149,6 +7571,7 @@
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <BuildingCategoryName>11152</BuildingCategoryName>
                     <AssociatedRegions>Colony01</AssociatedRegions>
                     <TerrainType>Water</TerrainType>
                 </Building>
@@ -9727,1219 +8150,8 @@
     <!-- -->
     <!-- ############################################################################################################### -->
 
-    <!-- ############################################################################################################### -->
-    <!-- ########### [Harbor City] Trigger ############################################################################# -->
-    <!--////////// MODERATE //////////// -->
-    <!-- ab 750 Handwerkern -->
-    <!-- Harbor City Unhide -->
-    <ModOp Type="addNextSibling" GUID='130216'>
-        <!-- UH HC Buildings - 1 Artisan      // TRG GUID 8855880 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855880</GUID>
-                    <Name>unhide_hc_buildings_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>500</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets/>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8856001</Asset>
-                                                <!-- Residence T1 -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856008</Asset>
-                                                <!-- Market -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856009</Asset>
-                                                <!-- Pub -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856010</Asset>
-                                                <!-- Church -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856011</Asset>
-                                                <!-- School -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856012</Asset>
-                                                <!-- Variete -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856016</Asset>
-                                                <!-- Power Plant -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856020</Asset>
-                                                <!-- Townhall -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>901006</Asset>
-                                                <!-- Lighthouse -->
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- University -->
-    <ModOp Type="addNextSibling" GUID='130219'>
-        <!-- UH HC Buildings - 900 Artisans   // TRG GUID 8855880 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855880</GUID>
-                    <Name>unhide_hc_buildings_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>900</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets/>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8856013</Asset>
-                                                <!-- University -->
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Bank -->
-    <ModOp Type="addNextSibling" GUID='130226'>
-        <!-- UH HC Buildings - 1750 Engineers // TRG GUID 8855884-->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855884</GUID>
-                    <Name>unhide_hc_buildings_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets/>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8856014</Asset>
-                                                <!-- Bank -->
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Club House -->
-    <ModOp Type="addNextSibling" GUID='130228'>
-        <!-- UH HC Buildings - 1 Investor     // TRG GUID 8855883-->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8855883</GUID>
-                    <Name>intermediate moderate 5.0</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier05.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000004</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets/>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8856015</Asset>
-                                                <!-- Club House -->
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Harbor City Unlock -->
-    <!-- SERVICE -->
-    <!-- Market -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856008 - 750 Artisans   // TRG GUID 8856108  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856108</GUID>
-                    <Name>hc_market_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856008</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Pub -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856009 - 750 Artisans   // TRG GUID 8856109  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856109</GUID>
-                    <Name>hc_pub_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856009</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Church -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856010 - 750 Artisans   // TRG GUID 8856110  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856110</GUID>
-                    <Name>hc_church_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856010</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- School -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856011 - 750 Artisans   // TRG GUID 8856111  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856111</GUID>
-                    <Name>hc_school_aw</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856011</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Variete -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856012 - 750 Artisans   // TRG GUID 8856112  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856112</GUID>
-                    <Name>hc_variete_aw</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856012</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- University -->
-    <!-- // Temporär 750HW -->
-    <ModOp Type="addNextSibling" GUID='130220'>
-        <!-- UL 8856013 - 1500 Artisans  // TRG GUID 8856113  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856113</GUID>
-                    <Name>hc_university_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>1500</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856013</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Bank -->
-    <!-- // Temporär 750HW -->
-    <ModOp Type="addNextSibling" GUID='130227'>
-        <!-- UL 8856014 - 3000 Engineers // TRG GUID 8856114  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856114</GUID>
-                    <Name>hc_bank_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context>
-                                <CounterAmount>3000</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856014</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Club House -->
-    <!-- // Temporär 750HW -->
-    <ModOp Type="addNextSibling" GUID='130229'>
-        <!-- UL 8856015 - 750 Investors  // TRG GUID 8856115  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856115</GUID>
-                    <Name>hc_club_house_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000004</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856015</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Power Plant -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856016 - 250 Engineers   // TRG GUID 8856116  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856116</GUID>
-                    <Name>hc_power_plant_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context>
-                                <CounterAmount>250</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856016</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- RESIDENCES -->
-    <!-- T1 - Farmers -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856001 - 750 Artisans   // TRG GUID 8856101  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856101</GUID>
-                    <Name>hc_residence_t1_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856001</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- T2 - Workers -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856002 - 750 Artisans   // TRG GUID 8856102  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856102</GUID>
-                    <Name>hc_residence_t2_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856002</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- T3 - Artisans -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <!-- UL 8856003 - 750 Artisans   // TRG GUID 8856103  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856103</GUID>
-                    <Name>hc_residence_t3_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856003</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- T4 - Engineers -->
-    <ModOp Type="addNextSibling" GUID='130221'>
-        <!-- UL 8856004 -   1 Engineer   // TRG GUID 8856104  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856104</GUID>
-                    <Name>hc_residence_t4_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000002</Context>
-                                <CounterAmount>1500</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856004</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- T5 - Investors -->
-    <ModOp Type="addNextSibling" GUID='130228'>
-        <!-- UL 8856005 -   1 Investor   // TRG GUID 8856105  -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856105</GUID>
-                    <Name>hc_residence_t5_ow</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier05.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000003</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856005</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!--////////// SOUTH /////////////// -->
-    <!-- ab 600 Obreros -->
-    <!-- Harbor City Unhide -->
-    <ModOp Type="addNextSibling" GUID='130241'>
-        <!-- UH HC Buildings - 1 Obrero // TRG 8856100-->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856100</GUID>
-                    <Name>unhide_hc_buildings_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>1</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets/>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8856006</Asset>
-                                                <!-- Residence T1 -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856017</Asset>
-                                                <!-- Market -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856018</Asset>
-                                                <!-- Chapel -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856019</Asset>
-                                                <!-- Boxing Arena -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8856021</Asset>
-                                                <!-- Townhall -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>901006</Asset>
-                                                <!-- Lighthouse -->
-                                            </Item>
-                                            <Item>
-                                                <Asset>8855051</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>8855053</Asset>
-                                            </Item>
-                                        </UnhideAssets>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Harbor City Unlock -->
-    <!-- SERVICE -->
-    <!-- Market -->
-    <ModOp Type="addNextSibling" GUID='130243'>
-        <!-- UL 8856017 -  600 Obreros  // TRG GUID 8856117 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856117</GUID>
-                    <Name>hc_market_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>600</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856017</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>8855051</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>8855053</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Chapel -->
-    <ModOp Type="addNextSibling" GUID='130243'>
-        <!-- UL 8856018 -  600 Obreros  // TRG GUID 8856118 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856118</GUID>
-                    <Name>hc_chapel_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>600</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856018</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- Boxing Arena -->
-    <ModOp Type="addNextSibling" GUID='130243'>
-        <!-- UL 8856019 -  600 Obreros  // TRG GUID 8856119 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856119</GUID>
-                    <Name>hc_boxing_arena_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>600</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856019</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
 
-    <!-- RESIDENCES -->
-    <!-- T1 - Jornaleros -->
-    <ModOp Type="addNextSibling" GUID='130243'>
-        <!-- UL 8856006 -  600 Obreros  // TRG GUID 8856106 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856106</GUID>
-                    <Name>hc_residence_t1_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>600</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856006</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- T2 - Obreros -->
-    <ModOp Type="addNextSibling" GUID='130243'>
-        <!-- UL 8856007 -  600 Obreros  // TRG GUID 8856107 -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>8856107</GUID>
-                    <Name>hc_residence_t2_sa</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>15000006</Context>
-                                <CounterAmount>600</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8856007</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
+
     <!-- ############################################################################################################### -->
     <!-- ########### [Harbor City] Construction Menus ################################################################## -->
     <!--////////// MODERATE //////////// -->
@@ -12368,5 +9580,844 @@
         <Item>
             <Building>8856005</Building>
         </Item>
+    </ModOp>
+
+
+    <!-- #NEW TRIGGERS 14042020 -->
+    <ModOp Type="addNextSibling" GUID='130248'>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334150</GUID>
+                    <Name>Trigger Always True</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysTrue</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>978000</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>978001</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets/>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334151</GUID>
+                    <Name>Trigger 50 Jornalero</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000005</Context>
+                                <CounterAmount>50</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855011</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855017</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855019</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets/>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334152</GUID>
+                    <Name>Trigger 1 Obrero</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855906</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855907</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855006</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855012</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8856006</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856017</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856018</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856019</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856021</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901007</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855051</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855053</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334153</GUID>
+                    <Name>Trigger 300 Obrero</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8856006</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856017</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856018</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856019</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856021</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901007</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855051</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855053</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8855055</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334154</GUID>
+                    <Name>Trigger 600 Obrero</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>600</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855055</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334155</GUID>
+                    <Name>Trigger 300 Workers</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000001</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855008</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855014</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855016</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855018</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334156</GUID>
+                    <Name>Trigger 1 Artisans</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855902</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855900</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855002</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>901006</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8855014</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334165</GUID>
+                    <Name>Trigger 500 Artisans</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855014</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8855023</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856001</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856008</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856010</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856011</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856012</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856020</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334157</GUID>
+                    <Name>Trigger 750 Artisans</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>750</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855023</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856001</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856008</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856010</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856011</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856012</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856020</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8855054</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334158</GUID>
+                    <Name>Trigger 900 Artisans</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>900</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855054</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8856013</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334164</GUID>
+                    <Name>Trigger 1500 Artisans</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>1500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8856013</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856004</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334159</GUID>
+                    <Name>Trigger 1 Engineer</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000003</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8855003</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8855010</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856014</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>8856005</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8856016</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334160</GUID>
+                    <Name>Trigger 250 Engineer</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000003</Context>
+                                <CounterAmount>250</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8856016</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334161</GUID>
+                    <Name>Trigger 3000 Engineer</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000003</Context>
+                                <CounterAmount>3000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8856014</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334162</GUID>
+                    <Name>Trigger 1 Investor</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000004</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets />
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8856015</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>99334163</GUID>
+                    <Name>Trigger 750 Investor</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000004</Context>
+                                <CounterAmount>750</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets />
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8856015</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
     </ModOp>
 </ModOps>
