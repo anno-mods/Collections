@@ -1,0 +1,6 @@
+<ModOps>
+  <!--upgrades from medium warehouse of new world; building entry already exists-->
+  <ModOp Type="merge" GUID='101324' Path="/Values/Upgradable/NextGUID">  
+        <NextGUID>101325</NextGUID>
+  </ModOp>
+</ModOps>
