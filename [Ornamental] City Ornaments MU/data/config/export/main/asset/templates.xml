@@ -1,0 +1,100 @@
+<ModOps>
+    <!-- Land Depot -->
+    <ModOp Type="add" Path="Templates/Group[Name = 'Economy']">
+        <Template>
+      <Name>LandDepot</Name>
+      <Properties>
+        <Standard />
+        <Building>
+          <TerrainType>Terrain</TerrainType>
+        </Building>
+        <Blocking />
+        <Mesh />
+        <Object />
+        <AmbientMoodProvider />
+        <Constructable />
+        <Selection>
+          <GUIType>Generic</GUIType>
+        </Selection>
+        <Text />
+        <Cost />
+        <Warehouse>
+          <StorageType>Depot</StorageType>
+        </Warehouse>
+        <StorageBase />
+        <Locked />
+        <Maintenance />
+        <Pausable />
+        <SoundEmitter>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                </VectorElement>
+                <Sound>214784</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+            <BuildMoveSuccess>
+              <Item>
+                <Sound>200133</Sound>
+              </Item>
+            </BuildMoveSuccess>
+            <BuildMoveEnd>
+              <Item>
+                <Sound>200141</Sound>
+              </Item>
+            </BuildMoveEnd>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <ExplosionOneShots>
+              <Item>
+                <Sound>203849</Sound>
+              </Item>
+            </ExplosionOneShots>
+          </IncidentSounds>
+        </SoundEmitter>
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode />
+      </Properties>
+    </Template>
+	
+	
+	<Template>
+      <Name>Street_Noble</Name>
+      <Properties>
+        <Standard />
+        <Cost />
+        <Street />
+        <Constructable>
+          <ConstructionMode>Street</ConstructionMode>
+        </Constructable>
+        <Locked />
+        <SoundEmitter>
+          <ConstructionSounds>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Text />
+        <Building>
+          <BuildingCategoryName>11153</BuildingCategoryName>
+        </Building>
+      </Properties>
+    </Template>
+    </ModOp>
+</ModOps>

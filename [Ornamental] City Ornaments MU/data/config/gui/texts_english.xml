@@ -1,0 +1,187 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1900053</GUID>
+      <Text>Country ornaments beautify the city and bring variety to the action.</Text>
+    </Text>
+    <Text>
+      <GUID>1900054</GUID>
+      <Text>A classy street for high society.</Text>
+    </Text>
+	<Text>
+      <GUID>1900055</GUID>
+      <Text>Another dirt road</Text>
+    </Text>
+	<Text>
+      <GUID>1900036</GUID>
+      <Text>Water buffalo enclosure.</Text>
+    </Text>
+	<Text>
+      <GUID>1900056</GUID>
+      <Text>Goat enclosure</Text>
+    </Text>
+	<Text>
+      <GUID>1900057</GUID>
+      <Text>Ox enclosure</Text>
+    </Text>
+	<Text>
+      <GUID>1900058</GUID>
+      <Text>Everything you need for a riding stable.</Text>
+    </Text>
+	<Text>
+      <GUID>1900059</GUID>
+      <Text>Bison enclosure</Text>
+    </Text>
+	<Text>
+      <GUID>1900060</GUID>
+      <Text>The true beauty of nature, now also in the city, each property brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900061</GUID>
+      <Text>Who doesn't like to rest in beautiful places, each object brings 2 attraction points.</Text>
+    </Text>
+	<Text>
+      <GUID>1900062</GUID>
+      <Text>Advertising is the key to success. Each object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900063</GUID>
+      <Text>Show the flag as long as it is not a beer flag. Each object brings 2 attraction points.</Text>
+    </Text>
+	<Text>
+      <GUID>1900064</GUID>
+      <Text>A nicely paved square attracts tourists. Each object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900065</GUID>
+      <Text>Actually senseless, but beautiful. Each object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900066</GUID>
+      <Text>You protect your belongings with fences, and they look good too.</Text>
+    </Text>
+	<Text>
+      <GUID>1900067</GUID>
+      <Text>A magnificent statue or a refreshing fountain, both must not be missing in a big city. Each object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900068</GUID>
+      <Text>Everything else needed to prettify his city, each object brings 2 attraction points.</Text>
+    </Text>
+	<Text>
+      <GUID>1900070</GUID>
+      <Text>A nice place on the street.Each object brings 2 attraction points.</Text>
+    </Text>
+	<Text>
+      <GUID>1900072</GUID>
+      <Text>A sad occasion, but inevitable, each object brings 2 points of attraction.</Text>
+    </Text>
+	
+	
+    
+    <Text>
+      <GUID>1900037</GUID>
+      <Text>Land Ornaments</Text>
+    </Text>
+    <Text>
+      <GUID>1900038</GUID>
+      <Text>Noble street</Text>
+    </Text>
+	<Text>
+      <GUID>1900039</GUID>
+      <Text>Beautiful street</Text>
+    </Text>
+	<Text>
+      <GUID>1900040</GUID>
+      <Text>Noble Street Bridge</Text>
+    </Text>
+	<Text>
+      <GUID>1900041</GUID>
+      <Text>Beautiful Street Bridge</Text>
+    </Text>
+	<Text>
+      <GUID>1900042</GUID>
+      <Text>Riding stable</Text>
+    </Text>
+	<Text>
+      <GUID>1900043</GUID>
+      <Text>Horse enclosure</Text>
+    </Text>
+	<Text>
+      <GUID>1900044</GUID>
+      <Text>Land Container plants</Text>
+    </Text>
+	<Text>
+      <GUID>1900045</GUID>
+      <Text>Land benches</Text>
+    </Text>
+	<Text>
+      <GUID>1900046</GUID>
+      <Text>Land billboards</Text>
+    </Text>
+	<Text>
+      <GUID>1900047</GUID>
+      <Text>Land flags</Text>
+    </Text>
+	<Text>
+      <GUID>1900048</GUID>
+      <Text>Plaza decals</Text>
+    </Text>
+	<Text>
+      <GUID>1900049</GUID>
+      <Text>Covered channel</Text>
+    </Text>
+	<Text>
+      <GUID>1900050</GUID>
+      <Text>Fences and gates</Text>
+    </Text>
+	<Text>
+      <GUID>1900051</GUID>
+      <Text>Statues and fountains</Text>
+    </Text>
+	<Text>
+      <GUID>1900052</GUID>
+      <Text>City all sorts</Text>
+    </Text>
+	<Text>
+      <GUID>1900069</GUID>
+      <Text>Street ornaments</Text>
+    </Text>
+	<Text>
+      <GUID>1900071</GUID>
+      <Text>Graveyard</Text>
+    </Text>
+	<Text>
+      <GUID>1900073</GUID>
+      <Text>Extended marketplace</Text>
+    </Text>
+	<Text>
+      <GUID>1900074</GUID>
+      <Text>A noble Street, matching the Palace.</Text>
+    </Text>
+	<Text>
+      <GUID>1900075</GUID>
+      <Text>A dirt road. For rural areas.</Text>
+    </Text>
+	<Text>
+      <GUID>1900076</GUID>
+      <Text>Agricultural fields and animal pastures</Text>
+    </Text>
+	<Text>
+      <GUID>1900077</GUID>
+      <Text>A small garden bed or an animal enclosure for the farmers.</Text>
+    </Text>
+	<Text>
+      <GUID>1900078</GUID>
+      <Text>Bridge of another dirt road.</Text>
+    </Text>
+	<Text>
+      <GUID>1900079</GUID>
+      <Text>Fortress</Text>
+    </Text>
+	<Text>
+      <GUID>1900080</GUID>
+      <Text>Old castle walls testify to an old and prosperous city.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

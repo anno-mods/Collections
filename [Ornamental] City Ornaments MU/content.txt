@@ -1,0 +1,41 @@
+Das ist ein city ornamenten mod.
+
+[Ornamental]City_Ornaments final 1.0
+
+es erwarten euch :
+
+ - 3 neue strassen
+
+ - ein paar strassen ornamente, mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - der bekannte wasserkanal,diesmal überdacht, mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - ein Reiterhof
+
+ - Land kübelpflanzen, mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - land Sitzbänke , mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - Werbetafeln , mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - Diverse Fahnen , mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - Dekorative Plazaböden , mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - Diverse Zäune und Törchen
+
+ - Statuen und Brunnen , mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - Ein City Allerlei , mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - Ein Friedhof mit allem drum und dran, mit jeweils 2 Attraktivitätspunkten pro Objekt
+
+ - 2 verschiedene Festungsmauern mit durchgangstoren
+
+
+In einem seperaten Baumenü findet ihr desweiteren :
+
+ - 25 eingezäunte Agrar und Tierfelder
+
+
+

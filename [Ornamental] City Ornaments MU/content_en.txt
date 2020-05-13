@@ -1,0 +1,40 @@
+This is a city ornaments mod.
+
+[Ornamental]City_Ornaments final 1.0
+
+it awaits you:
+
+ - 3 new streets
+
+ - a few street ornaments, with 2 points of attraction per object
+
+ - the well-known water channel, this time covered, with 2 attraction points per object
+
+ - a riding school
+
+ - Land potted plants, with 2 attraction points per object
+
+ - land benches, with 2 attraction points per object
+
+ - advertising boards, with 2 points of attraction per object
+
+ - Various flags, each with 2 points of attraction per object
+
+ - Decorative plaza floors, with 2 attraction points per object
+
+ - Various fences and wickets
+
+ - Statues and fountains, each with 2 points of attraction per object
+
+ - A City Allerlei , with 2 attraction points per object
+
+ - A cemetery with everything, with 2 attraction points per object
+
+ - 2 different fortress walls with passage gates
+
+
+In a separate building menu you will also find :
+
+ - 25 fenced agricultural and animal fields
+
+Translated with www.DeepL.com/Translator (free version)

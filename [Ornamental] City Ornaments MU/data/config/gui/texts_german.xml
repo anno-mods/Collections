@@ -1,0 +1,187 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1900053</GUID>
+      <Text>Land Ornamente verschönern die City und bringen Abwechslung ins Geschehen.</Text>
+    </Text>
+    <Text>
+      <GUID>1900054</GUID>
+      <Text>Eine noble Straße für die gehobene Gesellschaft.</Text>
+    </Text>
+	<Text>
+      <GUID>1900055</GUID>
+      <Text>Schotterweg</Text>
+    </Text>
+	<Text>
+      <GUID>1900036</GUID>
+      <Text>Wasserbüffelgehege.</Text>
+    </Text>
+	<Text>
+      <GUID>1900056</GUID>
+      <Text>Ziegengehege</Text>
+    </Text>
+	<Text>
+      <GUID>1900057</GUID>
+      <Text>Ochsengehege</Text>
+    </Text>
+	<Text>
+      <GUID>1900058</GUID>
+      <Text>Alles was man für einen Reiterhof benötigt</Text>
+    </Text>
+	<Text>
+      <GUID>1900059</GUID>
+      <Text>Wisentgehege</Text>
+    </Text>
+	<Text>
+      <GUID>1900060</GUID>
+      <Text>Die wahre Schönheit der Natur.Jetzt auch in der City.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900061</GUID>
+      <Text>Wer rastet nicht gerne an schönen Orten.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900062</GUID>
+      <Text>Werbung ist der Schlüssel zum Erfolg. Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900063</GUID>
+      <Text>Flagge zeigen, solange es keine Bierfahne ist.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900064</GUID>
+      <Text>Ein schön gepflasterter Platz zieht Touristen an. Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900065</GUID>
+      <Text>Eigentlich sinnlos, aber schön .Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900066</GUID>
+      <Text>Mit Zäunen schützt man sein Hab und Gut.Und schön aussehen tun sie auch.</Text>
+    </Text>
+	<Text>
+      <GUID>1900067</GUID>
+      <Text>Eine prachtvolle Statue oder ein erfrischender Brunnen, beides darf in einer Großstadt nicht fehlen. Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900068</GUID>
+      <Text>Alles was sonst noch nötig ist,um seine Stadt aufzuhübschen.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900070</GUID>
+      <Text>Ein nettes Plätzchen an der Straße.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900072</GUID>
+      <Text>Ein trauriger Anlaß , jedoch unvermeidlich.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	
+	
+    
+    <Text>
+      <GUID>1900037</GUID>
+      <Text>Land Ornamente</Text>
+    </Text>
+    <Text>
+      <GUID>1900038</GUID>
+      <Text>Noble Straße</Text>
+    </Text>
+	<Text>
+      <GUID>1900039</GUID>
+      <Text>Edle Straße</Text>
+    </Text>
+	<Text>
+      <GUID>1900040</GUID>
+      <Text>Brücke der Noblen Straße</Text>
+    </Text>
+	<Text>
+      <GUID>1900041</GUID>
+      <Text>Brücke der Edlen Straße</Text>
+    </Text>
+	<Text>
+      <GUID>1900042</GUID>
+      <Text>Reiterhof</Text>
+    </Text>
+	<Text>
+      <GUID>1900043</GUID>
+      <Text>Pferdegehege</Text>
+    </Text>
+	<Text>
+      <GUID>1900044</GUID>
+      <Text>Land Kübelpflanzen</Text>
+    </Text>
+	<Text>
+      <GUID>1900045</GUID>
+      <Text>Land Sitzbänke</Text>
+    </Text>
+	<Text>
+      <GUID>1900046</GUID>
+      <Text>Land Werbetafeln</Text>
+    </Text>
+	<Text>
+      <GUID>1900047</GUID>
+      <Text>Land Fahnen</Text>
+    </Text>
+	<Text>
+      <GUID>1900048</GUID>
+      <Text>Plaza Böden</Text>
+    </Text>
+	<Text>
+      <GUID>1900049</GUID>
+      <Text>Überdachter Kanal</Text>
+    </Text>
+	<Text>
+      <GUID>1900050</GUID>
+      <Text>Zäune und Törchen</Text>
+    </Text>
+	<Text>
+      <GUID>1900051</GUID>
+      <Text>Statuen und Brunnen</Text>
+    </Text>
+	<Text>
+      <GUID>1900052</GUID>
+      <Text>City Allerlei</Text>
+    </Text>
+	<Text>
+      <GUID>1900069</GUID>
+      <Text>Straßenornamente</Text>
+    </Text>
+	<Text>
+      <GUID>1900071</GUID>
+      <Text>Friedhof</Text>
+    </Text>
+	<Text>
+      <GUID>1900073</GUID>
+      <Text>Gehobener Marktplatz</Text>
+    </Text>
+	<Text>
+      <GUID>1900074</GUID>
+      <Text>Eine edle Straße , passend zum Palast.</Text>
+    </Text>
+	<Text>
+      <GUID>1900075</GUID>
+      <Text>Eine befestigte Landstraße. Für ländliche Gegenden.</Text>
+    </Text>
+	<Text>
+      <GUID>1900076</GUID>
+      <Text>Agrarfelder und Tierweiden</Text>
+    </Text>
+	<Text>
+      <GUID>1900077</GUID>
+      <Text>Ein kleines Gartenbeet oder ein Tiergehege für die Bauern.</Text>
+    </Text>
+	<Text>
+      <GUID>1900078</GUID>
+      <Text>Brücke der Landstraße.</Text>
+    </Text>
+	<Text>
+      <GUID>1900079</GUID>
+      <Text>Festung</Text>
+    </Text>
+	<Text>
+      <GUID>1900080</GUID>
+      <Text>Alte Burgmauern zeugen von einer alten und wohlhabenden Stadt</Text>
+    </Text>
+  </ModOp>
+</ModOps>
