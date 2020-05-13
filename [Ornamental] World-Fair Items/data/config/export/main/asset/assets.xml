@@ -162,7 +162,7 @@
                 <Standard>
                     <GUID>902233</GUID>
                     <Name>culture_1x1_basinstraightfountain_north</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_07.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_11.png</IconFilename>
                 </Standard>
                 <Text>
                     <LocaText>
@@ -238,7 +238,7 @@
                 <Standard>
                     <GUID>902247</GUID>
                     <Name>culture_1x1_basinstraightfountain_south</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_07.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_11.png</IconFilename>
                 </Standard>
                 <Text>
                     <LocaText>
@@ -2759,7 +2759,7 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="remove" GUID='25000197' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '501499']"/>
+    <ModOp Type="remove" GUID='25000197' Path="/Values/ConstructionCategory/Item[Building = '501499']"/>
     <!-- remove og construction menu of world fair monuments -->
     <ModOp Type="remove" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building ='501488']"/>
     <ModOp Type="remove" GUID='25000197' Path="/Values/ConstructionCategory/BuildingList/Item[Building ='501499']"/>
@@ -2781,7 +2781,7 @@
         </Item>
     </ModOp>
     <!-- moderate construction menu culture (category) -->
-    <ModOp Type="add" GUID='25000197' Path="/Values/ConstructionCategory/BuildingList">
+    <ModOp Type="addNextSibling" GUID='25000197' Path="/Values/ConstructionCategory/BuildingList/Item[Building='100429']">
         <Item>
             <Building>976500</Building>
         </Item>
@@ -2810,7 +2810,7 @@
     </ModOp>
 
     <!-- New Triggers (97606x) -->
-    <ModOp Type="addNextSibling" GUID='130248'>
+    <ModOp Type="addNextSibling" GUID='15000035'>
         <Asset>
             <Template>Trigger</Template>
             <Values>
@@ -3297,29 +3297,5 @@
                 <NeededAttractiveness>300</NeededAttractiveness>
             </Item>
         </RewardThresholds>
-    </ModOp>
-
-    <!-- replacement of mosaic  -->
-    <ModOp Type="remove" GUID='501823,501824' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '102466']"/>
-    <!-- removal of channel category -->
-    <ModOp Type="remove" GUID='25000197' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '501498']"/>
-    <ModOp Type="remove" GUID='500951' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '501693']"/>
-
-    <!-- Zoo, Museum, Botanic Garden use the new ones -->
-
-    <ModOp Type="replace" GUID='1010470,1010471,110935' Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102466' ]">
-        <Item>
-            <ModuleGUID>902244</ModuleGUID>
-        </Item>
-    </ModOp>
-    <ModOp Type="replace" GUID='1010470,1010471,110935' Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102469' ]">
-        <Item>
-            <ModuleGUID>902236</ModuleGUID>
-        </Item>
-    </ModOp>
-
-    <!-- 102475, 102474, 102473 need added attractiveness -->
-    <ModOp Type = "replace" GUID = '102473, 102474, 102475' Path = "/Values/Ornament/OrnamentUnit">
-        <OrnamentUnit>50</OrnamentUnit>
     </ModOp>
 </ModOps>
