@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>8899003</GUID>
+		<Text>Schlachtschiff</Text>
+	</Text>
+	<Text>
+		<GUID>8890003</GUID>
+		<Text>Schlachtschiffe sind ein Symbol für die Dominanz und Macht der Marine. Trotz ihrer enormen Feuerkraft und ihrer Panzerung sind Schlachtschiffe enorm teuer im Unterhalt und sollten nie alleine ohne Flotte gelassen werden.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
