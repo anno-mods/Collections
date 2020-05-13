@@ -1,0 +1,1 @@
+Adds 1 additional item slot to town hall, trade union and harbor office.
