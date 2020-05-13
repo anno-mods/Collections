@@ -1,0 +1,24 @@
+Adds a new steam based Warship with custom mesh and textures for the player to be build in the Steam Shipyard when reaching 1500 Investors.
+The design features high hitpoints and damage ratings, but rather slow movement. It's like a real beefy Battleship, and not a 'cruiser'.
+
+Stats: 12000 Health
+       84 Range
+       110 DPS
+       770 Damage Per Shot
+       7 Seconds Reload	
+       8 Speed
+Cost:  115 Steel
+       60 High Caliber Guns
+       50 Steam-Engines	
+       20 Brass
+       24 Influence
+       1875 Maintenance
+
+The strength of the Battleship is to counter large ships and is more vulnerable against small ships like monitors.
+So Battleship defeats Battlecruisers which defeats Monitors that could defeat a Battleship when in larger numbers.
+This choice was made to give this Ship a balance, otherwise it would just replace every other ship. Its still a very very strong Ship.
+
+Mesh completely custom made in blender.
+Most of the textures are custom made in Substance Painter and a few are modified original Files from Anno 1800.
+
+Enjoy. If you have question, bugs ore improvements, message me on discord. Ghostbuster#5062

@@ -1,0 +1,13 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>8866003</GUID>
+		<Text>Battleship</Text>
+	</Text>
+	<Text>
+		<GUID>8860003</GUID>
+		<Text>Battleships are a symbol of naval dominance and might. Even in spite of their huge firepower and protection, battleships are enormous costly to maintain and should not be left without a fleet.</Text>
+    </Text>
+
+  </ModOp>
+</ModOps>
