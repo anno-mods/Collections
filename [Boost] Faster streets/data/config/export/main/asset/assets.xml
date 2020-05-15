@@ -1,0 +1,17 @@
+<ModOps>
+  <!-- Improve streets-->
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1000178']/Values/Street">
+    <Quality>2</Quality>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1000178']/Values/Street">
+    <SpeedFactor>2</SpeedFactor>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010035']/Values/Street">
+      <Quality>4</Quality>
+      <SpeedFactor>4</SpeedFactor>
+  </ModOp>
+
+
+
+</ModOps>
+

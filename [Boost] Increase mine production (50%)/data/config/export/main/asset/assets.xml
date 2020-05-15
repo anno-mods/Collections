@@ -1,0 +1,31 @@
+<ModOps>
+  <!-- Increase effiency of mines by 40%-->
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010304']/Values/FactoryBase">
+      <CycleTime>7</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010305']/Values/FactoryBase">
+      <CycleTime>7</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010307']/Values/FactoryBase">
+      <CycleTime>15</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010308']/Values/FactoryBase">
+      <CycleTime>15</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010309']/Values/FactoryBase">
+      <CycleTime>15</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010311']/Values/FactoryBase">
+      <CycleTime>75</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='101331']/Values/FactoryBase">
+      <CycleTime>7</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010266']/Values/FactoryBase">
+      <CycleTime>7</CycleTime>
+  </ModOp>
+  <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010416']/Values/FactoryBase">
+      <CycleTime>15</CycleTime>
+  </ModOp>
+</ModOps>
+

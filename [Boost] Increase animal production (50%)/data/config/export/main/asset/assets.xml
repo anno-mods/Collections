@@ -8,10 +8,10 @@
         <StorageAmount>4</StorageAmount>
       </Item>
     </FactoryOutputs>
-    <CycleTime>36</CycleTime>
+    <CycleTime>30</CycleTime>
   </ModOp>
   <ModOp Type="add" Path="//Asset[Values/Standard/GUID='101272']/Values/FactoryBase">
-    <CycleTime>18</CycleTime>
+    <CycleTime>15</CycleTime>
   </ModOp>
     <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010263']/Values/FactoryBase">
     <FactoryOutputs>
@@ -21,22 +21,22 @@
         <StorageAmount>1</StorageAmount>
       </Item>
     </FactoryOutputs>
-    <CycleTime>72</CycleTime>
+    <CycleTime>60</CycleTime>
   </ModOp>
    <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010267']/Values/FactoryBase">
-    <CycleTime>18</CycleTime>
+    <CycleTime>15</CycleTime>
   </ModOp>
   <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='101269']/Values/FactoryBase">
-    <CycleTime>36</CycleTime>
+    <CycleTime>30</CycleTime>
   </ModOp>
   <ModOp Type="add" Path="//Asset[Values/Standard/GUID='1010278']/Values/FactoryBase">
-    <CycleTime>18</CycleTime>
+    <CycleTime>15</CycleTime>
   </ModOp>
   <ModOp Type="add" Path="//Asset[Values/Standard/GUID='101262']/Values/FactoryBase">
-    <CycleTime>18</CycleTime>
+    <CycleTime>15</CycleTime>
   </ModOp>
   <ModOp Type="merge" Path="//Asset[Values/Standard/GUID='1010558']/Values/FactoryBase">
-    <CycleTime>36</CycleTime>
+    <CycleTime>30</CycleTime>
   </ModOp>
 
 
