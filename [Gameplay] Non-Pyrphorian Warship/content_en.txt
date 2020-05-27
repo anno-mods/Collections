@@ -1,7 +1,6 @@
-Adds an non-Pyrphorian Warship for the player to be build in the Steam Shipyard when reaching 750 Engineers.
+Adds an Ironclad Warship for the player to be build in the Steam Shipyard when reaching 750 Engineers.
 This Ship has a unique attack feature. It's an hybrid between an turreted based ship and an side-cannon based ship.
 Also it can be bought from Blake and Sarmento in the late and end game.
-The higher tiered KIs will build them for their own fleet.
 
 Stats: 4000 Health
        66 Range

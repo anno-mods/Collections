@@ -208,11 +208,11 @@
           <BaseDamage>770</BaseDamage>
           <Turrets>
             <Item>
-              <TurnSpan>280</TurnSpan>
+              <TurnSpan>275</TurnSpan>
               <TurretCfg>data/modgraphics/vehicle/battle_ship/battle_ship_turret_01.cfg</TurretCfg>
             </Item>
             <Item>
-              <TurnSpan>280</TurnSpan>
+              <TurnSpan>275</TurnSpan>
               <TurretCfg>data/modgraphics/vehicle/battle_ship/battle_ship_turret_01.cfg</TurretCfg>
             </Item>
             <Item>
@@ -238,19 +238,19 @@
             </Item>
 
             <Item>
-              <TurnSpan>115</TurnSpan>
+              <TurnSpan>120</TurnSpan>
               <TurretCfg>data/modgraphics/vehicle/battle_ship/battle_ship_turret_03.cfg</TurretCfg>
             </Item>
             <Item>
-              <TurnSpan>115</TurnSpan>
+              <TurnSpan>120</TurnSpan>
               <TurretCfg>data/modgraphics/vehicle/battle_ship/battle_ship_turret_03.cfg</TurretCfg>
             </Item>
             <Item>
-              <TurnSpan>115</TurnSpan>
+              <TurnSpan>120</TurnSpan>
               <TurretCfg>data/modgraphics/vehicle/battle_ship/battle_ship_turret_03.cfg</TurretCfg>
             </Item>
             <Item>
-              <TurnSpan>115</TurnSpan>
+              <TurnSpan>120</TurnSpan>
               <TurretCfg>data/modgraphics/vehicle/battle_ship/battle_ship_turret_03.cfg</TurretCfg>
             </Item>
           </Turrets>

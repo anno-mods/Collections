@@ -117,7 +117,7 @@
   <Dummy>
     <Name>turret_1</Name>
     <Position>
-      <xf>4.94</xf>
+      <xf>5.00</xf>
       <yf>2.17741</yf>
       <zf>0.00</zf>
     </Position>
@@ -227,28 +227,9 @@
       <yf>0.1</yf>
       <zf>0.1</zf>
     </Extents>
-  </Dummy>
+  </Dummy> 
  <Dummy>
     <Name>turret_7</Name>
-    <Position>
-      <xf>1.78</xf>
-      <yf>2.144</yf>
-      <zf>0.65</zf>
-    </Position>
-    <Rotation>
-      <xf>0</xf>
-      <yf>-0.075</yf>
-      <zf>0</zf>
-      <wf>0.4</wf>
-    </Rotation>
-    <Extents>
-      <xf>0.1</xf>
-      <yf>0.1</yf>
-      <zf>0.1</zf>
-    </Extents>
-  </Dummy>
- <Dummy>
-    <Name>turret_8</Name>
     <Position>
       <xf>1.78</xf>
       <yf>2.144</yf>
@@ -258,7 +239,26 @@
       <xf>0</xf>
       <yf>0.3</yf>
       <zf>0</zf>
-      <wf>0.65</wf>
+      <wf>0.56</wf>
+    </Rotation>
+    <Extents>
+      <xf>0.1</xf>
+      <yf>0.1</yf>
+      <zf>0.1</zf>
+    </Extents>
+  </Dummy>
+  <Dummy>
+    <Name>turret_8</Name>
+    <Position>
+      <xf>1.78</xf>
+      <yf>2.144</yf>
+      <zf>0.65</zf>
+    </Position>
+    <Rotation>
+      <xf>0.00</xf>
+      <yf>-0.242</yf>
+      <zf>0.00</zf>
+      <wf>0.940</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -277,7 +277,7 @@
       <xf>0</xf>
       <yf>-0.7</yf>
       <zf>0</zf>
-      <wf>0.35</wf>
+      <wf>0.4</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -296,7 +296,7 @@
       <xf>0</xf>
       <yf>0.7</yf>
       <zf>0</zf>
-      <wf>0.35</wf>
+      <wf>0.4</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>

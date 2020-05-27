@@ -83,7 +83,7 @@
           <HPBarOffset>3.5</HPBarOffset>
           <AlertRange>150</AlertRange>
           <AccuracyWidth>2.5</AccuracyWidth>
-          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <SelfHealPerHealTick>2</SelfHealPerHealTick>
           <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
         </Attackable>
         <Attacker>
@@ -96,60 +96,60 @@
           <Turrets>
             <Item>
               <TurnSpan>320</TurnSpan>
-              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_back.cfg</TurretCfg>
+              <TurretCfg>data/graphics/vehicle/monitor/monitor_turret.cfg</TurretCfg>
             </Item>
             <Item>
               <TurnSpan>320</TurnSpan>
-              <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_back.cfg</TurretCfg>
+              <TurretCfg>data/graphics/vehicle/monitor/monitor_turret.cfg</TurretCfg>
             </Item>
 
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
 	    <Item>
-              <TurnSpan>70</TurnSpan>
+              <TurnSpan>80</TurnSpan>
               <TurretCfg>data/modgraphics/campaign/vehicle/pyro_ship_02/pyro_ship_02_turret_front.cfg</TurretCfg>
             </Item>
           </Turrets>
@@ -213,15 +213,15 @@
               <Amount>15</Amount>
             </Item>
             <Item>
-              <Ingredient>1010223</Ingredient>
-              <Amount>15</Amount>
+              <Ingredient>1010221</Ingredient>
+              <Amount>25</Amount>
             </Item>
           </Costs>
           <InfluenceCostType>WarShip</InfluenceCostType>
           <InfluenceCostPoints>18</InfluenceCostPoints>
         </Cost>
         <Craftable>
-          <CraftingTime>720000</CraftingTime>
+          <CraftingTime>480000</CraftingTime>
         </Craftable>
         <TradeRouteVehicle />
         <Locked />
@@ -249,7 +249,7 @@
           </ExpeditionAttributes>
         </ExpeditionAttribute>
         <ShipMaintenance>
-          <Maintenance>575</Maintenance>
+          <Maintenance>425</Maintenance>
         </ShipMaintenance>
         <Sellable>
           <Baseprice>

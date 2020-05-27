@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="TextExport/Texts">
     <Text>
 		<GUID>8866003</GUID>
-		<Text>Dampf Kriegschiff</Text>
+		<Text>Panzerschiff</Text>
 	</Text>
 	<Text>
 		<GUID>8860003</GUID>
