@@ -1,7 +1,11 @@
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  <ModOp Path="/TextExport/Texts" Type="add">
     <Text>
       <GUID>902232</GUID>
+      <Text>Kanal</Text>
+    </Text>
+    <Text>
+      <GUID>902246</GUID>
       <Text>Kanal</Text>
     </Text>
     <Text>
@@ -9,7 +13,15 @@
       <Text>Kanalbrunnen</Text>
     </Text>
     <Text>
+      <GUID>902247</GUID>
+      <Text>Kanalbrunnen</Text>
+    </Text>
+    <Text>
       <GUID>902234</GUID>
+      <Text>Kanal</Text>
+    </Text>
+    <Text>
+      <GUID>902248</GUID>
       <Text>Kanal</Text>
     </Text>
     <Text>
@@ -17,7 +29,15 @@
       <Text>Kanal</Text>
     </Text>
     <Text>
+      <GUID>902249</GUID>
+      <Text>Kanal</Text>
+    </Text>
+    <Text>
       <GUID>902236</GUID>
+      <Text>Kanalbrücke</Text>
+    </Text>
+    <Text>
+      <GUID>902250</GUID>
       <Text>Kanalbrücke</Text>
     </Text>
     <Text>
@@ -25,7 +45,15 @@
       <Text>Weltausstellungs - Tor</Text>
     </Text>
     <Text>
+      <GUID>902251</GUID>
+      <Text>Weltausstellungs - Tor</Text>
+    </Text>
+    <Text>
       <GUID>902238</GUID>
+      <Text>Weltausstellungs - Turm</Text>
+    </Text>
+    <Text>
+      <GUID>902252</GUID>
       <Text>Weltausstellungs - Turm</Text>
     </Text>
     <Text>
@@ -33,7 +61,15 @@
       <Text>Weltausstellungs - Pavillion</Text>
     </Text>
     <Text>
+      <GUID>902253</GUID>
+      <Text>Weltausstellungs - Pavillion</Text>
+    </Text>
+    <Text>
       <GUID>902240</GUID>
+      <Text>Säulen I</Text>
+    </Text>
+    <Text>
+      <GUID>902254</GUID>
       <Text>Säulen I</Text>
     </Text>
     <Text>
@@ -41,7 +77,15 @@
       <Text>Säulen II</Text>
     </Text>
     <Text>
+      <GUID>902255</GUID>
+      <Text>Säulen II</Text>
+    </Text>
+    <Text>
       <GUID>902294</GUID>
+      <Text>Helle Plaza</Text>
+    </Text>
+    <Text>
+      <GUID>902295</GUID>
       <Text>Helle Plaza</Text>
     </Text>
     <Text>
@@ -49,7 +93,15 @@
       <Text>Litfaßsäule</Text>
     </Text>
     <Text>
+      <GUID>902256</GUID>
+      <Text>Litfaßsäule</Text>
+    </Text>
+    <Text>
       <GUID>902243</GUID>
+      <Text>Plakatwand</Text>
+    </Text>
+    <Text>
+      <GUID>902257</GUID>
       <Text>Plakatwand</Text>
     </Text>
     <Text>
@@ -57,76 +109,16 @@
       <Text>Mosaikpflaster</Text>
     </Text>
     <Text>
-      <GUID>902245</GUID>
-      <Text>Flaggenmast</Text>
-    </Text>
-    <Text>
-      <GUID>902246</GUID>
-      <Text>Kanal</Text>
-    </Text>
-    <Text>
-      <GUID>902247</GUID>
-      <Text>Kanalbrunnen</Text>
-    </Text>
-    <Text>
-      <GUID>902248</GUID>
-      <Text>Kanal</Text>
-    </Text>
-    <Text>
-      <GUID>902249</GUID>
-      <Text>Kanal</Text>
-    </Text>
-    <Text>
-      <GUID>902250</GUID>
-      <Text>Kanalbrücke</Text>
-    </Text>
-    <Text>
-      <GUID>902251</GUID>
-      <Text>Weltausstellungs - Tor</Text>
-    </Text>
-    <Text>
-      <GUID>902252</GUID>
-      <Text>Weltausstellungs - Turm</Text>
-    </Text>
-    <Text>
-      <GUID>902253</GUID>
-      <Text>Weltausstellungs - Pavillion</Text>
-    </Text>
-    <Text>
-      <GUID>902254</GUID>
-      <Text>Säulen I</Text>
-    </Text>
-    <Text>
-      <GUID>902255</GUID>
-      <Text>Säulen II</Text>
-    </Text>
-    <Text>
-      <GUID>902295</GUID>
-      <Text>Helle Plaza</Text>
-    </Text>
-    <Text>
-      <GUID>902256</GUID>
-      <Text>Litfaßsäule</Text>
-    </Text>
-    <Text>
-      <GUID>902257</GUID>
-      <Text>Plakatwand</Text>
-    </Text>
-    <Text>
       <GUID>902258</GUID>
       <Text>Mosaikpflaster</Text>
     </Text>
     <Text>
-      <GUID>902259</GUID>
+      <GUID>902245</GUID>
       <Text>Flaggenmast</Text>
     </Text>
     <Text>
-      <GUID>902262</GUID>
-      <Text>Exklusive Ziergebäude</Text>
-    </Text>
-    <Text>
-      <GUID>902263</GUID>
-      <Text>Exklusive Ziergebäude</Text>
+      <GUID>902259</GUID>
+      <Text>Flaggenmast</Text>
     </Text>
     <Text>
       <GUID>976500</GUID>
@@ -142,7 +134,11 @@
     </Text>
     <Text>
       <GUID>976503</GUID>
-      <Text>Weltausstellungsmodule</Text>
+      <Text>Weltausstellungs- module</Text>
+    </Text>
+    <Text>
+      <GUID>902263</GUID>
+      <Text>Exklusive Ziergebäude</Text>
     </Text>
   </ModOp>
 </ModOps>
