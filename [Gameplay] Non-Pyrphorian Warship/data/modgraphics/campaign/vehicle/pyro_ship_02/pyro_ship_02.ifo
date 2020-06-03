@@ -106,7 +106,7 @@
       <xf>0</xf>
       <yf>-0.5</yf>
       <zf>0</zf>
-      <wf>0.7050747</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -125,7 +125,7 @@
       <xf>0</xf>
       <yf>-0.5</yf>
       <zf>0</zf>
-      <wf>0.7050747</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -144,7 +144,7 @@
       <xf>0</xf>
       <yf>-0.5</yf>
       <zf>0</zf>
-      <wf>0.7050747</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -163,7 +163,7 @@
       <xf>0</xf>
       <yf>-0.5</yf>
       <zf>0</zf>
-      <wf>0.7050747</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -182,7 +182,7 @@
       <xf>0</xf>
       <yf>-0.5</yf>
       <zf>0</zf>
-      <wf>0.7050747</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -201,7 +201,7 @@
       <xf>0</xf>
       <yf>-0.5</yf>
       <zf>0</zf>
-      <wf>0.7050747</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -220,7 +220,7 @@
       <xf>0</xf>
       <yf>0.5</yf>
       <zf>0</zf>
-      <wf>0.7072347</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -239,7 +239,7 @@
       <xf>0</xf>
       <yf>0.5</yf>
       <zf>0</zf>
-      <wf>0.7072347</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -258,7 +258,7 @@
       <xf>0</xf>
       <yf>0.5</yf>
       <zf>0</zf>
-      <wf>0.7072347</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -277,7 +277,7 @@
       <xf>0</xf>
       <yf>0.5</yf>
       <zf>0</zf>
-      <wf>0.7072347</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -296,7 +296,7 @@
       <xf>0</xf>
       <yf>0.5</yf>
       <zf>0</zf>
-      <wf>0.7072347</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
@@ -315,7 +315,7 @@
       <xf>0</xf>
       <yf>0.5</yf>
       <zf>0</zf>
-      <wf>0.7072347</wf>
+      <wf>0.5</wf>
     </Rotation>
     <Extents>
       <xf>0.1</xf>
