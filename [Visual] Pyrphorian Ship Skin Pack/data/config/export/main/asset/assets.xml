@@ -1,0 +1,399 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID='119354'>
+        <Asset>
+            <BaseAssetGUID>1010062</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>8119355</GUID>
+                    <Name>Collier Skin Pyr(Trade)</Name>
+                    <IconFilename>data/graphics/icons/icon_ship_collier_pyr.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>TradeShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/vehicle/collier_03/collier_pyr.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Walking />
+                <Text />
+                <CommandQueue />
+                <Drifting />
+                <Collector />
+                <Attackable />
+                <MinimapToken />
+                <SoundEmitter />
+                <UpgradeList />
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer />
+                <FeedbackController />
+                <Draggable />
+                <Cost />
+                <Craftable />
+                <TradeRouteVehicle />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance />
+                <Sellable />
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident />
+                <SoundEmitterCommandBarks />
+            </Values>
+        </Asset> 
+
+        <Asset>
+            <BaseAssetGUID>100853</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>8119357</GUID>
+                    <Name>Oil Tanker Skin Pyr(Trade - Special)</Name>
+                    <IconFilename>data/graphics/icons/icon_ship_oil_tanker_pyr.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>TradeShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/vehicle/steam_ship_oil_02/steam_ship_oil_pyr_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Walking />
+                <Text />
+                <CommandQueue />
+                <Drifting />
+                <Collector />
+                <Attackable />
+                <MinimapToken />
+                <SoundEmitter />
+                <UpgradeList />
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer />
+                <FeedbackController />
+                <Draggable />
+                <Cost />
+                <Craftable />
+                <TradeRouteVehicle />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance />
+                <Sellable />
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident />
+                <SoundEmitterCommandBarks />
+            </Values>
+        </Asset>  
+
+	    <Asset>
+            <BaseAssetGUID>100442</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>8119356</GUID>
+                    <Name>Battle Cruiser Pyr Skin (Military)</Name>
+                    <IconFilename>data/graphics/icons/icon_ship_battlecruiser_pyr.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>WarShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_pyr.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Walking />
+                <Text />
+                <CommandQueue />
+                <Drifting />
+                <Collector />
+                <Attackable />
+                <Attacker>
+                    <AttackRange />
+                    <LineOfSightRange />
+                    <ReloadTime />
+                    <ProjectileAsset />
+                    <ProjectileCount />
+                    <BaseDamage />
+                    <Turrets>
+                            <Item>
+                                <TurnSpan>300</TurnSpan>
+                                <TurretCfg>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_pyr_turret_01.cfg</TurretCfg>
+                            </Item>
+                            <Item>
+                                <TurnSpan>300</TurnSpan>
+                                <TurretCfg>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_pyr_turret_01.cfg</TurretCfg>
+                            </Item>
+                            <Item>
+                                <TurnSpan>300</TurnSpan>
+                                <TurretCfg>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_pyr_turret_01.cfg</TurretCfg>
+                            </Item>
+                        </Turrets>
+                    <AccuracyBase />
+                    <AccuracyIncreaseOverDistance />
+                    <AccuracySpeedDecay />
+                    <ShootingTracking />
+                    <FullVolleyTimeMin />
+                    <MuzzleEffectAssets />
+                    <FullVolleyTimeMax />
+                    <AccuracyByDistance />
+                </Attacker>
+                <MinimapToken />
+                <SoundEmitter />
+                <UpgradeList />
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer />
+                <FeedbackController />
+                <Draggable />
+                <Cost />
+                <Craftable />
+                <TradeRouteVehicle />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance />
+                <Sellable />
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident />
+                <SoundEmitterCommandBarks />
+            </Values>
+        </Asset>      
+
+        <Asset>
+            <BaseAssetGUID>100443</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>8119358</GUID>
+                    <Name>Monitor Pyr Skin (Military)</Name>
+                    <IconFilename>data/graphics/icons/icon_ship_monitor_pyr.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>WarShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/vehicle/monitor_02/monitor_pyr.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Walking />
+                <Text />
+                <CommandQueue />
+                <Drifting />
+                <Collector />
+                <Attackable />
+                <Attacker>
+                    <AttackRange />
+                    <LineOfSightRange />
+                    <ReloadTime />
+                    <ProjectileAsset />
+                    <ProjectileCount />
+                    <BaseDamage />
+                    <Turrets>
+                            <Item>
+                                  <TurnSpan>320</TurnSpan>
+                                  <TurretCfg>data/graphics/vehicle/monitor_02/monitor_turret_pyr.cfg</TurretCfg>
+                            </Item>
+                    </Turrets>
+                    <AccuracyBase />
+                    <AccuracyIncreaseOverDistance />
+                    <AccuracySpeedDecay />
+                    <ShootingTracking />
+                    <MuzzleEffectAssets />
+                    <AccuracyByDistance />
+                </Attacker>
+                <MinimapToken />
+                <SoundEmitter />
+                <UpgradeList />
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer />
+                <FeedbackController />
+                <Draggable />
+                <Cost />
+                <Craftable />
+                <TradeRouteVehicle />
+                <Locked />
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance />
+                <Sellable />
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident />
+                <SoundEmitterCommandBarks />
+            </Values>
+        </Asset>      
+    </ModOp>
+
+
+    <!-- Unlock Action -->
+  <ModOp Type="addNextSibling" GUID='141008'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>8119359</GUID>
+          <Name>TRIGGER Monitor Skin</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>8119358</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+<!-- Battlescruiser: -->
+    <ModOp GUID='142880' Path="/Values/BuildModeFeature/GuidVariationLists/Item/GuidVariationList[Item = '100442']" Type="add">
+        <Item>
+            <Guid>8119356</Guid>
+        </Item>
+    </ModOp>
+
+<!-- Collier: -->
+    <ModOp GUID='142880' Path="/Values/BuildModeFeature/GuidVariationLists/Item/GuidVariationList[Item = '1010062']" Type="add">
+        <Item>
+            <Guid>8119355</Guid>
+        </Item>
+    </ModOp>
+
+<!-- Monitor: -->
+    <ModOp GUID='142880' Path="/Values/BuildModeFeature/GuidVariationLists" Type="add">
+        <Item>
+            <GuidVariationList>
+                <Item>
+                    <Guid>100443</Guid>
+                </Item>
+                <Item>
+                    <Guid>8119358</Guid>
+                </Item>
+            </GuidVariationList>
+        </Item>
+    </ModOp>
+
+<!-- Oil Tanker: -->
+    <ModOp GUID='142880' Path="/Values/BuildModeFeature/GuidVariationLists" Type="add">
+        <Item>
+            <GuidVariationList>
+                <Item>
+                    <Guid>100853</Guid>
+                </Item>
+                <Item>
+                    <Guid>8119357</Guid>
+                </Item>
+            </GuidVariationList>
+        </Item>
+    </ModOp>
+
+<!-- All Steam Tradeships: -->
+    <ModOp Type = "add" GUID='193898,191456' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>8119355</GUID>
+        </Item>
+	    <Item>
+            <GUID>8119357</GUID>
+        </Item>
+    </ModOp>
+
+<!-- All Steam Warships: -->
+   <ModOp Type = "add" GUID='191458,191456,190608' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>8119356</GUID>
+        </Item>
+        <Item>
+            <GUID>8119358</GUID>
+        </Item>
+    </ModOp>
+</ModOps>
