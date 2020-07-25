@@ -1,0 +1,139 @@
+<ModOps>
+    <ModOp Type="replace" Path="//ExpeditionFeature/ExpeditionDistribution/MidGame">
+        <MidGame>
+            <IntervalMin>6000</IntervalMin>
+            <IntervalMax>6001</IntervalMax>
+            <ExpeditionAmount>6</ExpeditionAmount>
+            <ExpeditionPool>
+                <Item>
+                    <ExpeditionGroup>682193884</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>1337069693</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1756914062</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1707632869</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1481833766</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1027518943</ExpeditionGroup>
+                </Item>
+            </ExpeditionPool>
+        </MidGame>
+    </ModOp>
+
+    <ModOp Type="replace" Path="//ExpeditionFeature/ExpeditionDistribution/LateMidGame">
+        <LateMidGame>
+            <IntervalMin>6000</IntervalMin>
+            <IntervalMax>6001</IntervalMax>
+            <ExpeditionAmount>6</ExpeditionAmount>
+            <ExpeditionPool>
+                <Item>
+                    <ExpeditionGroup>682193884</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>1337069693</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1756914062</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1707632869</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1481833766</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1027518943</ExpeditionGroup>
+                </Item>
+            </ExpeditionPool>
+        </LateMidGame>
+    </ModOp>
+    <ModOp Type="replace" Path="//ExpeditionFeature/ExpeditionDistribution/LateGame">
+        <LateGame>
+            <IntervalMin>6000</IntervalMin>
+            <IntervalMax>6001</IntervalMax>
+            <ExpeditionAmount>6</ExpeditionAmount>
+            <ExpeditionPool>
+                <Item>
+                    <ExpeditionGroup>682193884</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>1337069693</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1756914062</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1707632869</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1481833766</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1027518943</ExpeditionGroup>
+                </Item>
+            </ExpeditionPool>
+        </LateGame>
+    </ModOp>
+
+    <ModOp Type="replace" Path="//ExpeditionFeature/ExpeditionDistribution/EndGame">
+        <EndGame>
+            <IntervalMin>6000</IntervalMin>
+            <IntervalMax>6001</IntervalMax>
+            <ExpeditionAmount>6</ExpeditionAmount>
+            <ExpeditionPool>
+                <Item>
+                    <ExpeditionGroup>682193884</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>1337069693</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1756914062</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1707632869</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1481833766</ExpeditionGroup>
+                </Item>
+                <Item>
+                    <ExpeditionGroup>-1027518943</ExpeditionGroup>
+                </Item>
+            </ExpeditionPool>
+        </EndGame>
+    </ModOp>
+
+    <!-- Easy botanical expeditions from the pools above -->
+    <ModOp Type="remove" GUID="803813" Path="/" />
+    <ModOp Type="remove" GUID="804127" Path="/" />
+    <ModOp Type="remove" GUID="803810" Path="/" />
+    <ModOp Type="remove" GUID="804124" Path="/" />
+    <ModOp Type="remove" GUID="800422" Path="/" />
+    <ModOp Type="remove" GUID="800839" Path="/" />
+    <ModOp Type="remove" GUID="800840" Path="/" />
+    <ModOp Type="remove" GUID="803819" Path="/" />
+    <ModOp Type="remove" GUID="804130" Path="/" />
+    <ModOp Type="remove" GUID="803822" Path="/" />
+    <ModOp Type="remove" GUID="804133" Path="/" />
+    <ModOp Type="remove" GUID="803825" Path="/" />
+    <ModOp Type="remove" GUID="804136" Path="/" />
+
+    <!-- Average botanical expeditions from the pools above -->
+    <ModOp Type="remove" GUID="803811" Path="/" />
+    <ModOp Type="remove" GUID="804123" Path="/" />
+    <ModOp Type="remove" GUID="803814" Path="/" />
+    <ModOp Type="remove" GUID="804128" Path="/" />
+    <ModOp Type="remove" GUID="803820" Path="/" />
+    <ModOp Type="remove" GUID="804131" Path="/" />
+    <ModOp Type="remove" GUID="803823" Path="/" />
+    <ModOp Type="remove" GUID="804134" Path="/" />
+    <ModOp Type="remove" GUID="803826" Path="/" />
+    <ModOp Type="remove" GUID="804137" Path="/" />
+</ModOps>
