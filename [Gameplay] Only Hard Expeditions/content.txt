@@ -1,0 +1,1 @@
+This mod will change the expedition pools so they spawn only Hard Expeditions. Also, the time between spawns is greatly shortened.
