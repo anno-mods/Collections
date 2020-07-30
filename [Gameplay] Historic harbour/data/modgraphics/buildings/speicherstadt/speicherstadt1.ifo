@@ -329,19 +329,19 @@
   <PriorityFeedbackBlocker>
     <Position>
       <xf>2.7</xf>
-      <zf>1.3</zf>
+      <zf>2.3</zf>
     </Position>
     <Position>
       <xf>2.7</xf>
-      <zf>-1.3</zf>
+      <zf>-1.7</zf>
     </Position>
     <Position>
       <xf>-2.7</xf>
-      <zf>-2.5</zf>
+      <zf>-1.7</zf>
     </Position>
     <Position>
       <xf>-2.7</xf>
-      <zf>2.5</zf>
+      <zf>2.3</zf>
     </Position>
   </PriorityFeedbackBlocker>
 </Info>

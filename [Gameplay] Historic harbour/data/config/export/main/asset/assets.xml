@@ -407,4 +407,52 @@
                       </Values>
                     </Asset>
   </ModOp>
+    <ModOp Type="addNextSibling" GUID='193865' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='100586']">
+                    <Item>
+                      <GUID>850036</GUID>
+                    </Item>
+  </ModOp>
+    <ModOp Type = "add" GUID = '130121' Path = "/Values/AssetPool/AssetList">
+                    <Item>
+                      <GUID>850036</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>850037</GUID>
+                    </Item>
+  </ModOp>
+    <ModOp Type="addNextSibling" GUID='191508' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='100586']">
+                    <Item>
+                      <GUID>850036</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>850037</GUID>
+                    </Item>
+  </ModOp>
+    <ModOp Type = "add" GUID = '193866' Path = "/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+                    <Item>
+                      <GUID>850036</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>850037</GUID>
+                    </Item>
+  </ModOp>
+    <ModOp Type = "add" GUID = '2001096' Path = "/Values/FeedbackSessionDescription/HarborConfig/SpawnBuildings">
+                                  <Item>
+                                    <BuildingAsset>850036</BuildingAsset>
+                                    <WorkerAmount>15</WorkerAmount>
+                                  </Item>
+                                  <Item>
+                                    <BuildingAsset>850037</BuildingAsset>
+                                    <WorkerAmount>15</WorkerAmount>
+                                  </Item>
+  </ModOp>
+
+    <ModOp Type = "add" GUID = '2001096' Path = "/Values/FeedbackSessionDescription/HarborConfig/WorkPlaceAssets">
+                                  <Item>
+                                    <WorkPlace>850036</WorkPlace>
+                                  </Item>
+                                  <Item>
+                                    <WorkPlace>850037</WorkPlace>
+                                  </Item>
+  </ModOp>
 </ModOps>

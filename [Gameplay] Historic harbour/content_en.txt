@@ -1,8 +1,8 @@
-Historic_harbour v1.0:
+Historic_harbour v1.0.1:
 
 This mod adds 3 new buildings: a new harbor master's office and 2 new warehouses. The appearance of the new building is based on the warehouse district of Hamburg
 
-The new harbor master's office offers a total of 5 slots (scroll down in the menu) and a 50% larger radius
+The new harbor master's office offers a total of 5 slots (push home/end button) and a 50% larger radius
 
 The two warehouses have 30 tons more capacity than a normal warehouse
 
@@ -10,11 +10,17 @@ In return for their advantages, the new buildings are more expensive to maintain
 
 The new buildings will be unlocked at 3000 engineers
 
+
 !!! This mod is compatible with previously started savegames. No unlocker is needed !!!
 
 
 After installation, the new buildings can be found in the engineers harbour construction menu
 
 
+Update 1.0.1 Notes:
 
-sincerly Fishboss
+  Bugfixes:
+  
+  - There should now be more workers walking around the new buildings
+
+  - The ministry should now support the new harbor master's office
