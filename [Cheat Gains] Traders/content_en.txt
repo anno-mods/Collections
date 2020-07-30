@@ -1,0 +1,16 @@
+Changes default traders in the old & new world to offer all items (legendary, epic, rares, uncommons & commons) and all NPCs to offer up to 512 items.
+
+Makes traders in the old/new world offer all possible items of a certain rarity:
+
+Sir Archibald Blake (Queen Emissary) offers all legendary items
+Eli Bleakworth (Jailer) offers all epics
+Madame Kahina (Orient Emissary) offers all rares
+Anne Harlow, La Fortune & Isabel Sarmento offer all uncommons & commons
+
+Additionally each of those trader offers up to 512 items. This is mostly irrelevant for the NPCs mentioned above as there is not enough items from each category to make it to 512 items so in essence they just offer their entire stock.
+
+ATTENTION!
+To be able to see all items in offer you have to scroll the list with your mousewheel. Scrollbar on the side of trade window is bugged and doesn't allow to see everything.
+
+ATTENTION!
+Some items offered by the traders seem very "developer-y". I guess they were not intended to be sold by npcs but hey - they are now ;)
