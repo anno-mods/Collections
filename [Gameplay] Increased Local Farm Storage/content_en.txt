@@ -1,0 +1,1 @@
+Increases the local storage of produced goods on farm and plantation buildings by 300%, to compensate for the tractor production bonus.

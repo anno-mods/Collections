@@ -1,0 +1,54 @@
+<ModOps>
+  <!-- Grain Farm -->
+  <ModOp Type="merge" GUID='1010262' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>6</StorageAmount>
+  </ModOp>
+  <!-- Hops Farm -->
+  <ModOp Type="merge" GUID='1010264' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>3</StorageAmount>
+  </ModOp>
+  <!-- Potato Farm -->
+  <ModOp Type="merge" GUID='1010265' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>12</StorageAmount>
+  </ModOp>
+  <!-- Pepper Farm -->
+  <ModOp Type="merge" GUID='100654' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>3</StorageAmount>
+  </ModOp>
+  <!-- Grape Farm -->
+  <ModOp Type="merge" GUID='100655' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>3</StorageAmount>
+  </ModOp>
+  <!-- Corn Plantation -->
+  <ModOp Type="merge" GUID='101270' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>6</StorageAmount>
+  </ModOp>
+  <!-- Coffee Plantation -->
+  <ModOp Type="merge" GUID='101251' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>6</StorageAmount>
+  </ModOp>
+  <!-- Plantain Plantation -->
+  <ModOp Type="merge" GUID='101263' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>12</StorageAmount>
+  </ModOp>
+  <!-- Sugar Cane Plantation -->
+  <ModOp Type="merge" GUID='1010329' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>12</StorageAmount>
+  </ModOp>
+  <!-- Tobacco Plantation -->
+  <ModOp Type="merge" GUID='1010330' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>3</StorageAmount>
+  </ModOp>
+  <!-- Cotton Plantation -->
+  <ModOp Type="merge" GUID='1010331' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>6</StorageAmount>
+  </ModOp>
+  <!-- Cocoa Plantation -->
+  <ModOp Type="merge" GUID='1010332' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>6</StorageAmount>
+  </ModOp>
+  <!-- Caoutchouc Plantation -->
+  <ModOp Type="merge" GUID='1010333' Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">  
+        <StorageAmount>6</StorageAmount>
+  </ModOp>
+</ModOps>
