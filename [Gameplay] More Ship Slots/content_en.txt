@@ -1,0 +1,31 @@
+### CHANGES ###
+
+Flagship:
+﻿Item slot: 3
+﻿Cargo slot: 3
+Schooner:
+﻿Item slot: 2
+﻿Cargo slot: 2
+Gunboat:
+﻿Item slot: 2
+﻿Cargo slot: 2
+Ship-of-the-line:
+﻿Item slot: 5
+﻿Cargo slot: 5
+Frigate:
+﻿Item slot: 3
+﻿Cargo slot: 4
+Clipper:
+﻿Item slot: 3
+﻿Cargo slot: 5
+Cargo Ship:
+﻿Item slot: 4
+﻿Cargo slot: 6
+Battle Cruiser:
+﻿Item slot: 6
+﻿Cargo slot: 6
+Monitor:
+﻿Item slot: 3
+﻿Cargo slot: 3
+
+###############

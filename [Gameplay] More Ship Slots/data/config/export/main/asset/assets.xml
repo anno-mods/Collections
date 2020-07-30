@@ -1,0 +1,47 @@
+<ModOps>
+	<!-- Flagship -->
+	<ModOp Type="merge" GUID='101121' Path="/Values/ItemContainer">
+		<SocketCount>3</SocketCount>
+		<SlotCount>3</SlotCount>
+	</ModOp>
+	<!-- Schooner -->
+	<ModOp Type="merge" GUID='100438' Path="/Values/ItemContainer">
+		<SocketCount>2</SocketCount>
+		<SlotCount>3</SlotCount>
+	</ModOp>
+	<!-- Gunboat -->
+	<ModOp Type="merge" GUID='100437' Path="/Values/ItemContainer">
+		<SocketCount>2</SocketCount>
+		<SlotCount>2</SlotCount>
+	</ModOp>
+	<!-- Ship-of-the-line -->
+	<ModOp Type="merge" GUID='100440' Path="/Values/ItemContainer">
+		<SocketCount>5</SocketCount>
+		<SlotCount>5</SlotCount>
+	</ModOp>
+	<!-- Frigate -->
+	<ModOp Type="merge" GUID='100439' Path="/Values/ItemContainer">
+		<SocketCount>3</SocketCount>
+		<SlotCount>4</SlotCount>
+	</ModOp>
+	<!-- Clipper -->
+	<ModOp Type="merge" GUID='100441' Path="/Values/ItemContainer">
+		<SocketCount>3</SocketCount>
+		<SlotCount>5</SlotCount>
+	</ModOp>
+	<!-- Battle Cruiser -->
+	<ModOp Type="merge" GUID='100442' Path="/Values/ItemContainer">
+		<SocketCount>6</SocketCount>
+		<SlotCount>6</SlotCount>
+	</ModOp>
+	<!-- Monitor -->
+	<ModOp Type="merge" GUID='100443' Path="/Values/ItemContainer">
+		<SocketCount>3</SocketCount>
+		<SlotCount>3</SlotCount>
+	</ModOp>
+	<!-- Collier/Cargo ship -->
+	<ModOp Type="merge" GUID='1010062' Path="/Values/ItemContainer">
+		<SocketCount>4</SocketCount>
+		<SlotCount>6</SlotCount>
+	</ModOp>
+</ModOps>
