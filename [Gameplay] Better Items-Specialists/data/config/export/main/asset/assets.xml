@@ -1,0 +1,1091 @@
+<ModOps>
+<!-- ################# SHIP ITEMS #################### -->
+	<!-- Fine Spyglass UNCOMMON -->
+	<ModOp Type="merge" GUID='191838' Path="/Values">
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>20</Value>
+            </AttackRangeUpgrade>
+        </AttackerUpgrade>
+	</ModOp>	
+	<!-- High-Powered Scope RARE -->
+	<ModOp Type="merge" GUID='191839' Path="/Values">
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>40</Value>
+            </AttackRangeUpgrade>
+        </AttackerUpgrade>
+	</ModOp>
+	<!-- Telemobiloscope EPIC -->
+	<ModOp Type="merge" GUID='191840' Path="/Values">
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>80</Value>
+            </AttackRangeUpgrade>
+        </AttackerUpgrade>
+	</ModOp>
+
+	<!-- Square Rig UNCOMMON -->
+	<ModOp Type="merge" GUID='191824' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>20</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+	</ModOp>	
+	<!-- Lateen Style Sails RARE -->
+	<ModOp Type="merge" GUID='191013' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>40</Value>
+			</ForwardSpeedUpgrade>
+			<IgnoreWeightFactorUpgrade>
+				<Value>25</Value>
+			</IgnoreWeightFactorUpgrade>
+		</VehicleUpgrade>
+	</ModOp>	
+	<!-- Fore-and-aft Rig Sails EPIC -->
+	<ModOp Type="merge" GUID='191825' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>80</Value>
+			</ForwardSpeedUpgrade>
+			<IgnoreWeightFactorUpgrade>
+				<Value>50</Value>
+			</IgnoreWeightFactorUpgrade>
+			<IgnoreDamageFactorUpgrade>
+				<Value>50</Value>
+			</IgnoreDamageFactorUpgrade>
+		</VehicleUpgrade>			
+	</ModOp>	
+	
+	<!-- Fine Wood Hull UNCOMMON -->
+	<ModOp Type="merge" GUID='191848' Path="/Values">
+        <AttackableUpgrade>
+            <MaxHitpointsUpgrade>
+				<Value>25</Value>
+			</MaxHitpointsUpgrade>
+        </AttackableUpgrade>
+	</ModOp>	
+	<!-- Fine Steel Hull RARE -->
+	<ModOp Type="merge" GUID='191849' Path="/Values">
+
+        <AttackableUpgrade>
+            <MaxHitpointsUpgrade>
+				<Value>50</Value>
+			</MaxHitpointsUpgrade>
+        </AttackableUpgrade>
+	</ModOp>	
+	<!-- Reinforced Bulkhead EPIC -->
+	<ModOp Type="merge" GUID='191850' Path="/Values">
+        <AttackableUpgrade>
+            <MaxHitpointsUpgrade>
+				<Value>100</Value>
+			</MaxHitpointsUpgrade>
+        </AttackableUpgrade>
+	</ModOp>
+
+	<!-- Two-turn Screw Propeller UNCOMMON -->
+	<ModOp Type="merge" GUID='191829' Path="/Values">
+		<VehicleUpgrade>
+            <ForwardSpeedUpgrade>
+                <Value>20</Value>
+            </ForwardSpeedUpgrade>
+        </VehicleUpgrade>
+	</ModOp>
+	<!-- One-Turn Screw Propeller RARE -->
+	<ModOp Type="merge" GUID='191830' Path="/Values">
+		<VehicleUpgrade>
+            <ForwardSpeedUpgrade>
+                <Value>40</Value>
+            </ForwardSpeedUpgrade>
+			<IgnoreWeightFactorUpgrade>
+				<Value>50</Value>
+            </IgnoreWeightFactorUpgrade>
+        </VehicleUpgrade>
+	</ModOp>
+	<!-- Controllable-Pitch Propeller EPIC -->
+	<ModOp Type="merge" GUID='191831' Path="/Values">
+		<VehicleUpgrade>
+            <ForwardSpeedUpgrade>
+                <Value>80</Value>
+            </ForwardSpeedUpgrade>
+			<IgnoreWeightFactorUpgrade>
+				<Value>100</Value>
+            </IgnoreWeightFactorUpgrade>
+        </VehicleUpgrade>
+	</ModOp>
+
+	<!-- Exhaust Blower UNCOMMON -->
+	<ModOp Type="merge" GUID='191856' Path="/Values">
+		<VehicleUpgrade>
+            <IgnoreDamageFactorUpgrade>
+                <Value>35</Value>
+            </IgnoreDamageFactorUpgrade>
+        </VehicleUpgrade>
+	</ModOp>
+	<!-- Heat Exchanger RARE -->
+	<ModOp Type="merge" GUID='191857' Path="/Values">
+		<VehicleUpgrade>
+            <IgnoreDamageFactorUpgrade>
+                <Value>70</Value>
+            </IgnoreDamageFactorUpgrade>
+		</VehicleUpgrade>
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>20</Value>
+			</MaxHitpointsUpgrade>
+        </AttackableUpgrade>
+	</ModOp>
+	<!-- Plate Heat Exchanger EPIC -->
+	<ModOp Type="merge" GUID='191858' Path="/Values">
+		<VehicleUpgrade>
+            <IgnoreDamageFactorUpgrade>
+                <Value>100</Value>
+            </IgnoreDamageFactorUpgrade>
+		</VehicleUpgrade>
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>40</Value>
+			</MaxHitpointsUpgrade>
+        </AttackableUpgrade>
+	</ModOp>
+
+
+<!-- ############## SHIP SPECIALISTS ################ -->
+
+	<!-- Sailor COMMON -->
+	<ModOp Type="merge" GUID='191444' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>10</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+	</ModOp>
+	<!-- Ensign COMMON -->
+	<ModOp Type="merge" GUID='191596' Path="/Values">
+		<AttackerUpgrade>
+            <DamageFactor>
+				<SailShip>
+					<Factor>1.2</Factor>
+				</SailShip>
+            </DamageFactor>
+        </AttackerUpgrade>
+	</ModOp>
+	<!-- Gunsmith COMMON -->
+	<ModOp Type="merge" GUID='191597' Path="/Values">
+		<AttackerUpgrade>
+            <DamageFactor>
+				<SteamShip>
+					<Factor>1.2</Factor>
+				</SteamShip>
+            </DamageFactor>
+        </AttackerUpgrade>
+	</ModOp>
+	<!-- Mate UNCOMMON -->
+	<ModOp Type="merge" GUID='191445' Path="/Values">
+		<AttackableUpgrade>
+			<SelfHealUpgrade>
+				<Value>200</Value>
+			</SelfHealUpgrade>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Midshipman UNCOMMON -->
+	<ModOp Type="merge" GUID='191446' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>20</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+	</ModOp>
+	<!-- Bo'sun UNCOMMON -->
+	<ModOp Type="merge" GUID='191447' Path="/Values">
+		<VehicleUpgrade>
+			<IgnoreDamageFactorUpgrade>
+				<Value>80</Value>
+			</IgnoreDamageFactorUpgrade>
+		</VehicleUpgrade>
+	</ModOp>
+	<!-- Former Pirate UNCOMMON -->
+	<ModOp Type="merge" GUID='191598' Path="/Values">
+		<AttackerUpgrade>
+            <BaseDamageUpgrade>
+				<Value>20</Value>
+            </BaseDamageUpgrade>
+        </AttackerUpgrade>
+	</ModOp>
+	<!-- Sergeant UNCOMMON -->
+	<ModOp Type="merge" GUID='191599' Path="/Values">
+		<AttackerUpgrade>
+            <ReloadTimeUpgrade>
+				<Value>-20</Value>
+            </ReloadTimeUpgrade>
+			<AttackSpeedUpgrade>20</AttackSpeedUpgrade>
+        </AttackerUpgrade>
+	</ModOp>
+
+	<!-- Tugboatman RARE -->
+	<ModOp Type="merge" GUID='191448' Path="/Values">
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>1200</Value>
+			</MaxHitpointsUpgrade>
+			<SelfHealUpgrade>
+				<Value>600</Value>
+			</SelfHealUpgrade>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Pilot RARE -->
+	<ModOp Type="merge" GUID='191449' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>30</Value>
+			</ForwardSpeedUpgrade>
+			<IgnoreDamageFactorUpgrade>
+				<Value>70</Value>
+			</IgnoreDamageFactorUpgrade>
+		</VehicleUpgrade>
+	</ModOp>
+	<!-- Captain of Marines RARE -->
+	<ModOp Type="merge" GUID='191600' Path="/Values">
+		<AttackerUpgrade>
+			<DamageFactor>
+				<Building>
+					<Factor>1.6</Factor>
+				</Building>
+			</DamageFactor>
+		</AttackerUpgrade>
+		<AttackableUpgrade>
+			<DamageReceiveFactor>
+				<Normal>
+					<Factor>0.70</Factor>
+				</Normal>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Former Corsair RARE -->
+	<ModOp Type="merge" GUID='191601' Path="/Values">
+		<AttackerUpgrade>
+			<DamageFactor>
+				<SteamShip>
+					<Factor>1.6</Factor>
+				</SteamShip>
+			</DamageFactor>
+		</AttackerUpgrade>
+		<AttackableUpgrade>
+			<DamageReceiveFactor>
+				<Normal>
+					<Factor>0.70</Factor>
+				</Normal>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Ship's Chaplain RARE -->
+	<ModOp Type="merge" GUID='191602' Path="/Values">
+		<AttackerUpgrade>
+			<DamageFactor>
+				<SailShip>
+					<Factor>1.6</Factor>
+				</SailShip>
+			</DamageFactor>
+		</AttackerUpgrade>
+		<AttackableUpgrade>
+			<DamageReceiveFactor>
+				<Normal>
+					<Factor>0.70</Factor>
+				</Normal>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+
+	<!-- Captain Ibrahim EPIC -->
+	<ModOp Type="merge" GUID='190766' Path="/Values">
+		<AttackableUpgrade>
+			<DamageReceiveFactor>
+				<Normal>
+					<Factor>0.6</Factor>
+				</Normal>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Captain Kadijah EPIC -->
+	<ModOp Type="merge" GUID='191450' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>40</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+		<AttackableUpgrade>
+			<SelfHealUpgrade>
+				<Value>800</Value>
+			</SelfHealUpgrade>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Vice-Admiral Adams EPIC -->
+	<ModOp Type="merge" GUID='191603' Path="/Values">
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>2000</Value>
+			</MaxHitpointsUpgrade>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Vice-Admiral Romanov EPIC -->
+	<ModOp Type="merge" GUID='191604' Path="/Values">
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>20</Value>
+			</AttackRangeUpgrade>
+			<BaseDamageUpgrade>
+				<Value>40</Value>
+			</BaseDamageUpgrade>
+			<LineOfSightRangeUpgrade>
+				<Value>20</Value>
+			</LineOfSightRangeUpgrade>
+		</AttackerUpgrade>
+	</ModOp>
+	<!-- Vice-Almirante Gonçalves EPIC -->
+	<ModOp Type="merge" GUID='191605' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>30</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>20</Value>
+			</AttackRangeUpgrade>
+			<LineOfSightRangeUpgrade>
+				<Value>20</Value>
+			</LineOfSightRangeUpgrade>
+		</AttackerUpgrade>
+	</ModOp>
+	<!-- Vice-Almirante Paulista EPIC -->
+	<ModOp Type="merge" GUID='191606' Path="/Values">
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>20</Value>
+			</AttackRangeUpgrade>
+			<ReloadTimeUpgrade>
+				<Value>-20</Value>
+			</ReloadTimeUpgrade>
+			<LineOfSightRangeUpgrade>
+				<Value>20</Value>
+			</LineOfSightRangeUpgrade>
+			<AttackSpeedUpgrade>40</AttackSpeedUpgrade>
+		</AttackerUpgrade>
+	</ModOp>
+
+	<!-- Captain Felicity Phoenix, Back From the Grave LEGENDARY -->
+	<ModOp Type="merge" GUID='191451' Path="/Values">
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>4000</Value>
+			</MaxHitpointsUpgrade>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Captain Richard Moses, Skipper of Schooners LEGENDARY -->
+	<ModOp Type="merge" GUID='191452' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>80</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+		<AttackableUpgrade>
+			<SelfHealUpgrade>
+				<Value>1000</Value>
+			</SelfHealUpgrade>
+			<DamageReceiveFactor>
+				<Torpedo>
+					<Factor>0.1</Factor>
+				</Torpedo>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Captain Smith, Titan of the Sea LEGENDARY -->
+	<ModOp Type="merge" GUID='191453' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>80</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>4000</Value>
+			</MaxHitpointsUpgrade>
+			<DamageReceiveFactor>
+				<Normal>
+					<Factor>0.5</Factor>
+				</Normal>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Wilma the Wild, Bearer of Barracudas EPIC LEGENDARY -->
+	<ModOp Type="merge" GUID='191607' Path="/Values">
+		<AttackerUpgrade>
+			<ReloadTimeUpgrade>
+				<Value>-40</Value>
+			</ReloadTimeUpgrade>
+			<HitpointDamage>
+				<Item>
+					<MinDamageFactor>2.0</MinDamageFactor>
+				</Item>
+			</HitpointDamage>
+			<AttackSpeedUpgrade>50</AttackSpeedUpgrade>
+		</AttackerUpgrade>
+	</ModOp>	
+	<!-- Lord High Admiral Nadasky, The Astute LEGENDARY -->
+	<ModOp Type="merge" GUID='191608' Path="/Values">
+		<VehicleUpgrade>
+			<ForwardSpeedUpgrade>
+				<Value>40</Value>
+			</ForwardSpeedUpgrade>
+		</VehicleUpgrade>
+		<AttackerUpgrade>
+			<DamageFactor>
+				<SailShip>
+					<Factor>2.0</Factor>
+				</SailShip>
+			</DamageFactor>
+		</AttackerUpgrade>
+	</ModOp>
+	<!-- Georgina Duffy, The Call your Bluffy LEGENDARY -->
+	<ModOp Type="merge" GUID='191609' Path="/Values">
+		<AttackerUpgrade>
+			<DamageFactor>
+				<SailShip>
+					<Factor>2.0</Factor>
+				</SailShip>
+			</DamageFactor>
+		</AttackerUpgrade>
+		<AttackableUpgrade>
+			<DamageReceiveFactor>
+				<Normal>
+					<Factor>0.5</Factor>
+				</Normal>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Admiral Haynes, Beholder of Far Horizons LEGENDARY -->
+	<ModOp Type="merge" GUID='191610' Path="/Values">
+		<AttackerUpgrade>
+			<AttackRangeUpgrade>
+				<Value>30</Value>
+			</AttackRangeUpgrade>
+			<LineOfSightRangeUpgrade>
+				<Value>30</Value>
+			</LineOfSightRangeUpgrade>
+			<DamageFactor>
+				<Building>
+					<Factor>2.0</Factor>
+				</Building>
+			</DamageFactor>
+		</AttackerUpgrade>
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>3000</Value>
+			</MaxHitpointsUpgrade>
+		</AttackableUpgrade>
+	</ModOp>
+	<!-- Commmodore Stephen Drake, The Besieger LEGENDARY -->
+	<ModOp Type="merge" GUID='191611' Path="/Values">
+		<AttackableUpgrade>
+			<DamageReceiveFactor>
+				<Torpedo>
+					<Factor>0.4</Factor>
+				</Torpedo>
+				<Cannon>
+					<Factor>0.4</Factor>
+				</Cannon>
+				<BigBertha>
+					<Factor>0.4</Factor>
+				</BigBertha>
+			</DamageReceiveFactor>
+		</AttackableUpgrade>
+	</ModOp>
+	
+<!-- ############## BUILDING SPECIALISTS ################-->
+	<!-- Steely-Eyed Steelsmith RARE -->
+	<ModOp Type="merge" GUID='190703' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+                <Value>60</Value>
+            </ProductivityUpgrade>
+        </FactoryUpgrade>
+		<CultureUpgrade>
+            <AttractivenessUpgrade>
+                <Value>-100</Value>
+            </AttractivenessUpgrade>
+        </CultureUpgrade>
+        <BuildingUpgrade>
+            <MaintenanceUpgrade>
+                <Value>20</Value>
+            </MaintenanceUpgrade>
+        </BuildingUpgrade>
+	</ModOp>	
+
+	<!-- Angela "Meg" Iver - The Polyvalent Craftswoman LEGENDARY -->
+	<ModOp Type="merge" GUID='190237' Path="/Values">
+		<BuildingUpgrade>
+			<WorkforceAmountUpgrade>
+				<Value>-60</Value>
+			</WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+	</ModOp>
+	<!-- Brother Hilarius, Purveyor of Monastic Mixtures LEGENDARY -->
+	<ModOp Type="merge" GUID='191383' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<BuildingUpgrade>
+			<WorkforceAmountUpgrade>
+				<Value>-80</Value>
+			</WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+	</ModOp>
+	<!-- Bruno Ironbright, Engineering Giant LEGENDARY -->
+	<ModOp Type="merge" GUID='191422' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Cosmo Castelli, Agronomic Trailblazer LEGENDARY -->
+	<ModOp Type="merge" GUID='190752' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+		</FactoryUpgrade>
+		<BuildingUpgrade>
+			<WorkforceAmountUpgrade>
+				<Value>-100</Value>
+			</WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+		<ModuleOwnerUpgrade>
+			<ModuleLimitUpgrade>
+				<Value>15</Value>
+			</ModuleLimitUpgrade>
+		</ModuleOwnerUpgrade>
+	</ModOp>
+	<!-- Cosmo Castelli, Agronomic Trailblazer LEGENDARY -->
+	<ModOp Type="merge" GUID='191347' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>140</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010237</Product>
+					<AdditionalOutputCycle>1</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010247</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	<!-- Dr. Ali Al-Zahir, the Botanical Director LEGENDARY -->
+	<ModOp Type="merge" GUID='190693' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>60</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010198</Product>
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010195</Product>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>120014</Product>
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010192</Product>
+					<AdditionalOutputCycle>7</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010194</Product>
+					<AdditionalOutputCycle>7</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	<!-- François Strindberg, Crown Jeweller LEGENDARY -->
+	<ModOp Type="merge" GUID='190627' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010246</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+			<InputAmountUpgrade>
+				<Product>1010256</Product>
+				<Amount>-2</Amount>
+			</InputAmountUpgrade>
+		</FactoryUpgrade>
+	</ModOp>	
+	<!-- François Thorne, The Industrial Reinforcer LEGENDARY -->
+	<ModOp Type="merge" GUID='191465' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010242</Product>
+					<AdditionalOutputCycle>1</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>	
+	<!-- Gennaro Garibaldi, Chocolatier by Royal Appointment LEGENDARY -->
+	<ModOp Type="merge" GUID='191334' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010239</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010257</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	<!-- Gerhard Fuchs, of the Patent Eyeglass LEGENDARY -->
+	<ModOp Type="merge" GUID='191310' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010246</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Hans Klein, Old Grandfather Time LEGENDARY -->
+	<ModOp Type="merge" GUID='191324' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010250</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Henri Zanchi, Man of Steel LEGENDARY -->
+	<ModOp Type="merge" GUID='190705' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>-25</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+		<BuildingUpgrade>
+			<MaintenanceUpgrade>
+				<Value>-100</Value>
+			</MaintenanceUpgrade>
+			<WorkforceAmountUpgrade>
+				<Value>-50</Value>
+			</WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+	</ModOp>
+	<!-- Hervé Savonne, Suppressor of Grime LEGENDARY -->
+	<ModOp Type="merge" GUID='191319' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010222</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<BuildingUpgrade>
+			<WorkforceAmountUpgrade>
+				<Value>-50</Value>
+			</WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+	</ModOp>
+	<!-- Jörg von Malching, Augur of the Auric LEGENDARY -->
+	<ModOp Type="merge" GUID='190761' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010233</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010566</Product>
+					<AdditionalOutputCycle>1</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Lady Jane Smythe, Queen of Haute Couture LEGENDARY -->
+	<ModOp Type="merge" GUID='191329' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120043</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>120037</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	<!-- Marcel Forcas, Celebrity Chef LEGENDARY -->
+	<ModOp Type="merge" GUID='191408' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>200</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010238</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>	
+	<!-- Marco de la Mocha, Crusher of Beans LEGENDARY -->
+	<ModOp Type="merge" GUID='191371' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120031</Product>
+					<AdditionalOutputCycle>1</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>25</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>	
+	<!-- Marco de la Mocha, Crusher of Beans LEGENDARY -->
+	<ModOp Type="merge" GUID='190632' Path="/Values">
+		<FactoryUpgrade>
+			<OutputAmountFactorUpgrade>
+				<Value>200</Value>
+			</OutputAmountFactorUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120014</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010258</Product>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Mark van der Mark, Breeder of Shepherd Dogs LEGENDARY -->
+	<ModOp Type="merge" GUID='191584' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>200</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120036</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+		<ModuleOwnerUpgrade>
+			<ModuleLimitUpgrade>
+				<Value>50</Value>
+			</ModuleLimitUpgrade>
+		</ModuleOwnerUpgrade>
+	</ModOp>
+	<!-- Maxime Graves, Delicatesseur Extraordinaire LEGENDARY -->
+	<ModOp Type="merge" GUID='191388' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010215</Product>
+					<AdditionalOutputCycle>1</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Mme. Elise "The Nose" Bouquet LEGENDARY -->
+	<ModOp Type="merge" GUID='190650' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	<!-- Mrs. Mayson, The Very Good Housekeeper LEGENDARY -->
+	<ModOp Type="merge" GUID='191407' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120035</Product>
+					<AdditionalOutputCycle>1</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Prof. Ram Devi, The Bundle of Energy LEGENDARY -->
+	<ModOp Type="merge" GUID='191355' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010246</Product>
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>120030</Product>
+					<AdditionalOutputCycle>7</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010245</Product>
+					<AdditionalOutputCycle>7</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010225</Product>
+					<AdditionalOutputCycle>8</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+				<Item>
+					<Product>1010206</Product>
+					<AdditionalOutputCycle>6</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Seraphim Papadikas, The Window Dresser LEGENDARY -->
+	<ModOp Type="merge" GUID='191431' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010242</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Steven MacLeod, Geological Surveyor LEGENDARY -->
+	<ModOp Type="merge" GUID='191591' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010256</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+			<AdditionalOutput>
+				<Item>
+					<Product>1010233</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Tlayolotl Savor, King of the Corn LEGENDARY -->
+	<ModOp Type="merge" GUID='191402' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<Product>120033</Product>
+					<AdditionalOutputCycle>2</AdditionalOutputCycle>
+					<Amount>2</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+	</ModOp>
+	<!-- Ursula Green, Guardian of the Forests LEGENDARY -->
+	<ModOp Type="merge" GUID='190739' Path="/Values">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>100</Value>
+			</ProductivityUpgrade>
+			<NeededAreaPercentUpgrade>
+				<Value>-20</Value>
+			</NeededAreaPercentUpgrade>
+		</FactoryUpgrade>
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	<!-- Victor Perfecto, Cigar Daddy LEGENDARY -->
+	<ModOp Type="merge" GUID='190643' Path="/Values">
+		<CultureUpgrade>
+			<AttractivenessUpgrade>
+				<Value>20</Value>
+			</AttractivenessUpgrade>
+		</CultureUpgrade>
+	</ModOp>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</ModOps>

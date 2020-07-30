@@ -1,0 +1,255 @@
+- v0.11
+	- UNIT TRADE LEGENDARY specialist added except those from "Sunken Treasures" DLC
+- v0.1
+	- Ship items (speed/hitpoints/healing/damage...etc)
+	- Ship specialists (speed/hitpoints/healing/damage...etc)
+
+Name|Rarity:
+	Effect|Value
+################# SHIP ITEMS ####################
+Fine Spyglass UNCOMMON:
+	AttackRangeUpgrade -> 20%
+High-Powered Scope RARE:
+	AttackRangeUpgrade -> 40%
+Telemobiloscope EPIC:
+	AttackRangeUpgrade -> 80%
+Square Rig UNCOMMON:
+	ForwardSpeedUpgrade -> 20%
+Lateen Style Sails RARE:
+	ForwardSpeedUpgrade -> 40%
+	IgnoreWeightFactorUpgrade -> 25%
+Fore-and-aft Rig Sails EPIC:
+	ForwardSpeedUpgrade -> 80%
+	IgnoreWeightFactorUpgrade -> 50%
+	IgnoreDamageFactorUpgrade -> 50%
+Fine Wood Hull UNCOMMON:
+	MaxHitpointsUpgrade -> 25%
+Fine Steel Hull RARE:
+	MaxHitpointsUpgrade -> 50%
+Reinforced Bulkhead EPIC:
+	MaxHitpointsUpgrade -> 100%
+Two-turn Screw Propeller UNCOMMON:
+	ForwardSpeedUpgrade -> 20%
+One-Turn Screw Propeller RARE:
+	ForwardSpeedUpgrade -> 40%
+	IgnoreWeightFactorUpgrade -> 50%
+Controllable-Pitch Propeller EPIC:
+	ForwardSpeedUpgrade -> 80%
+	IgnoreWeightFactorUpgrade -> 100%
+Exhaust Blower UNCOMMON:
+	IgnoreDamageFactorUpgrade -> 35%
+Heat Exchanger RARE:
+	IgnoreDamageFactorUpgrade -> 70%
+	MaxHitpointsUpgrade -> 20%
+Plate Heat Exchanger EPIC:
+	IgnoreDamageFactorUpgrade -> 100%
+	MaxHitpointsUpgrade -> 40%
+
+############## SHIP SPECIALISTS ################
+Sailor COMMON:
+	ForwardSpeedUpgrade -> 10%
+Ensign COMMON:
+	DamageToSailShip -> 20%
+Gunsmith COMMON:
+	DamageToSteamShip -> 20%
+Mate UNCOMMON:
+	SelfHealUpgrade -> 200%
+Midshipman UNCOMMON:
+	ForwardSpeedUpgrade -> 20%
+Bo'sun UNCOMMON:
+	IgnoreDamageFactorUpgrade -> 80%
+Former Pirate UNCOMMON:
+	BaseDamageUpgrade -> 20%
+Sergeant UNCOMMON:
+	ReloadTimeUpgrade -> 20%
+	AttackSpeedUpgrade -> 20%
+Tugboatman RARE:
+	MaxHitpointsUpgrade -> +1200HP
+	SelfHealUpgrade -> 600%
+Pilot RARE:
+	ForwardSpeedUpgrade -> 30%
+	IgnoreDamageFactorUpgrade -> 70%
+Captain of Marines RARE:
+	DamageToBuilding -> 60%
+	DamageReceive -> 30% less
+Former Corsair RARE:
+	DamageToSteamShip -> 60%
+	DamageReceive -> 30% less
+Ship's Chaplain RARE:
+	DamageToSailShip -> 60%
+	DamageReceive -> 30% less
+Captain Ibrahim EPIC:
+	DamageReceive -> 60%
+Captain Kadijah EPIC:
+	ForwardSpeedUpgrade -> 40%
+	SelfHealUpgrade -> 800%
+Vice-Admiral Adams EPIC:
+	MaxHitpointsUpgrade -> +2000HP
+Vice-Admiral Romanov EPIC:
+	AttackRangeUpgrade -> 20%
+	BaseDamageUpgrade -> 40%
+	ShipSightRangeUpgrade -> 20%
+Vice-Almirante Gonçalves EPIC:
+	ForwardSpeedUpgrade -> 30%
+	AttackRangeUpgrade -> 20%
+	ShipOfSightRangeUpgrade -> 20%
+Vice-Almirante Paulista EPIC:
+	AttackRangeUpgrade -> 20%
+	ReloadTimeUpgrade -> -20%
+	ShipOfSightRangeUpgrade -> 20%
+	AttackSpeedUpgrade -> 40%
+Captain Felicity Phoenix, Back From the Grave LEGENDARY:
+	MaxHitpointsUpgrade -> +4000HP
+Captain Richard Moses, Skipper of Schooners LEGENDARY:
+	ForwardSpeedUpgrade -> 80%
+	SelfHealUpgrade -> 1000%
+	DamageReceive -> 90% less
+Captain Smith, Titan of the Sea LEGENDARY:
+	ForwardSpeedUpgrade -> 80%
+	MaxHitpointsUpgrade -> +4000HP
+	DamageReceive -> 50% less
+Wilma the Wild, Bearer of Barracudas EPIC LEGENDARY:
+	ReloadTimeUpgrade -> -40%
+	HitpointDamage -> 2x more damage when low on HP
+	AttackSpeedUpgrade -> 50%
+Lord High Admiral Nadasky, The Astute LEGENDARY:
+	ForwardSpeedUpgrade -> 40%
+	DamageToSailShip -> 100%
+Georgina Duffy, The Call your Bluffy LEGENDARY:
+	DamageToSailShip -> 100%
+	DamageReceive -> 50% less
+Admiral Haynes, Beholder of Far Horizons LEGENDARY:
+	AttackRangeUpgrade -> 30%
+	ShipOfSightRangeUpgrade -> 30%
+	DamageToBuilding -> 100%
+	MaxHitpointsUpgrade -> +3000HP
+Commmodore Stephen Drake, The Besieger LEGENDARY:
+	DamageReceiveFrom:
+		Torpedo -> 60% less
+		Cannon -> 60% less
+		BigBertha -> 60% less
+
+############## TRADE UNION SPECIALISTS ################
+Steely-Eyed Steelsmith RARE:
+	FactoryProductivity -> 60%
+	AttractivenessUpgrade -> -100% (will not cause any negative attractivness)
+	BuildingUpgrade -> 20% (maintanance costs +20%)
+
+Angela "Meg" Iver - The Polyvalent Craftswoman LEGENDARY:
+	WorkforceAmountUpgrade -> -60%
+Brother Hilarius, Purveyor of Monastic Mixtures LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	WorkforceAmountUpgrade -> -80%
+Bruno Ironbright, Engineering Giant LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Cosmo Castelli, Agronomic Trailblazer LEGENDARY:
+	ProductivityUpgrade -> 100%
+	WorkforceAmountUpgrade -> -100%
+	ModuleLimitUpgrade -> 15%
+Cosmo Castelli, Agronomic Trailblazer LEGENDARY:
+	ProductivityUpgrade -> 140%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	AttractivenessUpgrade -> 20
+Dr. Ali Al-Zahir, the Botanical Director LEGENDARY:
+	ProductivityUpgrade -> 60%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	AttractivenessUpgrade -> 20
+François Strindberg, Crown Jeweller LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	InputAmountUpgrade
+François Thorne, The Industrial Reinforcer LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	AttractivenessUpgrade -> 20
+Gennaro Garibaldi, Chocolatier by Royal Appointment LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	AttractivenessUpgrade -> 20
+Gerhard Fuchs, of the Patent Eyeglass LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Hans Klein, Old Grandfather Time LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Henri Zanchi, Man of Steel LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AttractivenessUpgrade -> 25
+	MaintenanceCosts -> -100%
+	WorkforceAmountUpgrade -> -50%
+Hervé Savonne, Suppressor of Grime LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	WorkforceAmountUpgrade -> -50%
+Jörg von Malching, Augur of the Auric LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Lady Jane Smythe, Queen of Haute Couture LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	AttractivenessUpgrade -> 20
+Marcel Forcas, Celebrity Chef LEGENDARY:
+	ProductivityUpgrade -> 200%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Marco de la Mocha, Crusher of Beans LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	AttractivenessUpgrade -> 25
+Marco de la Mocha, Crusher of Beans LEGENDARY:
+	OutputAmountFactorUpgrade -> 200%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Mark van der Mark, Breeder of Shepherd Dogs LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+	ModuleLimitUpgrade -> 50%
+Maxime Graves, Delicatesseur Extraordinaire LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Mme. Elise "The Nose" Bouquet LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AttractivenessUpgrade -> 20
+Mrs. Mayson, The Very Good Housekeeper LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Prof. Ram Devi, The Bundle of Energy LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Seraphim Papadikas, The Window Dresser LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Steven MacLeod, Geological Surveyor LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Tlayolotl Savor, King of the Corn LEGENDARY:
+	ProductivityUpgrade -> 100%
+	AdditionalOutputCycle -> 1/2 less
+	AdditionalItemOutput -> 2x more
+Ursula Green, Guardian of the Forests LEGENDARY:
+	ProductivityUpgrade -> 100%
+	NeededAreaPercentUpgrade -> -20%
+	AttractivenessUpgrade -> 20
+Victor Perfecto, Cigar Daddy LEGENDARY:
+	AttractivenessUpgrade -> 20
