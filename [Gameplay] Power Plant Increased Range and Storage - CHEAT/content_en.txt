@@ -1,0 +1,3 @@
+Increases the range and material storage of both Oil and Gas Powerplants to 2500 and 500 respectively.
+
+NOTE: You must rebuild existing power plants to see the storage amount change.

@@ -1,0 +1,23 @@
+<ModOps>
+	<!-- v2.0 released for update 8 on 6/5/2020 by pbart -->
+	<ModOp Type="merge" GUID="100780" Path="/Values/Powerplant">
+		<IndustrializationDistance>100</IndustrializationDistance>
+	</ModOp>
+	<ModOp Type="merge" GUID='100780' Path="/Values/FactoryBase/FactoryInputs/Item/StorageAmount">
+		<StorageAmount>150</StorageAmount>
+	</ModOp>
+	<ModOp Type="add" GUID="100780" Path="/Values/PublicService">
+		<FullSatisfactionDistance>100</FullSatisfactionDistance>
+		<NoSatisfactionDistance>100</NoSatisfactionDistance>
+	</ModOp>
+	<ModOp Type="merge" GUID="117547" Path="/Values/Powerplant">
+		<IndustrializationDistance>100</IndustrializationDistance>
+	</ModOp>
+	<ModOp Type="merge" GUID="117547" Path="/Values/FactoryBase/FactoryInputs/Item/Product/StorageAmount">
+		<StorageAmount>150</StorageAmount>
+	</ModOp>
+	<ModOp Type="merge" GUID="117547" Path="/Values/PublicService">
+		<FullSatisfactionDistance>100</FullSatisfactionDistance>
+		<NoSatisfactionDistance>100</NoSatisfactionDistance>
+	</ModOp>
+</ModOps>
