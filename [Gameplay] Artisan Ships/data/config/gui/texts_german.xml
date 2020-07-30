@@ -1,0 +1,85 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>951008</GUID>
+		<Text>Erweiterte Schiffswerft</Text>
+	</Text>
+	<Text>
+		<GUID>951009</GUID>
+		<Text>Spezialisierte Schiffswerft, geeignet um spezielle Segelschiffe und verbesserte Schiffstypen herzustellen.</Text>
+    </Text>
+	<Text>
+		<GUID>6800000</GUID>
+		<Text>Luftschiff-Halle</Text>
+	</Text>
+	<Text>
+		<GUID>6800001</GUID>
+		<Text>Hochspezialisierte Fabrik, in der ein einfaches, aber flugtüchtiges Luftschiff hergestellt werden kann. Benötigt viele Arbeitskräfte und Segel.</Text>
+    </Text>
+	<!-- Schiffe -->
+	<Text>
+		<GUID>6700000</GUID>
+		<Text>Royaler Klipper</Text>
+	</Text>
+	<Text>
+		<GUID>6700001</GUID>
+		<Text>Nach den Bauplänen ihrer Mäjestät, ist dieses Schiff ein sehr wendiges und schnelleres Handelsschiff.</Text>
+    </Text>
+    <Text>
+		<GUID>6700110</GUID>
+	<Text>Royale Galeone</Text>
+	</Text>
+	<Text>
+		<GUID>6700111</GUID>
+		<Text>Entwickelt für den Überseetransfer, ist dieses Handelsschiff sehr robust und keinesfalls wehrlos.</Text>
+    </Text>
+	<Text>
+		<GUID>6700030</GUID>
+		<Text>Dampfschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6700031</GUID>
+		<Text>Eine robuste Stahlkonstruktion als erster dampfbetriebener Warentransporter. Hält kaum Beschüssen stand.</Text>
+    </Text>
+	<Text>
+		<GUID>6700040</GUID>
+		<Text>Schwarzer Jäger</Text>
+	</Text>
+	<Text>
+		<GUID>6700041</GUID>
+		<Text>Ein extrem wendiges und Flottes Segelschiff, das fast jeden Gegner einholt. Verfügt nur über leichte Bewaffnung.</Text>
+    </Text>
+	<Text>
+		<GUID>6700050</GUID>
+		<Text>Schwarzes Kriegsschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6700051</GUID>
+		<Text>Ein wahres Kriegsschiff mit enormer Bewaffnung, das es auch mit Dampfschiffen aufnimmt. Durch hohes Gewicht und verstärkte Panzerung ist es eher langsam unterwegs.</Text>
+    </Text>
+	<Text>
+		<GUID>6700060</GUID>
+		<Text>Großes Frachtschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6700061</GUID>
+		<Text>Diese Lange Frachtschiff ist in der Lage enorme Mengen Güter zu transportieren und ist dabei etwas schneller als andere Dampfschiffe.</Text>
+    </Text>
+	<Text>
+		<GUID>6700070</GUID>
+		<Text>"Red Star" Schlachtkreuzer</Text>
+	</Text>
+	<Text>
+		<GUID>6700071</GUID>
+		<Text>Die neue "Red Star" Serie von Kriegschiffen ist am aktuellsten Entwicklungsstand. Jedem anderen Schiff ist dieser Kreuzer deutlich überlegen. Die Geschwindigkeit kann sich dabei auch sehen lassen.</Text>
+    </Text>
+	<Text>
+		<GUID>6800010</GUID>
+		<Text>Einfaches Luftschiff</Text>
+	</Text>
+	<Text>
+		<GUID>6800011</GUID>
+		<Text>Spezialisten der neuen Welt haben gelernt aus einfachsten Materialien ein simples Luftschiff herzustellen. Fliegendes Handelsschiff mit begrenzter Kapazität und Geschwindigkeit.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

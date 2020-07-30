@@ -1,0 +1,85 @@
+<ModOps>
+  <ModOp Type="add" Path="TextExport/Texts">
+    <Text>
+		<GUID>951008</GUID>
+		<Text>Advanced Shipyard</Text>
+	</Text>
+	<Text>
+		<GUID>951009</GUID>
+		<Text>Specialized shipyard for building more advanced sailships and a very first steamship.</Text>
+    </Text>
+	<Text>
+		<GUID>6800000</GUID>
+		<Text>Airship-Hall</Text>
+	</Text>
+	<Text>
+		<GUID>6800001</GUID>
+		<Text>A huge factory for creating a simple aircraft ship, which can carry some goods. Needs a lot of workers and sails.</Text>
+    </Text>
+	<!-- Ships -->
+	<Text>
+		<GUID>6700000</GUID>
+		<Text>Royal Clipper</Text>
+	</Text>
+	<Text>
+		<GUID>6700001</GUID>
+		<Text>Built for diplomats this is a very agile and fast sailship.</Text>
+    </Text>
+    <Text>
+		<GUID>6700110</GUID>
+	<Text>Royal Galleon</Text>
+	</Text>
+	<Text>
+		<GUID>6700111</GUID>
+		<Text>Made for oversea traffic, this a very well defended tradeship.</Text>
+    </Text>
+	<Text>
+		<GUID>6700030</GUID>
+		<Text>Steamship</Text>
+	</Text>
+	<Text>
+		<GUID>6700031</GUID>
+		<Text>A sturdy construction made of steel serving as a first steamship, that comes without heavy motors. Very weak to enemy fire.</Text>
+    </Text>
+	<Text>
+		<GUID>6700040</GUID>
+		<Text>Black Hunter</Text>
+	</Text>
+	<Text>
+		<GUID>6700041</GUID>
+		<Text>A very fast and versatile sailship, that will catch up to any other ship. It offers only light weapons.</Text>
+    </Text>
+	<Text>
+		<GUID>6700050</GUID>
+		<Text>Black Warship</Text>
+	</Text>
+	<Text>
+		<GUID>6700051</GUID>
+		<Text>A true warship heavily armed. It can even defeat some steamships. It lacks a lot in acceleration and turning speed.</Text>
+    </Text>
+	<Text>
+		<GUID>6700060</GUID>
+		<Text>Huge freigther</Text>
+	</Text>
+	<Text>
+		<GUID>6700061</GUID>
+		<Text>This very long freigther can carry a lot of goods. Due to modern motors it is even slightly faster than the freigther.</Text>
+    </Text>
+	<Text>
+		<GUID>6700070</GUID>
+		<Text>"Red Star" Battlecruiser</Text>
+	</Text>
+	<Text>
+		<GUID>6700071</GUID>
+		<Text>The "Red Star" series is the most modern ship series the time being. It should defeat every other ship in a single combat. Even the speed has been improved.</Text>
+    </Text>
+	<Text>
+		<GUID>6800010</GUID>
+		<Text>Simple airship</Text>
+	</Text>
+	<Text>
+		<GUID>6800011</GUID>
+		<Text>A flying tradeship with only limited storage for goods. Not very fast, but can't be shot down from ground ships.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
