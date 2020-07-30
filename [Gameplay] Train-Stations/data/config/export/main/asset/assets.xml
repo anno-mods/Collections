@@ -4,7 +4,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>859980</GUID>
+          <GUID>859949</GUID>
           <Name>intermediate moderate 4.0</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
         </Standard>
@@ -35,6 +35,18 @@
                       <Item>
                         <Asset>850010</Asset>
                       </Item>
+                      <Item>
+                        <Asset>850030</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850042</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850045</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850046</Asset>
+                      </Item>
                     </UnhideAssets>
                     <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                   </ActionUnlockAsset>
@@ -52,7 +64,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>859981</GUID>
+          <GUID>859979</GUID>
           <Name>intermediate moderate 4.0</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
         </Standard>
@@ -81,6 +93,105 @@
                       </Item>
                       <Item>
                         <Asset>850010</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850030</Asset>
+                      </Item>
+		    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859946</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850042</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850045</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850053</Asset>
+                      </Item>
+		    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859947</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15100000</Context>
+                <CounterAmount>1200</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850046</Asset>
                       </Item>
 		    </UnlockAssets>
                     <UnhideAssets />
@@ -112,6 +223,18 @@
                                 </Item>
                                 <Item>
                                   <Building>850010</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850030</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850042</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850045</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850046</Building>
                                 </Item>
                               </BuildingList>
                               <CategoryDescription>100003</CategoryDescription>
@@ -221,12 +344,12 @@
                               <Maintenances>
                                 <Item>
                                   <Product>1010017</Product>
-                                  <Amount>400</Amount>
-                                  <InactiveAmount>200</InactiveAmount>
+                                  <Amount>600</Amount>
+                                  <InactiveAmount>500</InactiveAmount>
                                 </Item>
                                 <Item>
                                   <Product>1010117</Product>
-                                  <Amount>150</Amount>
+                                  <Amount>200</Amount>
                                   <ShutdownThreshold>0.5</ShutdownThreshold>
                                 </Item>
                               </Maintenances>
@@ -245,17 +368,20 @@
                                   <StorageAmount>1000</StorageAmount>
                                 </Item>
                               </FactoryOutputs>
-                              <CycleTime>1</CycleTime>
+                              <CycleTime>2</CycleTime>
                               <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
                               <ProductivityPoints>1</ProductivityPoints>
                             </FactoryBase>
                             <ItemGenerator />
                             <PublicService>
-                              <FullSatisfactionDistance>30</FullSatisfactionDistance>
-                              <NoSatisfactionDistance>60</NoSatisfactionDistance>
+                              <FullSatisfactionDistance>50</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>75</NoSatisfactionDistance>
                               <PublicServiceOutputs>
                                 <Item>
                                   <Product>1010353</Product>
+                                </Item>
+                                <Item>
+                                  <Product>850044</Product>
                                 </Item>
                               </PublicServiceOutputs>
                             </PublicService>
@@ -276,14 +402,14 @@
                               <CultureSpawnGroup>1</CultureSpawnGroup>
                             </Culture>
                             <Powerplant>
-                              <ElectricityDistance>0</ElectricityDistance>
+                              <ElectricityDistance>20</ElectricityDistance>
                             </Powerplant>
                           </Values>
                         </Asset>
   </ModOp>
   <ModOp Type="addNextSibling" GUID='102176'>
                         <Asset>
-                          <Template>PowerplantBuilding</Template>
+                          <Template>FactoryBuilding7</Template>
                           <Values>
                             <Standard>
                               <GUID>850010</GUID>
@@ -362,14 +488,18 @@
                             <Infolayer />
                             <UpgradeList />
                             <RandomDummySpawner />
-                            <LogisticNode />
+                        <LogisticNode>
+                              <TransporterCountMax>2</TransporterCountMax>
+                              <TransporterAsset>1010105</TransporterAsset>
+                              <PathLayers>Street;Railway</PathLayers>
+                        </LogisticNode>
                             <AmbientMoodProvider />
                             <Maintenance>
                               <Maintenances>
                                 <Item>
                                   <Product>1010017</Product>
-                                  <Amount>400</Amount>
-                                  <InactiveAmount>200</InactiveAmount>
+                                  <Amount>500</Amount>
+                                  <InactiveAmount>500</InactiveAmount>
                                 </Item>
                                 <Item>
                                   <Product>1010117</Product>
@@ -387,9 +517,9 @@
                             <FactoryBase>
                               <FactoryOutputs>
                                 <Item>
-                                  <Product>850012</Product>
-                                  <Amount>0.0000001</Amount>
-                                  <StorageAmount>1</StorageAmount>
+                                  <Product>850040</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>100</StorageAmount>
                                 </Item>
                               </FactoryOutputs>
                               <FactoryInputs>
@@ -399,18 +529,164 @@
                                   <StorageAmount>100</StorageAmount>
                                 </Item>
                               </FactoryInputs>
-                              <CycleTime>5</CycleTime>
+                              <CycleTime>8</CycleTime>
                               <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
                               <ProductivityPoints>1</ProductivityPoints>
                             </FactoryBase>
                             <Culture />
                             <ItemGenerator />
                             <PublicService>
-                              <FullSatisfactionDistance>30</FullSatisfactionDistance>
-                              <NoSatisfactionDistance>60</NoSatisfactionDistance>
+                              <FullSatisfactionDistance>50</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>75</NoSatisfactionDistance>
                               <PublicServiceOutputs>
                                 <Item>
                                   <Product>120020</Product>
+                                </Item>
+                                <Item>
+                                  <Product>850044</Product>
+                                </Item>
+                              </PublicServiceOutputs>
+                            </PublicService>
+                            <Ornament />
+                            <Powerplant>
+                              <ElectricityDistance>20</ElectricityDistance>
+                            </Powerplant>
+                            <Industrializable>
+                              <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                            </Industrializable>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                        <Asset>
+                          <Template>FarmBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850042</GUID>
+                              <Name>chief_post_office</Name>
+                              <IconFilename>data/modgraphics/icons/post_wappen.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <BuildingCategoryName>100003</BuildingCategoryName>
+                              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking>
+                              <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                            </Blocking>
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>25000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>50</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>40</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>25</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/hotels_and_investors/post_office.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Oil Power Plant</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>7000</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <UpgradeList />
+                            <RandomDummySpawner />
+                        <LogisticNode />
+                            <AmbientMoodProvider />
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>250</Amount>
+                                  <InactiveAmount>500</InactiveAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010117</Product>
+                                  <Amount>150</Amount>
+                                  <ShutdownThreshold>0.5</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>3500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfectable />
+                            <FactoryBase>
+                              <FactoryOutputs>
+                                <Item>
+                                  <Product>850041</Product>
+                                  <Amount>0.0000001</Amount>
+                                  <StorageAmount>1</StorageAmount>
+                                </Item>
+                              </FactoryOutputs>
+                              <FactoryInputs>
+                                <Item>
+                                  <Product>850040</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>100</StorageAmount>
+                                </Item>
+                              </FactoryInputs>
+                              <CycleTime>8</CycleTime>
+                              <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                              <ProductivityPoints>1</ProductivityPoints>
+                            </FactoryBase>
+                            <Culture />
+                            <ItemGenerator />
+                            <PublicService>
+                              <FullSatisfactionDistance>50</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>75</NoSatisfactionDistance>
+                              <PublicServiceOutputs>
+                                <Item>
+                                  <Product>850043</Product>
                                 </Item>
                               </PublicServiceOutputs>
                             </PublicService>
@@ -418,10 +694,639 @@
                               <OrnamentDescritpion>850015</OrnamentDescritpion>
                             </Ornament>
                             <Powerplant>
-                              <ElectricityDistance>0</ElectricityDistance>
+                              <ElectricityDistance>20</ElectricityDistance>
                             </Powerplant>
                           </Values>
                         </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                        <Asset>
+                          <Template>PowerplantBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850030</GUID>
+                              <Name>greater_trainstation</Name>
+                              <IconFilename>data/modgraphics/icons/icon_station3.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <AllowChangeVariation>1</AllowChangeVariation>
+                              <BuildingCategoryName>100003</BuildingCategoryName>
+                              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking>
+                              <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                            </Blocking>
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>100000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>40</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>70</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>50</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>40</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>30</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/stations/train_station_monument.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/stations/train_station_monument2.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrain</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <ParticipantMessageArcheType>Resident_tier05</ParticipantMessageArcheType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Oil Power Plant</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>7000</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <ActiveSounds>
+                                <Item>
+                                  <Sound>200867</Sound>
+                                </Item>
+                              </ActiveSounds>
+                              <ConstructionSounds>
+                                <BuildSuccessful>
+                                  <Item>
+                                    <VectorElement>
+                                      <InheritedIndex>0</InheritedIndex>
+                                      <InheritanceMapV2>
+                                        <Entry>
+                                          <TemplateName>Monument</TemplateName>
+                                          <Index>0</Index>
+                                        </Entry>
+                                      </InheritanceMapV2>
+                                    </VectorElement>
+                                  </Item>
+                                  <Item>
+                                    <Sound>200912</Sound>
+                                  </Item>
+                                </BuildSuccessful>
+                                <BuildUpgrade>
+                                  <Item>
+                                    <VectorElement>
+                                      <InheritedIndex>0</InheritedIndex>
+                                      <InheritanceMapV2>
+                                        <Entry>
+                                          <TemplateName>Monument</TemplateName>
+                                          <Index>0</Index>
+                                        </Entry>
+                                      </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Sound>201232</Sound>
+                                  </Item>
+                                </BuildUpgrade>
+                              </ConstructionSounds>
+                              <SpawnSounds>
+                                <Item>
+                                  <Sound>200912</Sound>
+                                </Item>
+                              </SpawnSounds>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <UpgradeList />
+                            <RandomDummySpawner />
+                            <AmbientMoodProvider />
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>600</Amount>
+                                  <InactiveAmount>800</InactiveAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010117</Product>
+                                  <Amount>200</Amount>
+                                  <ShutdownThreshold>0.5</ShutdownThreshold>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>3500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfectable />
+                            <FactoryBase>
+                              <FactoryOutputs>
+                                <Item>
+                                  <Product>850011</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>1000</StorageAmount>
+                                </Item>
+                              </FactoryOutputs>
+                              <CycleTime>2</CycleTime>
+                              <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                              <ProductivityPoints>1</ProductivityPoints>
+                            </FactoryBase>
+                            <ItemGenerator />
+                            <PublicService>
+                              <FullSatisfactionDistance>50</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>75</NoSatisfactionDistance>
+                              <PublicServiceOutputs>
+                                <Item>
+                                  <Product>120020</Product>
+                                </Item>
+                                <Item>
+                                  <Product>850044</Product>
+                                </Item>
+                              </PublicServiceOutputs>
+                            </PublicService>
+                            <LogisticNode>
+                              <QueueConfiguration>
+                                <ProcessingQueueParallelCount>0</ProcessingQueueParallelCount>
+                              </QueueConfiguration>
+                            </LogisticNode>
+                            <TrainStation>
+                              <MaxTrainCount>5</MaxTrainCount>
+                            </TrainStation>
+                            <Ornament>
+                              <OrnamentUnit>1</OrnamentUnit>
+                              <OrnamentDescritpion>850014</OrnamentDescritpion>
+                            </Ornament>
+                            <Culture>
+                            <Attractiveness>20</Attractiveness>
+                              <CultureSpawnGroup>1</CultureSpawnGroup>
+                            </Culture>
+                            <Powerplant>
+                              <ElectricityDistance>20</ElectricityDistance>
+                            </Powerplant>
+                          </Values>
+                        </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                    <Asset>
+                      <Template>ResidenceBuilding7</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850045</GUID>
+                          <Name>hotel</Name>
+                          <IconFilename>data/modgraphics/icons/wappen.png</IconFilename>
+                          <InfoDescription>163059</InfoDescription>
+                        </Standard>
+                        <Blocking />
+                        <Building>
+                          <BuildingType>Residence</BuildingType>
+                          <PickingAsset>1010343</PickingAsset>
+                          <InfluencedByNeighbors />
+                          <AssociatedRegions>Moderate</AssociatedRegions>
+                          <BuildingBlockPool>
+                            <DontCare />
+                            <Corner />
+                            <Mid />
+                          </BuildingBlockPool>
+                        </Building>
+                        <Cost>
+                          <Costs>
+                            <Item>
+                              <Amount>50000</Amount>
+                              <Ingredient>1010017</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>25</Amount>
+                              <Ingredient>1010196</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>35</Amount>
+                              <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>25</Amount>
+                              <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>40</Amount>
+                              <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>35</Amount>
+                              <Ingredient>1010202</Ingredient>
+                            </Item>
+                          </Costs>
+                        </Cost>
+                        <Mesh />
+                        <Object>
+                          <Variations>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/hotels_and_investors/hotel1.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/hotels_and_investors/hotel2.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/hotels_and_investors/hotel3.cfg</Filename>
+                            </Item>
+                          </Variations>
+                        </Object>
+                        <Selection>
+                          <ParticipantMessageArcheType>Visitor</ParticipantMessageArcheType>
+                        </Selection>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Hotel</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>5230</LineID>
+                        </Text>
+                        <Constructable />
+                        <Locked>
+                          <DefaultLockedState>1</DefaultLockedState>
+                        </Locked>
+                        <Upgradable />
+                        <SoundEmitter>
+                          <ConstructionSounds>
+                            <BuildSuccessful>
+                              <Item>
+                                <VectorElement>
+                                  <InheritedIndex>0</InheritedIndex>
+                                  <InheritanceMapV2>
+                                    <Entry>
+                                      <TemplateName>ResidenceBuilding7</TemplateName>
+                                      <Index>0</Index>
+                                    </Entry>
+                                  </InheritanceMapV2>
+                                </VectorElement>
+                                <Sound>200776</Sound>
+                              </Item>
+                            </BuildSuccessful>
+                            <BuildUpgradeFailed>
+                              <Item>
+                                <Sound>9818387</Sound>
+                              </Item>
+                            </BuildUpgradeFailed>
+                          </ConstructionSounds>
+                          <IncidentSounds>
+                            <InfectedFire>
+                              <Item>
+                                <Sound>214659</Sound>
+                              </Item>
+                            </InfectedFire>
+                            <InfectedIllness>
+                              <Item>
+                                <Sound>214756</Sound>
+                              </Item>
+                            </InfectedIllness>
+                            <InfectedRiot>
+                              <Item>
+                                <Sound>222229</Sound>
+                              </Item>
+                            </InfectedRiot>
+                            <ExplosionOneShots>
+                              <Item>
+                                <Sound>203849</Sound>
+                              </Item>
+                            </ExplosionOneShots>
+                          </IncidentSounds>
+                          <BuildingRepaired>
+                            <Item>
+                              <Sound>203866</Sound>
+                            </Item>
+                          </BuildingRepaired>
+                          <MaterialType>Stone</MaterialType>
+                        </SoundEmitter>
+                        <Infolayer />
+                        <FeedbackController />
+                        <RandomDummySpawner />
+                        <Residence7>
+                          <ResidenceStorage>
+                            <InputStorageMax>1</InputStorageMax>
+                          </ResidenceStorage>
+                          <PopulationLevel7>15100000</PopulationLevel7>
+                          <ResidentMax>150</ResidentMax>
+                        </Residence7>
+                        <LogisticNode />
+                        <AmbientMoodProvider />
+                        <UpgradeList />
+                        <Attackable>
+                          <MaximumHitPoints>3000</MaximumHitPoints>
+                        </Attackable>
+                        <IncidentInfectable>
+                          <Infectable>
+                            <Explosion>
+                              <Base>0</Base>
+                              <Escalated>0</Escalated>
+                            </Explosion>
+                          </Infectable>
+                          <Explosion>
+                            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                          </Explosion>
+                          <IncidentInfectionChanceFactors>
+                            <Fire>
+                              <BaseChance>3.5</BaseChance>
+                              <DensityFactor>0.025</DensityFactor>
+                              <DensityDistance>15</DensityDistance>
+                            </Fire>
+                            <Illness>
+                              <BaseChance>3.5</BaseChance>
+                              <HitpointFactor>0.1</HitpointFactor>
+                              <DensityFactor>0.025</DensityFactor>
+                              <DensityDistance>15</DensityDistance>
+                              <DilapidatedFactor>10</DilapidatedFactor>
+                              <FactoryOvertimeFactor>0.3</FactoryOvertimeFactor>
+                              <FactoryUndertimeFactor>0.15</FactoryUndertimeFactor>
+                              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                            </Illness>
+                            <Riot>
+                              <ResidenceHappinessFactor>0.4</ResidenceHappinessFactor>
+                              <HappinessThreshold>15</HappinessThreshold>
+                            </Riot>
+                            <Explosion>
+                              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                            </Explosion>
+                          </IncidentInfectionChanceFactors>
+                        </IncidentInfectable>
+                        <Pausable />
+                                <Culture>
+                                  <CultureSpawnGroup>1</CultureSpawnGroup>
+                                </Culture>
+                        <StreetActivation />
+                        <ItemContainer>
+                          <SocketCount>1</SocketCount>
+                          <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                          <SocketScope>Radius</SocketScope>
+                          <SocketScopeRadius>25</SocketScopeRadius>
+                              <InitSocketItems>
+                                <Item>
+                                  <Item>850053</Item>
+                                  <StackSize>1</StackSize>
+                                </Item>
+                              </InitSocketItems>
+                        </ItemContainer>
+                      </Values>
+                    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                    <Asset>
+                      <Template>ResidenceBuilding7</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850046</GUID>
+                          <Name>investor-residences</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/icon_resident.png</IconFilename>
+                          <InfoDescription>163059</InfoDescription>
+                        </Standard>
+                        <Blocking />
+                        <Building>
+                          <BuildingType>Residence</BuildingType>
+                          <PickingAsset>1010343</PickingAsset>
+                          <InfluencedByNeighbors />
+                          <AssociatedRegions>Moderate</AssociatedRegions>
+                          <BuildingBlockPool>
+                            <DontCare />
+                            <Corner />
+                            <Mid />
+                          </BuildingBlockPool>
+                        </Building>
+                        <Cost>
+                          <Costs>
+                            <Item>
+                              <Amount>60000</Amount>
+                              <Ingredient>1010017</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>30</Amount>
+                              <Ingredient>1010196</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>40</Amount>
+                              <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>30</Amount>
+                              <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>45</Amount>
+                              <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>40</Amount>
+                              <Ingredient>1010202</Ingredient>
+                            </Item>
+                          </Costs>
+                        </Cost>
+                        <Mesh />
+                        <Object>
+                          <Variations>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/hotels_and_investors/investor1.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/hotels_and_investors/investor2.cfg</Filename>
+                            </Item>
+                          </Variations>
+                        </Object>
+                        <Selection>
+                          <ParticipantMessageArcheType>Resident_tier05</ParticipantMessageArcheType>
+                        </Selection>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Investor Residence</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>5231</LineID>
+                        </Text>
+                        <Constructable />
+                        <Locked>
+                          <DefaultLockedState>1</DefaultLockedState>
+                        </Locked>
+                        <Upgradable />
+                        <SoundEmitter>
+                          <ConstructionSounds>
+                            <BuildSuccessful>
+                              <Item>
+                                <VectorElement>
+                                  <InheritedIndex>0</InheritedIndex>
+                                  <InheritanceMapV2>
+                                    <Entry>
+                                      <TemplateName>ResidenceBuilding7</TemplateName>
+                                      <Index>0</Index>
+                                    </Entry>
+                                  </InheritanceMapV2>
+                                </VectorElement>
+                                <Sound>200776</Sound>
+                              </Item>
+                            </BuildSuccessful>
+                            <BuildUpgradeFailed>
+                              <Item>
+                                <Sound>9818387</Sound>
+                              </Item>
+                            </BuildUpgradeFailed>
+                          </ConstructionSounds>
+                          <IncidentSounds>
+                            <InfectedFire>
+                              <Item>
+                                <Sound>214659</Sound>
+                              </Item>
+                            </InfectedFire>
+                            <InfectedIllness>
+                              <Item>
+                                <Sound>214756</Sound>
+                              </Item>
+                            </InfectedIllness>
+                            <InfectedRiot>
+                              <Item>
+                                <Sound>222229</Sound>
+                              </Item>
+                            </InfectedRiot>
+                            <ExplosionOneShots>
+                              <Item>
+                                <Sound>203849</Sound>
+                              </Item>
+                            </ExplosionOneShots>
+                          </IncidentSounds>
+                          <BuildingRepaired>
+                            <Item>
+                              <Sound>203866</Sound>
+                            </Item>
+                          </BuildingRepaired>
+                          <MaterialType>Stone</MaterialType>
+                        </SoundEmitter>
+                        <Infolayer />
+                        <FeedbackController />
+                        <RandomDummySpawner />
+                        <Residence7>
+                          <ResidenceStorage>
+                            <InputStorageMax>1</InputStorageMax>
+                          </ResidenceStorage>
+                          <PopulationLevel7>15000004</PopulationLevel7>
+                          <ResidentMax>50</ResidentMax>
+                          <InfluenceGeneration>
+                            <Item>
+                              <ResidentsNeededToGain>1</ResidentsNeededToGain>
+                              <ResidentsNeededToKeep>1</ResidentsNeededToKeep>
+                            </Item>
+                            <Item>
+                              <ResidentsNeededToGain>1</ResidentsNeededToGain>
+                              <ResidentsNeededToKeep>1</ResidentsNeededToKeep>
+                            </Item>
+                          </InfluenceGeneration>
+                        </Residence7>
+                        <LogisticNode />
+                        <AmbientMoodProvider>
+                          <AmbientMood>ResidenceTier5</AmbientMood>
+                          <DynamicEnvironmentType>ResidenceT5</DynamicEnvironmentType>
+                          <HappinessDependentMurmur>
+                            <Item>
+                              <Happiness>-1000</Happiness>
+                              <Murmur>InvestorUnhappy</Murmur>
+                            </Item>
+                            <Item>
+                              <Happiness>-20</Happiness>
+                              <Murmur>InvestorContent</Murmur>
+                            </Item>
+                            <Item>
+                              <Happiness>20</Happiness>
+                              <Murmur>InvestorHappy</Murmur>
+                            </Item>
+                          </HappinessDependentMurmur>
+                        </AmbientMoodProvider>
+                        <UpgradeList />
+                        <Attackable>
+                          <MaximumHitPoints>3500</MaximumHitPoints>
+                        </Attackable>
+                        <IncidentInfectable>
+                          <Infectable>
+                            <Explosion>
+                              <Base>0</Base>
+                              <Escalated>0</Escalated>
+                            </Explosion>
+                          </Infectable>
+                          <Explosion>
+                            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                          </Explosion>
+                          <IncidentInfectionChanceFactors>
+                            <Fire>
+                              <BaseChance>3</BaseChance>
+                              <DensityFactor>0.025</DensityFactor>
+                              <DensityDistance>15</DensityDistance>
+                            </Fire>
+                            <Illness>
+                              <BaseChance>3</BaseChance>
+                              <HitpointFactor>0.1</HitpointFactor>
+                              <DensityFactor>0.025</DensityFactor>
+                              <DensityDistance>15</DensityDistance>
+                              <DilapidatedFactor>10</DilapidatedFactor>
+                              <FactoryOvertimeFactor>0.3</FactoryOvertimeFactor>
+                              <FactoryUndertimeFactor>0.15</FactoryUndertimeFactor>
+                              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                            </Illness>
+                            <Riot>
+                              <ResidenceHappinessFactor>0.4</ResidenceHappinessFactor>
+                              <HappinessThreshold>15</HappinessThreshold>
+                            </Riot>
+                            <Explosion>
+                              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                            </Explosion>
+                          </IncidentInfectionChanceFactors>
+                        </IncidentInfectable>
+                        <Pausable />
+                        <Culture />
+                        <StreetActivation />
+                        <ItemContainer>
+                          <SocketCount>1</SocketCount>
+                          <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                          <SocketScope>Radius</SocketScope>
+                          <SocketScopeRadius>35</SocketScopeRadius>
+                              <InitSocketItems>
+                                <Item>
+                                  <Item>850054</Item>
+                                  <StackSize>1</StackSize>
+                                </Item>
+                              </InitSocketItems>
+                        </ItemContainer>
+                      </Values>
+                    </Asset>
   </ModOp>
   <ModOp Type="addNextSibling" GUID='1010566'>
                     <Asset>
@@ -489,6 +1394,166 @@
                       </Values>
                     </Asset>
   </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010566'>
+                    <Asset>
+                      <Template>Product</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850040</GUID>
+                          <Name>letters</Name>
+                          <IconFilename>data/modgraphics/icons/letter.png</IconFilename>
+                          <InfoDescription>11793</InfoDescription>
+                                </Standard>
+                                <Text>
+                                  <LocaText>
+                                    <English>
+                                      <Text>Reinforced Concrete</Text>
+                                      <Status>Exported</Status>
+                                      <ExportCount>1</ExportCount>
+                                    </English>
+                                  </LocaText>
+                                  <LineID>5345</LineID>
+                                </Text>
+                                <Locked />
+                                <Product>
+                                  <ProductCategory>11707</ProductCategory>
+                                  <BasePrice>660</BasePrice>
+                                  <CivLevel>4</CivLevel>
+                                  <AssociatedRegion>Moderate</AssociatedRegion>
+                                  <PathLayer>Street</PathLayer>
+                                </Product>
+                                <ExpeditionAttribute>
+                                  <BaseMorale>5</BaseMorale>
+                                </ExpeditionAttribute>
+                              </Values>
+                            </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010566'>
+                    <Asset>
+                      <Template>Product</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850041</GUID>
+                          <Name>post</Name>
+                          <IconFilename>data/modgraphics/icons/post_wappen.png</IconFilename>
+                          <InfoDescription>11793</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Oil</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>3756</LineID>
+                        </Text>
+                        <Locked />
+                        <Product>
+                          <ProductCategory>11797</ProductCategory>
+                          <BasePrice>4</BasePrice>
+                          <CivLevel>4</CivLevel>
+                          <PathLayer>Railway</PathLayer>
+                        </Product>
+                        <ExpeditionAttribute>
+                          <BaseMorale>5</BaseMorale>
+                        </ExpeditionAttribute>
+                      </Values>
+                    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010356'>
+                        <Asset>
+                          <Template>Product</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850043</GUID>
+                              <Name>post</Name>
+                              <IconFilename>data/modgraphics/icons/post_wappen.png</IconFilename>
+                            </Standard>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>higher culture</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>2</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5334</LineID>
+                            </Text>
+                            <Locked />
+                            <Product>
+                              <ProductColor>-11415604</ProductColor>
+                              <StorageLevel>Building</StorageLevel>
+                              <ProductCategory>11709</ProductCategory>
+                              <IsAbstract>1</IsAbstract>
+                              <AssociatedRegion>Moderate</AssociatedRegion>
+                            </Product>
+                            <ExpeditionAttribute />
+                          </Values>
+                        </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010356'>
+                        <Asset>
+                          <Template>Product</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850044</GUID>
+                              <Name>train station</Name>
+                              <IconFilename>data/modgraphics/icons/icon_station1.png</IconFilename>
+                            </Standard>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>higher culture</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>2</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5334</LineID>
+                            </Text>
+                            <Locked />
+                            <Product>
+                              <ProductColor>-11415604</ProductColor>
+                              <StorageLevel>Building</StorageLevel>
+                              <ProductCategory>11709</ProductCategory>
+                              <IsAbstract>1</IsAbstract>
+                              <AssociatedRegion>Moderate</AssociatedRegion>
+                            </Product>
+                            <ExpeditionAttribute />
+                          </Values>
+                        </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010356'>
+                        <Asset>
+                          <Template>Product</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850052</GUID>
+                              <Name>moderate workforce 5</Name>
+                              <IconFilename>data/ui/2kimages/main/icons/icon_visitors_tier03.png</IconFilename>
+                            </Standard>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Investor Workforce</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5324</LineID>
+                            </Text>
+                            <Locked>
+                              <DefaultLockedState>0</DefaultLockedState>
+                            </Locked>
+                            <Product>
+                              <StorageLevel>Area</StorageLevel>
+                              <DeltaOnly>1</DeltaOnly>
+                              <IsWorkforce>1</IsWorkforce>
+                            </Product>
+                            <ExpeditionAttribute />
+                          </Values>
+                        </Asset>
+    </ModOp>
   <ModOp Type="replace" GUID='2001174'>
                         <Asset>
                           <Template>TrafficFeedbackUnit</Template>
@@ -627,5 +1692,777 @@
                                     </Text>
                                   </Values>
                                 </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850047</GUID>
+                                      <Name>angry tourists</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850048</GUID>
+                                      <Name>unhappy tourists</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850048</GUID>
+                                      <Name>neutral tourists</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850048</GUID>
+                                      <Name>happy tourists</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                                <Asset>
+                                  <Template>Text</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>850048</GUID>
+                                      <Name>euphoric tourists</Name>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>A see description,</Text>
+                                          <Status>Exported</Status>
+                                          <ExportCount>1</ExportCount>
+                                        </English>
+                                      </LocaText>
+                                    </Text>
+                                  </Values>
+                                </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='15000004'>
+                <Asset>
+                  <Template>PopulationLevel7</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>15100000</GUID>
+                      <Name>Moderate Population touristic</Name>
+                      <IconFilename>data/ui/2kimages/main/icons/icon_visitors_tier03.png</IconFilename>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Tourists</Text>
+                          <Status>Exported</Status>
+                          <ExportCount>1</ExportCount>
+                        </English>
+                      </LocaText>
+                      <LineID>3761</LineID>
+                    </Text>
+                    <PopulationLevel7>
+                      <PopulationInputs>
+                        <Item>
+                          <Product>120030</Product>
+                          <Amount>0.000296296</Amount>
+                          <SupplyWeight>48</SupplyWeight>
+                          <MoneyValue>100</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010245</Product>
+                          <Amount>0.000833333</Amount>
+                          <HappinessValue>4</HappinessValue>
+                          <MoneyValue>140</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>120032</Product>
+                          <Amount>0.001568627</Amount>
+                          <SupplyWeight>24</SupplyWeight>
+                          <MoneyValue>80</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010246</Product>
+                          <Amount>0.000261438</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <MoneyValue>180</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010354</Product>
+                          <SupplyWeight>24</SupplyWeight>
+                        </Item>
+                        <Item>
+                          <Product>850044</Product>
+                          <SupplyWeight>24</SupplyWeight>
+                          <MoneyValue>140</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010356</Product>
+                          <HappinessValue>2</HappinessValue>
+                          <MoneyValue>200</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>120016</Product>
+                          <Amount>0.000392</Amount>
+                          <SupplyWeight>6</SupplyWeight>
+                          <MoneyValue>50</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010259</Product>
+                          <Amount>0.00037037</Amount>
+                          <SupplyWeight>6</SupplyWeight>
+                          <MoneyValue>50</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010355</Product>
+                          <HappinessValue>5</HappinessValue>
+                          <MoneyValue>50</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010258</Product>
+                          <Amount>0.000888889</Amount>
+                          <SupplyWeight>6</SupplyWeight>
+                          <MoneyValue>50</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010250</Product>
+                          <Amount>0.000350877</Amount>
+                          <HappinessValue>2</HappinessValue>
+                          <MoneyValue>250</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>1010248</Product>
+                          <Amount>8.77E-05</Amount>
+                          <HappinessValue>4</HappinessValue>
+                          <MoneyValue>150</MoneyValue>
+                        </Item>
+                        <Item>
+                          <Product>850043</Product>
+                          <SupplyWeight>12</SupplyWeight>
+                          <MoneyValue>300</MoneyValue>
+                        </Item>
+                      </PopulationInputs>
+                      <PopulationOutputs>
+                        <Item>
+                          <Product>1010052</Product>
+                        </Item>
+                        <Item>
+                          <Product>1010115</Product>
+                        </Item>
+                        <Item>
+                          <Product>1010116</Product>
+                        </Item>
+                        <Item>
+                          <Product>1010117</Product>
+                        </Item>
+                        <Item>
+                          <Product>1010128</Product>
+
+                        </Item>
+                        <Item>
+                          <Product>850052</Product>
+                          <Amount>150</Amount>
+                        </Item>
+                      </PopulationOutputs>
+                      <MoveInOut>
+                        <MoveInInterval>30</MoveInInterval>
+                        <MoveOutInterval>90</MoveOutInterval>
+                      </MoveInOut>
+                      <CategoryIcon>data/ui/2kimages/main/icons/icon_arrow.png</CategoryIcon>
+                      <PopulationParticipant>Visitor</PopulationParticipant>
+                      <PopulationAtWorkParticipant>Visitor</PopulationAtWorkParticipant>
+                      <MoodText>
+                        <Angry>
+                          <Text>850047</Text>
+                        </Angry>
+                        <Unhappy>
+                          <Text>850048</Text>
+                        </Unhappy>
+                        <Neutral>
+                          <Text>850049</Text>
+                        </Neutral>
+                        <Happy>
+                          <Text>850050</Text>
+                        </Happy>
+                        <Euphoric>
+                          <Text>850051</Text>
+                        </Euphoric>
+                      </MoodText>
+                    </PopulationLevel7>
+                    <Locked />
+                  </Values>
+                </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID='100444' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102337' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='100457' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='101204' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='101562' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102342' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102494' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102495' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102496' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102627' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='100457' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='111141' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='111144' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='111145' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850046</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='130118' Path="/Values/AssetPool/AssetList/Item[Asset='1010347']">
+                                <Item>
+                                  <Asset>850046</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='141703' Path="/Values/CharacterInteractionConfig/UpgradeBuildingWhitelist/Item[Building='1010347']">
+                                <Item>
+                                  <Building>850046</Building>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190041' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190762' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='192446' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190136' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='117547']">
+                                <Item>
+                                  <GUID>850042</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193879' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010365']">
+                                <Item>
+                                  <GUID>850042</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191501' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010372']">
+                                <Item>
+                                  <GUID>850042</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110986' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111167' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110988' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110994' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110995' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111002' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111003' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111004' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110992' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110993' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116184' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116188' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269412' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269161' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269162' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269233' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269157' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191570' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850046</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='700055' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010346']">
+                                <Item>
+                                  <Asset>850046</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='700002' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010347']">
+                                <Item>
+                                  <Asset>850046</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='700010' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010347']">
+                                <Item>
+                                  <Asset>850046</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '2001092' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850046</Building>
+        </Item>
+        <Item>
+            <Building>850045</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '142785' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850046</Building>
+        </Item>
+        <Item>
+            <Building>850045</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '142677' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850042</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='220' Path="/Values/ConstructionAI/BuildingReplacements">
+        <Item>
+            <Building>850046</Building>
+            <Replacement>1010343</Replacement>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='167' Path="/Values/ConstructionAI">
+        <BuildingReplacements>
+            <Item>
+                <Building>850046</Building>
+                <Replacement>1010343</Replacement>
+            </Item>
+        </BuildingReplacements>
+    </ModOp>
+<ModOp Type="add" GUID='15000083' Path="/Values/PopulationGroup7/PopulationLevels">
+                    <Item>
+                      <Level>15100000</Level>
+                    </Item>
+    </ModOp>
+<ModOp Type="add" GUID='700068' Path="/Values/PlayerCounterContextPool/Contexts">
+                        <Item>
+                          <Asset>15100000</Asset>
+                        </Item>
+    </ModOp>
+<ModOp Type="addNextSibling" GUID='2001271' Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel = '15000004']">
+        <Item>
+            <PopulationLevel>15100000</PopulationLevel>
+        </Item>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                    <Asset>
+                      <Template>TownhallItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850054</GUID>
+                          <Name>cathedral buff</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/icon_resident.png</IconFilename>
+                          <InfoDescription>19478</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Teetotalers Manifesto</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>26977</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Uncommon</Rarity>
+                          <ExclusiveGroup>AlcoholAct</ExclusiveGroup>
+                          <TradePrice>18600</TradePrice>
+                        </Item>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>190762</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <BuildingUpgrade />
+                        <PopulationUpgrade />
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <ItemDifficulties>Easy;Average</ItemDifficulties>
+                        </ExpeditionAttribute>
+                        <ResidenceUpgrade>
+                          <AdditionalHappiness>5</AdditionalHappiness>
+                          <GoodConsumptionUpgrade>
+                            <Item>
+                              <ProvidedNeed>1010200</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010237</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010216</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010238</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010213</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010203</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010214</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010217</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010206</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010247</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010257</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>120030</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>120032</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010208</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010245</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010246</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>120016</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010259</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010258</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010225</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010250</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                            <Item>
+                              <ProvidedNeed>1010248</ProvidedNeed>
+                              <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                          </GoodConsumptionUpgrade>
+                        </ResidenceUpgrade>
+                        <VisitorHarborUpgrade />
+                        <CultureUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <Locked />
+                        <Buff />
+                      </Values>
+                    </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='17742'>
+                    <Asset>
+                      <Template>TownhallItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850053</GUID>
+                          <Name>Big Contraception Regulation</Name>
+                          <IconFilename>data/modgraphics/icons/wappen.png</IconFilename>
+                          <InfoDescription>19514</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Papal Paper of Prenatal Preservation</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>27012</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Epic</Rarity>
+                          <ExclusiveGroup>NatalityRegulationEdict</ExclusiveGroup>
+                          <TradePrice>224000</TradePrice>
+                        </Item>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>190762</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <BuildingUpgrade />
+                        <PopulationUpgrade>
+                          <ResidentsUpgrade>
+                            <Value>10</Value>
+                            <Percental>1</Percental>
+                          </ResidentsUpgrade>
+                          <InputBenefitModifier>
+                            <Item>
+                              <Product>1010200</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>1010213</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>1010217</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>1010353</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>120032</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>1010208</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>120016</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>1010225</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>1010258</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                            <Item>
+                              <Product>120033</Product>
+                              <AdditionalSupply>1</AdditionalSupply>
+                            </Item>
+                          </InputBenefitModifier>
+                        </PopulationUpgrade>
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <BaseMorale>15</BaseMorale>
+                          <ItemDifficulties>Average;Hard</ItemDifficulties>
+                        </ExpeditionAttribute>
+                        <ResidenceUpgrade>
+                          <TaxModifierInPercent>10</TaxModifierInPercent>
+                        </ResidenceUpgrade>
+                        <VisitorHarborUpgrade />
+                        <CultureUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <Locked />
+                        <Buff />
+                        <CraftableItem />
+                        <VisualEffectWhenActive />
+                      </Values>
+                    </Asset>
     </ModOp>
 </ModOps>

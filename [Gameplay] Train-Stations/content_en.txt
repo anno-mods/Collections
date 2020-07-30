@@ -1,32 +1,49 @@
-Train-Stations v1.0.3:
+Train-Stations v2.0.3:
 
-This Mod adds 2 new buildings. 1 Central train-station and 1 small train-station. The Central station "produces" travelers, which want to be driven to the small train-stations. If they are constantly supplied with travelers, they satisfy the market needs.
 
-One Central train-station can supply up to 3 or 4 small train-stations, depending on logistical circumstances.
+This mod adds new buildings:
 
-It is possible to combine both railway-systems: the oil-system and the traveler-system. The trains will transport both of them at the same time. But with seperate systems, the supply is more secured for all train-dependent buildings.
+-the central stations: produce travelers who want to be taken to the small train stations. A central station can supply up to 3 or 4 small stations, depending on logistical circumstances. (unlocked at 1000 engineers)
 
-In addition the look of the train has been slightly modified and a wagon for transportation of travelers has been added.
+-The small train station: produces letters for the chief post office (unlocked at 1000 engineers)
 
-The train-stations will be unlocked at 1000 engineers.
+-The hotels: accommodate tourists and have an impact on surrounding residences: + 10% more inhabitants and + 10% more income (activated at 1000 investors)
+
+-The investor residences: have an impact on surrounding residences: -3% less consumption of all goods and +5 satisfaction (unlocked at 1200 tourists)
+
+-the chief post office: satisfies the need for post of tourists and the market
+
+
+The Central station even provide oil (takes it from storage of isle) to supply your powerplants.
+
+In addition the look of the train has been modified and a wagon for transportation of travelers has been added.
+
 
 !!!This mod is compatible with already existing savegames. No Unlocker is needed!!!
 
 
-After you installed the mod, you can find the train-stations in the added train-station-building-menu in the engineer-building-menu (train icon).
+After you installed the mod, you can find the new buildings in the added train-station-building-menu in the engineer-building-menu (train icon).
 
 
-Update 1.0.3
+Update 2.0 Notes:
+
+  Inventions:
+
+  - Hotels and investor residences have been added
+
+  - Color of the train has been changed (green)
+
+  - small train stations now produce letters
 
   Bugfixes:
   
-  - The Central Station, the train and the passenger-wagons always disappeared when you zoom out too far. This issue has now been resolved
+  - The stations are now not as expensive to maintain
 
-  - new clock hands have been inserted at the main station, since the old ones have disappeared since patch 4.x.
+  known bugs:
 
-  - the symbols which always appeared above the stations, if these are e.g. not connected to the oil port, now no longer be appearing (stations need no oil port!)
+  - Hotels and investor residences cannot be copied!
 
-  - The bug that the stations supplied power to businesses has been fixed (electricity pylons are still appearing on the adjacent roads)
+  - The small train station and the chief post office show the error: "No warehouse nearby": The chief post office gets its letters directly from the small train station
 
 
 your faithfully

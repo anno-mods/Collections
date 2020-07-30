@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>850009</GUID>
-      <Text>Central Station</Text>
+      <Text>Central Station I</Text>
     </Text>
     <Text>
       <GUID>850010</GUID>
@@ -26,7 +26,71 @@
     </Text>
     <Text>
       <GUID>859982</GUID>
-      <Text>Train Stations</Text>
+      <Text>Train Stations & hotels</Text>
+    </Text>
+    <Text>
+      <GUID>850030</GUID>
+      <Text>Central Station II</Text>
+    </Text>
+    <Text>
+      <GUID>850040</GUID>
+      <Text>letters</Text>
+    </Text>
+    <Text>
+      <GUID>850041</GUID>
+      <Text>post</Text>
+    </Text>
+    <Text>
+      <GUID>850042</GUID>
+      <Text>chief post office</Text>
+    </Text>
+    <Text>
+      <GUID>850043</GUID>
+      <Text>post</Text>
+    </Text>
+    <Text>
+      <GUID>850044</GUID>
+      <Text>train station</Text>
+    </Text>
+    <Text>
+      <GUID>850045</GUID>
+      <Text>hotel</Text>
+    </Text>
+    <Text>
+      <GUID>850046</GUID>
+      <Text>investor residence</Text>
+    </Text>
+    <Text>
+      <GUID>850047</GUID>
+      <Text>angry tourists</Text>
+    </Text>
+    <Text>
+      <GUID>850048</GUID>
+      <Text>unhappy tourists</Text>
+    </Text>
+    <Text>
+      <GUID>850049</GUID>
+      <Text>neutral tourists</Text>
+    </Text>
+    <Text>
+      <GUID>850050</GUID>
+      <Text>happy tourists</Text>
+    </Text>
+    <Text>
+      <GUID>850051</GUID>
+      <Text>euphoric tourists</Text>
+    </Text>
+    <Text>
+      <GUID>850052</GUID>
+      <Text>hotel guests</Text>
+    </Text>
+    <Text>
+      <GUID>850053</GUID>
+      <Text>hotel bonus</Text>
+    </Text>
+    <Text>
+      <GUID>850054</GUID>
+      <Text>high wealth</Text>
     </Text>
   </ModOp>
 </ModOps>

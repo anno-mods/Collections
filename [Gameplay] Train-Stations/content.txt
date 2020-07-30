@@ -1,32 +1,50 @@
-Train-Stations v1.0.3:
+Train-Stations v2.0.3:
 
-Dieser Mod fügt 2 neue Gebäude hinzu. Einen Hauptbahnhof und einen kleinen Bahnhof. Der Hauptbahnhof "produziert" Reisende, welche zu den kleinen Bahnhöfen gebracht werden wollen. Wenn diese kontinuierlich mit Reisenden beliefert werden, stillen sie das Markt-Bedürfnis.
+Dieser Mod fügt neue Gebäude hinzu: 
 
-Ein Hauptbahnhof kann bis zu 3 oder 4 kleine Bahnhöfe beliefern, abhängig von logistischen Konditionen.
+-die Hauptbahnhöfe: produzieren Reisende, welche zu den kleinen Bahnhöfen gebracht werden wollen. Ein Hauptbahnhof kann bis zu 3 oder 4 kleine Bahnhöfe beliefern, abhängig von logistischen Umständen. (freigeschalten ab 1000 Ingenieuren)
+
+-der kleine Bahnhof: produziert Briefe für das Hauptpostamt (freigeschalten ab 1000 Ingenieuren)
+
+-die Hotels: beherbergen Touristen und haben einen Einfluss auf umliegende Residenzen: +10% mehr Einwohner und +10% mehr Einnahmen (freigeschalten ab 1000 Investoren)
+
+-die Investor-Residenzen: haben einen Einfluss auf umliegende Residenzen: -3% weniger Verbrauch von allen Gütern und +5 Zufriedenheit (freigeschalten ab 1200 Touristen)
+
+-das Hauptpostamt: stillt das Bedürfnis nach Post der Touristen und Markt
+
 
 Es ist möglich die zwei Zug-systeme miteinander zu kombinieren: Das Öl-System und das Reisenden-System. Die Züge können beides zur selben Zeit transportieren. Die Versorgung von zugabhängigen Gebäuden ist aber mit seperaten Systemen besser abgesichert.
 
-Außerdem wurde das Aussehen des Zuges leicht verändert und ein Waggon für die Beförderung der Reisenden wurde hinzugefügt.
+Die Hauptbahnhöfe können zusätzlich auch Öl zur Verfügung stellen, um eure Kraftwerke damit zu versorgen.
 
-Die Bahnhöfe werden ab 1000 Ingenieuren freigeschaltet.
+Außerdem wurde das Aussehen des Zuges verändert und ein Waggon für die Beförderung der Reisenden wurde hinzugefügt.
+
 
 !!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
 
 
-Nachdem der Mod installiert wurde, befinden sich die Bahnhöfe in einem neuen Baumenü im Ingenieurs-Baumenü (Zug Symbol).
+Nachdem der Mod installiert wurde, befinden sich die neuen Gebäude in einem neuen Baumenü im Ingenieurs-Baumenü (Zug Symbol).
 
 
-Update 1.0.3 Notes:
+Update 2.0 Notes:
+
+  Inventions:
+
+  - Hotels und Investor-Residenzen wurden hinzugefügt
+
+  - Farbe des Zuges wurde verändert (grün)
+
+  - kleine Bahnhöfe produzieren jetzt Briefe
 
   Bugfixes:
+  
+  - die Bahnhöfe sind nun nicht mehr ganz so teuer im Unterhalt
 
-  - der Hauptbahnhof, der Zug und die Personenwagons verschwanden immer wenn man zu weit rauszoomt. Dieses Problem wurde nun behoben
+  bekannte Bugs:
 
-  - es wurden neue Uhrzeiger am Hauptbahnhof eingefügt, da die alten seit Patch 4.x verschwunden sind
+  - Hotels und Investor-residenzen lassen sich nicht kopieren!
 
-  - die Symbole, die immer über den Bahnhöfen erschienen, wenn diese z.B. nicht mit dem Ölhafen verbunden waren, erscheinen nun nicht mehr (Bahnhöfe brauchen keinen Ölhafen!)
-
-  - der Bug, dass die Bahnhöfe Betriebe mit Strom versorgten, wurde gefixt (es erscheinen weiterhin Strommasten an den angrenzenden Straßen)
+  - kleiner Bahnhof und Hauptpostamt bringen den Fehler: "kein Lgerhaus in der Nähe": Das Hauptpostamt bekommt seine Briefe direkt vom kleinen Bahnhof
 
 
 
