@@ -1,0 +1,11 @@
+<ModOps>
+	<!--Reroll costs-->
+	<ModOp Type="merge" Name='Profile_3rdParty' Path="/Templates/Group/Group/Template">
+	<Properties>
+	<Trader>
+		<TraderItemRerollCosts>0</TraderItemRerollCosts>
+		<TraderItemRerollCostIncrease>0</TraderItemRerollCostIncrease>
+	</Trader>
+	</Properties>
+	</ModOp>
+</ModOps>

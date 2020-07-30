@@ -1,0 +1,11 @@
+If you do want pay less or not at all for dice reroll.
+
+Traders item reroll is for free now. If you wanna different change, just edit the template.xml.
+
+template.xml partial code:
+{code}
+<TraderItemRerollCosts>0</TraderItemRerollCosts>﻿﻿﻿﻿<!-- Initial cost of the first roll -->
+<TraderItemRerollCostIncrease>0</TraderItemRerollCostIncrease>﻿<!-- How much extra every next roll will cost -->
+{code}
+
+If you need money, change value to negative number. :-)))
