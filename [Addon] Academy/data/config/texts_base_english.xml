@@ -1,0 +1,54 @@
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93010011</GUID>
+      <Text>Academy</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93010012</GUID>
+      <Text>Machinery expositions and lectures can be held here in order to greatly increase the chance of specific visitors.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>930100454</GUID>
+      <Text>Campus Building</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019711</GUID>
+      <Text>Increased Loading Speed</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019712</GUID>
+      <Text>All Tradeships</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019713</GUID>
+      <Text>Perfected Harvesting</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019714</GUID>
+      <Text>Efficient Filamenting</Text>
+    </Text>
+  </ModOp>
+ <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>92019715</GUID>
+      <Text>Reduces the amount of coal required by a third.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019716</GUID>
+      <Text>Secure Mining</Text>
+    </Text>
+  </ModOp>

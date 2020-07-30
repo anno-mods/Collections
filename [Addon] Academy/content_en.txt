@@ -1,0 +1,3 @@
+Adds an academy building to the game. The academy is museum like and add the ability to buff the visitor docks in such a way that it becomes possible to easier target specific visitor groups. Also slightly alters the visitor docks base values.
+
+Requires DLC.

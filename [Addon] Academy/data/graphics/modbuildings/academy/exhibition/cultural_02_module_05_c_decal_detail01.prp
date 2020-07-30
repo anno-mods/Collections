@@ -1,0 +1,21 @@
+<Prop><Type>Decal Detail</>
+<VertexFormat>P4h_T2h_C4c</>
+<MeshFileName>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_c/rdm/cultural_02_module_05_c_decal_detail01_lod0.rdm</>
+<AlwaysVisible>0</>
+<Indestructible>0</>
+<ForceHighResShadow>0</>
+<Materials><Material><cPropDiffuseTex>data/graphics/props/terrain_props/vegetation/grass/maps/grass_moderate_01_diff.psd</>
+<cDiffuseColor.r>1.000000</>
+<cDiffuseColor.g>1.000000</>
+<cDiffuseColor.b>1.000000</>
+<NORMAL_MAP_ENABLED>0</>
+<cAlphaRef>0.153000</>
+<DISABLE_ALPHA_TO_COVERAGE>0</>
+<cTrunkWindDeflection>0.330000</>
+<cLeafWindDeflection>0.035000</>
+<cGlossiness>0.000000</>
+</>
+</>
+<Colors><Count>0</>
+</>
+</>

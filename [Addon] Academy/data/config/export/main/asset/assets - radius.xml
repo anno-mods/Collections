@@ -1,0 +1,3819 @@
+<ModOps>
+	<!-- Visitors Dock -->
+	<ModOp GUID="2001173" Path="Values/TourismFeature" Type="merge">
+	<TourismFeature>		
+		<IntervalDuration>1200000</IntervalDuration>	
+		<TotalUnlockablePoolLikeliness>80</TotalUnlockablePoolLikeliness>
+	</TourismFeature>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistSpawnProbability" Type="add">
+	<Item>
+	  <Probability>50</Probability>
+	  <VisitorAmount>6500</VisitorAmount>
+	</Item>
+	<Item>
+	  <Probability>60</Probability>
+	  <VisitorAmount>7500</VisitorAmount>
+	</Item>
+	<Item>
+	  <Probability>70</Probability>
+	  <VisitorAmount>8500</VisitorAmount>
+	</Item>
+	</ModOp>
+	<!-- Academy -->
+	<ModOp GUID="1010520" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93010012</GUID>
+			  <Name>academy info corner</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Machinery expositions and lectures can be held here in order to greatly in increase the chance of specific visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>3</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>14461</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="1010520" Type="addNextSibling">
+		<Asset>
+		  <Template>CultureBuilding</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93010011</GUID>
+			  <Name>Academy</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/achievement/icon_achievement_expeditions_gold.png</IconFilename>
+			  <InfoDescription>93010012</InfoDescription>
+			</Standard>
+			<Building>
+			  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+			  <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+			</Building>
+			<Constructable />
+			<Locked>
+			  <DefaultLockedState>1</DefaultLockedState>
+			</Locked>
+			<Blocking />
+			<Cost>
+			  <Costs>
+				<Item>
+				  <Ingredient>1010017</Ingredient>
+				  <Amount>10000</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010196</Ingredient>
+				  <Amount>30</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010205</Ingredient>
+				  <Amount>30</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010218</Ingredient>
+				  <Amount>10</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010207</Ingredient>
+				  <Amount>5</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010202</Ingredient>
+				</Item>
+			  </Costs>
+			</Cost>
+			<Object>
+			  <Variations>
+				<Item>
+				  <Filename>data\graphics\modbuildings/academy\academy/service_07.cfg</Filename>
+				</Item>
+			  </Variations>
+			</Object>
+			<Mesh />
+			<Selection />
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The Academy</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>5298</LineID>
+			</Text>
+			<Constructable />
+			<SoundEmitter>
+			  <ActiveSounds>
+				<Item>
+				  <Sound>200531</Sound>
+				</Item>
+			  </ActiveSounds>
+			  <BuildingRepaired>
+				<Item>
+				  <Sound>203866</Sound>
+				</Item>
+			  </BuildingRepaired>
+			</SoundEmitter>
+			<FeedbackController />
+			<Infolayer />
+			<UpgradeList />
+			<Culture>
+			  <CultureSpawnGroup>1</CultureSpawnGroup>
+			  <Sets>
+				<Item>
+					<Set>93109715</Set>
+				</Item>
+				<Item>
+					<Set>93109720</Set>
+				</Item>
+				<Item>
+					<Set>93109725</Set>
+				</Item>
+				<Item>
+					<Set>93109730</Set>
+				</Item>
+				<Item/>
+				<Item>
+					<Set>93109735</Set>
+				</Item>
+				<Item>
+					<Set>93109740</Set>
+				</Item>
+				<Item>
+					<Set>93109745</Set>
+				</Item>
+				<Item>
+					<Set>93109750</Set>
+				</Item>
+				<Item>
+					<Set>93109755</Set>
+				</Item>
+				<Item/>
+				<Item/>
+				<Item>
+					<Set>93109760</Set>
+				</Item>
+				<Item>
+					<Set>93109765</Set>
+				</Item>
+				<Item>
+					<Set>93109770</Set>
+				</Item>
+				<Item>
+					<Set>93109775</Set>
+				</Item>
+				<Item/>
+				<Item>
+					<Set>93109780</Set>
+				</Item>
+				<Item>
+					<Set>93109783</Set>
+				</Item>
+				<Item>
+					<Set>93109785</Set>
+				</Item>
+				<Item>
+					<Set>93109787</Set>
+				</Item>
+				<Item>
+					<Set>93109789</Set>
+				</Item>
+			  </Sets>
+			  <UndiscoveredSet>14022</UndiscoveredSet>
+			  <ModuleListHeader>13974</ModuleListHeader>
+			  <OpenSetPages>13972</OpenSetPages>
+			  <CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_museum.png</CultureMoodImage>
+			</Culture>
+			<ModuleOwner>
+			  <ModuleLimits>
+				<Connector>
+				  <Limit>500</Limit>
+				</Connector>
+			  </ModuleLimits>
+			  <ConstructionOptions>
+				<Item>
+				  <ModuleGUID>930100454</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>113452</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114435</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>103119</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>101510</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>102466</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>102469</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114295</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114299</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114297</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114296</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114300</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114293</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114298</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114294</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114301</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114302</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114303</ModuleGUID>
+				</Item>
+			  </ConstructionOptions>
+			</ModuleOwner>
+			<AmbientMoodProvider>
+			  <AttractivityDependentMurmur>
+				<Item>
+				  <Attractivity>-1000</Attractivity>
+				  <Murmur>MuseumLowAttractiveness</Murmur>
+				</Item>
+				<Item>
+				  <Attractivity>-20</Attractivity>
+				  <Murmur>MuseumMedAttractiveness</Murmur>
+				</Item>
+				<Item>
+				  <Attractivity>20</Attractivity>
+				  <Murmur>MuseumHighAttractiveness</Murmur>
+				</Item>
+			  </AttractivityDependentMurmur>
+			  <DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+			</AmbientMoodProvider>
+			<LogisticNode />
+			<PublicService>
+			  <FullSatisfactionDistance>45</FullSatisfactionDistance>
+			  <NoSatisfactionDistance>90</NoSatisfactionDistance>
+			  <PublicServiceOutputs>
+				<Item>
+				  <Product>1010353</Product>
+				</Item>
+			  </PublicServiceOutputs>
+			</PublicService>
+			<Factory7 />
+			<FactoryBase />
+			<Maintenance>
+			  <Maintenances>
+				<Item>
+				  <Product>1010017</Product>
+				  <Amount>100</Amount>
+				  <InactiveAmount>100</InactiveAmount>
+				</Item>
+			  </Maintenances>
+			  <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+			</Maintenance>
+			<Attackable>
+			  <MaximumHitPoints>4750</MaximumHitPoints>
+			  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+			</Attackable>
+			<IncidentInfectable>
+			  <Explosion>
+				<DamageExplosionChance>0</DamageExplosionChance>
+			  </Explosion>
+			</IncidentInfectable>
+			<Electric />
+			<Pausable />
+			<StreetActivation />
+			<QuestObject />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<!-- Modules -->
+	<ModOp GUID="100454" Type="addNextSibling">
+		<Asset>
+		  <Template>CultureModule</Template>
+		  <Values>
+			<Standard>
+			  <GUID>930100454</GUID>
+			  <Name>academy module empty</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_school.png</IconFilename>
+			  <InfoDescription>11665</InfoDescription>
+			</Standard>
+			<Building>
+			  <BuildingCategoryName>2498</BuildingCategoryName>
+			  <PickingAsset>930100454</PickingAsset>
+			  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+			  <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+			</Building>
+			<Blocking />
+			<Cost>
+			  <Costs>
+				<Item>
+				  <Ingredient>1010017</Ingredient>
+				  <Amount>500</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010196</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010205</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010218</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010207</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010202</Ingredient>
+				</Item>
+			  </Costs>
+			  <InfluenceCostType/>
+			</Cost>
+			<Object>
+			  <Variations>
+				<Item>
+				  <Filename>data\graphics\modbuildings\academy\exhibition/cultural_02_module_05_c.cfg</Filename>
+				</Item>
+				<Item>
+				  <Filename>data\graphics\modbuildings\academy\exhibition/cultural_02_module_03.cfg</Filename>
+				</Item>
+				<Item>
+				  <Filename>data\graphics\modbuildings\academy\exhibition/cultural_02_module_01.cfg</Filename>
+				</Item>
+			  </Variations>
+			</Object>
+			<Mesh />
+			<Selection>
+			  <Colors>
+				<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+			  </Colors>
+			</Selection>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Empty Exhibit</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>15195</LineID>
+			</Text>
+			<Constructable />
+			<Locked>
+			  <DefaultLockedState>0</DefaultLockedState>
+			</Locked>
+			<SoundEmitter />
+			<FeedbackController />
+			<Infolayer />
+			<BuildingModule>
+			  <PlazaSize>20</PlazaSize>
+			  <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_empty_museum.png</ModuleMoodImage>
+			</BuildingModule>
+			<ItemContainer>
+			  <SocketCount>1</SocketCount>
+				<SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Ship;SteamShip;Warship;Tradeship</SocketAllocation>
+				<SocketScope>Radius</SocketScope>
+				<SocketScopeRadius>0</SocketScopeRadius>
+			</ItemContainer>
+			<Attackable>
+			  <HasRuinState>1</HasRuinState>
+			  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+			</Attackable>
+			<QuestObject />
+			<AmbientMoodProvider />
+		  </Values>
+		</Asset>
+	</ModOp>
+	
+	
+	<ModOp GUID="25000192" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010365']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	<ModOp GUID="25000197" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010471']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	
+	<ModOp GUID="25000194" Path="Values/ConstructionCategory/BuildingList/Item[Building='500909']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	<ModOp GUID="500951" Path="Values/ConstructionCategory/BuildingList/Item[Building='102284']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	
+	<ModOp GUID="111797" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>93009711</GUID>
+					<Name>Academy unlock</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+					  <Template>ConditionUnlocked</Template>
+					  <Values>
+						<Condition />
+						<ConditionUnlocked>
+						  <UnlockNeeded>1010362</UnlockNeeded>
+						</ConditionUnlocked>
+					  </Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>93010011</Asset>
+											</Item>
+										</UnlockAssets>
+										<UnhideAssets/>
+										<AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- Custom Buffs -->
+	<ModOp GUID="111797" Type="addNextSibling">
+		<Asset>
+                  <Template>VehicleBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019711</GUID>
+                      <Name>Logicstical Geniuses</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_depot.png</IconFilename>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Logicstical Geniuses</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <VehicleUpgrade>
+                    </VehicleUpgrade>
+                    <Buff/>
+                    <AttackerUpgrade />
+                    <AttackableUpgrade />
+                    <ProjectileUpgrade />
+                    <TradeShipUpgrade>
+                        <LoadingSpeedUpgrade>
+                            <Value>150</Value>
+                            <Percental>1</Percental>
+                        </LoadingSpeedUpgrade>
+                    </TradeShipUpgrade>
+                    <UpgradeList />
+                    <ItemEffect>
+                              <EffectTargets>
+                                <Item>
+                                  <GUID>91019712</GUID>
+                                </Item>
+                              </EffectTargets>
+                            </ItemEffect>
+                    <DivingBellUpgrade />
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+              <Template>ItemEffectTargetPool</Template>
+              <Values>
+                <Standard>
+                  <GUID>91019712</GUID>
+                  <Name>all tradeships</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/icon_depot.png</IconFilename>
+                </Standard>
+                <Text>
+                  <LocaText>
+                    <English>
+                      <Text>Tradeships</Text>
+                      <Status>Exported</Status>
+                      <ExportCount>1</ExportCount>
+                    </English>
+                  </LocaText>
+                  <LineID>21939</LineID>
+                </Text>
+                <ItemEffectTargetPool>
+                  <EffectTargetGUIDs>
+                    <Item>
+                      <GUID>101121</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>100438</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>100441</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>1010062</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>100853</GUID>
+                    </Item>
+					<Item>
+                      <GUID>114166</GUID>
+                    </Item>
+					
+                  </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+              </Values>
+            </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+                  <Template>GuildhouseBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019713</GUID>
+                      <Name>Perfected Harvesting</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_botanical.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                      <EffectTargets>
+                        <Item>
+                          <GUID>190011</GUID>
+                        </Item>
+                      </EffectTargets>
+                    </ItemEffect>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Perfected Harvesting</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <FactoryUpgrade>
+                     <ProductivityUpgrade>
+						<Value>20</Value>
+						<Percental>1</Percental>
+					  </ProductivityUpgrade>
+                    </FactoryUpgrade>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <CultureUpgrade />
+                    <ModuleOwnerUpgrade>
+                     <ModuleLimitPercent>-20</ModuleLimitPercent>
+                    </ModuleOwnerUpgrade>
+                    <IncidentInfectableUpgrade />
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+                  <Template>GuildhouseBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019714</GUID>
+                      <Name>Efficient Filamenting</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_science.png</IconFilename>
+                    </Standard>
+                    
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Efficient Filamenting</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <FactoryUpgrade>
+						<AdditionalOutput>
+						<Item>
+						  <Product>1010226</Product>
+						  <AdditionalOutputCycle>3</AdditionalOutputCycle>
+						  <Amount>1</Amount>
+						</Item>
+					  </AdditionalOutput>
+                     <ProductivityUpgrade>
+						<Value>10</Value>
+						<Percental>1</Percental>
+					  </ProductivityUpgrade>
+                    </FactoryUpgrade>
+					<ItemEffect>
+                      <EffectTargets>
+                        <Item>
+                          <GUID>1010321</GUID>
+                        </Item>
+                      </EffectTargets>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff>
+                      <PossibleFluffTexts>
+                        <Item>
+                          <FluffText>92019715</FluffText>
+                        </Item>
+                      </PossibleFluffTexts>
+                    </Buff>
+                    <CultureUpgrade />
+                    <ModuleOwnerUpgrade/>
+                    <IncidentInfectableUpgrade />
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>92019715</GUID>
+			  <Name>GottaGoFast</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Reduces the amount of coal required by a third.</Text>
+				  <Status>Edit</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+                  <Template>GuildhouseBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019716</GUID>
+                      <Name>Secure Mining</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_coal_storage.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                      <EffectTargets>
+                        <Item>
+                          <GUID>190882</GUID>
+                        </Item>
+                      </EffectTargets>
+                    </ItemEffect>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Secure Mining</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <FactoryUpgrade>
+                    </FactoryUpgrade>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <CultureUpgrade />
+                    <ModuleOwnerUpgrade/>
+                    <IncidentInfectableUpgrade>
+                              <IncidentFireIncreaseUpgrade>
+                                <Value>-15</Value>
+                              </IncidentFireIncreaseUpgrade>
+                           </IncidentInfectableUpgrade>
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109712</GUID>
+			  <Name>academy buff description 93109712</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The shipyard construction exhibition in your academy attracts leading figures in the realm of ship construction to your city.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097112</GUID>
+			  <Name>academy buff description 931097112</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of shipyard related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109713</GUID>
+			  <Name>academy buff 93109713</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_steam_shipyard.png</IconFilename>
+			  <InfoDescription>93109712</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190783</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Shining Shipyards</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097112</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade> <ConstructionTimeInPercent>-30</ConstructionTimeInPercent> </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109714</GUID>
+			  <Name>academy expositions fluff 93109714</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Expositions centered around the construction and maintainance of ships will attract the most ingenious ship builders the world has seen.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109715</GUID>
+			  <Name>academy expositions 93109715</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_steam_shipyard.png</IconFilename>
+			  <InfoDescription>93109714</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109713</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Shining Shipyards</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109716</GUID>
+			  <Name>Academy Specialists Pool 93109716</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>192457</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192458</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192459</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192460</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192461</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192462</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192463</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192464</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>192465</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109716</Pool>
+		  <UnlockingSetBuff>93109713</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="191896" Path="Values/Item" Type="add">
+		<ItemSet>93109715</ItemSet>
+	</ModOp>
+	<ModOp GUID="190697" Path="Values/Item" Type="add">
+		<ItemSet>93109715</ItemSet>
+	</ModOp>
+	<ModOp GUID="112384" Path="Values/Item" Type="add">
+		<ItemSet>93109715</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109717</GUID>
+			  <Name>academy buff description 93109717</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Showing modern farming technology is attracting leading agricultural experts.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097113</GUID>
+			  <Name>academy buff description 931097113</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of farming related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109718</GUID>
+			  <Name>academy buff 93109718</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_cereals_2.png</IconFilename>
+			  <InfoDescription>93109717</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190011</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Fantastic Farming</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade> <ProductivityUpgrade><Value>20</Value><Percental>1</Percental></ProductivityUpgrade> </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097113</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade> <ModuleLimitPercent>10</ModuleLimitPercent> </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109719</GUID>
+			  <Name>academy expositions fluff 93109719</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Showing modern farming technology will attract agricultural experts.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109720</GUID>
+			  <Name>academy expositions 93109720</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_cereals_2.png</IconFilename>
+			  <InfoDescription>93109719</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109718</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Fantastic Farming</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109721</GUID>
+			  <Name>Academy Specialists Pool 93109721</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190739</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191402</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191584</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190693</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190752</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109721</Pool>
+		  <UnlockingSetBuff>93109718</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190750" Path="Values/Item" Type="add">
+		<ItemSet>93109720</ItemSet>
+	</ModOp>
+	<ModOp GUID="190743" Path="Values/Item" Type="add">
+		<ItemSet>93109720</ItemSet>
+	</ModOp>
+	<ModOp GUID="190858" Path="Values/Item" Type="add">
+		<ItemSet>93109720</ItemSet>
+	</ModOp>
+	<ModOp GUID="190861" Path="Values/Item" Type="add">
+		<ItemSet>93109720</ItemSet>
+	</ModOp>
+	<ModOp GUID="190691" Path="Values/Item" Type="add">
+		<ItemSet>93109720</ItemSet>
+	</ModOp>
+	<ModOp GUID="190692" Path="Values/Item" Type="add">
+		<ItemSet>93109720</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109722</GUID>
+			  <Name>academy buff description 93109722</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The best traders from all over world flock to your city.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097114</GUID>
+			  <Name>academy buff description 931097114</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of trading related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109723</GUID>
+			  <Name>academy buff 93109723</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_marketplace.png</IconFilename>
+			  <InfoDescription>93109722</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190797</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Tremendous Trading</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097114</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade> <GenProbability>20</GenProbability><GenPool>190807</GenPool> </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109724</GUID>
+			  <Name>academy expositions fluff 93109724</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Explaning the tricks of the trade will surely lure the greatest traders in the world to your city.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109725</GUID>
+			  <Name>academy expositions 93109725</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_marketplace.png</IconFilename>
+			  <InfoDescription>93109724</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109723</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Tremendous Trading</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109726</GUID>
+			  <Name>Academy Specialists Pool 93109726</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>191624</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191626</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191625</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190684</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190668</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191579</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109726</Pool>
+		  <UnlockingSetBuff>93109723</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190667" Path="Values/Item" Type="add">
+		<ItemSet>93109725</ItemSet>
+	</ModOp>
+	<ModOp GUID="191621" Path="Values/Item" Type="add">
+		<ItemSet>93109725</ItemSet>
+	</ModOp>
+	<ModOp GUID="192012" Path="Values/Item" Type="add">
+		<ItemSet>93109725</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109727</GUID>
+			  <Name>academy buff description 93109727</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Showing off your advanced military tactics draws in legendary military generals and pirate leaders alike.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097115</GUID>
+			  <Name>academy buff description 931097115</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of military related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109728</GUID>
+			  <Name>academy buff 93109728</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_defense_tower_monstergun.png</IconFilename>
+			  <InfoDescription>93109727</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>191443</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Military Machinations</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097115</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade> <AttackSpeedUpgrade>25</AttackSpeedUpgrade> </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109729</GUID>
+			  <Name>academy expositions fluff 93109729</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Seeing your dominating military might will impress soldiers and pirates alike.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109730</GUID>
+			  <Name>academy expositions 93109730</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_defense_tower_monstergun.png</IconFilename>
+			  <InfoDescription>93109729</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109728</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Military Machinations</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109731</GUID>
+			  <Name>Academy Specialists Pool 93109731</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>191611</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191607</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191453</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191452</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191610</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191451</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191609</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190698</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191442</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191436</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109731</Pool>
+		  <UnlockingSetBuff>93109728</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="112370" Path="Values/Item" Type="add">
+		<ItemSet>93109730</ItemSet>
+	</ModOp>
+	<ModOp GUID="191878" Path="Values/Item" Type="add">
+		<ItemSet>93109730</ItemSet>
+	</ModOp>
+	<ModOp GUID="191603" Path="Values/Item" Type="add">
+		<ItemSet>93109730</ItemSet>
+	</ModOp>
+	<ModOp GUID="191850" Path="Values/Item" Type="add">
+		<ItemSet>93109730</ItemSet>
+	</ModOp>
+	<ModOp GUID="191854" Path="Values/Item" Type="add">
+		<ItemSet>93109730</ItemSet>
+	</ModOp>
+	<ModOp GUID="112388" Path="Values/Item" Type="add">
+		<ItemSet>93109730</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109732</GUID>
+			  <Name>academy buff description 93109732</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The newest theological revelations attract even the highest of clerical figures.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097116</GUID>
+			  <Name>academy buff description 931097116</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of theology related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109733</GUID>
+			  <Name>academy buff 93109733</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_church.png</IconFilename>
+			  <InfoDescription>93109732</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190762</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Theological Truths</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097116</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade> <StressUpgrade><Value>-15</Value><Percental>1</Percental></StressUpgrade><ResidentsUpgrade><AdditionalHappiness>5</AdditionalHappiness></ResidentsUpgrade> </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109734</GUID>
+			  <Name>academy expositions fluff 93109734</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Finding new theological facts will attract even the most faithful clergy.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109735</GUID>
+			  <Name>academy expositions 93109735</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_church.png</IconFilename>
+			  <InfoDescription>93109734</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109733</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Theological Truths</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109736</GUID>
+			  <Name>Academy Specialists Pool 93109736</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190193</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190719</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191383</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109736</Pool>
+		  <UnlockingSetBuff>93109733</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="191740" Path="Values/Item" Type="add">
+		<ItemSet>93109735</ItemSet>
+	</ModOp>
+	<ModOp GUID="191719" Path="Values/Item" Type="add">
+		<ItemSet>93109735</ItemSet>
+	</ModOp>
+	<ModOp GUID="190717" Path="Values/Item" Type="add">
+		<ItemSet>93109735</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109737</GUID>
+			  <Name>academy buff description 93109737</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The great atmosphere of artistry makes artist from far and wide travel to your city.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097117</GUID>
+			  <Name>academy buff description 931097117</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Erhöht die Wahrscheinlichkeit, dass legendäre Künstler diese Stadt besuchen.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109738</GUID>
+			  <Name>academy buff 93109738</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_base.png</IconFilename>
+			  <InfoDescription>93109737</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>1010361</GUID>
+				</Item>
+				<Item>
+				  <GUID>191562</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010364</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Amazing Arts</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097117</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade> <AttractivenessUpgrade><Value>5</Value></AttractivenessUpgrade> </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109739</GUID>
+			  <Name>academy expositions fluff 93109739</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Teachings of acting combined with a movement of freedom will bring every upcoming artist to your town.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109740</GUID>
+			  <Name>academy expositions 93109740</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_city_ornament_base.png</IconFilename>
+			  <InfoDescription>93109739</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109738</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Amazing Arts</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109741</GUID>
+			  <Name>Academy Specialists Pool 93109741</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190732</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190674</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>111169</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191470</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191573</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191407</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109741</Pool>
+		  <UnlockingSetBuff>93109738</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190731" Path="Values/Item" Type="add">
+		<ItemSet>93109740</ItemSet>
+	</ModOp>
+	<ModOp GUID="191770" Path="Values/Item" Type="add">
+		<ItemSet>93109740</ItemSet>
+	</ModOp>
+	<ModOp GUID="192438" Path="Values/Item" Type="add">
+		<ItemSet>93109740</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109742</GUID>
+			  <Name>academy buff description 93109742</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Culinary masterpieces in your city attract other master chefs.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097118</GUID>
+			  <Name>academy buff description 931097118</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of food related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109743</GUID>
+			  <Name>academy buff 93109743</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_beef_potatoes.png</IconFilename>
+			  <InfoDescription>93109742</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190897</GUID>
+				</Item>
+				<Item>
+				  <GUID>190762</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Formidable Foods</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade> <ProductivityUpgrade><Value>5</Value><Percental>1</Percental></ProductivityUpgrade> </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097118</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade> <AdditionalHappiness>3</AdditionalHappiness> </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109744</GUID>
+			  <Name>academy expositions fluff 93109744</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Chefs from all disciplines work together to create wonderful new recipes and attract other experts in their field.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109745</GUID>
+			  <Name>academy expositions 93109745</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_beef_potatoes.png</IconFilename>
+			  <InfoDescription>93109744</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109743</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Formidable Foods</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109746</GUID>
+			  <Name>Academy Specialists Pool 93109746</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190650</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191388</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190632</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191408</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191334</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109746</Pool>
+		  <UnlockingSetBuff>93109743</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="191405" Path="Values/Item" Type="add">
+		<ItemSet>93109745</ItemSet>
+	</ModOp>
+	<ModOp GUID="190649" Path="Values/Item" Type="add">
+		<ItemSet>93109745</ItemSet>
+	</ModOp>
+	<ModOp GUID="192441" Path="Values/Item" Type="add">
+		<ItemSet>93109745</ItemSet>
+	</ModOp>
+	<ModOp GUID="190751" Path="Values/Item" Type="add">
+		<ItemSet>93109745</ItemSet>
+	</ModOp>
+	<ModOp GUID="190893" Path="Values/Item" Type="add">
+		<ItemSet>93109745</ItemSet>
+	</ModOp>
+	<ModOp GUID="191406" Path="Values/Item" Type="add">
+		<ItemSet>93109745</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109747</GUID>
+			  <Name>academy buff description 93109747</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The outstanding medical education provided in your city attracts other accomplished doctors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097119</GUID>
+			  <Name>academy buff description 931097119</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of medicine related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109748</GUID>
+			  <Name>academy buff 93109748</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+			  <InfoDescription>93109747</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190777</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Medical Marvels</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade> <ResolverUnitMovementSpeedUpgrade><Value>25</Value><Percental>1</Percental></ResolverUnitMovementSpeedUpgrade> </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097119</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109749</GUID>
+			  <Name>academy expositions fluff 93109749</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Providing a faculty for medical education will attract other medical geniuses.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109750</GUID>
+			  <Name>academy expositions 93109750</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+			  <InfoDescription>93109749</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109748</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Medical Marvels</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109751</GUID>
+			  <Name>Academy Specialists Pool 93109751</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190724</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190410</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191568</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109751</Pool>
+		  <UnlockingSetBuff>93109748</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190678" Path="Values/Item" Type="add">
+		<ItemSet>93109750</ItemSet>
+	</ModOp>
+	<ModOp GUID="190723" Path="Values/Item" Type="add">
+		<ItemSet>93109750</ItemSet>
+	</ModOp>
+	<ModOp GUID="190868" Path="Values/Item" Type="add">
+		<ItemSet>93109750</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109752</GUID>
+			  <Name>academy buff description 93109752</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The show of amazing machinery and lectures by leading engineers attract other even more outstanding engineers.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097120</GUID>
+			  <Name>academy buff description 931097120</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of engineering related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109753</GUID>
+			  <Name>academy buff 93109753</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_coal.png</IconFilename>
+			  <InfoDescription>93109752</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>1010301</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010302</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010303</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010323</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010326</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Epitomes of Engineering</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade> <WorkforceAmountUpgrade><Value>-10</Value><Percental>1</Percental></WorkforceAmountUpgrade> </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097120</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109754</GUID>
+			  <Name>academy expositions fluff 93109754</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Showing off your state-of-the-art machinery is sure to attract other engineers.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109755</GUID>
+			  <Name>academy expositions 93109755</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_coal.png</IconFilename>
+			  <InfoDescription>93109754</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109753</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Epitomes of Engineering</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109756</GUID>
+			  <Name>Academy Specialists Pool 93109756</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190679</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191422</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190237</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191431</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191319</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109756</Pool>
+		  <UnlockingSetBuff>93109753</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="112375" Path="Values/Item" Type="add">
+		<ItemSet>93109755</ItemSet>
+	</ModOp>
+	<ModOp GUID="190885" Path="Values/Item" Type="add">
+		<ItemSet>93109755</ItemSet>
+	</ModOp>
+	<ModOp GUID="191420" Path="Values/Item" Type="add">
+		<ItemSet>93109755</ItemSet>
+	</ModOp>
+	<ModOp GUID="190878" Path="Values/Item" Type="add">
+		<ItemSet>93109755</ItemSet>
+	</ModOp>
+	<ModOp GUID="191424" Path="Values/Item" Type="add">
+		<ItemSet>93109755</ItemSet>
+	</ModOp>
+	<ModOp GUID="112884" Path="Values/Item" Type="add">
+		<ItemSet>93109755</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109757</GUID>
+			  <Name>academy buff description 93109757</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Great fashion designers in your city attract their rivals.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097121</GUID>
+			  <Name>academy buff description 931097121</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of fashion related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109758</GUID>
+			  <Name>academy buff 93109758</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_fur_coats.png</IconFilename>
+			  <InfoDescription>93109757</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190762</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Fabulous Fashion</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097121</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade> <InputBenefitModifier><Item><Product>120030</Product><AdditionalHappiness>3</AdditionalHappiness><AdditionalMoney>3</AdditionalMoney></Item><Item><Product>1010247</Product><AdditionalHappiness>3</AdditionalHappiness><AdditionalMoney>3</AdditionalMoney></Item><Item><Product>120037</Product><AdditionalHappiness>3</AdditionalHappiness><AdditionalMoney>3</AdditionalMoney></Item></InputBenefitModifier> </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109759</GUID>
+			  <Name>academy expositions fluff 93109759</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Having some fashion designers in your city will surely attract more.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109760</GUID>
+			  <Name>academy expositions 93109760</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_fur_coats.png</IconFilename>
+			  <InfoDescription>93109759</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109758</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Fabulous Fashion</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109761</GUID>
+			  <Name>Academy Specialists Pool 93109761</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>191329</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191347</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109761</Pool>
+		  <UnlockingSetBuff>93109758</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="191346" Path="Values/Item" Type="add">
+		<ItemSet>93109760</ItemSet>
+	</ModOp>
+	<ModOp GUID="191328" Path="Values/Item" Type="add">
+		<ItemSet>93109760</ItemSet>
+	</ModOp>
+	<ModOp GUID="191572" Path="Values/Item" Type="add">
+		<ItemSet>93109760</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109762</GUID>
+			  <Name>academy buff description 93109762</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The teachings of strict law enforcement in your city attracts other leading figures of the field.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097122</GUID>
+			  <Name>academy buff description 931097122</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of law related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109763</GUID>
+			  <Name>academy buff 93109763</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_defend_mode.png</IconFilename>
+			  <InfoDescription>93109762</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190775</GUID>
+				</Item>
+				<Item>
+				  <GUID>190776</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Rule of Law</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade> <ResolverUnitCountUpgrade><Value>1</Value></ResolverUnitCountUpgrade> </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097122</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109764</GUID>
+			  <Name>academy expositions fluff 93109764</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Showing that your city is ruled with a strong fist will attract a certain kind of people.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109765</GUID>
+			  <Name>academy expositions 93109765</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_defend_mode.png</IconFilename>
+			  <InfoDescription>93109764</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109763</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Rule of Law</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109766</GUID>
+			  <Name>Academy Specialists Pool 93109766</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190269</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191010</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190658</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109766</Pool>
+		  <UnlockingSetBuff>93109763</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="111014" Path="Values/Item" Type="add">
+		<ItemSet>93109765</ItemSet>
+	</ModOp>
+	<ModOp GUID="191009" Path="Values/Item" Type="add">
+		<ItemSet>93109765</ItemSet>
+	</ModOp>
+	<ModOp GUID="191790" Path="Values/Item" Type="add">
+		<ItemSet>93109765</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109767</GUID>
+			  <Name>academy buff description 93109767</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Unraveling the mysteries of ores and ingots attracts metalworkers from all over the world.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097123</GUID>
+			  <Name>academy buff description 931097123</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of metal related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109768</GUID>
+			  <Name>academy buff 93109768</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_tin_ore.png</IconFilename>
+			  <InfoDescription>93109767</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>190842</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Metalworking Mysteries</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade>  </FactoryUpgrade>
+			<BuildingUpgrade> <WorkforceAmountUpgrade><Value>-20</Value><Percental>1</Percental></WorkforceAmountUpgrade> </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097123</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109769</GUID>
+			  <Name>academy expositions fluff 93109769</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Displaying your understanding of the world of metal will attract leading metalworkers.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109770</GUID>
+			  <Name>academy expositions 93109770</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_tin_ore.png</IconFilename>
+			  <InfoDescription>93109769</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109768</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Metalworking Mysteries</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109771</GUID>
+			  <Name>Academy Specialists Pool 93109771</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>190761</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190705</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191465</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109771</Pool>
+		  <UnlockingSetBuff>93109768</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190832" Path="Values/Item" Type="add">
+		<ItemSet>93109770</ItemSet>
+	</ModOp>
+	<ModOp GUID="190760" Path="Values/Item" Type="add">
+		<ItemSet>93109770</ItemSet>
+	</ModOp>
+	<ModOp GUID="190704" Path="Values/Item" Type="add">
+		<ItemSet>93109770</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109772</GUID>
+			  <Name>academy buff description 93109772</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Showing how processes are optimized under your leadership pulls in other leading figures in this area.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097124</GUID>
+			  <Name>academy buff description 931097124</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of processing related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109773</GUID>
+			  <Name>academy buff 93109773</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_buff_buildings.png</IconFilename>
+			  <InfoDescription>93109772</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>1010342</GUID>
+				</Item>
+				<Item>
+				  <GUID>101252</GUID>
+				</Item>
+				<Item>
+				  <GUID>100659</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010295</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Process Engineering</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade> <ProductivityUpgrade><Value>5</Value><Percental>1</Percental></ProductivityUpgrade> </FactoryUpgrade>
+			<BuildingUpgrade> <WorkforceAmountUpgrade><Value>-10</Value><Percental>1</Percental></WorkforceAmountUpgrade> </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097124</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109774</GUID>
+			  <Name>academy expositions fluff 93109774</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Lectures on process optimization will give rise to a strong increase of visitors working in this field.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109775</GUID>
+			  <Name>academy expositions 93109775</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_buff_buildings.png</IconFilename>
+			  <InfoDescription>93109774</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109773</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Process Engineering</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109776</GUID>
+			  <Name>Academy Specialists Pool 93109776</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>191371</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190643</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190622</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109776</Pool>
+		  <UnlockingSetBuff>93109773</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190642" Path="Values/Item" Type="add">
+		<ItemSet>93109775</ItemSet>
+	</ModOp>
+	<ModOp GUID="190849" Path="Values/Item" Type="add">
+		<ItemSet>93109775</ItemSet>
+	</ModOp>
+	<ModOp GUID="192443" Path="Values/Item" Type="add">
+		<ItemSet>93109775</ItemSet>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109777</GUID>
+			  <Name>academy buff description 93109777</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Incredible technologies for working on small objects attracts people with particularly skilled hands.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>931097125</GUID>
+			  <Name>academy buff description 931097125</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Increases the chance of intricacy related legendary visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>22729</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191145" Type="addNextSibling">
+		<Asset>
+		  <Template>HarbourOfficeBuff</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109778</GUID>
+			  <Name>academy buff 93109778</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_pocket_watch.png</IconFilename>
+			  <InfoDescription>93109777</InfoDescription>
+			</Standard>
+			<ItemEffect>
+			  <EffectTargets>
+				<Item>
+				  <GUID>191563</GUID>
+				</Item>
+								<Item>
+				  <GUID>101250</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010324</GUID>
+				</Item>
+				<Item>
+				  <GUID>1010328</GUID>
+				</Item>
+			  </EffectTargets>
+			</ItemEffect>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Intricate Ingenuities</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>21927</LineID>
+			</Text>
+			<FactoryUpgrade> <ProductivityUpgrade><Value>10</Value><Percental>1</Percental></ProductivityUpgrade> </FactoryUpgrade>
+			<BuildingUpgrade>  </BuildingUpgrade>
+			<Buff>
+			  <PossibleFluffTexts>
+				<Item>
+				  <FluffText>931097125</FluffText>
+				</Item>
+			  </PossibleFluffTexts>
+			</Buff>
+			<AttackerUpgrade>  </AttackerUpgrade>
+			<VisitorHarborUpgrade>
+			  <SpawnProbabilityFactor>
+				<Value>10</Value>
+				<Percental>1</Percental>
+			  </SpawnProbabilityFactor>
+			</VisitorHarborUpgrade>
+			<VisitorUpgrade />
+			<PassiveTradeGoodGenUpgrade>  </PassiveTradeGoodGenUpgrade>
+			<KontorUpgrade>  </KontorUpgrade>
+			<AttackableUpgrade />
+			<PierUpgrade />
+			<CultureUpgrade>  </CultureUpgrade>
+			<ShipyardUpgrade>  </ShipyardUpgrade>
+			<ElectricUpgrade>  </ElectricUpgrade>
+			<TradeShipUpgrade>  </TradeShipUpgrade>
+			<PopulationUpgrade>  </PopulationUpgrade>
+			<ResidenceUpgrade>  </ResidenceUpgrade>
+			<ModuleOwnerUpgrade>  </ModuleOwnerUpgrade>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109779</GUID>
+			  <Name>academy expositions fluff 93109779</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>A public show of the tools for intricate work available in your city is sure to attract leading experts in this field.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109780</GUID>
+			  <Name>academy expositions 93109780</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_pocket_watch.png</IconFilename>
+			  <InfoDescription>93109779</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>93109778</SetBuff>
+			  <BuffScope>Area</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Intricate Ingenuities</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191510" Type="addNextSibling">
+		<Asset>
+		  <Template>RewardPool</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109781</GUID>
+			  <Name>Academy Specialists Pool 93109781</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normaldress_810.png</IconFilename>
+			</Standard>
+			<RewardPool>
+			  <ItemsPool>
+				<Item>
+				  <ItemLink>191324</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>190627</ItemLink>
+				</Item>
+				<Item>
+				  <ItemLink>191310</ItemLink>
+				</Item>
+			  </ItemsPool>
+			  <IgnoreUnlocks>1</IgnoreUnlocks>
+			</RewardPool>
+			<Locked />
+			<Text />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistPoolsThroughSets" Type="add">
+		<Item>
+		  <Pool>93109781</Pool>
+		  <UnlockingSetBuff>93109778</UnlockingSetBuff>
+		  <Weight>3</Weight>
+		</Item>
+	</ModOp>
+	<ModOp GUID="190900" Path="Values/Item" Type="add">
+		<ItemSet>93109780</ItemSet>
+	</ModOp>
+	<ModOp GUID="191309" Path="Values/Item" Type="add">
+		<ItemSet>93109780</ItemSet>
+	</ModOp>
+	<ModOp GUID="190626" Path="Values/Item" Type="add">
+		<ItemSet>93109780</ItemSet>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109782</GUID>
+			  <Name>academy expositions fluff 93109782</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The most accomplished logistical genuises work together to optimize your harbors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109783</GUID>
+			  <Name>academy expositions 93109783</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_depot.png</IconFilename>
+			  <InfoDescription>93109782</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>91019711</SetBuff>
+			  <BuffScope>Session</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Logicstical Geniuses</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191625" Path="Values/Item" Type="add">
+		<ItemSet>93109783</ItemSet>
+	</ModOp>
+	<ModOp GUID="190622" Path="Values/Item" Type="add">
+		<ItemSet>93109783</ItemSet>
+	</ModOp>
+	<ModOp GUID="191882" Path="Values/Item" Type="add">
+		<ItemSet>93109783</ItemSet>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109784</GUID>
+			  <Name>academy expositions fluff 93109784</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The top minds of agricultural science work together to perfect the harvesting process.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109785</GUID>
+			  <Name>academy expositions 93109785</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_botanical.png</IconFilename>
+			  <InfoDescription>93109784</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>91019713</SetBuff>
+			  <BuffScope>Session</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Perfected Harvesting</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191402" Path="Values/Item" Type="add">
+		<ItemSet>93109785</ItemSet>
+	</ModOp>
+	<ModOp GUID="190693" Path="Values/Item" Type="add">
+		<ItemSet>93109785</ItemSet>
+	</ModOp>
+	<ModOp GUID="190752" Path="Values/Item" Type="add">
+		<ItemSet>93109785</ItemSet>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109786</GUID>
+			  <Name>academy expositions fluff 93109786</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The use of further automation greatly reduces the probability of an accident in your mines.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109787</GUID>
+			  <Name>academy expositions 93109787</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_coal_storage.png</IconFilename>
+			  <InfoDescription>93109786</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>91019715</SetBuff>
+			  <BuffScope>Session</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Secure Mining</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="190761" Path="Values/Item" Type="add">
+		<ItemSet>93109787</ItemSet>
+	</ModOp>
+	<ModOp GUID="112373" Path="Values/Item" Type="add">
+		<ItemSet>93109787</ItemSet>
+	</ModOp>
+	<ModOp GUID="112367" Path="Values/Item" Type="add">
+		<ItemSet>93109787</ItemSet>
+	</ModOp>
+	<ModOp GUID="15360" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109788</GUID>
+			  <Name>academy expositions fluff 93109788</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Put together, the experts in your city devise new strategies for filament production.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191130" Type="addNextSibling">
+		<Asset>
+		  <Template>ItemSet</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93109789</GUID>
+			  <Name>academy expositions 93109789</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_science.png</IconFilename>
+			  <InfoDescription>93109788</InfoDescription>
+			</Standard>
+			<ItemSocketSet>
+			  <SetBuff>91019714</SetBuff>
+			  <BuffScope>Session</BuffScope>
+			</ItemSocketSet>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Efficient Filamenting</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <!--<LineID>21962</LineID> -->
+			</Text>
+			<Locked />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="191324" Path="Values/Item" Type="add">
+		<ItemSet>93109789</ItemSet>
+	</ModOp>
+	<ModOp GUID="191422" Path="Values/Item" Type="add">
+		<ItemSet>93109789</ItemSet>
+	</ModOp>
+	<ModOp GUID="191465" Path="Values/Item" Type="add">
+		<ItemSet>93109789</ItemSet>
+	</ModOp>
+  <ModOp Type="add" GUID = '93010011' Path="/Values/ModuleOwner">
+    <ModuleBuildRadius>32</ModuleBuildRadius>
+  </ModOp>
+  
+</ModOps>

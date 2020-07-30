@@ -1,0 +1,419 @@
+{
+	"tourism_sets":[
+		{ 
+			"name" : {
+				"english" 	: "Shining Shipyards",
+				"german"	: "Werft Austellungen"
+			},
+			"buff_description" : {
+				"english" 	: "The shipyard construction exhibition in your academy attracts leading figures in the realm of ship construction to your city.",
+				"german"	: "Die Austellungen und Vorlesungen zum Schiffsbau locken Schiffskonstrukteure aus aller Welt an."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of shipyard related legendary visitors.",
+				"german"	: "Erhöhte Wahrscheinlichkeit für Experten für den Schiffsbau."
+			},
+			"item_set_description" : {
+				"english" 	: "Expositions centered around the construction and maintainance of ships will attract the most ingenious ship builders the world has seen.",
+				"german"	: "Austellungen und Vorlesungen über die Konstruktion von Schiffen."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_steam_shipyard.png",
+			"set_items" : [191896, 190697, 112384],
+			"pool_items" : [192457, 192458,	192459,	192460,	192461,	192462,	192463,	192464,	192465],
+			"buffs": {
+				"ShipyardUpgrade" : "<ConstructionTimeInPercent>-30</ConstructionTimeInPercent>"
+			},
+			"targets" : [190783]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Fantastic Farming",
+				"german"	: "Lustvolle Landwirtschaft"
+			},
+			"buff_description" : {
+				"english" 	: "Showing modern farming technology is attracting leading agricultural experts.",
+				"german"	: "Das Austellen von modernster landwirtschaftlicher Errungenschaften zieht führende Agrarexperten an."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of farming related legendary visitors.",
+				"german"	: "Erhöht die Chance auf landwirtschaftliche Spezialisten."
+			},
+			"item_set_description" : {
+				"english" 	: "Showing modern farming technology will attract agricultural experts.",
+				"german"	: "Das Austellen von modernster landwirtschaftlicher Errungenschaften zieht führende Agrarexperten an."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_cereals_2.png",
+			"set_items" : [190750, 190743, 190858, 190861, 190691, 190692],
+			"pool_items" : [190739, 191402,191584,190693,190752],
+			"buffs": {
+				"FactoryUpgrade" : "<ProductivityUpgrade><Value>20</Value><Percental>1</Percental></ProductivityUpgrade>",
+				"ModuleOwnerUpgrade" : "<ModuleLimitPercent>10</ModuleLimitPercent>"
+			},
+			"targets" : [190011]
+			},
+		{ 
+			"name" : {
+				"english" 	: "Tremendous Trading",
+				"german"	: "Herausragendes Handeln"
+			},
+			"buff_description" : {
+				"english" 	: "The best traders from all over world flock to your city.",
+				"german"	: "Die größten Wirtschaftsweisen aus der ganzen Welt sammeln sich in dieser Stadt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of trading related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Händler diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Explaning the tricks of the trade will surely lure the greatest traders in the world to your city.",
+				"german"	: "Das zur Schau Stellen von wirtschaftlichem Know-How wird Wirtschaftsweisen aus der ganzen Welt in diese Stadt locken."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_marketplace.png",
+			"set_items" : [190667,191621,192012],
+			"pool_items" : [191624,191626,191625,190684,190668,191579],
+			"buffs": {
+				"PassiveTradeGoodGenUpgrade" : "<GenProbability>20</GenProbability><GenPool>190807</GenPool>"
+			},
+			"targets" : [190797]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Military Machinations",
+				"german" 	: "Mächtiges Millitär"
+			},
+			"buff_description" : {
+				"english" 	: "Showing off your advanced military tactics draws in legendary military generals and pirate leaders alike.",
+				"german"	: "Diese Machtdemonstration zieht taktische Genies in diese Stadt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of military related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Generäle und Piraten diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Seeing your dominating military might will impress soldiers and pirates alike.",
+				"german"	: "Diese Machtdemonstration zieht taktische Genies in diese Stadt."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_defense_tower_monstergun.png",
+			"set_items" : [112370,191878,191603,191850,191854,112388],
+			"pool_items" : [191611,191607,191453,191452,191610,191451,191609,190698,191442,191436],
+			"buffs": {
+				"AttackerUpgrade" : "<AttackSpeedUpgrade>25</AttackSpeedUpgrade>"
+			},
+			"targets" : [191443]
+		},
+		{
+			"name" : {
+				"english" 	: "Theological Truths",
+				"german"	: "Theologische Tautologien"
+			},
+			"buff_description" : {
+				"english" 	: "The newest theological revelations attract even the highest of clerical figures.",
+				"german"	: "Die neuesten theologischen Offenbahrungen locken selbst die höchsten Kleriker in diese Stadt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of theology related legendary visitors.",
+				"german"	: "Erhöht die Chance auf legendäre religiöse Besucher."
+			},
+			"item_set_description" : {
+				"english" 	: "Finding new theological facts will attract even the most faithful clergy.",
+				"german"	: "Die neuesten theologischen Offenbahrungen locken selbst die höchsten Kleriker in diese Stadt."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_church.png",
+			"set_items" : [191740,191719,190717],
+			"pool_items" : [190193,190719,191383],
+			"buffs": {
+				"PopulationUpgrade" : "<StressUpgrade><Value>-15</Value><Percental>1</Percental></StressUpgrade><ResidentsUpgrade><AdditionalHappiness>5</AdditionalHappiness></ResidentsUpgrade>"
+			},
+			"targets" : [190762]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Amazing Arts",
+				"german"	: "Kreative Kunst"
+			},
+			"buff_description" : {
+				"english" 	: "The great atmosphere of artistry makes artist from far and wide travel to your city.",
+				"german"	: "Die kreative Ambience in dieser Stadt lockt Künstler von nah und fern in diese Stadt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of arts related legendary visitors.",
+				"english" 	: "Erhöht die Wahrscheinlichkeit, dass legendäre Künstler diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Teachings of acting combined with a movement of freedom will bring every upcoming artist to your town.",
+				"german"	: "Die kreative Ambience in dieser Stadt lockt Künstler von nah und fern in diese Stadt."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_city_ornament_base.png",
+			"set_items" : [190731,191770,192438],
+			"pool_items" : [190732,190674,111169,191470,191573,191407],
+			"buffs": {
+				"CultureUpgrade" : "<AttractivenessUpgrade><Value>5</Value></AttractivenessUpgrade>"
+			},
+			"targets" : [1010361, 191562, 1010364]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Formidable Foods",
+				"german"	: "Exquisites Essen"
+			},
+			"buff_description" : {
+				"english" 	: "Culinary masterpieces in your city attract other master chefs.",
+				"german"	: "Kulinarische Meisterwerke bringt weitere Meisterköche in diese Stadt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of food related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Ernährungsexperten diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Chefs from all disciplines work together to create wonderful new recipes and attract other experts in their field.",
+				"german"	: "Kulinarische Meisterwerke locken weitere Meisterköche in diese Stadt."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_beef_potatoes.png",
+			"set_items" : [191405,190649,192441,190751,190893,191406],
+			"pool_items" : [190650,191388,190632,191408,191334],
+			"buffs": {
+				"FactoryUpgrade" : "<ProductivityUpgrade><Value>5</Value><Percental>1</Percental></ProductivityUpgrade>",
+				"ResidenceUpgrade" : "<AdditionalHappiness>3</AdditionalHappiness>"
+			},
+			"targets" : [190897, 190762]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Medical Marvels",
+				"german"	: "Atemberaubende Ärzte"
+			},
+			"buff_description" : {
+				"english" 	: "The outstanding medical education provided in your city attracts other accomplished doctors.",
+				"german"	: "Die herausragende medizinsche Ausbildung in dieser Stadt lockt Ärzte aus der ganzen Welt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of medicine related legendary visitors.",
+				"german"	: "Erhöht die Chance auf Besuche von legendären Medizinern."
+			},
+			"item_set_description" : {
+				"english" 	: "Providing a faculty for medical education will attract other medical geniuses.",
+				"german"	: "Die herausragende medizinsche Ausbildung in dieser Stadt lockt Ärzte aus der ganzen Welt."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_hospital.png",
+			"set_items" : [190678,190723,190868],
+			"pool_items" : [190724,190410,191568],
+			"buffs": {
+				"BuildingUpgrade" : "<ResolverUnitMovementSpeedUpgrade><Value>25</Value><Percental>1</Percental></ResolverUnitMovementSpeedUpgrade>"
+			},
+			"targets" : [190777]
+		},
+		{
+			"name" : {
+				"english" 	: "Epitomes of Engineering",
+				"german"	: "Ideale Ingenieurskunst"
+			},
+			"buff_description" : {
+				"english" 	: "The show of amazing machinery and lectures by leading engineers attract other even more outstanding engineers.",
+				"german"	: "Ausstellen von ausgetüftelten Maschinen und großartige Vorlesungen zieht noch großartigere Köpfe in diese Stadt."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of engineering related legendary visitors.",
+				"german"	: "Erhöht die Chance auf Besuche von legendären Ingenieuren."
+			},
+			"item_set_description" : {
+				"english" 	: "Showing off your state-of-the-art machinery is sure to attract other engineers.",
+				"german"	: "Ausstellen von ausgetüftelten Maschinen und großartige Vorlesungen zieht noch großartigere Köpfe in diese Stadt."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_electric_works_coal.png",
+			"set_items" : [112375,190885,191420,190878,191424,112884],
+			"pool_items" : [190679,191422,190237,191431,191319],
+			"buffs": {
+				"BuildingUpgrade" : "<WorkforceAmountUpgrade><Value>-10</Value><Percental>1</Percental></WorkforceAmountUpgrade>"
+			},
+			"targets" : [1010301, 1010302, 1010303, 1010323, 1010326]
+		},
+		{
+			"name" : {
+				"english" 	: "Fabulous Fashion",
+				"german"	: "Moderne Mode"	
+			},
+			"buff_description" : {
+				"english" 	: "Great fashion designers in your city attract their rivals.",
+				"german"	: "Großartige Modedesigner in dieser Stadt rufen ihre Rivalen auf den Plan."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of fashion related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Modedesigner diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Having some fashion designers in your city will surely attract more.",
+				"german"	: "Großartige Modedesigner in dieser Stadt rufen ihre Rivalen auf den Plan."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_fur_coats.png",
+			"set_items" : [191346,191328,191572],
+			"pool_items" : [191329,191347],
+			"buffs": {
+				"PopulationUpgrade" : "<InputBenefitModifier><Item><Product>120030</Product><AdditionalHappiness>3</AdditionalHappiness><AdditionalMoney>3</AdditionalMoney></Item><Item><Product>1010247</Product><AdditionalHappiness>3</AdditionalHappiness><AdditionalMoney>3</AdditionalMoney></Item><Item><Product>120037</Product><AdditionalHappiness>3</AdditionalHappiness><AdditionalMoney>3</AdditionalMoney></Item></InputBenefitModifier>"
+			},
+			"targets" : [190762]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Rule of Law",
+				"german"	: "Grandioses Gesetz"
+			},
+			"buff_description" : {
+				"english" 	: "The teachings of strict law enforcement in your city attracts other leading figures of the field.",
+				"german"	: "Die Lehre einer eisernen Faust lockt andere führende Figuren auf diesem Gebiet."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of law related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Gesetzeshüter diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Showing that your city is ruled with a strong fist will attract a certain kind of people.",
+				"german"	: "Die Lehre einer eisernen Faust lockt andere führende Figuren auf diesem Gebiet."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_defend_mode.png",
+			"set_items" : [111014,191009,191790],
+			"pool_items" : [190269,191010,190658],
+			"buffs": {
+				"BuildingUpgrade" : "<ResolverUnitCountUpgrade><Value>1</Value></ResolverUnitCountUpgrade>"
+			},
+			"targets" : [190775, 190776]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Metalworking Mysteries",
+				"german"	: "Mustergültige Metallverarbeitung"
+			},
+			"buff_description" : {
+				"english" 	: "Unraveling the mysteries of ores and ingots attracts metalworkers from all over the world.",
+				"german"	: "Das Lüften der Geheimnisse der Metallverarbeitung in dieser Stadt zieht Metallarbeiter aus aller Welt an."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of metal related legendary visitors.",
+				"german"	: "Erhöht die Chance auf legendäre metallverarbeitende Besucher."
+			},
+			"item_set_description" : {
+				"english" 	: "Displaying your understanding of the world of metal will attract leading metalworkers.",
+				"german"	: "Das Lüften der Geheimnisse der Metallverarbeitung in dieser Stadt zieht Metallarbeiter aus aller Welt an."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_tin_ore.png",
+			"set_items" : [190832,190760,190704],
+			"pool_items" : [190761,190705,191465],
+			"buffs": {
+				"BuildingUpgrade" : "<WorkforceAmountUpgrade><Value>-20</Value><Percental>1</Percental></WorkforceAmountUpgrade>"
+			},
+			"targets" : [190842]
+			
+		},
+		{ 	
+			"name" : {
+				"english" 	: "Process Engineering",
+				"german"	: "Fabelhafte Verfahrenstechnik"
+			},
+			"buff_description" : {
+				"english" 	: "Showing how processes are optimized under your leadership pulls in other leading figures in this area.",
+				"german" 	: "Die Verfahrensoptimierung in dieser Stadt lockt Meister diesen Gebietes an."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of processing related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Verfahrentechniker diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "Lectures on process optimization will give rise to a strong increase of visitors working in this field.",
+				"german" 	: "Die Verfahrensoptimierung in dieser Stadt lockt Meister diesen Gebietes an."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_buff_buildings.png",
+			"set_items" : [190642,190849,192443],
+			"pool_items" : [191371,190643,190622],
+			"buffs": {
+				"FactoryUpgrade" : "<ProductivityUpgrade><Value>5</Value><Percental>1</Percental></ProductivityUpgrade>",
+				"BuildingUpgrade" : "<WorkforceAmountUpgrade><Value>-10</Value><Percental>1</Percental></WorkforceAmountUpgrade>"
+			},
+			"targets" : [1010342, 101252, 100659, 1010295]
+		},
+		{ 
+			"name" : {
+				"english" 	: "Intricate Ingenuities",
+				"german"	: "Tolle Tüfteleien"
+			},
+			"buff_description" : {
+				"english" 	: "Incredible technologies for working on small objects attracts people with particularly skilled hands.",
+				"german"	: "Asugefuchste Technologien um präzise zu arbeiten ziehen Meister in diesem Gebiet an."
+			},
+			"buff_fluff" : {
+				"english" 	: "Increases the chance of intricacy related legendary visitors.",
+				"german"	: "Erhöht die Wahrscheinlichkeit, dass legendäre Tüftler diese Stadt besuchen."
+			},
+			"item_set_description" : {
+				"english" 	: "A public show of the tools for intricate work available in your city is sure to attract leading experts in this field.",
+				"german"	: "Asugefuchste Technologien um präzise zu arbeiten zieht Meister in diesem Gebiet an."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_pocket_watch.png",
+			"set_items" : [190900,191309,190626],
+			"pool_items" : [191324,190627,191310],
+			"buffs": {
+				"FactoryUpgrade" : "<ProductivityUpgrade><Value>10</Value><Percental>1</Percental></ProductivityUpgrade>"
+				},
+			"targets" : [101250, 1010324, 1010328]
+		}
+		
+	],
+	"other_sets":[
+		{ 
+			"name" : {
+				"english" 	: "Logicstical Geniuses",
+				"german"	: "Logistische Genies"
+			},
+			"item_set_description" : {
+				"english" 	: "The most accomplished logistical genuises work together to optimize your harbors.",
+				"german"	: "Die herausragendsten logistischen Genies arbeiten gemeinsam um alle Hafenarbeiten zu optimieren."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_depot.png",
+			"set_items" : [191625,190622,191882],
+			"buff_id" : 91019711,
+			"scope" : "Session"
+		},
+		{ 
+			"name" : {
+				"english" 	: "Perfected Harvesting",
+				"german"	: "Perfektionierte Ernte"
+			},
+			"item_set_description" : {
+				"english" 	: "The top minds of agricultural science work together to perfect the harvesting process.",
+				"german"	: "Die größten Agrarexperten beraten sich um zusammen den Ernteprozess in dieser Welt zu perfektionieren."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_botanical.png",
+			"set_items" : [191402,190693,190752],
+			"buff_id" : 91019713,
+			"scope" : "Session"
+		},
+		{ 
+			"name" : {
+				"english" 	: "Secure Mining",
+				"german"	: "Sichere Bergwerke"
+			},
+			"item_set_description" : {
+				"english" 	: "The use of further automation greatly reduces the probability of an accident in your mines.",
+				"german"	: "Die Nutzung von automatisierten Prozessen verringert die Anzahl an Minenunfällen stark."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_coal_storage.png",
+			"set_items" : [190761,112373,112367],
+			"buff_id" : 91019715,
+			"scope" : "Session"
+		},
+		{ 
+			"name" : {
+				"english" 	: "Efficient Filamenting",
+				"german"	: "Effizientes Fadenziehen"
+			},
+			"item_set_description" : {
+				"english" 	: "Put together, the experts in your city devise new strategies for filament production.",
+				"german"	: "Gemeinsam haben Experten in dieser Stadt ein verbessertes Verfahren für die Glühfadenproduktion ersonnen."
+			},
+			"item_set_icon" : "data/ui/2kimages/main/3dicons/icon_science.png",
+			"set_items" : [191324,191422,191465],
+			"buff_id" : 91019714,
+			"scope" : "Session"
+		}
+	],
+	"localizations" : ["english", "german", "spanish"],
+	"backup_language" : "english"
+}

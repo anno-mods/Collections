@@ -1,0 +1,4 @@
+  <ModOp Type="add" GUID = '93010011' Path="/Values/ModuleOwner">
+    <ModuleBuildRadius>32</ModuleBuildRadius>
+  </ModOp>
+  

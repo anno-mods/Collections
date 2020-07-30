@@ -1,0 +1,48 @@
+﻿  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93010011</GUID>
+      <Text>Akademie</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93010012</GUID>
+      <Text>Hier können Austellungen von Maschinen oder Vorlesungen gehalten werden um die Chance auf besondere Besucher zu erhöhen.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>930100454</GUID>
+      <Text>Campus Gebäude</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019711</GUID>
+      <Text>Erhöhte Ladegeschwindigkeit</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019713</GUID>
+      <Text>Perfektionierte Ernte</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019714</GUID>
+      <Text>Effizientes Fadenziehen</Text>
+    </Text>
+  </ModOp>
+ <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>92019715</GUID>
+      <Text>Reduziert die verbrauchte Kohle um ein Drittel.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019716</GUID>
+      <Text>Sicherer Bergbau</Text>
+    </Text>
+  </ModOp>

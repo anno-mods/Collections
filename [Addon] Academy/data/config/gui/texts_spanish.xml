@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93010011</GUID>
+      <Text>Academy</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93010012</GUID>
+      <Text>Machinery expositions and lectures can be held here in order to greatly increase the chance of specific visitors.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>930100454</GUID>
+      <Text>Campus Building</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019711</GUID>
+      <Text>Increased Loading Speed</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019712</GUID>
+      <Text>All Tradeships</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019713</GUID>
+      <Text>Perfected Harvesting</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019714</GUID>
+      <Text>Efficient Filamenting</Text>
+    </Text>
+  </ModOp>
+ <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>92019715</GUID>
+      <Text>Reduces the amount of coal required by a third.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>91019716</GUID>
+      <Text>Secure Mining</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109713</GUID>
+      <Text>Shining Shipyards</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109715</GUID>
+      <Text>Shining Shipyards</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109712</GUID>
+      <Text>The shipyard construction exhibition in your academy attracts leading figures in the realm of ship construction to your city.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109714</GUID>
+      <Text>Expositions centered around the construction and maintainance of ships will attract the most ingenious ship builders the world has seen.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097112</GUID>
+      <Text>Increases the chance of shipyard related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109718</GUID>
+      <Text>Fantastic Farming</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109720</GUID>
+      <Text>Fantastic Farming</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109717</GUID>
+      <Text>Showing modern farming technology is attracting leading agricultural experts.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109719</GUID>
+      <Text>Showing modern farming technology will attract agricultural experts.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097113</GUID>
+      <Text>Increases the chance of farming related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109723</GUID>
+      <Text>Tremendous Trading</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109725</GUID>
+      <Text>Tremendous Trading</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109722</GUID>
+      <Text>The best traders from all over world flock to your city.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109724</GUID>
+      <Text>Explaning the tricks of the trade will surely lure the greatest traders in the world to your city.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097114</GUID>
+      <Text>Increases the chance of trading related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109728</GUID>
+      <Text>Military Machinations</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109730</GUID>
+      <Text>Military Machinations</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109727</GUID>
+      <Text>Showing off your advanced military tactics draws in legendary military generals and pirate leaders alike.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109729</GUID>
+      <Text>Seeing your dominating military might will impress soldiers and pirates alike.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097115</GUID>
+      <Text>Increases the chance of military related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109733</GUID>
+      <Text>Theological Truths</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109735</GUID>
+      <Text>Theological Truths</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109732</GUID>
+      <Text>The newest theological revelations attract even the highest of clerical figures.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109734</GUID>
+      <Text>Finding new theological facts will attract even the most faithful clergy.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097116</GUID>
+      <Text>Increases the chance of theology related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109738</GUID>
+      <Text>Amazing Arts</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109740</GUID>
+      <Text>Amazing Arts</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109737</GUID>
+      <Text>The great atmosphere of artistry makes artist from far and wide travel to your city.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109739</GUID>
+      <Text>Teachings of acting combined with a movement of freedom will bring every upcoming artist to your town.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097117</GUID>
+      <Text>Erhöht die Wahrscheinlichkeit, dass legendäre Künstler diese Stadt besuchen.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109743</GUID>
+      <Text>Formidable Foods</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109745</GUID>
+      <Text>Formidable Foods</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109742</GUID>
+      <Text>Culinary masterpieces in your city attract other master chefs.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109744</GUID>
+      <Text>Chefs from all disciplines work together to create wonderful new recipes and attract other experts in their field.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097118</GUID>
+      <Text>Increases the chance of food related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109748</GUID>
+      <Text>Medical Marvels</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109750</GUID>
+      <Text>Medical Marvels</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109747</GUID>
+      <Text>The outstanding medical education provided in your city attracts other accomplished doctors.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109749</GUID>
+      <Text>Providing a faculty for medical education will attract other medical geniuses.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097119</GUID>
+      <Text>Increases the chance of medicine related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109753</GUID>
+      <Text>Epitomes of Engineering</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109755</GUID>
+      <Text>Epitomes of Engineering</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109752</GUID>
+      <Text>The show of amazing machinery and lectures by leading engineers attract other even more outstanding engineers.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109754</GUID>
+      <Text>Showing off your state-of-the-art machinery is sure to attract other engineers.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097120</GUID>
+      <Text>Increases the chance of engineering related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109758</GUID>
+      <Text>Fabulous Fashion</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109760</GUID>
+      <Text>Fabulous Fashion</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109757</GUID>
+      <Text>Great fashion designers in your city attract their rivals.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109759</GUID>
+      <Text>Having some fashion designers in your city will surely attract more.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097121</GUID>
+      <Text>Increases the chance of fashion related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109763</GUID>
+      <Text>Rule of Law</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109765</GUID>
+      <Text>Rule of Law</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109762</GUID>
+      <Text>The teachings of strict law enforcement in your city attracts other leading figures of the field.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109764</GUID>
+      <Text>Showing that your city is ruled with a strong fist will attract a certain kind of people.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097122</GUID>
+      <Text>Increases the chance of law related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109768</GUID>
+      <Text>Metalworking Mysteries</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109770</GUID>
+      <Text>Metalworking Mysteries</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109767</GUID>
+      <Text>Unraveling the mysteries of ores and ingots attracts metalworkers from all over the world.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109769</GUID>
+      <Text>Displaying your understanding of the world of metal will attract leading metalworkers.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097123</GUID>
+      <Text>Increases the chance of metal related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109773</GUID>
+      <Text>Process Engineering</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109775</GUID>
+      <Text>Process Engineering</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109772</GUID>
+      <Text>Showing how processes are optimized under your leadership pulls in other leading figures in this area.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109774</GUID>
+      <Text>Lectures on process optimization will give rise to a strong increase of visitors working in this field.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097124</GUID>
+      <Text>Increases the chance of processing related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109778</GUID>
+      <Text>Intricate Ingenuities</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109780</GUID>
+      <Text>Intricate Ingenuities</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109777</GUID>
+      <Text>Incredible technologies for working on small objects attracts people with particularly skilled hands.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109779</GUID>
+      <Text>A public show of the tools for intricate work available in your city is sure to attract leading experts in this field.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>931097125</GUID>
+      <Text>Increases the chance of intricacy related legendary visitors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109783</GUID>
+      <Text>Logicstical Geniuses</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109782</GUID>
+      <Text>The most accomplished logistical genuises work together to optimize your harbors.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109785</GUID>
+      <Text>Perfected Harvesting</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109784</GUID>
+      <Text>The top minds of agricultural science work together to perfect the harvesting process.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109787</GUID>
+      <Text>Secure Mining</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109786</GUID>
+      <Text>The use of further automation greatly reduces the probability of an accident in your mines.</Text>
+    </Text>
+  </ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109789</GUID>
+      <Text>Efficient Filamenting</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>93109788</GUID>
+      <Text>Put together, the experts in your city devise new strategies for filament production.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

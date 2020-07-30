@@ -1,0 +1,651 @@
+	<!-- Visitors Dock -->
+	<ModOp GUID="2001173" Path="Values/TourismFeature" Type="merge">
+	<TourismFeature>		
+		<IntervalDuration>1200000</IntervalDuration>	
+		<TotalUnlockablePoolLikeliness>80</TotalUnlockablePoolLikeliness>
+	</TourismFeature>
+	</ModOp>
+	<ModOp GUID="2001173" Path="Values/TourismFeature/SpecialistSpawnProbability" Type="add">
+	<Item>
+	  <Probability>50</Probability>
+	  <VisitorAmount>6500</VisitorAmount>
+	</Item>
+	<Item>
+	  <Probability>60</Probability>
+	  <VisitorAmount>7500</VisitorAmount>
+	</Item>
+	<Item>
+	  <Probability>70</Probability>
+	  <VisitorAmount>8500</VisitorAmount>
+	</Item>
+	</ModOp>
+	<!-- Academy -->
+	<ModOp GUID="1010520" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93010012</GUID>
+			  <Name>academy info corner</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Machinery expositions and lectures can be held here in order to greatly in increase the chance of specific visitors.</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>3</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>14461</LineID>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="1010520" Type="addNextSibling">
+		<Asset>
+		  <Template>CultureBuilding</Template>
+		  <Values>
+			<Standard>
+			  <GUID>93010011</GUID>
+			  <Name>Academy</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/achievement/icon_achievement_expeditions_gold.png</IconFilename>
+			  <InfoDescription>93010012</InfoDescription>
+			</Standard>
+			<Building>
+			  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+			  <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+			</Building>
+			<Constructable />
+			<Locked>
+			  <DefaultLockedState>1</DefaultLockedState>
+			</Locked>
+			<Blocking />
+			<Cost>
+			  <Costs>
+				<Item>
+				  <Ingredient>1010017</Ingredient>
+				  <Amount>10000</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010196</Ingredient>
+				  <Amount>30</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010205</Ingredient>
+				  <Amount>30</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010218</Ingredient>
+				  <Amount>10</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010207</Ingredient>
+				  <Amount>5</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010202</Ingredient>
+				</Item>
+			  </Costs>
+			</Cost>
+			<Object>
+			  <Variations>
+				<Item>
+				  <Filename>data\graphics\modbuildings/academy\academy/service_07.cfg</Filename>
+				</Item>
+			  </Variations>
+			</Object>
+			<Mesh />
+			<Selection />
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>The Academy</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>5298</LineID>
+			</Text>
+			<Constructable />
+			<SoundEmitter>
+			  <ActiveSounds>
+				<Item>
+				  <Sound>200531</Sound>
+				</Item>
+			  </ActiveSounds>
+			  <BuildingRepaired>
+				<Item>
+				  <Sound>203866</Sound>
+				</Item>
+			  </BuildingRepaired>
+			</SoundEmitter>
+			<FeedbackController />
+			<Infolayer />
+			<UpgradeList />
+			<Culture>
+			  <CultureSpawnGroup>1</CultureSpawnGroup>
+			  <Sets>
+{}
+			  </Sets>
+			  <UndiscoveredSet>14022</UndiscoveredSet>
+			  <ModuleListHeader>13974</ModuleListHeader>
+			  <OpenSetPages>13972</OpenSetPages>
+			  <CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_museum.png</CultureMoodImage>
+			</Culture>
+			<ModuleOwner>
+			  <ModuleLimits>
+				<Connector>
+				  <Limit>500</Limit>
+				</Connector>
+			  </ModuleLimits>
+			  <ConstructionOptions>
+				<Item>
+				  <ModuleGUID>930100454</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>113452</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114435</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>103119</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>101510</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>102466</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>102469</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114295</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114299</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114297</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114296</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114300</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114293</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114298</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114294</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114301</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114302</ModuleGUID>
+				</Item>
+				<Item>
+				  <ModuleGUID>114303</ModuleGUID>
+				</Item>
+			  </ConstructionOptions>
+			</ModuleOwner>
+			<AmbientMoodProvider>
+			  <AttractivityDependentMurmur>
+				<Item>
+				  <Attractivity>-1000</Attractivity>
+				  <Murmur>MuseumLowAttractiveness</Murmur>
+				</Item>
+				<Item>
+				  <Attractivity>-20</Attractivity>
+				  <Murmur>MuseumMedAttractiveness</Murmur>
+				</Item>
+				<Item>
+				  <Attractivity>20</Attractivity>
+				  <Murmur>MuseumHighAttractiveness</Murmur>
+				</Item>
+			  </AttractivityDependentMurmur>
+			  <DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+			</AmbientMoodProvider>
+			<LogisticNode />
+			<PublicService>
+			  <FullSatisfactionDistance>45</FullSatisfactionDistance>
+			  <NoSatisfactionDistance>90</NoSatisfactionDistance>
+			  <PublicServiceOutputs>
+				<Item>
+				  <Product>1010353</Product>
+				</Item>
+			  </PublicServiceOutputs>
+			</PublicService>
+			<Factory7 />
+			<FactoryBase />
+			<Maintenance>
+			  <Maintenances>
+				<Item>
+				  <Product>1010017</Product>
+				  <Amount>100</Amount>
+				  <InactiveAmount>100</InactiveAmount>
+				</Item>
+			  </Maintenances>
+			  <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+			</Maintenance>
+			<Attackable>
+			  <MaximumHitPoints>4750</MaximumHitPoints>
+			  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+			</Attackable>
+			<IncidentInfectable>
+			  <Explosion>
+				<DamageExplosionChance>0</DamageExplosionChance>
+			  </Explosion>
+			</IncidentInfectable>
+			<Electric />
+			<Pausable />
+			<StreetActivation />
+			<QuestObject />
+		  </Values>
+		</Asset>
+	</ModOp>
+	<!-- Modules -->
+	<ModOp GUID="100454" Type="addNextSibling">
+		<Asset>
+		  <Template>CultureModule</Template>
+		  <Values>
+			<Standard>
+			  <GUID>930100454</GUID>
+			  <Name>academy module empty</Name>
+			  <IconFilename>data/ui/2kimages/main/3dicons/icon_school.png</IconFilename>
+			  <InfoDescription>11665</InfoDescription>
+			</Standard>
+			<Building>
+			  <BuildingCategoryName>2498</BuildingCategoryName>
+			  <PickingAsset>930100454</PickingAsset>
+			  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+			  <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+			</Building>
+			<Blocking />
+			<Cost>
+			  <Costs>
+				<Item>
+				  <Ingredient>1010017</Ingredient>
+				  <Amount>500</Amount>
+				</Item>
+				<Item>
+				  <Ingredient>1010196</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010205</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010218</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010207</Ingredient>
+				</Item>
+				<Item>
+				  <Ingredient>1010202</Ingredient>
+				</Item>
+			  </Costs>
+			  <InfluenceCostType/>
+			</Cost>
+			<Object>
+			  <Variations>
+				<Item>
+				  <Filename>data\graphics\modbuildings\academy\exhibition/cultural_02_module_05_c.cfg</Filename>
+				</Item>
+				<Item>
+				  <Filename>data\graphics\modbuildings\academy\exhibition/cultural_02_module_03.cfg</Filename>
+				</Item>
+				<Item>
+				  <Filename>data\graphics\modbuildings\academy\exhibition/cultural_02_module_01.cfg</Filename>
+				</Item>
+			  </Variations>
+			</Object>
+			<Mesh />
+			<Selection>
+			  <Colors>
+				<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+			  </Colors>
+			</Selection>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Empty Exhibit</Text>
+				  <Status>Exported</Status>
+				  <ExportCount>2</ExportCount>
+				</English>
+			  </LocaText>
+			  <LineID>15195</LineID>
+			</Text>
+			<Constructable />
+			<Locked>
+			  <DefaultLockedState>0</DefaultLockedState>
+			</Locked>
+			<SoundEmitter />
+			<FeedbackController />
+			<Infolayer />
+			<BuildingModule>
+			  <PlazaSize>20</PlazaSize>
+			  <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_empty_museum.png</ModuleMoodImage>
+			</BuildingModule>
+			<ItemContainer>
+			  <SocketCount>1</SocketCount>
+				<SocketAllocation>RadiusBuilding;GuildHouse;TownHall;HarborOffice;Ship;SteamShip;Warship;Tradeship</SocketAllocation>
+				<SocketScope>Radius</SocketScope>
+				<SocketScopeRadius>0</SocketScopeRadius>
+			</ItemContainer>
+			<Attackable>
+			  <HasRuinState>1</HasRuinState>
+			  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+			</Attackable>
+			<QuestObject />
+			<AmbientMoodProvider />
+		  </Values>
+		</Asset>
+	</ModOp>
+	
+	
+	<ModOp GUID="25000192" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010365']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	<ModOp GUID="25000197" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010471']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	
+	<ModOp GUID="25000194" Path="Values/ConstructionCategory/BuildingList/Item[Building='500909']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	<ModOp GUID="500951" Path="Values/ConstructionCategory/BuildingList/Item[Building='102284']" Type="addNextSibling">
+		<Item>
+			<Building>93010011</Building>
+		</Item>
+	</ModOp>
+	
+	<ModOp GUID="111797" Type="addNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>93009711</GUID>
+					<Name>Academy unlock</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+					  <Template>ConditionUnlocked</Template>
+					  <Values>
+						<Condition />
+						<ConditionUnlocked>
+						  <UnlockNeeded>1010362</UnlockNeeded>
+						</ConditionUnlocked>
+					  </Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>93010011</Asset>
+											</Item>
+										</UnlockAssets>
+										<UnhideAssets/>
+										<AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- Custom Buffs -->
+	<ModOp GUID="111797" Type="addNextSibling">
+		<Asset>
+                  <Template>VehicleBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019711</GUID>
+                      <Name>Logicstical Geniuses</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_depot.png</IconFilename>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Logicstical Geniuses</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <VehicleUpgrade>
+                    </VehicleUpgrade>
+                    <Buff/>
+                    <AttackerUpgrade />
+                    <AttackableUpgrade />
+                    <ProjectileUpgrade />
+                    <TradeShipUpgrade>
+                        <LoadingSpeedUpgrade>
+                            <Value>150</Value>
+                            <Percental>1</Percental>
+                        </LoadingSpeedUpgrade>
+                    </TradeShipUpgrade>
+                    <UpgradeList />
+                    <ItemEffect>
+                              <EffectTargets>
+                                <Item>
+                                  <GUID>91019712</GUID>
+                                </Item>
+                              </EffectTargets>
+                            </ItemEffect>
+                    <DivingBellUpgrade />
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+              <Template>ItemEffectTargetPool</Template>
+              <Values>
+                <Standard>
+                  <GUID>91019712</GUID>
+                  <Name>all tradeships</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/icon_depot.png</IconFilename>
+                </Standard>
+                <Text>
+                  <LocaText>
+                    <English>
+                      <Text>Tradeships</Text>
+                      <Status>Exported</Status>
+                      <ExportCount>1</ExportCount>
+                    </English>
+                  </LocaText>
+                  <LineID>21939</LineID>
+                </Text>
+                <ItemEffectTargetPool>
+                  <EffectTargetGUIDs>
+                    <Item>
+                      <GUID>101121</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>100438</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>100441</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>1010062</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>100853</GUID>
+                    </Item>
+					<Item>
+                      <GUID>114166</GUID>
+                    </Item>
+					
+                  </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+              </Values>
+            </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+                  <Template>GuildhouseBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019713</GUID>
+                      <Name>Perfected Harvesting</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_botanical.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                      <EffectTargets>
+                        <Item>
+                          <GUID>190011</GUID>
+                        </Item>
+                      </EffectTargets>
+                    </ItemEffect>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Perfected Harvesting</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <FactoryUpgrade>
+                     <ProductivityUpgrade>
+						<Value>20</Value>
+						<Percental>1</Percental>
+					  </ProductivityUpgrade>
+                    </FactoryUpgrade>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <CultureUpgrade />
+                    <ModuleOwnerUpgrade>
+                     <ModuleLimitPercent>-20</ModuleLimitPercent>
+                    </ModuleOwnerUpgrade>
+                    <IncidentInfectableUpgrade />
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+                  <Template>GuildhouseBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019714</GUID>
+                      <Name>Efficient Filamenting</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_science.png</IconFilename>
+                    </Standard>
+                    
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Efficient Filamenting</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <FactoryUpgrade>
+						<AdditionalOutput>
+						<Item>
+						  <Product>1010226</Product>
+						  <AdditionalOutputCycle>3</AdditionalOutputCycle>
+						  <Amount>1</Amount>
+						</Item>
+					  </AdditionalOutput>
+                     <ProductivityUpgrade>
+						<Value>10</Value>
+						<Percental>1</Percental>
+					  </ProductivityUpgrade>
+                    </FactoryUpgrade>
+					<ItemEffect>
+                      <EffectTargets>
+                        <Item>
+                          <GUID>1010321</GUID>
+                        </Item>
+                      </EffectTargets>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff>
+                      <PossibleFluffTexts>
+                        <Item>
+                          <FluffText>92019715</FluffText>
+                        </Item>
+                      </PossibleFluffTexts>
+                    </Buff>
+                    <CultureUpgrade />
+                    <ModuleOwnerUpgrade/>
+                    <IncidentInfectableUpgrade />
+                  </Values>
+                </Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+		<Asset>
+		  <Template>Text</Template>
+		  <Values>
+			<Standard>
+			  <GUID>92019715</GUID>
+			  <Name>GottaGoFast</Name>
+			</Standard>
+			<Text>
+			  <LocaText>
+				<English>
+				  <Text>Reduces the amount of coal required by a third.</Text>
+				  <Status>Edit</Status>
+				  <ExportCount>1</ExportCount>
+				</English>
+			  </LocaText>
+			</Text>
+		  </Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="15767" Type="addNextSibling">
+	<Asset>
+                  <Template>GuildhouseBuff</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>91019716</GUID>
+                      <Name>Secure Mining</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_coal_storage.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                      <EffectTargets>
+                        <Item>
+                          <GUID>190882</GUID>
+                        </Item>
+                      </EffectTargets>
+                    </ItemEffect>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Secure Mining</Text>
+                        </English>
+                      </LocaText>
+                    </Text>
+                    <FactoryUpgrade>
+                    </FactoryUpgrade>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <CultureUpgrade />
+                    <ModuleOwnerUpgrade/>
+                    <IncidentInfectableUpgrade>
+                              <IncidentFireIncreaseUpgrade>
+                                <Value>-15</Value>
+                              </IncidentFireIncreaseUpgrade>
+                           </IncidentInfectableUpgrade>
+                  </Values>
+                </Asset>
+	</ModOp>
