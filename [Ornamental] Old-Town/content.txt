@@ -1,10 +1,16 @@
-﻿Old-Town v1.2.2:
+﻿Old-Town v1.3:
+
+!!! Dieser Mod ist eventuell nicht mit dem Mod "Construction Menu Cleanup" kompatibel !!!
 
 Dieser Mod fügt einige Gebäude aus Anno 1701 und 1404 hinzu. Ingenieure und Investoren haben ein neues Gebäudebedürfnis, welche durch die hinzugefügten Gebäude gestillt werden können.
 
 Bei Ingenieuren kommt das Bedürfnis Höhere Kultur hinzu, welches durch das Schauspielhaus gestillt wird.
 
 Bei Investoren kommt das Bedürfnis Macht hinzu, welches durch den Senat gestillt wird.
+
+Altstadt-Bürgerhäuser:
+
+-freigeschaltet bei 600 Handwerkern
 
 Altstadt-Prachtbauten:
 
@@ -31,31 +37,30 @@ Kaiserdom (Monument):
 - erste 3 Baustufen freigeschaltet bei 7500 Investoren, letzte Baustufe freigeschaltet bei 10000 Investoren
 
 
-Außerdem ist eine neue Kirchen-Version baubar (Shift + v), ein Gasthaus ist baubar (ab 1500 Investoren, hat die Funktion des Wirtshauses) ein neues Rathaus ist baubar (ab 2500 Investoren) und ein Triumphbogen kann errichtet werden, durch welchen man eine Straßenverbindung herstellen kann (Shift+v für rechts und linkes Stück) (ab 2500 Investoren).
+Außerdem ist eine neue Kirchen-Version baubar (Shift + v), ein kleines Krankenhaus (Ärztehaus; ab 600 Handwerkern), ein Gasthaus ist baubar (ab 1500 Investoren, hat die Funktion des Wirtshauses) ein neues Rathaus ist baubar (ab 2500 Investoren) und ein Triumphbogen kann errichtet werden, durch welchen man eine Straßenverbindung herstellen kann (Shift+v für rechts und linkes Stück) (ab 2500 Investoren).
 
 Das zusätzliche Rathaus hat neben einen höheren Radius auch einen Slot mehr (im Informationsfenster vom Rathaus scrollen)
+
 
 !!!Dieser Mod ist mit bereits vorher gestarteten Savegames kompatibel. Es wird kein Unlocker benötigt!!!
 
 
-Update-Notes 1.2.2:
-     
+Update-Notes 1.3:
+      
+        Neuerungen:
+
+        - ein kleines Krankenhaus (Ärztehaus) wurde hinzugefügt
+       
+        - neue Handwerkerhäuser (Altstadt-Bürgerhaus) wurden hinzugefügt
+
 
 	Bugfixes:
 
-        - Es war nicht möglich, zwischen der ursprünglichen und der neuen Kirche zu wechseln, man konnte nur die neue Kirche bauen. Dieser Fehler wurde behoben
+        - Altstadt-Prachtbauten / Altstadt-Villen haben nun eine maximale Kapazität von 40/50 statt 32/40
 
-        - Es sollten jetzt mehr Menschen aus den Altstadt Prachtbauten und Villen kommen
+        - Altstadt-Prachtbauten wurden ein wenig verkleinert
 
-        - Ein Fehler, der dazu führte, dass sich die KI nicht weiterentwickelte als bis zu den Handwerkern, wurde behoben
+        - Bewohner von Altstadt-Prachtbauten / Altstadt-Villen bekommen nun weitere Item-Effekte
 
-
-
-Euer getreuer
-
-Fishboss
-
-Besonderer Dank:
-
-- taubenangriff
+        - Senat und Oper bekommen nun alle Buffs die jedes öffentliche Gebäude bekommt (von Erfolgen, Zoo-Sets usw.)
 

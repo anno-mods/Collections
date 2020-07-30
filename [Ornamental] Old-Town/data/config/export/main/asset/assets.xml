@@ -392,6 +392,102 @@
       </Values>
     </Asset>
   </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859945</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets />
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>850055</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850056</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>859944</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>600</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>850055</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850056</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets />
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
   <!-- moderate engineers city (tier) -->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501486']">
                         <Asset>
@@ -484,6 +580,412 @@
             <Building>859993</Building>
         </Item>
     </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501486']">
+                        <Asset>
+                          <Template>ConstructionCategory</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>859943</GUID>
+                              <Name>old town3</Name>
+                              <IconFilename>data/modgraphics/icons/third_icon.png</IconFilename>
+                            </Standard>
+                            <ConstructionCategory>
+                              <BuildingList>
+                                <Item>
+                                  <Building>850055</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850056</Building>
+                                </Item>
+                              </BuildingList>
+                              <CategoryDescription>100003</CategoryDescription>
+                            </ConstructionCategory>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Elaborate Esplanade</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>27170</LineID>
+                            </Text>
+                            <Locked />
+                          </Values>
+                        </Asset>
+  </ModOp>
+    <ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010471']">
+        <Item>
+            <Building>859943</Building>
+        </Item>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010347'>
+                    <Asset>
+                      <Template>ResidenceBuilding7</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>850055</GUID>
+                          <Name>residence_tier03_oldtown</Name>
+                          <IconFilename>data/ui/2kimages/main/3dicons/icon_resident.png</IconFilename>
+                          <InfoDescription>163059</InfoDescription>
+                        </Standard>
+                        <Blocking />
+                        <Building>
+                          <BuildingType>Residence</BuildingType>
+                          <PickingAsset>1010343</PickingAsset>
+                          <AssociatedRegions>Moderate</AssociatedRegions>
+                        </Building>
+                        <Cost>
+                          <Costs>
+                            <Item>
+                              <Ingredient>1010017</Ingredient>
+                            </Item>
+                            <Item>
+                              <Ingredient>1010196</Ingredient>
+                              <Amount>8</Amount>
+                            </Item>
+                            <Item>
+                              <Ingredient>1010205</Ingredient>
+                              <Amount>5</Amount>
+                            </Item>
+                            <Item>
+                              <Ingredient>1010218</Ingredient>
+                              <Amount>4</Amount>
+                            </Item>
+                            <Item>
+                              <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                              <Ingredient>1010202</Ingredient>
+                            </Item>
+                          </Costs>
+                        </Cost>
+                        <Mesh />
+                        <Object>
+                          <Variations>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/1701/residence/citizens_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/1701/residence/citizens_02.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/1701/residence/citizens_03.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/1701/residence/citizens_04.cfg</Filename>
+                            </Item>
+                            <Item>
+                              <Filename>data/modgraphics/buildings/1701/residence/citizens_05.cfg</Filename>
+                            </Item>
+                          </Variations>
+                        </Object>
+                        <Selection>
+                          <ParticipantMessageArcheType>Resident_tier03</ParticipantMessageArcheType>
+                        </Selection>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Artisan Residence</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>5229</LineID>
+                        </Text>
+                        <Constructable />
+                        <Locked>
+                          <DefaultLockedState>1</DefaultLockedState>
+                        </Locked>
+                        <Upgradable>
+                          <NextGUID>850016</NextGUID>
+                          <UpgradeCost>
+                            <Item>
+                              <Ingredient>1010017</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>8</Amount>
+                              <Ingredient>1010196</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>3</Amount>
+                              <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>2</Amount>
+                              <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                              <Amount>2</Amount>
+                              <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                              <Ingredient>1010202</Ingredient>
+                            </Item>
+                          </UpgradeCost>
+                        </Upgradable>
+                        <SoundEmitter>
+                          <ConstructionSounds>
+                            <BuildSuccessful>
+                              <Item>
+                                <VectorElement>
+                                  <InheritedIndex>0</InheritedIndex>
+                                  <InheritanceMapV2>
+                                    <Entry>
+                                      <TemplateName>ResidenceBuilding7</TemplateName>
+                                      <Index>0</Index>
+                                    </Entry>
+                                  </InheritanceMapV2>
+                                </VectorElement>
+                                <Sound>200776</Sound>
+                              </Item>
+                            </BuildSuccessful>
+                            <BuildUpgradeFailed>
+                              <Item>
+                                <Sound>9818387</Sound>
+                              </Item>
+                            </BuildUpgradeFailed>
+                          </ConstructionSounds>
+                          <IncidentSounds>
+                            <InfectedFire>
+                              <Item>
+                                <Sound>214659</Sound>
+                              </Item>
+                            </InfectedFire>
+                            <InfectedIllness>
+                              <Item>
+                                <Sound>214756</Sound>
+                              </Item>
+                            </InfectedIllness>
+                            <InfectedRiot>
+                              <Item>
+                                <Sound>222229</Sound>
+                              </Item>
+                            </InfectedRiot>
+                            <ExplosionOneShots>
+                              <Item>
+                                <Sound>203849</Sound>
+                              </Item>
+                            </ExplosionOneShots>
+                          </IncidentSounds>
+                          <BuildingRepaired>
+                            <Item>
+                              <Sound>203866</Sound>
+                            </Item>
+                          </BuildingRepaired>
+                          <MaterialType>Stone</MaterialType>
+                        </SoundEmitter>
+                        <Infolayer />
+                        <FeedbackController />
+                        <Residence7>
+                          <ResidenceStorage>
+                            <InputStorageMax>1</InputStorageMax>
+                          </ResidenceStorage>
+                          <PopulationLevel7>15000002</PopulationLevel7>
+                          <ResidentMax>30</ResidentMax>
+                        </Residence7>
+                        <LogisticNode>
+                          <REMOVE_THIS_LATER_FeedbackUnitTier>Level3</REMOVE_THIS_LATER_FeedbackUnitTier>
+                        </LogisticNode>
+                        <AmbientMoodProvider>
+                          <AmbientMood>ResidenceTier3</AmbientMood>
+                          <DynamicEnvironmentType>ResidenceT5</DynamicEnvironmentType>
+                          <HappinessDependentMurmur>
+                            <Angry>
+                              <Murmur>ArtisanUnhappy</Murmur>
+                            </Angry>
+                            <Unhappy>
+                              <Murmur>ArtisanContent</Murmur>
+                            </Unhappy>
+                            <Neutral>
+                              <Murmur>ArtisanContent</Murmur>
+                            </Neutral>
+                            <Happy>
+                              <Murmur>ArtisanHappy</Murmur>
+                            </Happy>
+                            <Euphoric>
+                              <Murmur>ArtisanHappy</Murmur>
+                            </Euphoric>
+                          </HappinessDependentMurmur>
+                        </AmbientMoodProvider>
+                        <UpgradeList />
+                        <Attackable>
+                          <MaximumHitPoints>2500</MaximumHitPoints>
+                        </Attackable>
+                        <IncidentInfectable>
+                          <Infectable>
+                            <Explosion>
+                              <Base>0</Base>
+                              <Escalated>0</Escalated>
+                            </Explosion>
+                          </Infectable>
+                          <Explosion>
+                            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                          </Explosion>
+                          <IncidentInfectionChanceFactors>
+                            <Illness>
+                              <BaseChance>5</BaseChance>
+                              <HitpointFactor>0.1</HitpointFactor>
+                              <DensityFactor>0.025</DensityFactor>
+                              <DensityDistance>15</DensityDistance>
+                              <DilapidatedFactor>10</DilapidatedFactor>
+                              <FactoryOvertimeFactor>0.3</FactoryOvertimeFactor>
+                              <FactoryUndertimeFactor>0.15</FactoryUndertimeFactor>
+                              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                            </Illness>
+                            <Fire>
+                              <BaseChance>4</BaseChance>
+                              <DensityFactor>0.025</DensityFactor>
+                              <DensityDistance>15</DensityDistance>
+                            </Fire>
+                            <Riot>
+                              <ResidenceHappinessFactor>0.4</ResidenceHappinessFactor>
+                              <HappinessThreshold>10</HappinessThreshold>
+                            </Riot>
+                            <Explosion>
+                              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                            </Explosion>
+                          </IncidentInfectionChanceFactors>
+                        </IncidentInfectable>
+                        <Pausable />
+                        <Culture />
+                        <StreetActivation />
+                        <InfluenceSource />
+                      </Values>
+                    </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='1010464'>
+                        <Asset>
+                          <Template>CityInstitutionBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850056</GUID>
+                              <Name>institution_medicus</Name>
+                              <IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+                              <InfoDescription>3789</InfoDescription>
+                            </Standard>
+                            <Building>
+                              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>8000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>8</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>15</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>12</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>28</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                              <Filename>data/modgraphics/buildings/1701/official/medicus.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh />
+                            <Selection>
+                              <GUIType>CityInstitution</GUIType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Hospital</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>3737</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <ActiveSounds>
+                                <Item>
+                                  <Sound>239532</Sound>
+                                </Item>
+                              </ActiveSounds>
+                              <IncidentSounds>
+                                <InfectedFire>
+                                  <Item>
+                                    <Sound>214659</Sound>
+                                  </Item>
+                                </InfectedFire>
+                              </IncidentSounds>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController>
+                              <NightBehavior>HideAll</NightBehavior>
+                            </FeedbackController>
+                            <Infolayer />
+                            <UpgradeList />
+                            <IncidentResolver>
+                              <ResolverUnit>100583</ResolverUnit>
+                              <ResolverUnitCount>1</ResolverUnitCount>
+                              <SpecialUnit>100584</SpecialUnit>
+                              <ResolvableIncidents>Illness</ResolvableIncidents>
+                              <DuringConstructionText>15224</DuringConstructionText>
+                              <DuringIncidentHeadline>3781</DuringIncidentHeadline>
+                              <ActionButtonText>3690</ActionButtonText>
+                              <DuringIncidentHeadlineIcon>501922</DuringIncidentHeadlineIcon>
+                            </IncidentResolver>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>100</Amount>
+                                  <InactiveAmount>100</InactiveAmount>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>5500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfluencer>
+                              <Influence>
+                                <Illness>
+                                  <Influence>-7</Influence>
+                                  <Distance>16</Distance>
+                                </Illness>
+                              </Influence>
+                            </IncidentInfluencer>
+                            <DelayedConstruction />
+                            <AmbientMoodProvider>
+                              <AmbientMood>ResidenceTier1</AmbientMood>
+                            </AmbientMoodProvider>
+                            <Culture />
+                            <QuestObject />
+                          </Values>
+                        </Asset>
+  </ModOp>
   <ModOp Type="addNextSibling" GUID='1010347'>
                     <Asset>
                       <Template>ResidenceBuilding7</Template>
@@ -519,6 +1021,9 @@
                             </Item>
                             <Item>
                               <Building>1010343</Building>
+                            </Item>
+                            <Item>
+                              <Building>850055</Building>
                             </Item>
                           </InfluencedByNeighbors>
                           <AssociatedRegions>Moderate</AssociatedRegions>
@@ -678,7 +1183,7 @@
                             <InputStorageMax>1</InputStorageMax>
                           </ResidenceStorage>
                           <PopulationLevel7>15000003</PopulationLevel7>
-                          <ResidentMax>32</ResidentMax>
+                          <ResidentMax>40</ResidentMax>
                         </Residence7>
                         <LogisticNode />
                         <AmbientMoodProvider>
@@ -781,6 +1286,9 @@
                             </Item>
                             <Item>
                               <Building>1010345</Building>
+                            </Item>
+                            <Item>
+                              <Building>850055</Building>
                             </Item>
                           </InfluencedByNeighbors>
                           <AssociatedRegions>Moderate</AssociatedRegions>
@@ -942,7 +1450,7 @@
                             <InputStorageMax>1</InputStorageMax>
                           </ResidenceStorage>
                           <PopulationLevel7>15000004</PopulationLevel7>
-                          <ResidentMax>40</ResidentMax>
+                          <ResidentMax>50</ResidentMax>
                           <InfluenceGeneration>
                             <Item>
                               <ResidentsNeededToGain>1</ResidentsNeededToGain>
@@ -1325,6 +1833,10 @@
                           <GUID>850017</GUID>
                           <Factor>2</Factor>
                         </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
     </ModOp>
     <ModOp Type="add" GUID='102337' Path="/Values/Projectile/Effectivities">
                         <Item>
@@ -1335,6 +1847,10 @@
                           <GUID>850017</GUID>
                           <Factor>2</Factor>
                         </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
     </ModOp>
     <ModOp Type="add" GUID='100457' Path="/Values/Projectile/Effectivities">
                         <Item>
@@ -1343,6 +1859,10 @@
                         </Item>
                         <Item>
                           <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
                           <Factor>2</Factor>
                         </Item>
     </ModOp>
@@ -1425,6 +1945,136 @@
                           <GUID>850017</GUID>
                           <Factor>2</Factor>
                         </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='101562' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102342' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102494' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102495' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102496' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='102627' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='111141' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='111144' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='111145' Path="/Values/Projectile/Effectivities">
+                        <Item>
+                          <GUID>850016</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850017</GUID>
+                          <Factor>2</Factor>
+                        </Item>
+                        <Item>
+                          <GUID>850055</GUID>
+                          <Factor>2</Factor>
+                        </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='130118' Path="/Values/AssetPool/AssetList/Item[Asset='1010347']">
                                 <Item>
@@ -1432,6 +2082,9 @@
                                 </Item>
                                 <Item>
                                   <Asset>850017</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>850055</Asset>
                                 </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='141703' Path="/Values/CharacterInteractionConfig/UpgradeBuildingWhitelist/Item[Building='1010347']">
@@ -1441,6 +2094,9 @@
                                 <Item>
                                   <Building>850017</Building>
                                 </Item>
+                                <Item>
+                                  <Building>850055</Building>
+                                </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='190041' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010347']">
                                 <Item>
@@ -1448,6 +2104,14 @@
                                 </Item>
                                 <Item>
                                   <GUID>850017</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191135' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
                                 </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='190762' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010347']">
@@ -1457,10 +2121,146 @@
                                 <Item>
                                   <GUID>850017</GUID>
                                 </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193862' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191762' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191763' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191764' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191765' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193861' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191766' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191767' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111162' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111176' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111177' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111178' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116182' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269177' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269177' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269119' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269156' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269158' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269159' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269160' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269235' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269452' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010345']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='191768' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
                                 <Item>
                                   <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111163' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
                                 </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='191769' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
@@ -1471,6 +2271,17 @@
     <ModOp Type="addNextSibling" GUID='191770' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
                                 <Item>
                                   <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269138' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850055</GUID>
                                 </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='191771' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
@@ -1488,50 +2299,235 @@
                                   <GUID>850016</GUID>
                                 </Item>
     </ModOp>
+    <ModOp Type="addNextSibling" GUID='269447' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110986' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111167' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110988' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110994' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110995' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111002' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111003' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='111004' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110992' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='110993' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116184' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116188' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269412' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269161' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269162' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269233' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269157' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269411' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269139' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269140' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010346']">
+                                <Item>
+                                  <GUID>850016</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191570' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010347']">
+                                <Item>
+                                  <GUID>850017</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193404' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010364']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116181' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010358']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269111' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010358']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='269236' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010358']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190136' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='117547']">
+                                <Item>
+                                  <GUID>850020</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850021</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193879' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010365']">
+                                <Item>
+                                  <GUID>850020</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850021</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850056</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191501' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010372']">
+                                <Item>
+                                  <GUID>850020</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850021</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
+    </ModOp>
     <ModOp Type="addNextSibling" GUID='192446' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010347']">
                                 <Item>
                                   <GUID>850017</GUID>
                                 </Item>
     </ModOp>
-    <ModOp Type="add" GUID='191482' Path="/Values/Projectile/Effectivities">
-                        <Item>
-                          <GUID>850016</GUID>
-                          <Factor>2</Factor>
-                        </Item>
-                        <Item>
-                          <GUID>850017</GUID>
-                          <Factor>2</Factor>
-                        </Item>
+    <ModOp Type="addNextSibling" GUID='190777' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010464']">
+                                <Item>
+                                  <GUID>850056</GUID>
+                                </Item>
     </ModOp>
-    <ModOp Type="add" GUID='192097' Path="/Values/Projectile/Effectivities">
-                        <Item>
-                          <GUID>850016</GUID>
-                          <Factor>2</Factor>
-                        </Item>
-                        <Item>
-                          <GUID>850017</GUID>
-                          <Factor>2</Factor>
-                        </Item>
+    <ModOp Type="addNextSibling" GUID='190782' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010358']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
     </ModOp>
-    <ModOp Type="add" GUID='192104' Path="/Values/Projectile/Effectivities">
-                        <Item>
-                          <GUID>850016</GUID>
-                          <Factor>2</Factor>
-                        </Item>
-                        <Item>
-                          <GUID>850017</GUID>
-                          <Factor>2</Factor>
-                        </Item>
+    <ModOp Type="addNextSibling" GUID='192418' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010358']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
     </ModOp>
-    <ModOp Type="add" GUID='192105' Path="/Values/Projectile/Effectivities">
-                        <Item>
-                          <GUID>850016</GUID>
-                          <Factor>2</Factor>
-                        </Item>
-                        <Item>
-                          <GUID>850017</GUID>
-                          <Factor>2</Factor>
-                        </Item>
+    <ModOp Type="addNextSibling" GUID='193868' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010358']">
+                                <Item>
+                                  <GUID>850022</GUID>
+                                </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='700055' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010346']">
                                 <Item>
@@ -1539,6 +2535,9 @@
                                 </Item>
                                 <Item>
                                   <Asset>850017</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>850055</Asset>
                                 </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='700002' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010347']">
@@ -1548,6 +2547,9 @@
                                 <Item>
                                   <Asset>850017</Asset>
                                 </Item>
+                                <Item>
+                                  <Asset>850055</Asset>
+                                </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='700010' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010347']">
                                 <Item>
@@ -1556,6 +2558,19 @@
                                 <Item>
                                   <Asset>850017</Asset>
                                 </Item>
+                                <Item>
+                                  <Asset>850055</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='130118' Path="/Values/AssetPool/AssetList/Item[Asset='1010347']">
+                                <Item>
+                                  <Asset>850046</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '2001090' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850055</Building>
+        </Item>
     </ModOp>
     <ModOp Type = "add" GUID = '2001091' Path = "/Values/FeedbackBuildingGroup/Buildings">
         <Item>
@@ -1573,6 +2588,24 @@
         </Item>
         <Item>
             <Building>850017</Building>
+        </Item>
+        <Item>
+            <Building>850055</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '142734' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850021</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '142677' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850020</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type = "add" GUID = '142672' Path = "/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>850022</Building>
         </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='190136' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010365']">
@@ -1598,6 +2631,9 @@
                     </Item>
                     <Item>
                       <GUID>850024</GUID>
+                    </Item>
+                    <Item>
+                      <GUID>850056</GUID>
                     </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='190782' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010358']">
@@ -2068,7 +3104,7 @@
                       </Values>
                     </Asset>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID='190781' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010346']">
+    <ModOp Type="addNextSibling" GUID='190781' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='101285']">
                                 <Item>
                                   <GUID>850024</GUID>
                                 </Item>
@@ -2908,6 +3944,10 @@
             <Building>850017</Building>
             <Replacement>1010343</Replacement>
         </Item>
+        <Item>
+            <Building>850055</Building>
+            <Replacement>1010343</Replacement>
+        </Item>
     </ModOp>
     <ModOp Type="add" GUID='167' Path="/Values/ConstructionAI">
         <BuildingReplacements>
@@ -2917,6 +3957,10 @@
             </Item>
             <Item>
                 <Building>850017</Building>
+                <Replacement>1010343</Replacement>
+            </Item>
+            <Item>
+                <Building>850055</Building>
                 <Replacement>1010343</Replacement>
             </Item>
         </BuildingReplacements>

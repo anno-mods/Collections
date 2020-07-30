@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>859988</GUID>
-      <Text>Altstadt I</Text>
+      <Text>Altstadt II</Text>
     </Text>
     <Text>
       <GUID>859993</GUID>
-      <Text>Altstadt II</Text>
+      <Text>Altstadt III</Text>
     </Text>
     <Text>
       <GUID>850016</GUID>
@@ -59,6 +59,18 @@
     <Text>
       <GUID>850038</GUID>
       <Text>Kaiser-Dom</Text>
+    </Text>
+    <Text>
+      <GUID>850055</GUID>
+      <Text>Altstadt-Bürgerhaus</Text>
+    </Text>
+    <Text>
+      <GUID>850056</GUID>
+      <Text>Ärztehaus</Text>
+    </Text>
+    <Text>
+      <GUID>859943</GUID>
+      <Text>Altstadt I</Text>
     </Text>
   </ModOp>
 </ModOps>

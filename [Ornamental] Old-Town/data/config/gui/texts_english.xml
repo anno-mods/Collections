@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>859988</GUID>
-      <Text>Oldtown I</Text>
+      <Text>Oldtown II</Text>
     </Text>
     <Text>
       <GUID>859993</GUID>
-      <Text>Oldtown II</Text>
+      <Text>Oldtown III</Text>
     </Text>
     <Text>
       <GUID>850016</GUID>
@@ -59,6 +59,18 @@
     <Text>
       <GUID>850038</GUID>
       <Text>Imperial cathedral</Text>
+    </Text>
+    <Text>
+      <GUID>850055</GUID>
+      <Text>oldtown-townhouse</Text>
+    </Text>
+    <Text>
+      <GUID>850056</GUID>
+      <Text>doctors building</Text>
+    </Text>
+    <Text>
+      <GUID>859943</GUID>
+      <Text>Oldtown I</Text>
     </Text>
   </ModOp>
 </ModOps>

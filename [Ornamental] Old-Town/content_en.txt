@@ -1,10 +1,16 @@
-﻿Old-Town v1.2.2:
+﻿Old-Town v1.3:
+
+!!! This mod may not be compatible with the "Construction Menu Cleanup" mod !!!
 
 This mod adds some buildings from Anno 1701 and 1404. Engineers and investors have a new building need, which can be satisfied by the added buildings.
 
 Engineers have the need for higher culture, which is satisfied by the opera.
 
 For investors, the need for power comes, which is satisfied by the Senate.
+
+Oldtown-townhouse:
+
+- unlocked at 600 Artisians
 
 Old-town mansions:
 
@@ -31,9 +37,10 @@ Imperial Cathedral (Monument):
 - First 3 stages unlocked at 7500 investors, last stage unlocked at 12500 investors
 
 
-In addition, a new church version is buildable (Shift + v), an inn is buildable (unlocked at 1500 investors) a new town hall is buildable (unlocked at 2500 investors) and a triumphal arch can be built, through which one  a road connection can be established (Shift + v for right and left) (unlocked at 2500 investors).
+In addition, a new church version is buildable (Shift + v), a small hospital (doctors building; unlocked at 600 artisians), an inn is buildable (unlocked at 1500 investors) a new town hall is buildable (unlocked at 2500 investors) and a triumphal arch can be built, through which one  a road connection can be established (Shift + v for right and left) (unlocked at 2500 investors).
 
 The additional town hall has a higher radius and one more slot (scroll in the information window of the town hall)
+
 
 !!! This mod is compatible with previously started savegames. No unlocker is needed !!!
 
@@ -41,24 +48,22 @@ The additional town hall has a higher radius and one more slot (scroll in the in
 The building-menus can be found at engineer- & investor-building-menu
 
 
-Update-Notes 1.2.2:
+Update-Notes 1.3:
+      
+        Inventions:
+
+        - a small hospital (doctors building) has been added
+       
+        - new artisians-houses (Oldtown-townhouse) has been added
 
 
 	Bugfixes:
 
-        - it wasn't possible to switch between original church and new church, you only could build new church. This bug has been fixed
+        - Old-town mansions / Old-town villas now have a maximum-capacity of 40/50 instead of 32/40
 
-        - more people supposed to spawn from Old-Town mansions and villas now
+        - Old-town mansions shrinked a little bit
 
-        - A bug which causes that AI don't evolve any further than to artisians is fixed now
+        - Inhabitants of Old-town mansions / Old-town villas now get more item-effects
 
-
-
-Your faithful
-
-Fishboss
-
-Special Thanks:
-
-- taubenangriff
+        - Senate und opera now get all buffs as every other public service-building has (from successes, zoo-sets etc.)
 
