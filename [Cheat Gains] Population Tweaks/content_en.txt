@@ -1,0 +1,3 @@
+This mod triples the amount of money that you gain from all population, their happiness from products and amount of workers each house provides.
+
+This affects all population tiers in all maps, that is Old World, New World and Arctic.
