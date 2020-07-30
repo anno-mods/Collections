@@ -1,28 +1,20 @@
-Archibalds Castle v1.3:
+Archibalds Castle v1.4.1:
 
-This Mod adds 10 modular buildable parts of a castle into the game (2 main-buildings and 8 side-buildings), unlocked at 750 investors. The castle mainly consists of buildings from Archibald Blake (3rd Party) and some parts of other buldings.
+This Mod adds 11 modular buildable parts of a castle into the game (1 greater main building 2 main-buildings and 8 side-buildings), unlocked at 750 investors. The castle mainly consists of buildings from Archibald Blake (3rd Party) and some parts of other buldings.
 
-Explanation: You got the choice! Do you want a straight castle but with an offset between the individual modules (choose straight) OR a crooked castle but with smooth connections between the modules (choose smooth)
+Explanation: You got the choice! Do you want a straight castle but with an offset between the individual modules OR a crooked castle but with smooth connections between the modules
 
 After you installed the mod, you can find the castle at the building-menu of investors (castle icon).
 
 Just push Shift + v for choosing between the individual main-buildings (left icon) or side-buildings (right icon).
 
-Update 1.3 Notes:
+
+Update 1.4.1 Notes:
 
   Inventions:
 
-  - All buildings of the castle does have lights now
+  - added a big main building
 
-  - The side-entrance-module now has an opened passage
-
-  - some small changes at behavior of feedback-pedestrians
-
-  Bugfixes:
-  
-  - some flaws of the main-building with the 3 towers have been revised
-
-  - entrance-module now has another ground-texture
 
 your faithfully
 

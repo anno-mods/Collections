@@ -4,7 +4,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>859983</GUID>
+          <GUID>859955</GUID>
           <Name>intermediate moderate 5.0</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
         </Standard>
@@ -35,6 +35,9 @@
                       <Item>
                         <Asset>850002</Asset>
                       </Item>
+                      <Item>
+                        <Asset>850039</Asset>
+                      </Item>
                     </UnhideAssets>
                     <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                   </ActionUnlockAsset>
@@ -52,7 +55,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>859984</GUID>
+          <GUID>859956</GUID>
           <Name>intermediate moderate 5.0</Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
         </Standard>
@@ -81,6 +84,9 @@
                       </Item>
                       <Item>
                         <Asset>850002</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>850039</Asset>
                       </Item>
 		    </UnlockAssets>
                     <UnhideAssets />
@@ -112,6 +118,9 @@
                                 </Item>
                                 <Item>
                                   <Building>850002</Building>
+                                </Item>
+                                <Item>
+                                  <Building>850039</Building>
                                 </Item>
                               </BuildingList>
                               <CategoryDescription>100003</CategoryDescription>
@@ -419,5 +428,182 @@
                                     </Text>
                                   </Values>
                                 </Asset>
+    </ModOp>
+  <ModOp Type="addNextSibling" GUID='102176'>
+                   <Asset>
+                          <Template>PublicServiceBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>850039</GUID>
+                              <Name>big_castle</Name>
+                              <IconFilename>data/ui/2kimages/main/3dicons/icon_club_house.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <AllowChangeVariation>1</AllowChangeVariation>
+                              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>50000</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>50</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                  <Amount>100</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                  <Amount>80</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                  <Amount>75</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                  <Amount>75</Amount>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_test.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/modgraphics/buildings/3rd_party/3rd_party_02/3rd_party_02_castle_test2.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh>
+                              <MeshPlacement>OnTerrainSlope</MeshPlacement>
+                            </Mesh>
+                            <Selection>
+                              <GUIType>PublicService</GUIType>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Members Club</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5295</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <ActiveSounds>
+                                <Item>
+                                  <Sound>200859</Sound>
+                                </Item>
+                              </ActiveSounds>
+                              <ConstructionSounds>
+                                <BuildSuccessful>
+                                  <Item>
+                                    <VectorElement>
+                                      <InheritedIndex>0</InheritedIndex>
+                                      <InheritanceMapV2>
+                                        <Entry>
+                                          <TemplateName>PublicServiceBuilding</TemplateName>
+                                          <Index>0</Index>
+                                        </Entry>
+                                      </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Sound>214786</Sound>
+                                  </Item>
+                                </BuildSuccessful>
+                              </ConstructionSounds>
+                              <IncidentSounds>
+                                <InfectedFire>
+                                  <Item>
+                                    <Sound>214659</Sound>
+                                  </Item>
+                                </InfectedFire>
+                              </IncidentSounds>
+                              <BuildingRepaired>
+                                <Item>
+                                  <Sound>203866</Sound>
+                                </Item>
+                              </BuildingRepaired>
+                            </SoundEmitter>
+                            <FeedbackController>
+                              <NightBehavior>HideNone</NightBehavior>
+                            </FeedbackController>
+                            <Infolayer />
+                            <UpgradeList />
+                            <LogisticNode>
+                              <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
+                            </LogisticNode>
+                            <PublicService>
+                              <FullSatisfactionDistance>45</FullSatisfactionDistance>
+                              <NoSatisfactionDistance>80</NoSatisfactionDistance>
+                              <PublicServiceOutputs>
+                                <Item>
+                                  <Product>1010355</Product>
+                                </Item>
+                              </PublicServiceOutputs>
+                            </PublicService>
+                            <AmbientMoodProvider>
+                              <AmbientMood>ResidenceTier1</AmbientMood>
+                              <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>350</Amount>
+                                  <InactiveAmount>175</InactiveAmount>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>3500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfectable>
+                              <Infectable>
+                                <Fire>
+                                  <Base>1</Base>
+                                </Fire>
+                              </Infectable>
+                              <Explosion>
+                                <DamageExplosionChance>0</DamageExplosionChance>
+                              </Explosion>
+                              <IncidentInfectionChanceFactors>
+                                <Fire>
+                                  <DensityDistance>20</DensityDistance>
+                                </Fire>
+                              </IncidentInfectionChanceFactors>
+                            </IncidentInfectable>
+                            <Electric />
+                            <Culture>
+                              <Attractiveness>60</Attractiveness>
+                              <CultureSpawnGroup>1</CultureSpawnGroup>
+                            </Culture>
+                          </Values>
+                        </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='141484' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='114141']">
+        <Item>
+            <Building>850001</Building>
+        </Item>
+        <Item>
+            <Building>850002</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='142678' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='1010364']">
+        <Item>
+            <Building>850039</Building>
+        </Item>
     </ModOp>
 </ModOps>

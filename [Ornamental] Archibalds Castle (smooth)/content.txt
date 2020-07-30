@@ -1,30 +1,24 @@
-Archibalds Castle v1.3:
+Archibalds Castle v1.4.1:
 
-Diese Mod fügt 10 Teile eines modular baubaren Schlosses hinzu (2 Hauptgebäude and 8 Nebengebäude), welches ab 750 Investoren freigeschalten ist. Das Schloss besteht hauptsächlich aus Gebäuden von Archibald Blake (3rd Party) und Teilen anderer Gebäude.
+Diese Mod fügt 11 Teile eines modular baubaren Schlosses hinzu (1 großes Hauptgebäude, 2 Hauptgebäude und 8 Nebengebäude), welches ab 750 Investoren freigeschalten ist. Das Schloss besteht hauptsächlich aus Gebäuden von Archibald Blake (3rd Party) und Teilen anderer Gebäude.
 
-Erklärung: Ihr habt die Wahl! Wollt ihr ein gerades Schloß aber mit Absätzen zwischen den einzelnen Modulen (wählt straight) ODER ein leicht schiefes Schloss mit glatten Übergängen zwischen dn einzelnen Modulen (wählt smooth)
+Erklärung: Ihr habt die Wahl! Wollt ihr ein gerades Schloß aber mit Absätzen zwischen den einzelnen Modulen ODER ein leicht schiefes Schloss mit glatten Übergängen zwischen dn einzelnen Modulen
 
 Nachdem ihr den Mod installiert habt, findet ihr das Schloss im Baumenü der Investoren (Schloss-Symbol).
 
 Drückt Shift + v um zwischen den einzelnen Hauptgebäuden (linkes Symbol) und Nebengebäuden (rechtes Symbol) auszuwählen.
 
-Update 1.3 Notes:
+
+Update 1.4.1 Notes:
 
   Neuerungen:
 
-  - es wurden Lichter an allen Schloss-Teilen eingefügt
+  - ein großes Hauptgebäude wurde hinzugefügt
 
-  - das Seiteneingangs-Modul hat jetzt einen offenen Durchgang
-
-  - einige kleine Änderungen an Feedback-Passanten
-
-  Bugfixes:
-
-  - Einige Fehler des Hauptgebäudes mit den 3 Türmen wurden überarbeitet
-  
-  - Bodentextur des Eingangs-Gebäudes wurde geändert
 
 
 euer treuer
 
 Fishboss
+
+
