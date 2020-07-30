@@ -1,0 +1,16 @@
+[28.07.2020] V 0.8.1:
+
+Alpha Release and Testing
+
+-----------------------------
+
+[30.07.2020] V 1.0:
+
+Bug fixes:
+Produktion and Farms can now be boostet with tractors and items (thanks to Fischboss)
+
+Changes:
+Old Rum now needs Glass instad off wood (Idea by Lady Meridonia and yes it makes more sense ^^)
+Maintenances cost where highly increased (first costs was for easyer testing)
+Build cost where highly increased
+-----------------------------

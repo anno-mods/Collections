@@ -1,0 +1,774 @@
+<!--V 1.0 © Stand: 30.07.2020	
+################################
+	Grund Mod von DonnyBresko   
+################################
+      Angepasst und Fehler      
+     beseitigt von Fishboss     
+################################
+ Vorschlag Produktion Anpassung 
+       von Holz auf Glas       
+         Lady Meridonia	  
+################################
+-->
+
+
+
+<ModOps>
+<!--####	Baumenu/Kette und Freischaltungen		####-->
+<ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500953']"><!--BAUMENU BEWOHNER-->
+	<Item>
+		<Building>1800000100</Building>
+	</Item>
+</ModOp>
+<ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500003']"><!--BAUMENU KATEGORIE-->
+	<Item>
+		<Building>1800000100</Building>
+	</Item>
+</ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']"><!--SICHTBARKEIT-->				
+<Asset>
+                      <Template>Trigger</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>1800000101</GUID>
+                          <Name>intermediate moderate 1.1</Name>
+                          <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+                        </Standard>
+                        <Trigger>
+                          <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                              <Condition />
+                              <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>1</CounterAmount>
+                              </ConditionPlayerCounter>
+                            </Values>
+                          </TriggerCondition>
+                          <TriggerActions>
+                            <Item>
+                              <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                  <Action />
+                                  <ActionUnlockAsset>
+                                    <UnlockAssets />
+                                    <UnhideAssets>
+									  <Item>
+                                        <Asset>1800000100</Asset>
+                                      </Item>
+                                      <Item>
+                                        <Asset>1800000103</Asset>
+                                      </Item>
+                                      <Item>
+                                        <Asset>1800000104</Asset>
+                                      </Item>									  
+                                    </UnhideAssets>
+                                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                  </ActionUnlockAsset>
+                                </Values>
+                              </TriggerAction>
+                            </Item>
+                          </TriggerActions>
+                        </Trigger>
+                        <TriggerSetup />
+                      </Values>
+                    </Asset>
+</ModOp>
+<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']"><!--FREISCHALTUNG-->				
+<Asset>
+                      <Template>Trigger</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>1800000102</GUID>
+                          <Name>intermediate moderate 1.1</Name>
+                          <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+                        </Standard>
+                        <Trigger>
+                          <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                              <Condition />
+                              <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000002</Context>
+                                <CounterAmount>950</CounterAmount>
+                              </ConditionPlayerCounter>
+                            </Values>
+                          </TriggerCondition>
+                          <TriggerActions>
+                            <Item>
+                              <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                  <Action />
+                                  <ActionUnlockAsset>
+                                    <UnlockAssets>
+									  <Item>
+                                        <Asset>1800000100</Asset>
+                                      </Item>
+                                      <Item>
+                                        <Asset>1800000103</Asset>
+                                      </Item>
+                                      <Item>
+                                        <Asset>1800000104</Asset>
+                                      </Item>
+									</UnlockAssets>
+                                    <UnhideAssets />
+                                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                  </ActionUnlockAsset>
+                                </Values>
+                              </TriggerAction>
+                            </Item>
+                          </TriggerActions>
+                        </Trigger>
+                        <TriggerSetup />
+                      </Values>
+                    </Asset>
+</ModOp>
+<ModOp Type="addNextSibling" GUID='15039'><!--PRODUKTIONS KETTE-->
+<Asset>
+    <Template>ProductionChain</Template>
+        <Values>
+			<Standard>
+				<GUID>1800000100</GUID>
+                <Name>oldrum chain</Name>
+                <IconFilename>data/modgraphics/icons/old_jack_rum.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1800000104</Building><!--Gebäude OldWorld Rum-->
+                <Tier1>
+                    <Item>
+                        <Building>1010319</Building><!--Quartzsand-->
+						<Tier2>
+						<Item>
+							<Building>1010560</Building><!--Glasser-->
+						</Item>
+						</Tier2>
+                    </Item>				
+                    <Item>
+                        <Building>1010265</Building><!--Gebäude Kartoffeln-->
+                    </Item>
+					<Item>
+                        <Building>1800000103</Building><!--Gebäude Zuckerrohr-->
+                    </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+            <Text>
+                <LocaText>
+                    <English>
+						<Text>Old Jacks Rum</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+                <LineID>14882</LineID>
+			</Text>
+    </Values>
+</Asset>
+</ModOp>
+<!--####	########################		####-->
+
+
+
+<!--####	Gebäude und Farmen		####-->
+<ModOp Type="addNextSibling" GUID='1010343'><!--FARM-->
+<Asset>
+                          <Template>FarmBuilding</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>1800000103</GUID>
+                              <Name>donny_farm_01(Suga Cane Farm)</Name>
+                              <IconFilename>data/ui/2kimages/main/3dicons/icon_cane_sugar_1.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>2500</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>35</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+								  <Amount>20</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh />
+                            <Selection>
+                              <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                              <Colors>
+                                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                              </Colors>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Sugar Cane Plantation</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5299</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <ActiveSounds>
+                                <Item>
+                                  <Sound>200795</Sound>
+                                </Item>
+                                <Item>
+                                  <Sound>200535</Sound>
+                                </Item>
+                              </ActiveSounds>
+                              <IncidentSounds>
+                                <InfectedFire>
+                                  <Item>
+                                    <Sound>214659</Sound>
+                                  </Item>
+                                </InfectedFire>
+                              </IncidentSounds>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <UpgradeList />
+                            <Factory7>
+                              <NeededFertility>120013</NeededFertility>
+                            </Factory7>
+                            <FactoryBase>
+                              <FactoryOutputs>
+                                <Item>
+                                  <Product>1010251</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>4</StorageAmount>
+                                </Item>
+                              </FactoryOutputs>
+                              <CycleTime>30</CycleTime>
+                            </FactoryBase>
+                            <LogisticNode />
+                            <ModuleOwner>
+                              <ModuleLimits>
+                                <Main>
+                                  <Limit>72</Limit>
+                                </Main>
+                              </ModuleLimits>
+                              <ConstructionOptions>
+                                <Item>
+                                  <ModuleGUID>1800000113</ModuleGUID>
+                                </Item>
+                              </ConstructionOptions>
+							  <AdditionalModule>269839</AdditionalModule>
+                              <ModuleBuildRadius>0</ModuleBuildRadius>
+                            </ModuleOwner>
+                            <AmbientMoodProvider>
+                              <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>15</Amount>
+                                  <InactiveAmount>10</InactiveAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010052</Product>
+                                  <Amount>10</Amount>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>1500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <IncidentInfectable>
+                              <Infectable>
+                                <Illness>
+                                  <Escalated>0</Escalated>
+                                </Illness>
+                              </Infectable>
+                              <Explosion>
+                                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                              </Explosion>
+                              <IncidentInfectionChanceFactors>
+                                <Fire>
+                                  <DensityDistance>20</DensityDistance>
+                                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                                </Fire>
+                              </IncidentInfectionChanceFactors>
+                            </IncidentInfectable>
+                            <Pausable />
+                            <Culture>
+                              <CultureType>Landscaping</CultureType>
+                            </Culture>
+                            <QuestObject />
+							<Industrializable />
+                            <Motorizable>
+                              <MotorizableType>Tractor</MotorizableType>
+                            </Motorizable>							
+                          </Values>
+                        </Asset>
+</ModOp>
+<ModOp Type="addNextSibling" GUID='1010334'><!--FELD-->
+                        <Asset>
+                          <Template>Farmfield</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>1800000113</GUID>
+                              <Name>donny_farm_01_field (Sugar Cane Field)</Name>
+                              <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking>
+                              <GroundDecalAsset>101058</GroundDecalAsset>
+                              <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                            </Blocking>
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>25</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_01.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_02.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_03.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_04.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_05.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_06.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_07.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_08.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_09.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/agriculture_colony01_01/agriculture_colony01_01_field_10.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh />
+                            <Selection />
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Sugar Cane Crop</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5304</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter />
+                            <FeedbackController />
+                            <Infolayer />
+                            <BuildingModule />
+                            <AmbientMoodProvider>
+                              <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                            </AmbientMoodProvider>
+                          </Values>
+                        </Asset>
+</ModOp>
+<ModOp Type="addNextSibling" GUID='1010343'><!--RUM PRODUKTION-->
+                        <Asset>
+                          <Template>FactoryBuilding7</Template>
+                          <Values>
+                            <Standard>
+                              <GUID>1800000104</GUID>
+                              <Name>food_mod_01 (Old Jacks Rum)</Name>
+                              <IconFilename>data/modgraphics/icons/old_jack_rum.png</IconFilename>
+                            </Standard>
+                            <Building>
+                              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                              <AssociatedRegions>Moderate</AssociatedRegions>
+                            </Building>
+                            <Blocking />
+                            <Cost>
+                              <Costs>
+                                <Item>
+                                  <Ingredient>1010017</Ingredient>
+                                  <Amount>5500</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010196</Ingredient>
+                                  <Amount>45</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010205</Ingredient>
+								  <Amount>35</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010218</Ingredient>
+								  <Amount>8</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010207</Ingredient>
+								  <Amount>12</Amount>
+                                </Item>
+                                <Item>
+                                  <Ingredient>1010202</Ingredient>
+                                </Item>
+                              </Costs>
+                            </Cost>
+                            <Object>
+                              <Variations>
+                                <Item>
+                                  <Filename>data/graphics/buildings/production/food_colony01_01/food_colony01_01.cfg</Filename>
+                                </Item>
+                              </Variations>
+                            </Object>
+                            <Mesh />
+                            <Selection>
+                              <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                              <Colors>
+                                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                              </Colors>
+                            </Selection>
+                            <Text>
+                              <LocaText>
+                                <English>
+                                  <Text>Old Jacks Rum</Text>
+                                  <Status>Exported</Status>
+                                  <ExportCount>1</ExportCount>
+                                </English>
+                              </LocaText>
+                              <LineID>5310</LineID>
+                            </Text>
+                            <Constructable />
+                            <Locked />
+                            <SoundEmitter>
+                              <ActiveSounds>
+                                <Item>
+                                  <Sound>200809</Sound>
+                                </Item>
+                                <Item>
+                                  <Sound>200654</Sound>
+                                </Item>
+                              </ActiveSounds>
+                            </SoundEmitter>
+                            <FeedbackController />
+                            <Infolayer />
+                            <UpgradeList />
+                            <RandomDummySpawner />
+                            <Factory7 />
+                            <FactoryBase>
+                              <FactoryInputs>
+                                <Item>
+                                  <Product>1010241</Product>
+                                  <Amount>0.5</Amount>
+                                  <StorageAmount>8</StorageAmount>
+                                </Item>							  
+                                <Item>
+                                  <Product>1010195</Product>
+                                  <Amount>0.5</Amount>
+                                  <StorageAmount>6</StorageAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010251</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>8</StorageAmount>
+                                </Item>
+                              </FactoryInputs>
+                              <FactoryOutputs>
+                                <Item>
+                                  <Product>1010257</Product>
+                                  <Amount>1</Amount>
+                                  <StorageAmount>4</StorageAmount>
+                                </Item>
+                              </FactoryOutputs>
+							  <CycleTime>60</CycleTime>
+                            </FactoryBase>
+                            <LogisticNode />
+                            <AmbientMoodProvider>
+                              <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                            </AmbientMoodProvider>
+                            <Maintenance>
+                              <Maintenances>
+                                <Item>
+                                  <Product>1010017</Product>
+                                  <Amount>50</Amount>
+                                  <InactiveAmount>5</InactiveAmount>
+                                </Item>
+                                <Item>
+                                  <Product>1010115</Product>
+                                  <Amount>45</Amount>
+                                </Item>
+                              </Maintenances>
+                            </Maintenance>
+                            <Attackable>
+                              <MaximumHitPoints>4500</MaximumHitPoints>
+                              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                            </Attackable>
+                            <Pausable />
+                            <IncidentInfectable>
+                              <Explosion>
+                                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                                <DamageExplosionChance>60</DamageExplosionChance>
+                              </Explosion>
+                              <IncidentInfectionChanceFactors>
+                                <Fire>
+                                  <DensityDistance>20</DensityDistance>
+                                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                                </Fire>
+                                <Explosion>
+                                  <BaseChance>5</BaseChance>
+                                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                  <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+                                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                                </Explosion>
+                              </IncidentInfectionChanceFactors>
+                            </IncidentInfectable>
+                            <Electric>
+                              <BoostedByElectricity>0</BoostedByElectricity>
+                            </Electric>
+                            <Culture>
+                              <CultureType>Culture</CultureType>
+                            </Culture>
+                            <ItemGenerator />
+                            <QuestObject />
+                          </Values>
+                        </Asset>
+
+</ModOp>
+<!--####	########################		####-->
+
+
+
+<!--####	Gebäudeeffekte		####-->
+    <ModOp Type="addNextSibling" GUID='270108' Path="/Values/AssetPool/AssetList/Item[Asset='1010329']">
+                                <Item>
+                                  <Asset>1800000103</Asset>
+                                </Item>
+</ModOp>
+    <ModOp Type="addNextSibling" GUID='270127' Path="/Values/AssetPool/AssetList/Item[Asset='1010329']">
+                                <Item>
+                                  <Asset>1800000103</Asset>
+                                </Item>
+</ModOp>
+    <ModOp Type="addNextSibling" GUID='270158' Path="/Values/AssetPool/AssetList/Item[Asset='1010329']">
+                                <Item>
+                                  <Asset>1800000103</Asset>
+                                </Item>
+</ModOp>
+    <ModOp Type="addNextSibling" GUID='190096' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193659' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='6000018' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190011' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190901' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193778' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193879' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190865' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191472' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='192566' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='193856' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190644' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190685' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190646' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190648' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190649' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190650' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116176' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='116185' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010340']">
+                                <Item>
+                                  <GUID>1800000104</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190687' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190689' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190691' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='191330' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190931' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190932' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='190933' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010329']">
+                                <Item>
+                                  <GUID>1800000103</GUID>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='700008' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010329']">
+                                <Item>
+                                  <Asset>1800000103</Asset>
+                                </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='700010' Path="/Values/PlayerCounterContextPool/Contexts/Item[Asset='1010329']">
+                                <Item>
+                                  <Asset>1800000103</Asset>
+                                </Item>
+    </ModOp>
+<!--####	########################		####-->
+</ModOps>
