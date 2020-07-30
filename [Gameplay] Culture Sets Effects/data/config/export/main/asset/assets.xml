@@ -35,7 +35,7 @@
 				<IncidentInfectableUpgrade />
 				<CultureUpgrade>
 					<AttractivenessUpgrade>
-						<Value>1000</Value>
+						<Value>5000</Value>
 					</AttractivenessUpgrade>
 				</CultureUpgrade>
 			</Values>
@@ -187,6 +187,375 @@
 						<Value>-10</Value>
 					</NeededAreaPercentUpgrade>
 				</FactoryUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Ocean Predators, buff all harbour production buildings, 1 additional gold ore every 5 rounds-->
+	<ModOp Type="replace" GUID='191140'>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191140</GUID>
+					<Name>marine predators</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_swordfish.png</IconFilename>
+					<InfoDescription>15760</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>193400</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ocean Predators Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21920</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+					<AdditionalOutput>
+						<Item>
+							<Product>1010233</Product>
+							<AdditionalOutputCycle>5</AdditionalOutputCycle>
+							<Amount>1</Amount>
+						</Item>
+					</AdditionalOutput>
+				</FactoryUpgrade>
+				<BuildingUpgrade>
+					<MaintenanceUpgrade>
+						<Value>-10</Value>
+						<Percental>1</Percental>
+					</MaintenanceUpgrade>
+					<WorkforceAmountUpgrade>
+						<Value>-10</Value>
+						<Percental>1</Percental>
+					</WorkforceAmountUpgrade>
+				</BuildingUpgrade>
+				<Buff />
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<ElectricUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Cordillera, buff all residence buildings with additional workforce-->
+	<ModOp Type="replace" GUID='191132'>
+		<Asset>
+			<Template>TownhallBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191132</GUID>
+					<Name>andes</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_vulture_ver2.png</IconFilename>
+					<InfoDescription>15757</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190762</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Cordillera Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21917</LineID>
+				</Text>
+				<BuildingUpgrade />
+				<Buff />
+				<PopulationUpgrade />
+				<ResidenceUpgrade>
+					<WorkforceModifierInPercent>30</WorkforceModifierInPercent>
+				</ResidenceUpgrade>
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade />
+				<InfluenceSourceUpgrade />
+				<WarehouseUpgrade />
+				<DistributionUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Domestic Animals, buff all animal farms-->
+	<ModOp Type="replace" GUID='191139'>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191139</GUID>
+					<Name>farm</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_sheep.png</IconFilename>
+					<InfoDescription>15764</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190872</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Farm Animal Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21924</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<BuildingUpgrade>
+					<MaintenanceUpgrade>
+						<Value>-10</Value>
+						<Percental>1</Percental>
+					</MaintenanceUpgrade>
+					<WorkforceAmountUpgrade>
+						<Value>-10</Value>
+						<Percental>1</Percental>
+					</WorkforceAmountUpgrade>
+				</BuildingUpgrade>
+				<Buff />
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<ElectricUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Great Coral Reef, buff all residence buildings with additional happiness-->
+	<ModOp Type="replace" GUID='191135'>
+		<Asset>
+			<Template>TownhallBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191135</GUID>
+					<Name>ocean</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_lionfish.png</IconFilename>
+					<InfoDescription>15765</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190762</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Great Coral Reef Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21925</LineID>
+				</Text>
+				<BuildingUpgrade />
+				<Buff />
+				<PopulationUpgrade />
+				<ResidenceUpgrade>
+					<AdditionalHappiness>10</AdditionalHappiness>
+				</ResidenceUpgrade>
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade />
+				<InfluenceSourceUpgrade />
+				<WarehouseUpgrade />
+				<DistributionUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Polar Circle, buff all cloth industries-->
+	<ModOp Type="replace" GUID='191137'>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191137</GUID>
+					<Name>arctic</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/animals/icon_polar_bear.png</IconFilename>
+					<InfoDescription>15762</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>1010325</GUID>
+						</Item>
+						<Item>
+							<GUID>1010315</GUID>
+						</Item>
+						<Item>
+							<GUID>101273</GUID>
+						</Item>
+						<Item>
+							<GUID>101266</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Polar Circle Park</Text>
+							<Status>Exported</Status>
+							<ExportCount>2</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21922</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<BuildingUpgrade>
+					<WorkforceAmountUpgrade>
+						<Value>-25</Value>
+						<Percental>1</Percental>
+					</WorkforceAmountUpgrade>
+				</BuildingUpgrade>
+				<Buff />
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<ElectricUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Origin of Mankind, buff all fisheries, crop farms, animal farms, and hunting cabins-->
+	<ModOp Type="replace" GUID='191147'>
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191147</GUID>
+					<Name>prehistorical</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_neanderthaler.png</IconFilename>
+					<InfoDescription>15768</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190779</GUID>
+						</Item>
+						<Item>
+							<GUID>190865</GUID>
+						</Item>
+						<Item>
+							<GUID>190872</GUID>
+						</Item>
+						<Item>
+							<GUID>1010558</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Origin of Mankind Exhibition</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21929</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<BuildingUpgrade>
+					<WorkforceAmountUpgrade>
+						<Value>-10</Value>
+						<Percental>1</Percental>
+					</WorkforceAmountUpgrade>
+				</BuildingUpgrade>
+				<Buff />
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<ElectricUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!--Jurassic, buff all residence with more taxes-->
+	<ModOp Type="replace" GUID='191143'>
+		<Asset>
+			<Template>TownhallBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>191143</GUID>
+					<Name>jurassic</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_t_rex.png</IconFilename>
+					<InfoDescription>15773</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190762</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Jurassic Exhibition</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>21933</LineID>
+				</Text>
+				<BuildingUpgrade />
+				<Buff />
+				<PopulationUpgrade />
+				<ResidenceUpgrade>
+					<TaxModifierInPercent>30</TaxModifierInPercent>
+				</ResidenceUpgrade>
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade />
+				<InfluenceSourceUpgrade />
+				<WarehouseUpgrade />
+				<DistributionUpgrade />
+				<ItemContainerUpgrade />
 			</Values>
 		</Asset>
 	</ModOp>
