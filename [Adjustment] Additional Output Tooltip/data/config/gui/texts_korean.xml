@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>이 늙은 어부는 혼자 일해도 불평하는 일이 없습니다.
+
+Produces 수지 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>대롱으로 숨 쉬는 것을 아주 좋아합니다.
+
+Produces 어유 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>물에 들어가면 아가미가 생긴다는 소문이 있습니다.
+
+Produces 수지 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>고래를 잡기 위해 죽음을 불사하고 세상 끝까지 쫓아갈 수 있습니다.
+
+Produces 수지 every 5th cycle.
+Produces 금 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>"모든 왕관은 자신이 만든다"고 궁정 인사들에게 입버릇처럼 말합니다.
+
+Produces 회중시계 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>짤주머니만 있으면 뭐든 만들어낼 수 있습니다.
+
+Produces 초콜릿 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>앙투안이 왕실 주방에서 나오자 아치발드 경은 "천국의 맛을 본 것 같다"며 눈물을 흘렸습니다.
+
+Produces 포도 every 6th cycle.
+Produces 초콜릿 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>토양학을 전혀 모르는 것은 아닙니다. 흙이 곧 그의 삶입니다!
+
+Produces 코코아 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>부지런히 사다리를 올라 풍부한 식견을 쌓았습니다.
+
+Produces 담배 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>브라운 부인은 챙이 넓은 모자를 써서 자신의 작물만큼 햇볕을 많이 타지 않습니다.
+
+Produces 코코아 every 11th cycle.
+Produces 생고무 every 12th cycle.
+Produces 목화 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>헤르만은 가을에 길고 검은 꼬투리가 떨어지는 아카시아를 제일 좋아합니다.
+
+Produces 피망 every 12th cycle.
+Produces 감자 every 11th cycle.
+Produces 포도 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>알 자히르 박사가 키운 나무에는 마치 고유한 개성을 지닌 살아있는 조각같은 아름다움이 있습니다. 열매를 맺든 안맺든 말이죠.
+
+Produces 피망 every 16th cycle.
+Produces 감자 every 13th cycle.
+Produces 포도 every 17th cycle.
+Produces 곡물 every 14th cycle.
+Produces 홉 every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>숲에서 성냥을 들고 있는 모습을 그에게 들켜서는 안 됩니다.
+
+Produces 생고무 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>"필요한 것만 가져가고 남아서 버리는 일은 없도록 하세요."
+
+Produces 양모 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>로드리게스 양이 미래에 삼림 벌채가 문제가 될 것이라는 사실을 잘 알고 있습니다.
+
+Produces 목화 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>그는 피부에 뱀 가죽을 문지르고 둥지에 들어가 방울뱀을 모조리 훔쳤습니다.
+
+Produces 소고기 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>농업은 전통과 과학의 만남입니다. 이본느는 이 두 분야에 얕은 지식을 갖춘 농부입니다.
+
+Produces 슈냅스 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>그의 포도주에는 침이 섞여 있고, 후추는 검사를 받았습니다. 그래서 어떠냐고요? 최고죠.
+
+Produces 샴페인 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>외르크는 골드러시가 본격적으로 시작될 때 현장에 가장 먼저 도착합니다. 사촌 카를과 같은 성품을 지니고 있습니다.
+
+Produces 금광석 every 6th cycle.
+Produces 석유 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>오토는 고객들에게 장밋빛 세계를 선사해줄 수 있습니다.
+
+Produces 유리 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>비구면 렌즈의 달인인 게르하르트는 멋진 안경을 만들어 학생들에게 인기가 좋습니다.
+
+Produces 회중시계 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>비누의 세세한 부분을 향한 그의 집착은 종교적인 수준이라 가히 위생의 대사제라 불러도 과언이 아닙니다. 덕분에 종종 글리세라이드 폭발사고가 생기기도 합니다…
+
+Produces 다이너마이트 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>헌트 여사는 위대한 클라인이 셋째 주 화요일마다 자신의 집에 있는 시계를 손봐준다고 했습니다. 작고한 남편이 했던 것처럼 말입니다.
+
+Produces 보석 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>독창적인 디자인을 갖췄습니다.
+
+Produces 돛 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>릴리는 다른 스타일도 거침없이 시도합니다.
+
+Produces 판초 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>직물의 연금술사이자 유능한 예술가인 프랑케는 털을 면으로, 면을 털로 만들 수 있습니다.
+
+Produces 판초 every 12th cycle.
+Produces 작업복 every 12th cycle.
+Produces 중산모 every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>색상의 세계를 통일하려 하는 스미디 여사는 완전히 색다른 패션을 추구합니다.
+
+Produces 판초 every 6th cycle.
+Produces 중산모 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>그녀에게 판초는 오랫동안 이어져 온 전통입니다.
+
+Produces 돛 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>마리아나는 모범적인 디자이너로, 그녀의 신대륙 테마가 곧 패션의 미래입니다.
+
+Produces 작업복 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>진정한 디자이너라 할 수 있습니다. 디자인에 옷을 입는 자의 품성을 반영합니다. 말칭의 옷이 어떻게 되어가는지는 절대 묻지 마세요.
+
+Produces 작업복 every 2nd cycle.
+Produces 모피 코트 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>그의 프랄린은 겉은 딱딱하지만 속은 폭신합니다.
+
+Produces 커피 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>고객이 즐거울 수만 있다면 뭐든 초콜릿에 담글 사람입니다.
+
+Produces 초콜릿 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>크로캉부슈로는 단연 최고입니다.
+
+Produces 설탕 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>여왕은 어렸을 적, 7미터에 달하는 그가 만든 "부활절 토끼"를 불에 밀어 넣으며 "네 토끼는 초콜릿 퐁듀야!"라고 꽥 소리쳤습니다.
+
+Produces 설탕 every 4th cycle.
+Produces 럼주 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>현장 근무가 체질입니다.
+
+Produces 석유 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>증거로 미루어보아 그녀는 아주 영리한 사람이 분명합니다.
+
+Produces 필라멘트 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>놀라운 아이디어로 번뜩이는 등대 같은 존재입니다.
+
+Produces 석유 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>번개를 지휘합니다. 그의 가족은 비텐베르크 출신으로 가훈은 "가만히 있는 것은 물러서는 것"입니다.
+
+Produces 회중시계 every 16th cycle.
+Produces 안경 every 14th cycle.
+Produces 자전거 every 15th cycle.
+Produces 증기차 every 17th cycle.
+Produces 재봉틀 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>세실리아는 커피와 초콜릿을 섞는 것이야말로 최고의 궁합이라고 생각합니다.
+
+Produces 초콜릿 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>신대륙 원주민인 마르코는 자신이 개발한 에스프레소 머신으로 세계 전역에서 명성을 떨치고 있습니다.
+
+Produces 커피콩 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>15세기부터 양조를 시작한 힐라리우스의 수도원에서는 아직도 신구의 조화를 이룩하기 위해 노력하고 있습니다.
+
+Produces 럼주 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>틀라욜로티는 대지의 여신 아들처럼 고대 달력에 따라 옥수수를 심는데, 옥수수 성장 속도가 매우 놀랍습니다.
+
+Produces 플랜테인 튀김 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>이 사람이 도축하면 버려지는 부분은 하나도 없습니다.
+
+Produces 수지 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>샨텔은 육, 해, 공, 모든 종류의 고기를 준비했습니다.
+
+Produces 수지 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>부숑의 주인인 막심은 자신의 형제인 알론소와 사뭇 다른 직업을 택했습니다.
+
+Produces 굴라시 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>미셸은 계절별 재료와 전통 조리 방식을 사용합니다.
+
+Produces 소시지 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>살림의 달인 메이슨 부인은 위블삭의 어지러운 집구석을 정돈할 때도 평정심을 잃지 않았습니다.
+
+Produces 토르티야 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>포르카스가 요리 시범을 보이는 날이면 많은 사람들이 그의 뛰어난 쇼맨십을 보기 위해 몰려옵니다.
+
+Produces 소시지 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>일화를 듣다 보면 긴장감이 해소됩니다.
+
+Produces 자전거 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>수잔나가 성공하게 된 계기는 하이브리드 증기 실린더 덕분입니다.
+
+Produces 전구 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>다리오는 마치 여덟 개의 손에 각기 다른 도구를 들고 있는 것처럼 일합니다. 문어가 따로 없습니다.
+
+Produces 회중시계 every 8th cycle.
+Produces 축음기 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>아이언브라이트가 현대 엔지니어링에 기여한 바는 엄청납니다.
+
+Produces 고급 무기 every 3rd cycle.
+Produces 증기 모터 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>항상 작업복을 착용합니다.
+
+Produces 나무 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>어린 시절 손에 입은 화상으로 그녀의 열정은 더욱 불타올랐습니다.
+
+Produces 진주 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>콧대 높고 냉혹한 인물입니다. 그가 제강법을 개발해낸 공을 생각하면 그럴 만도 합니다.
+
+Produces 합판 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>건설적인 태도로 지금의 지위를 얻었습니다.
+
+Produces 철재 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>블릭워스 씨가 웜웨이즈 교도소를 건설할 수 있도록 도운 이 남자는 또 다른 콘크리트 건물을 지을 준비가 되어있습니다.
+
+Produces 합판 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>로드리고가 바르바코아를 구울 때면 고기 냄새가 사방으로 퍼집니다.
+
+Produces 소고기 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>반 데르 마크는 양 떼를 잘 몰고 영리한, 늑대와 닮은 외형의 개들을 부립니다.
+
+Produces 알파카 양모 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>그에게 돌 치는 소리는 음악이라 휘파람으로 예전부터 내려오는 멜로디를 흥얼거리게 됩니다.
+
+Produces 진주 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>사람들은 지질 조사를 위해 산을 수없이 오르내리는 매클라우드의 모습을 보고 그 산을 매클라우드 산이라 부르기 시작했습니다.
+
+Produces 진주 every 3rd cycle.
+Produces 금광석 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>루이스 경은 인류에 알려진 증류 방법이란 방법은 모두 실험하고 개량했습니다.
+
+Produces 럼주 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>핸콕의 삶은 완벽한 감자를 찾으러 다니는 여정 그 자체입니다. 그는 완벽한 토질과 각종 감자를 찾기 위해 이 세상에 알려진 곳은 거의 다 돌아다녔습니다. 이제는 가장 높은 금액을 제시하는 자에게 자신만의 비법을 판매합니다.(감자로 지급 가능)
+
+Produces 감자 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>트릴로니에서 여왕을 도운 후 합류했습니다. 여왕은 당신이 부를 더 축적할 수 있도록 왕실 금고에 있었던 수잔나를 보냈습니다.
+
+Produces 금 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>모든 패턴을 완벽하게 숙지하고 있어서 동물 가죽을 전혀 낭비하지 않습니다.
+
+Produces 바다표범 가죽 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>힘센 개는 좋은 동료가 되고, 튼튼한 거위는 좋은 깃털을 준다는 사실을 잘 알고 있습니다.
+
+Produces 카리부 고기 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>토클로는 사냥감을 존중하여 필요한 만큼만 가져갑니다. 새 둥지에서 깃털을 수집하기도 합니다.
+
+Produces 거위 깃털 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>목재를 구하기 어려운 경우에는 물에 떠다니는 나무가 어디에 모여드는지 알아 둬야 합니다.
+
+Produces 목재 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>페미컨에는 지방이 많이 포함되어야 한다는 사실을 알고 있지만, 산드로는 다른 용도로 사용할 기름을 남길 수 있습니다.
+
+Produces 기름 램프 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>향신료에 술, 그리고 손잡이를 몇 번 비틀어주면 겨울이 그리 춥게 느껴지지 않습니다.
+
+Produces 슈냅스 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>통조림을 만들 수 있는 작은 기계입니다. 네이트는 자투리 말고기를 통조림으로 만들어 소고기처럼 덩어리채로 판매하려고 하기도 했습니다.
+
+Produces 통조림 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>부지런히 가스를 찾아다니는 노새입니다. 구리와 아연이 있을 때만 멈춥니다.
+
+Produces 아연 every 2nd cycle.
+Produces 구리 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>언젠가 커피의 대체품으로 인기를 누릴지 모를 소다와 채소 농축액 혼합물을 만듭니다.
+
+Produces 커피 every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>담뱃잎, 지푸라기, 개털, 호박 주위에 있는 잡초 등, 뭐든 시가에 넣어도 됩니다.
+
+Produces 시가 every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>성층권으로 빨려 들어간 금속은 그곳에 머물다가 다시 땅에 떨어질 것입니다.
+
+Produces 철 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>금과 감자를 동시에 수확합니다. 머지않아 산처럼 쌓인 감자 위에 올라 앉은 거부가 될 수 있을 겁니다!
+
+Produces 금광석 every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>

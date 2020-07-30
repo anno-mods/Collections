@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>Этому старому хрычу холод нипочем.
+
+Produces Сало every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>Идеально подходит для того, чтобы дышать через трубку.
+
+Produces Рыбий жир every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>Другие моряки говорят, что под водой она отращивает жабры.
+
+Produces Сало every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>Будет преследовать добычу, даже если придется отправиться на край света.
+
+Produces Сало every 5th cycle.
+Produces Золото every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>"Куда корона - туда и я" - перл из его речи перед королевским советом.
+
+Produces Карманные часы every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>Вы не представляете, что она может сделать с помощью кондитерского мешка.
+
+Produces Шоколад every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>"У нас отняли частицу рая", - сказал сэр Арчибальд, когда Антуан ушел с должности королевского повара.
+
+Produces Виноград every 6th cycle.
+Produces Шоколад every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>...однако знаком с почвоведением - всю жизнь проводит в грязи!
+
+Produces Какао every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>Взобралась по социальной лестнице, поэтому теперь у нее отличный обзор.
+
+Produces Табак every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>Миссис Браун всегда носит широкополые шляпы, а потому все солнечные лучи достаются ее злакам.
+
+Produces Какао every 11th cycle.
+Produces Каучук every 12th cycle.
+Produces Хлопок every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>Любимое дерево Германа - акация. Осенью с нее падают длинные темные стручки.
+
+Produces Перец every 12th cycle.
+Produces Картофель every 11th cycle.
+Produces Виноград every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>Все деревья доктора аль-Захира - живые скульптуры, и каждое из них обладает собственным характером.
+
+Produces Перец every 16th cycle.
+Produces Картофель every 13th cycle.
+Produces Виноград every 17th cycle.
+Produces Зерно every 14th cycle.
+Produces Хмель every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>Если он поймает вас в лесу со спичкой в руке, будет беда.
+
+Produces Каучук every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>"Бери только то, что нужно, не расходуй ничего зря".
+
+Produces Шерсть every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>Мисс Родригез знает, что вырубка лесов скоро станет одной из главных проблем.
+
+Produces Хлопок every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>Натеревшись змеиной кожей, он залез в гнездо к гремучим змеям и украл все погремушки.
+
+Produces Говядина every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>Сельское хозяйство опирается на традиции и науку. Ивонна немного знает и о том, и о другом.
+
+Produces Шнапс every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>После дегустации его вино и перцы назвали отменными.
+
+Produces Игристое вино every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>Йорг загадочным образом всегда оказывается там, где скоро начнется золотая лихорадка. Так же жестокосерден, как и его кузен Карл.
+
+Produces Золотая руда every 6th cycle.
+Produces Нефть every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>Отто готов предоставить любому клиенту розовые очки.
+
+Produces Стекло every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>От мастерски изготовленных очков Герхардом глаз не оторвать.
+
+Produces Карманные часы every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>Скрупулёзное внимание к деталям делает его королем гигиены. Правда, без эпизодических взрывов в его мастерской не обходится…
+
+Produces Динамит every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>Леди Хант настаивает, чтобы великий Кляйн настраивал часы в ее доме каждый третий вторник, прямо как нравилось ее покойному мужу.
+
+Produces Украшения every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>У нее свои планы и выкройки.
+
+Produces Паруса every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>Лили никогда не боялась экспериментировать со стилем одежды.
+
+Produces Пончо every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>Франк - алхимик от мира текстиля, за годы упорного труда познавший все аспекты своего мастерства и способный превратить мех в хлопок и обратно!
+
+Produces Пончо every 12th cycle.
+Produces Рабочая одежда every 12th cycle.
+Produces Котелки every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>Леди Смайт хочет объединить в своих платьях столько цвета, что ей приходится выдумывать их выкройки с нуля.
+
+Produces Пончо every 6th cycle.
+Produces Котелки every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>Для нее пончо не просто одежда, а многовековая традиция.
+
+Produces Паруса every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>Марианна - модельер будущего, создающий одежду в стиле Нового Света.
+
+Produces Рабочая одежда every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>Мастер своего дела, его костюмы - зеркала души клиентов. Но никогда не спрашивайте его, каково шить наряды Мальхингу.
+
+Produces Рабочая одежда every 2nd cycle.
+Produces Шубы every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>Его конфеты жесткие снаружи и мягкие внутри.
+
+Produces Кофе every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>Все что угодно зальет шоколадом, лишь бы клиенты были рады.
+
+Produces Шоколад every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>Возвышается над остальными шоколатье, как пирамида из профитролей.
+
+Produces Сахар every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>"Шоколадное фондю!" - кричит юная Королева, толкая семиметрового "Пасхального кролика" в огонь.
+
+Produces Сахар every 4th cycle.
+Produces Ром every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>Он всегда находил действие электромагнитного поля чрезвычайно притягательным.
+
+Produces Нефть every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>Невозможно не заметить искру ее гениальности.
+
+Produces Нити накала every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>Он просто сыплет блестящими идеями.
+
+Produces Нефть every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>Повелитель молнии из Виттенберга. Его семейный девиз: "стоять на месте - это все равно что делать шаг назад".
+
+Produces Карманные часы every 16th cycle.
+Produces Очки every 14th cycle.
+Produces Пенни-фартинги every 15th cycle.
+Produces Паровой транспорт every 17th cycle.
+Produces Швейные машины every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>Сесилия уверена, что кофе и шоколад отлично сочетаются.
+
+Produces Шоколад every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>Марко - уроженец Нового Света, известный по всему миру благодаря своему изобретению - машине для эспрессо.
+
+Produces Кофейные зерна every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>Хотя обитатели монастыря Илария готовят спиртное с XV века, их напитки сочетают в себе старое и новое.
+
+Produces Ром every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>Как истинный сын богини земли, Тлайолотл сажает кукурузу по древнему календарю, и она растет с сумасшедшей скоростью.
+
+Produces Жареные бананы every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>Не даст пропасть ни одному кусочку мяса убитого зверя.
+
+Produces Сало every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>Будь то плавники, перья или мех - Шантель приготовит все.
+
+Produces Сало every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>Максим, великий герцог бушона, избрал совершенно иную карьеру, нежели его брат Алонсо.
+
+Produces Гуляш every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>Мишель - сторонник использования сезонных продуктов и традиционной кулинарии.
+
+Produces Колбаски every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>Госпожа Мейсон, прирожденная хозяйка в любом доме, даже глазом не моргнула, наводя порядок в жилище мистера Мямлинса.
+
+Produces Тортильи every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>Неповторимый характер М. Форкаса волей-неволей влечет зрителей на его кулинарные шоу.
+
+Produces Колбаски every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>Его анекдоты помогают спустить пар.
+
+Produces Пенни-фартинги every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>Своим успехом Сюзанна обязана гибридным паровым цилиндрам.
+
+Produces Электролампы every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>Иногда кажется, что Дарио - осьминог, столько всего он успевает делать одновременно.
+
+Produces Карманные часы every 8th cycle.
+Produces Граммофоны every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>Вклад Айронбрайта в современное инженерное дело можно назвать грандиозным.
+
+Produces Усовершенствованное оружие every 3rd cycle.
+Produces Паровые двигатели every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>Носит спецовку.
+
+Produces Древесина every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>В детстве она обожгла руки, но на ее любовь к огню это никак не повлияло.
+
+Produces Жемчуг every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>Занчи придумал, как выплавлять сталь, поэтому, наверное, у него есть право быть настолько заносчивым и жестоким. 
+
+Produces Шпон every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>Конструктивный подход сделал его позицию прочной, как бетон.
+
+Produces Стальные балки every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>Торн, который помог мистеру Хмурсону построить тюрьму Вормвейз, готов взяться за новую работу.
+
+Produces Шпон every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>Родриго готовит барбакоа, и на запах мяса сбегаются все.
+
+Produces Говядина every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>Ван дер Марк разводит смышленых собак, похожих на волков, которые могут привести стадо домой.
+
+Produces Шерсть альпака every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>Вулканические отложения кажутся ему нотной записью, передающей мелодию веков.
+
+Produces Жемчуг every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>Он столько раз поднимался на гору Маклауд, чтобы убедиться в точности своих данных, что ее назвали в его честь. 
+
+Produces Жемчуг every 3rd cycle.
+Produces Золотая руда every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>Сэр Льюис изучил и усовершенствовал все способы дистилляции, известные человечеству.
+
+Produces Ром every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>Хэнкок всю жизнь посвятил поиску идеальной картофелины. Он обошел почти весь свет в попытках найти подходящую почву и клубни. Теперь Хэнкок продает свои знания тем, кто больше предложит (возможна оплата картофелем.)
+
+Produces Картофель every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>Присоединилась к вам после того, как вы помогли Ее Величеству у мыса Трелони. Раньше Сюзанна работала на Королевский монетный двор, а потому Королева решила отправить ее к вам, для того чтобы та помогла улучшить ваше финансовое положение.
+
+Produces Золото every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>Знает наизусть все выкройки, ни кусочка шкуры зря не потратит.
+
+Produces Кожа тюленя every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>Она знает, что из сильных собак получаются прекрасные спутники, а у крупных гусей – лучшие перья.
+
+Produces Мясо карибу every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>Токло с уважением относится к животным, на которых охотится, а потому берет ровно столько, сколько ему нужно. Собирает перья из птичьих гнезд.
+
+Produces Гусиные перья every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>Когда деревья вокруг можно по пальцам пересчитать, приходится запоминать места, где можно найти выброшенную на берег корягу.
+
+Produces Доски every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>Сандро, конечно же, знает, что пеммикан должен содержать много жира, однако все равно использует излишки для других нужд.
+
+Produces Масляные лампы every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>Немножко пряностей, чуть-чуть алкоголя, пару раз повернуть ручку – и вот уже зима не кажется такой холодной.
+
+Produces Шнапс every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>Маленькое устройство для консервации продуктов. С его помощью Нейт как-то раз законсервировал лошадиное мясо, чтобы потом продать его под видом говядины.
+
+Produces Консервы every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>Так сконцентрирован на добыче газа, что остановится разве что обнаружив медь или цинк.
+
+Produces Цинк every 2nd cycle.
+Produces Медь every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>Смешивает газированную воду с неким растительным экстрактом. Возможно, этот напиток однажды станет популярной альтернативой кофе.
+
+Produces Кофе every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>Сигареты можно делать из чего угодно: из табака, из сена, из собачьей шерсти и даже из сорняков, растущих на тыквенных грядках.
+
+Produces Сигары every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>Металлы уносит в стратосферу, где они находятся до тех пор, пока наконец не упадут на землю
+
+Produces Железо every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>Добывает золото и картофель одновременно. В будущем все мы станем безумно богатыми, ведь у нас будут горы картофеля!
+
+Produces Золотая руда every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>

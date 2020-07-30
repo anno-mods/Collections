@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>この洞窟海獣に寒い地域で出会うことはない。
+
+Produces 獣脂 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>管を通して呼吸することを喜んで受け入れている。
+
+Produces 魚油 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>仲間の船乗りたちは、水中での彼女にはエラがあると断言する。
+
+Produces 獣脂 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>自らの命を喪うことになろうとも、獲物の鯨を地の果てまで追いかける男。
+
+Produces 獣脂 every 5th cycle.
+Produces 金 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>「王冠の向かう先には必ず着いていく」とは彼が宮廷評議会に向けて放った言葉である。
+
+Produces 懐中時計 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>絞り袋1つで、とても信じられないようなことを成し遂げる。
+
+Produces チョコレート every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>「まるで天国そのものを味わったかのようだったのに」アーチボルド卿は、アントワンが宮廷の台所を去った際にそう言って泣いた。
+
+Produces ブドウ every 6th cycle.
+Produces チョコレート every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>だが応用土壌学にも縁がない。彼は土壌に命を賭けている！
+
+Produces ココア every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>子供の頃に木登りをして、これを一生の仕事にしたいと心に決めた。
+
+Produces タバコ every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>ブラウン婦人は常につば広帽子をかぶっているので、育てている植物ほど陽光を浴びない。
+
+Produces ココア every 11th cycle.
+Produces 天然ゴム every 12th cycle.
+Produces 木綿 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>ハーマンはニセアカシアがお気に入り。ニセアカシアは秋になると実を落とす。
+
+Produces 赤トウガラシ every 12th cycle.
+Produces ジャガイモ every 11th cycle.
+Produces ブドウ every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>果物の実がなっていようとなかろうと、アルザヒル博士の木々は生きた彫刻であり、それぞれが個性を持っている。
+
+Produces 赤トウガラシ every 16th cycle.
+Produces ジャガイモ every 13th cycle.
+Produces ブドウ every 17th cycle.
+Produces 穀物 every 14th cycle.
+Produces ホップ every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>マッチを持っている時に、森で彼に捕まらないように。
+
+Produces 天然ゴム every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>「必要な分だけ取れ。何も無駄にするな」
+
+Produces 羊毛 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>ミス・ロドリゲスは、森林破壊がこの先問題になると知っている。
+
+Produces 木綿 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>蛇の皮に傷をつけられた彼は、その蛇の巣に忍び込み、二度とガラガラ声を出せないようにした。
+
+Produces 牛肉 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>農業は伝統でもあり科学でもある。イボンヌはその両方を少しずつ取り入れている。
+
+Produces シュナップス every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>彼のワインは舌にピリッとくる。トウガラシが入っているのだ。その味の評価は？ きわめて素晴らしい。
+
+Produces シャンパン every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>イェルクはいつも、ゴールドラッシュが本格的になる前から現場に一番乗りしているように思える。彼はいとこのカールの憧れの的だ。
+
+Produces 金鉱 every 6th cycle.
+Produces 石油 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>オットーは取引相手にバラ色の世界を見せる。
+
+Produces ガラス every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>非球面レンズの名工。ジェラルドが作るしゃれた眼鏡にあこがれ、彼のもとには多くの弟子が集まる。
+
+Produces 懐中時計 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>石鹸の詳細にまで細心の注意を払う彼はまさに衛生の指導者。おかげで石鹸の材料である油脂が時折急騰する。
+
+Produces ダイナマイト every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>レディー・ハントは、クラインに毎月の第3火曜日に家の時計を調整するよう依頼している。それは彼女の亡き夫の習慣だった。
+
+Produces 宝石 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>彼女は実に独特な考えを持っている。
+
+Produces 帆布 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>リリーは異なるスタイルを試すことにまったくためらいがない。
+
+Produces ポンチョ every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>フランクは熱意のあふれる織物の錬金術師だ。持ち前の技術と長年の経験を活かし、毛皮をコットンに変えるのも、それを元に戻すのも思いのままだ！
+
+Produces ポンチョ every 12th cycle.
+Produces 作業着 every 12th cycle.
+Produces 山高帽 every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>レディー・スマイスは色の世界を体験し、それを一つにしたいと願っている。そうすることで、まったく新しいファッションを生み出そうとしているのだ。
+
+Produces ポンチョ every 6th cycle.
+Produces 山高帽 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>彼女にとって、ポンチョは長い年月にわたる伝統の象徴だ。
+
+Produces 帆布 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>モデルデザイナーのマリアナが考える新世界のテーマは、ファッションの未来だ。
+
+Produces 作業着 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>真のファッションデザイナーの一人。彼の服のデザインは、着る者の魂を暴露する。マルヒングが着た時はどうなったのかは絶対に聞かないように。
+
+Produces 作業着 every 2nd cycle.
+Produces 毛皮のコート every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>彼の作るプラリネは、歯ごたえのある外側に反して、中身は柔らかい。
+
+Produces コーヒー every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>彼は客を喜ばせ続けるためなら、なんでもチョコレートに漬けるだろう。
+
+Produces チョコレート every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>山のようにいるチョコレート職人の中で、彼女は誰よりも目立っている。
+
+Produces 砂糖 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>「お前のウサギはチョコレート・フォンデュよ！」若き女王は金切り声を上げると、高さ7メートルの「イースターバニー」を炎の中に突き飛ばした。
+
+Produces 砂糖 every 4th cycle.
+Produces ラム酒 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>ずっと現場で仕事をしてきた。
+
+Produces 石油 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>彼女は実に頭のいい人だという証拠がある。
+
+Produces フィラメント every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>灯台のような人物で、壮大なアイディアが次々と湧いてくる。
+
+Produces 石油 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>避雷が専門。彼の一族（ウィッテンベルクの出）のモットーは「立ち止まるのは後退と同じ」。
+
+Produces 懐中時計 every 16th cycle.
+Produces 眼鏡 every 14th cycle.
+Produces ファージング硬貨 every 15th cycle.
+Produces 蒸気自動車 every 17th cycle.
+Produces ミシン every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>セシリアは、コーヒーとチョコレートは完璧なコンビネーションだと信じている。
+
+Produces チョコレート every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>新世界人のマルコは高性能なエスプレッソマシンを発明したことで世界中で知られている。
+
+Produces コーヒー豆 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>ヒラリウス修道院は15世紀初期から蒸留を続けているが、いまだに新旧の融合を目指して努力している。
+
+Produces ラム酒 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>大地母神の子のように、トラヨロトルは太古の暦に従って作付けし、トウモロコシは狂ったような豊作になる。
+
+Produces 揚げバナナ every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>屠殺した家畜は欠片も無駄にしないことを学んだ。
+
+Produces 獣脂 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>ヒレ、羽、毛皮。すべてシャンテルが用意した。
+
+Produces 獣脂 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>庶民向け食堂の主人、マキシムは弟のアロンソとは大きく異なる生き方を選んだ。
+
+Produces グーラッシュ every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>マイケルは季節の素材と伝統的な調理法が最良だと信じている。
+
+Produces ソーセージ every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>家事の真の専門家であるメイソン婦人は、ウィブルソック氏宅の惨状を片付ける時にも動じなかった。
+
+Produces トルティーヤ every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>M・フォーカスの力強い個性のせいで、彼の料理のデモンストレーションに足を止めてしまう人が多い。
+
+Produces ソーセージ every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>緊張をほぐす逸話を話す。
+
+Produces ファージング硬貨 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>スザンナの成功は、彼女の開発したハイブリッド蒸気シリンダーに結実している。
+
+Produces 電球 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>ダリオは、8本の足それぞれに異なる道具を持つタコである。
+
+Produces 懐中時計 every 8th cycle.
+Produces 蓄音機 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>現代のエンジニアリングにおいて、完璧に画期的だと言えるのは、アイアンブライトの貢献だけである。
+
+Produces 最新武器 every 3rd cycle.
+Produces 蒸気モーター every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>ボイラースーツを着ている。
+
+Produces 丸太 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>彼女は幼少期に両手を火傷したことで、むしろ鍛冶への情熱が高まった。
+
+Produces 真珠 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>鋼鉄作りの工程を発明した功績を考えれば、ザンチがいつも傍若で高慢に見えても仕方ないだろう。
+
+Produces 寄せ木細工 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>建設的なアプローチで現在の足場を築いた。
+
+Produces 鉄骨材 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>ブリークワース氏を手伝ってワームウェイズ刑務所を建て終えたソーンは、次のコンクリート建造物を建てる用意ができている。
+
+Produces 寄せ木細工 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>ロドリゴがバーベキューを始めると、その肉の匂いにつられて街中の人がやってきた。
+
+Produces 牛肉 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>ヴァン・デル・マークは牧羊犬を繁殖させる際に基準を設けている。家畜を連れて帰れるよう、賢くて狼に近い外見を持つことだ。
+
+Produces アルパカ生地 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>彼の目には、火成岩の地層が、太古の昔からメロディーを伝えてくる楽譜のように見える。
+
+Produces 真珠 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>自分の測量が正確かを確かめるために何度もマクラウド山を行き来したので、山に彼の名が付いた。
+
+Produces 真珠 every 3rd cycle.
+Produces 金鉱 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>ルイス卿は人類の持つあらゆる蒸留手法を探求、洗練させた。
+
+Produces ラム酒 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>ハンコックは生涯をかけて完ぺきなジャガイモを探し続けている。最高の土壌そして最高の品種を求めて世界の大半を渡り歩いてきた彼は、最高額を提示した人に秘密を教えると言っています（ジャガイモでの支払いも可）。
+
+Produces ジャガイモ every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>あなたがトレローニーで女王を助けた後に参加。以前は王立造幣局の職員であった。女王が派遣してくれたスザンナにより、造幣が捗るだろう。
+
+Produces 金 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>あらゆる模様を完璧に記憶し、動物の皮を一片も無駄にしない。
+
+Produces アザラシの皮 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>たくましい犬は最高の相棒であり、元気なガチョウは最良の羽根をもたらす。彼女にはそのことが分かっている。
+
+Produces カリブーの肉 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>トクロは獲物に敬意を払い、必要なものしか取らない。鳥の巣から羽根を集める。
+
+Produces ガチョウの羽 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>木がめったに手に入らない地域では、人は流木が流れ着きやすい場所を学ぶものだ。
+
+Produces 木板 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>保存食には高い脂肪分が必要なのは当然だが、サンドロは何とか他に使えるだけの余りを残した。
+
+Produces オイルランプ every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>スパイスに酒、そしてちょっとハンドルをひねるだけで、冬の寒さもへっちゃら。
+
+Produces シュナップス every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>小型の缶詰装置。ネイトはこれを使って馬肉で缶詰を作り、牛肉だと言って大量に売っていた。
+
+Produces 缶詰 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>ひたすら地道にガスを追い求める。銅と亜鉛を見つけた時だけは一時停止せざるを得ない。
+
+Produces 亜鉛 every 2nd cycle.
+Produces 銅 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>炭酸水と野菜のしぼり汁をミックスした飲み物を作る。いつの日か、これがコーヒーに代わって人気になるかもしれない。
+
+Produces コーヒー every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>葉巻、タバコ、干し草、犬の毛、カボチャのつる… 何を溜めこんでも構わない。
+
+Produces 葉巻 every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>金属は成層圏に吸い込まれて吸着し、最終的には地表に衝突する。
+
+Produces 鉄 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>金とジャガイモを同時に収穫する。将来、ここにいる全員がジャガイモの山に鎮座する大金持ちとなるだろう！
+
+Produces 金鉱 every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>

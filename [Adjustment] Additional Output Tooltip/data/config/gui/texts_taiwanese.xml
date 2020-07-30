@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>這老傢伙絕對不會因為冷而崩潰。
+
+Produces 動物性油脂 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>對於用管子呼吸感到非常自在。
+
+Produces 魚油 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>她的水手夥伴發誓她只要入水就會長出腮。
+
+Produces 動物性油脂 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>會追逐鯨魚直到世界盡頭的男子，賠上性命也在所不惜。
+
+Produces 動物性油脂 every 5th cycle.
+Produces 金 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>「王冠去哪，我就跟隨。」他對皇家議會說的這句話顯示他的妙語如珠。
+
+Produces 懷錶 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>你絕對無法相信她能用擠花袋做出什麼。
+
+Produces 巧克力 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>當安托尼捨棄御廚身分時，亞奇博德爵士哭著說：「那是天堂般的滋味啊。」
+
+Produces 葡萄 every 6th cycle.
+Produces 巧克力 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>……而且對土壤學也不算陌生，他的人生就是在土裡打滾！
+
+Produces 可可 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>逐步提升自己，現在非常有概念。
+
+Produces 菸草 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>布朗太太永遠都帶著帽簷很大的帽子，所以她曬的太陽沒有和自己的作物一樣多。
+
+Produces 可可 every 11th cycle.
+Produces 橡膠 every 12th cycle.
+Produces 棉花 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>赫曼最喜歡的樹就是刺槐，這種樹到了秋天就會落下深色的長型樹莢。
+
+Produces 紅椒 every 12th cycle.
+Produces 馬鈴薯 every 11th cycle.
+Produces 葡萄 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>無論是不是果樹，阿爾薩希爾博士的樹都是活生生的雕刻品，每棵都有自己獨特的個性。
+
+Produces 紅椒 every 16th cycle.
+Produces 馬鈴薯 every 13th cycle.
+Produces 葡萄 every 17th cycle.
+Produces 穀物 every 14th cycle.
+Produces 啤酒花 every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>別讓他在森林裡逮到你拿著火柴。
+
+Produces 橡膠 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>「只拿你需要的，絕不要浪費任何東西。」
+
+Produces 羊毛 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>羅德里格斯女士很清楚森林的砍伐會是未來的話題。
+
+Produces 棉花 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>用蛇皮摩擦後，他潛入牠們的巢穴，偷走所有的響尾蛇響環。
+
+Produces 牛肉 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>農業既是傳統也是科學，伊馮娜對兩者都有涉獵。
+
+Produces 烈酒 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>他的酒被吐過口水、他的辣椒曾遭受調查——結果呢？非常優秀。
+
+Produces 香檳 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>在淘金熱真正開始前，約爾格似乎總是第一個到現場的人。他的表親卡爾很信任他。
+
+Produces 金礦石 every 6th cycle.
+Produces 原油 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>奧多能為他的客戶帶來粉紅色的世界。
+
+Produces 玻璃 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>製作非球面鏡的大師，葛爾哈德的時髦眼鏡為他吸引了不少追隨他的學徒。
+
+Produces 懷錶 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>他對肥皂細虔誠的關心使他成為衛生大祭司，偶爾會引起甘油酯的爆炸……
+
+Produces 炸藥 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>亨特夫人堅持偉大的克萊恩每個月的第三個星期二都要維護她家裡的鐘，就像她丈夫還在世時一樣。
+
+Produces 珠寶 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>她確實有許多自己的設計。
+
+Produces 船帆 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>莉莉從不害怕實驗不同的風格。
+
+Produces 斗篷 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>法蘭克是紡織品的煉金術士，在他的努力、精湛的技藝與多年經驗之下，他將毛皮變成棉又變回來！
+
+Produces 斗篷 every 12th cycle.
+Produces 工作服 every 12th cycle.
+Produces 圓頂硬禮帽 every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>絲米詩夫人已深知色彩的世界，她想要將色彩整合起來——透過這種作法，她創造出了全新的時尚。
+
+Produces 斗篷 every 6th cycle.
+Produces 圓頂硬禮帽 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>對她而言，斗篷代表了跨越無數世代的傳統。
+
+Produces 船帆 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>瑪麗安娜是模特兒設計師，她的新世界主題是時尚界的未來。
+
+Produces 工作服 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>真正的時裝設計師，他的設計會展現穿衣者的靈魂。千萬別問他馬爾欽的試穿狀況。
+
+Produces 工作服 every 2nd cycle.
+Produces 皮草大衣 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>他的果仁糖外層堅硬，但中心像枕頭般柔軟。
+
+Produces 咖啡 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>他會把任何東西浸在巧克力裡，來討顧客的歡心。
+
+Produces 巧克力 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>她的泡芙塔凌駕所有的巧克力師傅。
+
+Produces 糖 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>女王把他高達 7 公尺的「復活節兔」推進火裡時，驚呼：「你的兔子是巧克力鍋！」
+
+Produces 糖 every 4th cycle.
+Produces 蘭姆酒 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>他會一直受到原野所吸引。
+
+Produces 原油 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>證據顯示她確實非常聰明。
+
+Produces 燈絲 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>他是個明燈，腦中的好點子源源不絕。
+
+Produces 原油 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>傳導閃電。他的家族（來自維滕貝格）有個座右銘：「停滯不動即意味著退後。」
+
+Produces 懷錶 every 16th cycle.
+Produces 眼鏡 every 14th cycle.
+Produces 大小輪自行車 every 15th cycle.
+Produces 蒸汽車 every 17th cycle.
+Produces 縫紉機 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>瑟西莉婭深信咖啡與巧克力是完美的結合。
+
+Produces 巧克力 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>身為新世界的原住民，馬爾可現在因他發明的濃縮咖啡機而享譽全球。
+
+Produces 咖啡豆 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>郝孝修士的修道院自 15 世紀起就開始釀酒，但他們依然努力融合新舊。
+
+Produces 蘭姆酒 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>彷彿大地女神的親生兒子，特拉由洛提依據古代曆法種植，他的玉米瘋狂生長。
+
+Produces 炸大蕉餅 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>學會不浪費被殺死野獸的一分一毫。
+
+Produces 動物性油脂 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>魚鰭、羽毛或毛皮，香黛爾全都處理好了。
+
+Produces 動物性油脂 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>里昂式餐廳的大公，麥克席梅所追求的職涯與他的兄弟阿隆索非常不同。
+
+Produces 紅椒燉肉 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>米歇爾信奉季節性食材與傳統的烹飪方式。
+
+Produces 香腸 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>真正的家事權威，即使是將威伯薩克先生混亂的家整理得有條有理，梅森太太也依舊處變不驚。
+
+Produces 玉米餅 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>馬歇爾．佛卡斯誇大的個性吸引為此著迷的觀眾參加他的烹飪表演。
+
+Produces 香腸 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>他的趣事有助於紓緩緊張。
+
+Produces 大小輪自行車 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>蘇珊娜的成功可歸功於她的混合式蒸汽汽缸。
+
+Produces 燈泡 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>達利歐簡直是隻章魚，他不同的八隻手上各有一種不同的工具。
+
+Produces 懷錶 every 8th cycle.
+Produces 留聲機 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>只有艾蓉布萊特對現代工程的貢獻可說是完全具開創性的。
+
+Produces 先進武器 every 3rd cycle.
+Produces 蒸汽機 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>穿著連身工作服。
+
+Produces 原木 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>雖然她小時候燒傷了雙手，但她的熱情因此變得更加強烈。
+
+Produces 珍珠 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>贊契發明了鋼鐵工藝，因此他或許有權力總是表現地那麼無情及自傲。
+
+Produces 薄木片 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>一種建設方式鞏固了他的地位。
+
+Produces 鋼梁 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>幫助布利克沃斯先生建造握姆威監獄後，索涅已準備好要建造另一個混擬土建案。
+
+Produces 薄木片 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>羅德里哥點燃了烤肉的爐火，其濃郁的香味讓他們從各個角落聞香而來。
+
+Produces 牛肉 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>范．德．馬克將工作犬培育為，擁有聰明又擁有狼的外表，負責把羊群帶回家的標準。
+
+Produces 羊駝毛 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>對他而言，火成岩層彷彿音符，鳴囀著時代的旋律。
+
+Produces 珍珠 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>他多次越過麥克李德山，就為了確保他的調查是精確的，所以他們就以他的名字來命名這座山。
+
+Produces 珍珠 every 3rd cycle.
+Produces 金礦石 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>路易斯爵士探究並完善了人類已知的每種蒸餾方法。
+
+Produces 蘭姆酒 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>漢考克一生都在追求完美的馬鈴薯。他篩選出了已知世界中最完美的土壤和馬鈴薯品種，現在準備將他的秘密賣給出價最高的人（接受以馬鈴薯付款）。
+
+Produces 馬鈴薯 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>在崔老妮幫助女王後加入。蘇珊娜先前在皇家鑄幣廠任職，女王派她來讓你的黃金更進一步。
+
+Produces 金 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>知道所有圖樣該怎麼繡，不會浪費任何動物的皮毛。
+
+Produces 海豹皮 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>她明白強壯的狗是最好的夥伴，強壯的鵝則擁有最堅韌的羽毛。
+
+Produces 馴鹿肉 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>這名獵人尊重自己的獵物，只取他需要的東西。會從鳥的棲息地收集羽毛。
+
+Produces 鵝羽毛 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>在樹木稀少且相距甚遠時，你會知道漂流木最後會停在哪個地方。
+
+Produces 木材 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>他似乎生來就知道乾肉餅富含脂肪，但是山德羅設法將多餘的脂肪用於其他用途了。
+
+Produces 油燈 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>香料、酒精、動幾下手柄，冬天似乎不再那麼寒冷了。
+
+Produces 烈酒 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>可以用的小機器。奈特曾經用它將馬肉罐裝，像牛肉一樣零售出去。
+
+Produces 罐頭食物 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>像一隻驢子般專心致志地尋找天然氣，牠只願意為銅和鋅停留。
+
+Produces 鋅 every 2nd cycle.
+Produces 銅 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>製作蘇打水和蔬菜提取物的旋轉式工具，有朝一日可能會取代咖啡。
+
+Produces 咖啡 every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>不管你在雪茄裡放了煙草、乾草、狗毛，還是南瓜周圍的煙葉之類的都無所謂。
+
+Produces 雪茄 every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>金屬被吸入平流層並緊緊被吸附著，直到最後墜落回地面。
+
+Produces 鐵 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>同時收成黃金和土豆。將來，我們所有人都會超級有錢，坐擁馬鈴薯山！
+
+Produces 金礦石 every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>

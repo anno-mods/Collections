@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>这老家伙绝对不会因为冷而崩溃。
+
+Produces 动物性油脂 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>对于用管子呼吸感到非常自在。
+
+Produces 鱼油 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>她的水手伙伴发誓她只要入水就会长出腮。
+
+Produces 动物性油脂 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>会追逐鲸鱼直到世界尽头的男子，赔上性命也在所不惜。
+
+Produces 动物性油脂 every 5th cycle.
+Produces 金 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>“王冠去哪，我就跟随。”他对皇家议会说的这句话显示他的妙语如珠。
+
+Produces 怀表 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>你绝对无法相信她能用挤花袋做出什么。
+
+Produces 巧克力 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>当安托尼舍弃御厨身份时，亚奇博德爵士哭着说：“那是天堂般的滋味啊。”
+
+Produces 葡萄 every 6th cycle.
+Produces 巧克力 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>……而且对土壤学也不算陌生，他的人生就是在土里打滚！
+
+Produces 可可 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>逐步提升自己，现在非常有概念。
+
+Produces 烟草 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>布朗太太永远都带着帽檐很大的帽子，所以她晒的太阳没有和自己的作物一样多。
+
+Produces 可可 every 11th cycle.
+Produces 橡胶 every 12th cycle.
+Produces 棉花 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>赫曼最喜欢的树就是刺槐，这种树到了秋天就会落下深色的长型树荚。
+
+Produces 红椒 every 12th cycle.
+Produces 土豆 every 11th cycle.
+Produces 葡萄 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>无论是不是果树，阿尔萨希尔博士的树都是活生生的雕刻品，每棵都有自己独特的个性。
+
+Produces 红椒 every 16th cycle.
+Produces 土豆 every 13th cycle.
+Produces 葡萄 every 17th cycle.
+Produces 谷物 every 14th cycle.
+Produces 啤酒花 every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>别让他在森林里逮到你拿着火柴。
+
+Produces 橡胶 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>“只拿你需要的，绝不要浪费任何东西。”
+
+Produces 羊毛 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>罗德里格斯女士很清楚森林的砍伐会是未来的话题。
+
+Produces 棉花 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>用蛇皮摩擦后，他潜入它们的巢穴，偷走所有的响尾蛇响环。
+
+Produces 牛肉 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>农业既是传统也是科学，伊冯娜对两者都有涉猎。
+
+Produces 烈酒 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>他的酒被吐过口水、他的辣椒曾遭受调查——结果呢？非常优秀。
+
+Produces 香槟 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>在淘金热真正开始前，约尔格似乎总是第一个到现场的人。他的表亲卡尔很信任他。
+
+Produces 金矿石 every 6th cycle.
+Produces 原油 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>奥多能为他的客户带来粉红色的世界。
+
+Produces 玻璃 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>制作非球面镜的大师，葛尔哈德的时髦眼镜为他吸引了不少追随他的学徒。
+
+Produces 怀表 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>他对肥皂细虔诚的关心使他成为卫生大祭司，偶尔会引起甘油酯的爆炸……
+
+Produces 炸药 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>亨特夫人坚持伟大的克莱恩每个月的第三个星期二都要维护她家里的钟，就像她丈夫还在世时一样。
+
+Produces 珠宝 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>她确实有许多自己的设计。
+
+Produces 船帆 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>莉莉从不害怕实验不同的风格。
+
+Produces 斗篷 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>法兰克是纺织品的炼金术士，在他的努力、精湛的技艺与多年经验之下，他将毛皮变成棉又变回来！
+
+Produces 斗篷 every 12th cycle.
+Produces 工作服 every 12th cycle.
+Produces 圆顶硬礼帽 every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>丝米诗夫人已深知色彩的世界，她想要将色彩集成起来——通过这种作法，她创造出了全新的时尚。
+
+Produces 斗篷 every 6th cycle.
+Produces 圆顶硬礼帽 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>对她而言，斗篷代表了跨越无数世代的传统。
+
+Produces 船帆 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>玛丽安娜是模特儿设计师，她的新世界主题是时尚界的未来。
+
+Produces 工作服 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>真正的时装设计师，他的设计会展现穿衣者的灵魂。千万别问他马尔钦的试穿状况。
+
+Produces 工作服 every 2nd cycle.
+Produces 皮草大衣 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>他的果仁糖外层坚硬，但中心像枕头般柔软。
+
+Produces 咖啡 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>他会把任何东西浸在巧克力里，来讨顾客的欢心。
+
+Produces 巧克力 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>她的泡芙塔凌驾所有的巧克力师傅。
+
+Produces 糖 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>女王把他高达 7 米的“复活节兔”推进火里时，惊呼：“你的兔子是巧克力锅！”
+
+Produces 糖 every 4th cycle.
+Produces 兰姆酒 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>他会一直受到原野所吸引。
+
+Produces 原油 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>证据显示她确实非常聪明。
+
+Produces 灯丝 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>他是个明灯，脑中的好点子源源不绝。
+
+Produces 原油 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>传导闪电。他的家族（来自维滕贝格）有个座右铭：“停滞不动即意味着退后。”
+
+Produces 怀表 every 16th cycle.
+Produces 眼镜 every 14th cycle.
+Produces 大小轮自行车 every 15th cycle.
+Produces 蒸汽车 every 17th cycle.
+Produces 缝纫机 every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>瑟西莉娅深信咖啡与巧克力是完美的结合。
+
+Produces 巧克力 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>身为新世界的原住民，马尔可现在因他发明的浓缩咖啡机而享誉全球。
+
+Produces 咖啡豆 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>郝孝修士的修道院自 15 世纪起就开始酿酒，但他们依然努力融合新旧。
+
+Produces 兰姆酒 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>仿佛大地女神的亲生儿子，特拉由洛提依据古代历法种植，他的玉米疯狂生长。
+
+Produces 炸大蕉饼 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>学会不浪费被杀死野兽的一分一毫。
+
+Produces 动物性油脂 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>鱼鳍、羽毛或毛皮，香黛尔全都处理好了。
+
+Produces 动物性油脂 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>里昂式餐厅的大公，麦克席梅所追求的职涯与他的兄弟阿隆索非常不同。
+
+Produces 红椒炖肉 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>米歇尔信奉季节性食材与传统的烹饪方式。
+
+Produces 香肠 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>真正的家事权威，即使是将威伯萨克先生混乱的家整理得有条有理，梅森太太也依旧处变不惊。
+
+Produces 玉米饼 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>马歇尔·佛卡斯夸大的个性吸引为此着迷的观众参加他的烹饪表演。
+
+Produces 香肠 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>他的趣事有助于纾缓紧张。
+
+Produces 大小轮自行车 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>苏珊娜的成功可归功于她的混合式蒸汽汽缸。
+
+Produces 灯泡 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>达利欧简直是只章鱼，他不同的八只手上各有一种不同的工具。
+
+Produces 怀表 every 8th cycle.
+Produces 留声机 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>只有艾蓉布莱特对现代工程的贡献可说是完全具开创性的。
+
+Produces 先进武器 every 3rd cycle.
+Produces 蒸汽机 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>穿着连身工作服。
+
+Produces 原木 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>虽然她小时候烧伤了双手，但她的热情因此变得更加强烈。
+
+Produces 珍珠 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>赞契发明了钢铁工艺，因此他或许有权力总是表现地那么无情及自傲。
+
+Produces 薄木片 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>一种建设方式巩固了他的地位。
+
+Produces 钢梁 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>帮助布利克沃斯先生建造握姆威监狱后，索涅已准备好要建造另一个混拟土建案。
+
+Produces 薄木片 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>罗德里哥点燃了烤肉的炉火，其浓郁的香味让他们从各个角落闻香而来。
+
+Produces 牛肉 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>范·德·马克将工作犬培育为，拥有聪明又拥有狼的外表，负责把羊群带回家的标准。
+
+Produces 羊驼毛 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>对他而言，火成岩层仿佛音符，鸣啭着时代的旋律。
+
+Produces 珍珠 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>他多次越过麦克李德山，就为了确保他的调查是精确的，所以他们就以他的名字来命名这座山。
+
+Produces 珍珠 every 3rd cycle.
+Produces 金矿石 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>路易斯爵士探究并完善了人类已知的每种蒸馏方法。
+
+Produces 兰姆酒 every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>汉考克一生都在追求完美的土豆。他筛选出了已知世界中最完美的土壤和土豆品种，现在准备将他的秘密卖给出价最高的人（接受以土豆付款）。
+
+Produces 土豆 every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>在崔老妮帮助女王后加入。苏珊娜先前在皇家铸币厂任职，女王派她来让你的黄金更进一步。
+
+Produces 金 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>知道所有图样该怎么绣，不会浪费任何动物的皮毛。
+
+Produces 海豹皮 every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>她明白强壮的狗是最好的伙伴，强壮的鹅则拥有最坚韧的羽毛。
+
+Produces 驯鹿肉 every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>这名猎人尊重自己的猎物，只取他需要的东西。会从鸟的栖息地收集羽毛。
+
+Produces 鹅羽毛 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>在树木稀少且相距甚远时，你会知道漂流木最后会停在哪个地方。
+
+Produces 木材 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>他似乎生来就知道干肉饼富含脂肪，但是山德罗设法将多余的脂肪用于其他用途了。
+
+Produces 油灯 every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>香料、酒精、动几下手柄，冬天似乎不再那么寒冷了。
+
+Produces 烈酒 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>可以用的小机器。奈特曾经用它将马肉罐装，像牛肉一样零售出去。
+
+Produces 罐头食物 every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>像一只驴子般专心致志地寻找天然气，它只愿意为铜和锌停留。
+
+Produces 锌 every 2nd cycle.
+Produces 铜 every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>制作苏打水和蔬菜提取物的旋转式工具，有朝一日可能会取代咖啡。
+
+Produces 咖啡 every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>不管你在雪茄里放了烟草、干草、狗毛，还是南瓜周围的烟叶之类的都无所谓。
+
+Produces 雪茄 every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>金属被吸入平流层并紧紧被吸附着，直到最后坠落回地面。
+
+Produces 铁 every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>同时收成黄金和土豆。将来，我们所有人都会超级有钱，坐拥土豆山！
+
+Produces 金矿石 every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>

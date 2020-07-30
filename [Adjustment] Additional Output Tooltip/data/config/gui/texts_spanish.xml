@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>Nunca verás a este hombre quejarse del frío.
+
+Produces Sebo every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>Encantado de respirar a través de un tubo.
+
+Produces Aceite de pescado every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>Sus compañeros marineros juran que en el agua le salen branquias.
+
+Produces Sebo every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>Un hombre que perseguirá a su presa cetácea hasta el fin del mundo, aunque le cueste la vida.
+
+Produces Sebo every 5th cycle.
+Produces Oro every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>"Yo sigo a la corona allá donde va", fue la joya que pronunció ante el consejo real.
+
+Produces Relojes de bolsillo every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>No te imaginas lo que es capaz de hacer con una manga pastelera.
+
+Produces Chocolate every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>"Era como morder un pedacito de cielo", lloró sir Archibald cuando Antoine abandonó la cocina real.
+
+Produces Uvas every 6th cycle.
+Produces Chocolate every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>... y tampoco le faltan conocimientos de edafología. ¡La tierra es su vida!
+
+Produces Cacao every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>Fue escalando y ahora puede ver mucho más.
+
+Produces Tabaco every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>La señora Brown siempre lleva un sombrero de ala ancha, y por tanto el sol no le da tanto como a sus cultivos.
+
+Produces Cacao every 11th cycle.
+Produces Caucho every 12th cycle.
+Produces Algodón every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>El árbol favorito de Hermann es la falsa acacia, cuyas vainas negras caen en otoño.
+
+Produces Pimientos rojos every 12th cycle.
+Produces Patatas every 11th cycle.
+Produces Uvas every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>Sean frutales o no, los árboles del doctor Al-Zahir son esculturas vivientes, cada cual con su propia personalidad.
+
+Produces Pimientos rojos every 16th cycle.
+Produces Patatas every 13th cycle.
+Produces Uvas every 17th cycle.
+Produces Trigo every 14th cycle.
+Produces Lúpulo every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>Que no te alcance en el bosque con una cerilla encima.
+
+Produces Caucho every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>"Coge solo lo que necesites, y asegúrate de no desperdiciar nada".
+
+Produces Lana every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>La señorita Rodríguez sabe que la deforestación será un tema a tratar en el futuro.
+
+Produces Algodón every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>Embadurnado con piel de serpiente, se infiltró en su nido y robó sus cascabeles.
+
+Produces Ternera every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>Cultivar es tanto una tradición como una ciencia, Yvonne se nutre de ambas.
+
+Produces Licor every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>Sus vinos han sido escupidos y sus pimientos examinados: ¿el veredicto? Impresionante.
+
+Produces Champán every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>Jörg siempre ha estado el primero antes incluso de que realmente empezase la fiebre del oro. Tiene el corazón de su primo Carl.
+
+Produces Mineral de oro every 6th cycle.
+Produces Petróleo every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>Los clientes de Otto ven la vida de otro color.
+
+Produces Cristal every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>Las gafas de Gerhard le han hecho ganarse una gran cantidad de pupilas.
+
+Produces Relojes de bolsillo every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>Su dedicación religiosa al jabón le convierte en sumo sacerdote de la higiene, causando un auge de la producción de glicéridos...
+
+Produces Dinamita every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>Lady Hunt insiste en que el gran Klein revise todos los relojes de la casa cada tres martes, como hacía su marido.
+
+Produces Joyería every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>Tiene grandes diseños propios.
+
+Produces Velas every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>A Lily nunca le ha dado miedo experimentar con estilos distintos.
+
+Produces Ponchos every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>Franke es un alquimista de lo textil. ¡Con dedicación, habilidad, arte y años de experiencia, es capaz de convertir las pieles en algodón y viceversa!
+
+Produces Ponchos every 12th cycle.
+Produces Ropas de trabajo every 12th cycle.
+Produces Bombines every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>Lady Smythe ha visto un mundo de colores que quiere unir, y, al hacerlo, crear modas enteras.
+
+Produces Ponchos every 6th cycle.
+Produces Bombines every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>Considera que el poncho representa una tradición milenaria.
+
+Produces Velas every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>Mariana es una diseñadora modelo, su temática del Nuevo Mundo es el futuro de la moda.
+
+Produces Ropas de trabajo every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>El costurero supremo, cuyos diseños muestran el alma de sus portadores. No preguntes por el traje de Malching.
+
+Produces Ropas de trabajo every 2nd cycle.
+Produces Abrigos de piel every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>Sus pralinés son duros por fuera y blandos por dentro.
+
+Produces Café every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>Si el cliente lo quiere con chocolate, lo meterá en chocolate.
+
+Produces Chocolate every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>La croquembouche del chocolate, destaca entre los demás.
+
+Produces Azúcar every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>"¡Tu liebre no es más que una fondue de chocolate!" gritó la joven Reina mientras empujaba su "Osterhase" de siete metros al fuego.
+
+Produces Azúcar every 4th cycle.
+Produces Ron every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>El campo es lo suyo.
+
+Produces Petróleo every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>Desde luego es una lumbrera.
+
+Produces Filamentos every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>Le salen ideas por todas partes.
+
+Produces Petróleo every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>Conduce la electricidad. El lema de su familia (oriunda de Wittemberg) es: "permanecer inmóvil es un paso atrás".
+
+Produces Relojes de bolsillo every 16th cycle.
+Produces Gafas every 14th cycle.
+Produces Cuartos de penique every 15th cycle.
+Produces Carruajes de vapor every 17th cycle.
+Produces Máquinas de costura every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>Según Cecilia, el café y el chocolate son la combinación perfecta.
+
+Produces Chocolate every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>Marco, un nativo del Nuevo Mundo, alcanzó la fama a nivel mundial por inventar una máquina de espressos.
+
+Produces Granos de café every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>El monasterio de Hilarius lleva produciendo bebida desde el siglo XV y nunca han dejado de mezclar lo nuevo con lo tradicional.
+
+Produces Ron every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>Tlayolotl parece ser hijo de la diosa de la tierra. Planta según el calendario antiguo y el maíz crece como loco.
+
+Produces Plátanos fritos every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>Aprovecha hasta los andares.
+
+Produces Sebo every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>Aletas, plumas o piel, Chantelle sabe cómo prepararlo todo.
+
+Produces Sebo every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>Epítome de la nobleza culinaria, Maxime ha seguido un camino muy distinto a su hermano Alfonso.
+
+Produces Goulash every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>Michel cree en los ingredientes de temporada y la cocina tradicional.
+
+Produces Salchichas every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>Una autoridad doméstica. La Sra. Mayson ni se inmutó a la hora de organizar la caótica vivienda de Wibblesock.
+
+Produces Tortillas de maíz every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>La gran personalidad de M. Forcas cautiva a los asistentes a sus demostraciones culinarias.
+
+Produces Salchichas every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>Sus anécdotas quitan tensión.
+
+Produces Cuartos de penique every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>El éxito de Susannah se puede resumir en sus cilindros de vapor híbridos.
+
+Produces Bombillas every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>Dario es como si un pulpo tuviera ocho herramientas en sus tentáculos.
+
+Produces Relojes de bolsillo every 8th cycle.
+Produces Gramófonos every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>Las contribuciones de Ironbright a la ingeniería moderna han sido rompedoras.
+
+Produces Armas avanzadas every 3rd cycle.
+Produces Motores de vapor every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>Viste un mono.
+
+Produces Madera every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>Aunque se quemó las manos de niña, su pasión no hizo más que inflamarse.
+
+Produces Perlas every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>Zanchi inventó el proceso del acero, por lo que puede que tenga derecho a ser tan orgulloso como aparenta.
+
+Produces Revestimientos de madera every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>Ha cimentado su posición con un enfoque constructivo.
+
+Produces Vigas de acero every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>Tras ayudar a Bleakworth a construir Wormways, Thorne está dispuesto a construir otro baluarte de cemento.
+
+Produces Revestimientos de madera every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>Rodrigo enciende la barbacoa, y el suculento aroma atrae a gente de todos los rincones.
+
+Produces Ternera every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>Van der Mark cría a sus perros según su estándar, astutos y con pinta de lobos, para controlar bien el ganado.
+
+Produces Lana de alpaca every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>Para él, los estratos son como un pentagrama en el que se dibuja la melodía de las eras.
+
+Produces Perlas every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>Cruzó el monte Macleod tantas veces para asegurarse de la precisión de su estudio que le pusieron su nombre al monte.
+
+Produces Perlas every 3rd cycle.
+Produces Mineral de oro every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>Sir Lewis ha dominado y refinado todos los métodos de destilación que conoce el ser humano.
+
+Produces Ron every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>Hancock lleva toda la vida buscando la patata perfecta. Ha registrado el mundo conocido en busca de la tierra ideal y de las variedades perfectas de tubérculos, y ahora vende sus secretos al mejor postor (se puede pagar en patatas).
+
+Produces Patatas every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>Se unió cuando ayudaste a la Reina en Trelawney. Susannah trabajaba en la casa de moneda y la Reina la escogió para incrementar tus ganancias.
+
+Produces Oro every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>Conoce los diseños a la perfección y no desperdicia ni un solo retal de piel animal.
+
+Produces Piel de foca every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>Sabe que un perro fuerte es el mejor compañero y que un ganso robusto tiene las mejores plumas.
+
+Produces Carne de caribú every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>Toklo respeta a su presa y se lleva solo lo que necesita. Recoge las plumas de los nidos.
+
+Produces Plumas de ganso every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>Cuando los árboles escasean y están alejados, es fácil averiguar el paradero de la madera arrastrada por la corriente.
+
+Produces Tablones every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>Sandro es consciente de que el pemmican tiene un alto contenido en grasa, pero sabe darle a ese exceso otros usos.
+
+Produces Faroles de aceite every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>Especias, alcohol, unos giros a la manivela y el invierno dejará de ser tan frío.
+
+Produces Licor every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>Una pequeña enlatadora. Una vez, gracias a ella, Nate consiguió enlatar un lote de carne de caballo para venderla a granel como ternera.
+
+Produces Comida en conserva every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>Una mula tan centrada en su misión de obtener gas que solo pararía si encontrara cobre o zinc.
+
+Produces Zinc every 2nd cycle.
+Produces Cobre every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>Produce una mezcla de refresco con extracto de vegetales que algún día podría servir de alternativa al café.
+
+Produces Café every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>No importa lo que metas en tu cigarro: tabaco, heno, pelo de perro o las hierbas que rodean las calabazas.
+
+Produces Puros every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>La estratosfera absorbe los metales, que se aferran a la misma hasta que finalmente vuelven a la Tierra.
+
+Produces Hierro every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>Cosecha oro y patatas a la vez. ¡En un futuro seremos asquerosamente ricos y nos sentaremos en montañas de patatas!
+
+Produces Mineral de oro every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>

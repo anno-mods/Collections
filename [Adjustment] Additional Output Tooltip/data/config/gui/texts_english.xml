@@ -1,0 +1,406 @@
+<ModOps>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12516']/Text">
+		  <Text>You'll never see this old dog blubbing in the cold.
+
+Produces Tallow every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12517']/Text">
+		  <Text>Perfectly content to breathe his air through a tube.
+
+Produces Fish Oil every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12518']/Text">
+		  <Text>Her fellow sailors swear once she's underwater, she grows gills.
+
+Produces Tallow every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12519']/Text">
+		  <Text>A man who will pursue his underwater prey to the ends of the earth, even if it costs him his own life.
+
+Produces Tallow every 5th cycle.
+Produces Gold every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12524']/Text">
+		  <Text>"Where the crown goes, I follow," was his gem of a quip to the royal council.
+
+Produces Pocket Watches every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12527']/Text">
+		  <Text>You'll never believe what she can do with a piping bag.
+
+Produces Chocolate every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12529']/Text">
+		  <Text>"It was like taking a bite out of heaven," wept Sir Archibald, when Antoine left the royal kitchens behind.
+
+Produces Grapes every 6th cycle.
+Produces Chocolate every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12571']/Text">
+		  <Text>…and yet not unfamiliar with the science of soil, either. His life is dirt!
+
+Produces Cocoa every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12572']/Text">
+		  <Text>Gradually climbed the ladder, and now has a good overview.
+
+Produces Tobacco every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12573']/Text">
+		  <Text>Mrs. Brown always wears a broad-brimmed hat, and is therefore not as sun-kissed as her crops.
+
+Produces Cocoa every 11th cycle.
+Produces Caoutchouc every 12th cycle.
+Produces Cotton every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12574']/Text">
+		  <Text>Hermann's favourite tree is the Black Locust, whose long, dark pods fall in autumn.
+
+Produces Red Peppers every 12th cycle.
+Produces Potatoes every 11th cycle.
+Produces Grapes every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12575']/Text">
+		  <Text>Fruit-bearing or otherwise, Dr Al-Zahir's trees are living sculptures, each with distinct personalities.
+
+Produces Red Peppers every 16th cycle.
+Produces Potatoes every 13th cycle.
+Produces Grapes every 17th cycle.
+Produces Grain every 14th cycle.
+Produces Hops every 15th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12614']/Text">
+		  <Text>Don't let him catch you holding a match in the forest.
+
+Produces Caoutchouc every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12615']/Text">
+		  <Text>"Take only what you need, and make sure to waste nothing."
+
+Produces Wool every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12616']/Text">
+		  <Text>Miss Rodriguez knows deforestation will become a heated topic in the near future.
+
+Produces Cotton every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12617']/Text">
+		  <Text>Smothered in snake skin, he infiltrated their nest and stole all their rattles.
+
+Produces Beef every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12627']/Text">
+		  <Text>Farming is both a tradition and a science, and Yvonne takes a smattering of both.
+
+Produces Schnapps every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12628']/Text">
+		  <Text>His wines have been spat, his peppers probed. The verdict? Outstanding.
+
+Produces Champagne every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12636']/Text">
+		  <Text>Jörg always seems to be first on the scene before the gold rush begins in earnest. Has the heart of cousin Carl.
+
+Produces Gold Ore every 6th cycle.
+Produces Oil every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19162']/Text">
+		  <Text>Otto is able to offer his clients a rose-tinted view of the world.
+
+Produces Glass every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19163']/Text">
+		  <Text>A master of the aspherical, Gerhard's snazzy glasses have attracted him quite a following of pupils.
+
+Produces Pocket Watches every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19171']/Text">
+		  <Text>His religious attention to detail in the world of soap makes him high priest of hygiene, causing occasional booms in glycerides...
+
+Produces Dynamite every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19178']/Text">
+		  <Text>Lady Hunt insists the great Klein service her house clocks every third Tuesday, just as her late husband had it.
+
+Produces Jewellery every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19195']/Text">
+		  <Text>She very much has designs of her own.
+
+Produces Sails every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19197']/Text">
+		  <Text>Lily has never been afraid to experiment with different styles.
+
+Produces Ponchos every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19198']/Text">
+		  <Text>Franke is an alchemist of textiles, with dedication, skilled artistry and years of experience in turning fur to cotton and back again!
+
+Produces Ponchos every 12th cycle.
+Produces Work Clothes every 12th cycle.
+Produces Bowler Hats every 12th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19199']/Text">
+		  <Text>Lady Smythe has seen a world of colour she wishes to unite — and in doing so, create fashions entirely new. 
+
+Produces Ponchos every 6th cycle.
+Produces Bowler Hats every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19244']/Text">
+		  <Text>For her, the poncho represents a tradition spanning many aeons.
+
+Produces Sails every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19246']/Text">
+		  <Text>Mariana is the model designer; her new world themes are the future of fashion.
+
+Produces Work Clothes every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19247']/Text">
+		  <Text>The one true couturier, his designs turn out their wearer's souls. Never ask him how Malching's fitting went.
+
+Produces Work Clothes every 2nd cycle.
+Produces Fur Coats every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19274']/Text">
+		  <Text>His pralines have snap on the outside, but pillowy centres.
+
+Produces Coffee every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19275']/Text">
+		  <Text>He'll dip anything in chocolate to keep the customers happy.
+
+Produces Chocolate every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19276']/Text">
+		  <Text>The croquembouche of chocolatiers, she towers above the rest.
+
+Produces Sugar every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19277']/Text">
+		  <Text>"Your hare is chocolate fondue!" shrieked the young Queen, as she pushed his 7-metre "Osterhase" into the fire.
+
+Produces Sugar every 4th cycle.
+Produces Rum every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19526']/Text">
+		  <Text>He's always been drawn to the field.
+
+Produces Oil every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19527']/Text">
+		  <Text>The evidence suggests she's a very bright spark indeed.
+
+Produces Filaments every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19528']/Text">
+		  <Text>He is a beacon, positively crackling with big ideas.
+
+Produces Oil every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19531']/Text">
+		  <Text>Conducts lightning. His family (from Wittenberg) has the motto, "standing still is a backward step."
+
+Produces Pocket Watches every 16th cycle.
+Produces Glasses every 14th cycle.
+Produces Penny Farthings every 15th cycle.
+Produces Steam Carriages every 17th cycle.
+Produces Sewing Machines every 13th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19580']/Text">
+		  <Text>Cecilia believes coffee and chocolate are the perfect combination.
+
+Produces Chocolate every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19581']/Text">
+		  <Text>A native New-Worlder, Marco is now known across the globe for the remarkable espresso machine he invented.
+
+Produces Coffee Beans every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19611']/Text">
+		  <Text>Hilarius' monastery has brewed since the early 15th century, yet they always strive for a blend of old and new.
+
+Produces Rum every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19618']/Text">
+		  <Text>Like a true son of the Earth goddess, Tlayolotl plants by the ancient calendar, and the corn grows like crazy.
+
+Produces Fried Plantains every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19622']/Text">
+		  <Text>Has learned to waste nothing of the slain beast.
+
+Produces Tallow every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19623']/Text">
+		  <Text>Fins, feathers or fur, Chantelle has prepared them all.
+
+Produces Tallow every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19624']/Text">
+		  <Text>Grand-duc of the bouchon, Maxime has pursued a very different career than his brother Alonso.
+
+Produces Goulash every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19629']/Text">
+		  <Text>Michel believes in seasonal ingredients, and traditional cooking methods.
+
+Produces Sausages every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19630']/Text">
+		  <Text>A true domestic authority, Mrs Mayson was unfazed even by setting Mr. Wibblesock's chaotic household in order.
+
+Produces Tortillas every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19648']/Text">
+		  <Text>M. Forcas' larger-than-life personality draws captive audiences to his cookery demonstrations.
+
+Produces Sausages every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19679']/Text">
+		  <Text>His anecdotes help release all the tension.
+
+Produces Penny Farthings every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19681']/Text">
+		  <Text>Susannah's success can be condensed down to her hybridised steam cylinders.
+
+Produces Light Bulbs every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19682']/Text">
+		  <Text>Dario is an octopus, with eight different tools in his eight different hands.
+
+Produces Pocket Watches every 8th cycle.
+Produces Gramophones every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19683']/Text">
+		  <Text>Only Ironbright's contributions to modern engineering can be said to have been utterly groundbreaking.
+
+Produces Advanced Weapons every 3rd cycle.
+Produces Steam Motors every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12581']/Text">
+		  <Text>Wears a boiler suit.
+
+Produces Wood every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12586']/Text">
+		  <Text>Though she burned her hands as a child, it only made her passion stronger.
+
+Produces Pearls every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '12587']/Text">
+		  <Text>Zanchi invented the steel process, so perhaps he has every right to be as ruthless and proud as he appears.
+
+Produces Wood Veneers every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19838']/Text">
+		  <Text>A constructive approach has cemented his position.
+
+Produces Steel Beams every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19840']/Text">
+		  <Text>Having helped Mr. Bleakworth construct Wormways prison, Thorne is ready to build up another concrete case.
+
+Produces Wood Veneers every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19931']/Text">
+		  <Text>Rodrigo fires the barbacoa, its meaty scent bringing in customers from all corners.
+
+Produces Beef every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19932']/Text">
+		  <Text>Van der Mark breeds working dogs to a high standard, with the wits and wolfish looks that let them bring home the herd.
+
+Produces Alpaca Wool every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19938']/Text">
+		  <Text>To him, the igneous strata appear as musical notation, whistling the melody of the ages.
+
+Produces Pearls every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '19939']/Text">
+		  <Text>He crossed Mount Macleod so many times to make sure his survey was accurate, they named it after him.
+
+Produces Pearls every 3rd cycle.
+Produces Gold Ore every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '20628']/Text">
+		  <Text>Sir Lewis has explored and refined every distillation method known to mankind.
+
+Produces Rum every 3rd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '21986']/Text">
+		  <Text>Hancock has spent his life travelling in search of the perfect potato. He's sieved most of the known world for the perfect soil and spud varieties, and now sells his secrets to the highest bidder (payment in potatoes accepted).
+
+Produces Potatoes every 8th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '113802']/Text">
+		  <Text>Joined after you helped the Queen at Trelawney. Formerly of the Royal Mint, the Queen sent Susannah to make your gold go further.
+
+Produces Gold every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116114']/Text">
+		  <Text>Knows all the patterns perfectly, and doesn't waste a scrap of the animal's skin.
+
+Produces Seal Skin every 4th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116127']/Text">
+		  <Text>She knows that strong dogs make the best companions, and strong geese have the best feathers.
+
+Produces Caribou Meat every 6th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116125']/Text">
+		  <Text>Toklo respects his prey, taking only what he needs. Collects feathers from bird roosts.
+
+Produces Goose Feathers every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116123']/Text">
+		  <Text>When trees are few and far between, you learn the places driftwood prefers to end its voyages.
+
+Produces Timber every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116121']/Text">
+		  <Text>Naturally, he is aware that pemmican must be high in fat, but Sandro manages to put some excess to other uses.
+
+Produces Oil Lamps every 7th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116196']/Text">
+		  <Text>Spice, booze, a few twists of the handle, and winter no longer seems quite so cold.
+
+Produces Schnapps every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116197']/Text">
+		  <Text>The little machine that can. N8 once canned a batch of horse meat with it to sell it in bulk as beef.
+
+Produces Canned Food every 5th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116199']/Text">
+		  <Text>A mule so assiduous in its quest for gas, it is willing to pause only for copper and zinc.
+
+Produces Zinc every 2nd cycle.
+Produces Copper every 2nd cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116217']/Text">
+		  <Text>Produces a whirligig of soda and vegetable extract, which may become a popular alternative to coffee someday.
+
+Produces Coffee every 10th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116219']/Text">
+		  <Text>Doesn't matter what you pile into your cigar: tobacco, hay, dog hair, the weeds around pumpkins...
+
+Produces Cigars every 25th cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116221']/Text">
+		  <Text>Metals are sucked into the stratosphere, clinging to it, until finally it comes crashing back down to earth.
+
+Produces Iron every cycle.</Text>
+	  </ModOp>
+	<ModOp Type="replace" Path="/TextExport/Texts/Text[GUID = '116222']/Text">
+		  <Text>Harvests gold and potatoes simultaneously. In the future we'll all be stupid rich, sitting on mountains of potatoes!
+
+Produces Gold Ore every 25th cycle.</Text>
+	  </ModOp>
+</ModOps>
