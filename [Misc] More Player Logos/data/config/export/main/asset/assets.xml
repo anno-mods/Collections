@@ -1,0 +1,4735 @@
+<ModOps>
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100001</GUID>
+                    <Name>saat logo</Name>
+                    <IconFilename>data/graphics/logos/large/saat.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/saat.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/saat.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100002</GUID>
+                    <Name>compass logo</Name>
+                    <IconFilename>data/graphics/logos/large/compass.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/compass.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/compass.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100003</GUID>
+                    <Name>swords logo</Name>
+                    <IconFilename>data/graphics/logos/large/swords.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/swords.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/swords.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100004</GUID>
+                    <Name>scorpion logo</Name>
+                    <IconFilename>data/graphics/logos/large/scorpion.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/scorpion.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/scorpion.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100005</GUID>
+                    <Name>frontiers logo</Name>
+                    <IconFilename>data/graphics/logos/large/frontiers.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/frontiers.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/frontiers.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100006</GUID>
+                    <Name>spider logo</Name>
+                    <IconFilename>data/graphics/logos/large/spider.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/spider.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/spider.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100007</GUID>
+                    <Name>usoyev inc logo</Name>
+                    <IconFilename>data/graphics/logos/large/usoyev_inc.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/usoyev_inc.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/usoyev_inc.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100008</GUID>
+                    <Name>triangle logo</Name>
+                    <IconFilename>data/graphics/logos/large/triangle.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/triangle.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/triangle.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100009</GUID>
+                    <Name>deer logo</Name>
+                    <IconFilename>data/graphics/logos/large/deer.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/deer.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/deer.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100010</GUID>
+                    <Name>whale logo</Name>
+                    <IconFilename>data/graphics/logos/large/whale.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/whale.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/whale.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100011</GUID>
+                    <Name>sun logo</Name>
+                    <IconFilename>data/graphics/logos/large/sun.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/sun.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/sun.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100012</GUID>
+                    <Name>avatar_water logo</Name>
+                    <IconFilename>data/graphics/logos/large/avatar_water.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/avatar_water.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/avatar_water.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100013</GUID>
+                    <Name>avatar_earth logo</Name>
+                    <IconFilename>data/graphics/logos/large/avatar_earth.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/avatar_earth.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/avatar_earth.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100014</GUID>
+                    <Name>avatar_fire logo</Name>
+                    <IconFilename>data/graphics/logos/large/avatar_fire.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/avatar_fire.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/avatar_fire.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100015</GUID>
+                    <Name>avatar_air logo</Name>
+                    <IconFilename>data/graphics/logos/large/avatar_air.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/avatar_air.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/avatar_air.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100016</GUID>
+                    <Name>paw logo</Name>
+                    <IconFilename>data/graphics/logos/large/paw.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/paw.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/paw.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100017</GUID>
+                    <Name>tools logo</Name>
+                    <IconFilename>data/graphics/logos/large/tools.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tools.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tools.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100018</GUID>
+                    <Name>arrows logo</Name>
+                    <IconFilename>data/graphics/logos/large/arrows.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/arrows.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/arrows.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100019</GUID>
+                    <Name>oil logo</Name>
+                    <IconFilename>data/graphics/logos/large/oil.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/oil.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/oil.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100020</GUID>
+                    <Name>toxic logo</Name>
+                    <IconFilename>data/graphics/logos/large/toxic.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/toxic.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/toxic.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100021</GUID>
+                    <Name>nuclear logo</Name>
+                    <IconFilename>data/graphics/logos/large/nuclear.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/nuclear.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/nuclear.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100022</GUID>
+                    <Name>experiment logo</Name>
+                    <IconFilename>data/graphics/logos/large/experiment.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/experiment.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/experiment.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100023</GUID>
+                    <Name>world logo</Name>
+                    <IconFilename>data/graphics/logos/large/world.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/world.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/world.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100024</GUID>
+                    <Name>pleaguedoctor logo</Name>
+                    <IconFilename>data/graphics/logos/large/pleaguedoctor.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/pleaguedoctor.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/pleaguedoctor.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100024</GUID>
+                    <Name>tiger logo</Name>
+                    <IconFilename>data/graphics/logos/large/tiger.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tiger.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tiger.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100025</GUID>
+                    <Name>lion logo</Name>
+                    <IconFilename>data/graphics/logos/large/lion.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/lion.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/lion.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100026</GUID>
+                    <Name>wolf logo</Name>
+                    <IconFilename>data/graphics/logos/large/wolf.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/wolf.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/wolf.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100027</GUID>
+                    <Name>elephant logo</Name>
+                    <IconFilename>data/graphics/logos/large/elephant.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/elephant.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/elephant.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100028</GUID>
+                    <Name>illuminati logo</Name>
+                    <IconFilename>data/graphics/logos/large/illuminati.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/illuminati.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/illuminati.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100029</GUID>
+                    <Name>scp logo</Name>
+                    <IconFilename>data/graphics/logos/large/scp.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/scp.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/scp.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100030</GUID>
+                    <Name>hungergames logo</Name>
+                    <IconFilename>data/graphics/logos/large/hungergames.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hungergames.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hungergames.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100032</GUID>
+                    <Name>gdi logo</Name>
+                    <IconFilename>data/graphics/logos/large/gdi.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/gdi.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/gdi.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100033</GUID>
+                    <Name>nod logo</Name>
+                    <IconFilename>data/graphics/logos/large/nod.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/nod.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/nod.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100034</GUID>
+                    <Name>scrin logo</Name>
+                    <IconFilename>data/graphics/logos/large/scrin.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/scrin.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/scrin.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100035</GUID>
+                    <Name>redalert logo</Name>
+                    <IconFilename>data/graphics/logos/large/redalert.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/redalert.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/redalert.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100031</GUID>
+                    <Name>freimaurer logo</Name>
+                    <IconFilename>data/graphics/logos/large/freimaurer.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/freimaurer.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/freimaurer.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100036</GUID>
+                    <Name>imperium logo</Name>
+                    <IconFilename>data/graphics/logos/large/imperium.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/imperium.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/imperium.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100037</GUID>
+                    <Name>rebellion logo</Name>
+                    <IconFilename>data/graphics/logos/large/rebellion.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/rebellion.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/rebellion.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100038</GUID>
+                    <Name>consortium logo</Name>
+                    <IconFilename>data/graphics/logos/large/consortium.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/consortium.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/consortium.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100039</GUID>
+                    <Name>conforderation logo</Name>
+                    <IconFilename>data/graphics/logos/large/conforderation.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/conforderation.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/conforderation.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100040</GUID>
+                    <Name>inquisition logo</Name>
+                    <IconFilename>data/graphics/logos/large/inquisition.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/inquisition.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/inquisition.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+		<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100041</GUID>
+                    <Name>warhammer logo</Name>
+                    <IconFilename>data/graphics/logos/large/warhammer.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/warhammer.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/warhammer.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+		<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100042</GUID>
+                    <Name>tau logo</Name>
+                    <IconFilename>data/graphics/logos/large/tau.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tau.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tau.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+		<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100043</GUID>
+                    <Name>tyranids logo</Name>
+                    <IconFilename>data/graphics/logos/large/tyranids.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tyranids.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tyranids.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+			<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100043</GUID>
+                    <Name>tyranids logo</Name>
+                    <IconFilename>data/graphics/logos/large/tyranids.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tyranids.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tyranids.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+		<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100044</GUID>
+                    <Name>oblivion logo</Name>
+                    <IconFilename>data/graphics/logos/large/oblivion.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/oblivion.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/oblivion.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+		<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100045</GUID>
+                    <Name>morrowind logo</Name>
+                    <IconFilename>data/graphics/logos/large/morrowind.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/morrowind.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/morrowind.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+		<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100046</GUID>
+                    <Name>elderscrolls logo</Name>
+                    <IconFilename>data/graphics/logos/large/elderscrolls.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/elderscrolls.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/elderscrolls.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100047</GUID>
+                    <Name>eso logo</Name>
+                    <IconFilename>data/graphics/logos/large/eso.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/eso.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/eso.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100048</GUID>
+                    <Name>vaulttec logo</Name>
+                    <IconFilename>data/graphics/logos/large/vaulttec.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/vaulttec.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/vaulttec.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100049</GUID>
+                    <Name>falloutbrudi logo</Name>
+                    <IconFilename>data/graphics/logos/large/falloutbrudi.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/falloutbrudi.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/falloutbrudi.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100050</GUID>
+                    <Name>76 logo</Name>
+                    <IconFilename>data/graphics/logos/large/76.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/76.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/76.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100051</GUID>
+                    <Name>institute logo</Name>
+                    <IconFilename>data/graphics/logos/large/institute.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/institute.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/institute.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100052</GUID>
+                    <Name>xcom logo</Name>
+                    <IconFilename>data/graphics/logos/large/xcom.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/xcom.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/xcom.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100053</GUID>
+                    <Name>xcomadvent logo</Name>
+                    <IconFilename>data/graphics/logos/large/xcomadvent.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/xcomadvent.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/xcomadvent.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100054</GUID>
+                    <Name>xcomexalt logo</Name>
+                    <IconFilename>data/graphics/logos/large/xcomexalt.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/xcomexalt.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/xcomexalt.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100055</GUID>
+                    <Name>xcom2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/xcom2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/xcom2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/xcom2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100056</GUID>
+                    <Name>mushroom logo</Name>
+                    <IconFilename>data/graphics/logos/large/mushroom.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/mushroom.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/mushroom.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100057</GUID>
+                    <Name>fireflower logo</Name>
+                    <IconFilename>data/graphics/logos/large/fireflower.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/fireflower.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/fireflower.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100058</GUID>
+                    <Name>star logo</Name>
+                    <IconFilename>data/graphics/logos/large/star.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/star.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/star.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100059</GUID>
+                    <Name>coin logo</Name>
+                    <IconFilename>data/graphics/logos/large/coin.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/coin.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/coin.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100060</GUID>
+                    <Name>hunterguild logo</Name>
+                    <IconFilename>data/graphics/logos/large/hunterguild.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hunterguild.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hunterguild.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100061</GUID>
+                    <Name>researchcomission logo</Name>
+                    <IconFilename>data/graphics/logos/large/researchcomission.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/researchcomission.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/researchcomission.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100062</GUID>
+                    <Name>iceborn logo</Name>
+                    <IconFilename>data/graphics/logos/large/iceborn.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/iceborn.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/iceborn.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100063</GUID>
+                    <Name>felyne logo</Name>
+                    <IconFilename>data/graphics/logos/large/felyne.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/felyne.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/felyne.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100064</GUID>
+                    <Name>umbrella logo</Name>
+                    <IconFilename>data/graphics/logos/large/umbrella.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/umbrella.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/umbrella.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100065</GUID>
+                    <Name>tomorrowland logo</Name>
+                    <IconFilename>data/graphics/logos/large/tomorrowland.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tomorrowland.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tomorrowland.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100066</GUID>
+                    <Name>steam logo</Name>
+                    <IconFilename>data/graphics/logos/large/steam.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/steam.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/steam.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100067</GUID>
+                    <Name>discord logo</Name>
+                    <IconFilename>data/graphics/logos/large/discord.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/discord.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/discord.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100068</GUID>
+                    <Name>naruto1 logo</Name>
+                    <IconFilename>data/graphics/logos/large/naruto1.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/naruto1.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/naruto1.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100069</GUID>
+                    <Name>naruto2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/naruto2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/naruto2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/naruto2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100070</GUID>
+                    <Name>naruto3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/naruto3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/naruto3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/naruto3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100071</GUID>
+                    <Name>naruto4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/naruto4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/naruto4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/naruto4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100072</GUID>
+                    <Name>sonic logo</Name>
+                    <IconFilename>data/graphics/logos/large/sonic.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/sonic.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/sonic.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100073</GUID>
+                    <Name>tails logo</Name>
+                    <IconFilename>data/graphics/logos/large/tails.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tails.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tails.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100074</GUID>
+                    <Name>amy logo</Name>
+                    <IconFilename>data/graphics/logos/large/amy.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/amy.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/amy.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100075</GUID>
+                    <Name>dreggman logo</Name>
+                    <IconFilename>data/graphics/logos/large/dreggman.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/dreggman.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/dreggman.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100076</GUID>
+                    <Name>mariokart8 logo</Name>
+                    <IconFilename>data/graphics/logos/large/mariokart8.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/mariokart8.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/mariokart8.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100077</GUID>
+                    <Name>triforce1 logo</Name>
+                    <IconFilename>data/graphics/logos/large/triforce1.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/triforce1.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/triforce1.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100078</GUID>
+                    <Name>triforce logo</Name>
+                    <IconFilename>data/graphics/logos/large/triforce.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/triforce.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/triforce.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100079</GUID>
+                    <Name>ruby logo</Name>
+                    <IconFilename>data/graphics/logos/large/ruby.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/ruby.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/ruby.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100080</GUID>
+                    <Name>koopashell logo</Name>
+                    <IconFilename>data/graphics/logos/large/koopashell.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/koopashell.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/koopashell.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100081</GUID>
+                    <Name>banana logo</Name>
+                    <IconFilename>data/graphics/logos/large/banana.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/banana.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/banana.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100082</GUID>
+                    <Name>leaf logo</Name>
+                    <IconFilename>data/graphics/logos/large/leaf.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/leaf.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/leaf.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100083</GUID>
+                    <Name>blitz logo</Name>
+                    <IconFilename>data/graphics/logos/large/blitz.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/blitz.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/blitz.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100084</GUID>
+                    <Name>brawl logo</Name>
+                    <IconFilename>data/graphics/logos/large/brawl.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/brawl.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/brawl.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100085</GUID>
+                    <Name>dk logo</Name>
+                    <IconFilename>data/graphics/logos/large/dk.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/dk.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/dk.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100086</GUID>
+                    <Name>kirby logo</Name>
+                    <IconFilename>data/graphics/logos/large/kirby.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kirby.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kirby.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100087</GUID>
+                    <Name>mrgameandwatch logo</Name>
+                    <IconFilename>data/graphics/logos/large/mrgameandwatch.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/mrgameandwatch.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/mrgameandwatch.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100088</GUID>
+                    <Name>animalcrossing logo</Name>
+                    <IconFilename>data/graphics/logos/large/animalcrossing.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/animalcrossing.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/animalcrossing.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100089</GUID>
+                    <Name>kkslider logo</Name>
+                    <IconFilename>data/graphics/logos/large/kkslider.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kkslider.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kkslider.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100090</GUID>
+                    <Name>tomnook logo</Name>
+                    <IconFilename>data/graphics/logos/large/tomnook.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tomnook.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tomnook.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100091</GUID>
+                    <Name>sternis logo</Name>
+                    <IconFilename>data/graphics/logos/large/sternis.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/sternis.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/sternis.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100092</GUID>
+                    <Name>boo logo</Name>
+                    <IconFilename>data/graphics/logos/large/boo.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/boo.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/boo.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100093</GUID>
+                    <Name>bowser logo</Name>
+                    <IconFilename>data/graphics/logos/large/bowser.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bowser.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bowser.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100094</GUID>
+                    <Name>waluigi logo</Name>
+                    <IconFilename>data/graphics/logos/large/waluigi.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/waluigi.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/waluigi.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100095</GUID>
+                    <Name>wario logo</Name>
+                    <IconFilename>data/graphics/logos/large/wario.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/wario.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/wario.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100096</GUID>
+                    <Name>thwomp logo</Name>
+                    <IconFilename>data/graphics/logos/large/thwomp.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/thwomp.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/thwomp.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100097</GUID>
+                    <Name>kugelwilli logo</Name>
+                    <IconFilename>data/graphics/logos/large/kugelwilli.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kugelwilli.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kugelwilli.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100098</GUID>
+                    <Name>piranhaplant logo</Name>
+                    <IconFilename>data/graphics/logos/large/piranhaplant.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/piranhaplant.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/piranhaplant.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100099</GUID>
+                    <Name>goomba logo</Name>
+                    <IconFilename>data/graphics/logos/large/goomba.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/goomba.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/goomba.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100100</GUID>
+                    <Name>pokeball logo</Name>
+                    <IconFilename>data/graphics/logos/large/pokeball.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/pokeball.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/pokeball.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100101</GUID>
+                    <Name>glurak logo</Name>
+                    <IconFilename>data/graphics/logos/large/glurak.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/glurak.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/glurak.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100102</GUID>
+                    <Name>shiggy logo</Name>
+                    <IconFilename>data/graphics/logos/large/shiggy.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/shiggy.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/shiggy.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100103</GUID>
+                    <Name>bisasam logo</Name>
+                    <IconFilename>data/graphics/logos/large/bisasam.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bisasam.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bisasam.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100104</GUID>
+                    <Name>pikachu logo</Name>
+                    <IconFilename>data/graphics/logos/large/pikachu.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/pikachu.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/pikachu.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100105</GUID>
+                    <Name>arktos logo</Name>
+                    <IconFilename>data/graphics/logos/large/arktos.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/arktos.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/arktos.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100106</GUID>
+                    <Name>zaptos logo</Name>
+                    <IconFilename>data/graphics/logos/large/zaptos.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/zaptos.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/zaptos.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100107</GUID>
+                    <Name>lavados logo</Name>
+                    <IconFilename>data/graphics/logos/large/lavados.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/lavados.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/lavados.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100108</GUID>
+                    <Name>silenthill logo</Name>
+                    <IconFilename>data/graphics/logos/large/silenthill.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/silenthill.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/silenthill.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100109</GUID>
+                    <Name>thesims logo</Name>
+                    <IconFilename>data/graphics/logos/large/thesims.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/thesims.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/thesims.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100110</GUID>
+                    <Name>halflife logo</Name>
+                    <IconFilename>data/graphics/logos/large/halflife.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/halflife.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/halflife.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100111</GUID>
+                    <Name>halflife2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/halflife2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/halflife2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/halflife2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100112</GUID>
+                    <Name>anarchy logo</Name>
+                    <IconFilename>data/graphics/logos/large/anarchy.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/anarchy.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/anarchy.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100113</GUID>
+                    <Name>star2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/star2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/star2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/star2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100114</GUID>
+                    <Name>star3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/star3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/star3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/star3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100115</GUID>
+                    <Name>star4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/star4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/star4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/star4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100116</GUID>
+                    <Name>yingyang logo</Name>
+                    <IconFilename>data/graphics/logos/large/yingyang.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/yingyang.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/yingyang.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100117</GUID>
+                    <Name>peace logo</Name>
+                    <IconFilename>data/graphics/logos/large/peace.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/peace.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/peace.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100118</GUID>
+                    <Name>peace2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/peace2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/peace2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/peace2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100119</GUID>
+                    <Name>peace3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/peace3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/peace3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/peace3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100120</GUID>
+                    <Name>kreuz logo</Name>
+                    <IconFilename>data/graphics/logos/large/kreuz.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kreuz.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kreuz.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100121</GUID>
+                    <Name>kreuz2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/kreuz2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kreuz2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kreuz2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>		
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100122</GUID>
+                    <Name>kreuz3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/kreuz3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kreuz3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kreuz3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100123</GUID>
+                    <Name>kreuz4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/kreuz4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/kreuz4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/kreuz4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100124</GUID>
+                    <Name>mc logo</Name>
+                    <IconFilename>data/graphics/logos/large/mc.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/mc.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/mc.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100125</GUID>
+                    <Name>creeper logo</Name>
+                    <IconFilename>data/graphics/logos/large/creeper.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/creeper.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/creeper.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100126</GUID>
+                    <Name>pickaxe logo</Name>
+                    <IconFilename>data/graphics/logos/large/pickaxe.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/pickaxe.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/pickaxe.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100127</GUID>
+                    <Name>ghast logo</Name>
+                    <IconFilename>data/graphics/logos/large/ghast.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/ghast.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/ghast.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100128</GUID>
+                    <Name>fox logo</Name>
+                    <IconFilename>data/graphics/logos/large/fox.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/fox.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/fox.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100129</GUID>
+                    <Name>bear logo</Name>
+                    <IconFilename>data/graphics/logos/large/bear.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bear.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bear.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100130</GUID>
+                    <Name>gorilla logo</Name>
+                    <IconFilename>data/graphics/logos/large/gorilla.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/gorilla.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/gorilla.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100131</GUID>
+                    <Name>grumpycat logo</Name>
+                    <IconFilename>data/graphics/logos/large/grumpycat.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/grumpycat.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/grumpycat.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100132</GUID>
+                    <Name>aperture logo</Name>
+                    <IconFilename>data/graphics/logos/large/aperture.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/aperture.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/aperture.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100133</GUID>
+                    <Name>portalcake logo</Name>
+                    <IconFilename>data/graphics/logos/large/portalcake.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/portalcake.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/portalcake.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100134</GUID>
+                    <Name>companioncube logo</Name>
+                    <IconFilename>data/graphics/logos/large/companioncube.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/companioncube.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/companioncube.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100135</GUID>
+                    <Name>portalguy logo</Name>
+                    <IconFilename>data/graphics/logos/large/portalguy.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/portalguy.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/portalguy.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100136</GUID>
+                    <Name>controller_nes logo</Name>
+                    <IconFilename>data/graphics/logos/large/controller_nes.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/controller_nes.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/controller_nes.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100137</GUID>
+                    <Name>controller_supernintendo logo</Name>
+                    <IconFilename>data/graphics/logos/large/controller_supernintendo.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/controller_supernintendo.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/controller_supernintendo.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100138</GUID>
+                    <Name>controller_n64 logo</Name>
+                    <IconFilename>data/graphics/logos/large/controller_n64.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/controller_n64.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/controller_n64.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100139</GUID>
+                    <Name>controller_gamecube logo</Name>
+                    <IconFilename>data/graphics/logos/large/controller_gamecube.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/controller_gamecube.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/controller_gamecube.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100140</GUID>
+                    <Name>character_mario logo</Name>
+                    <IconFilename>data/graphics/logos/large/character_mario.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/character_mario.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/character_mario.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100141</GUID>
+                    <Name>character_luigi logo</Name>
+                    <IconFilename>data/graphics/logos/large/character_luigi.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/character_luigi.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/character_luigi.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100142</GUID>
+                    <Name>character_peach logo</Name>
+                    <IconFilename>data/graphics/logos/large/character_peach.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/character_peach.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/character_peach.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100143</GUID>
+                    <Name>character_yoshi logo</Name>
+                    <IconFilename>data/graphics/logos/large/character_yoshi.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/character_yoshi.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/character_yoshi.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100144</GUID>
+                    <Name>bindingofisaac1 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac1.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac1.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac1.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100145</GUID>
+                    <Name>bindingofisaac2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100146</GUID>
+                    <Name>bindingofisaac3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100147</GUID>
+                    <Name>bindingofisaac4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100148</GUID>
+                    <Name>bindingofisaac5 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac5.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac5.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac5.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100149</GUID>
+                    <Name>bindingofisaac6 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac6.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac6.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac6.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100150</GUID>
+                    <Name>bindingofisaac7 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac7.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac7.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac7.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100151</GUID>
+                    <Name>bindingofisaac8 logo</Name>
+                    <IconFilename>data/graphics/logos/large/bindingofisaac8.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bindingofisaac8.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bindingofisaac8.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100152</GUID>
+                    <Name>tangled logo</Name>
+                    <IconFilename>data/graphics/logos/large/tangled.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/tangled.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/tangled.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100153</GUID>
+                    <Name>horse logo</Name>
+                    <IconFilename>data/graphics/logos/large/horse.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/horse.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/horse.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100154</GUID>
+                    <Name>unicorn logo</Name>
+                    <IconFilename>data/graphics/logos/large/unicorn.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/unicorn.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/unicorn.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100155</GUID>
+                    <Name>pegasus logo</Name>
+                    <IconFilename>data/graphics/logos/large/pegasus.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/pegasus.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/pegasus.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100157</GUID>
+                    <Name>hydra logo</Name>
+                    <IconFilename>data/graphics/logos/large/hydra.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hydra.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hydra.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100158</GUID>
+                    <Name>shield logo</Name>
+                    <IconFilename>data/graphics/logos/large/shield.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/shield.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/shield.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100159</GUID>
+                    <Name>captainamerica logo</Name>
+                    <IconFilename>data/graphics/logos/large/captainamerica.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/captainamerica.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/captainamerica.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100160</GUID>
+                    <Name>nickfury logo</Name>
+                    <IconFilename>data/graphics/logos/large/nickfury.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/nickfury.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/nickfury.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100161</GUID>
+                    <Name>xbox logo</Name>
+                    <IconFilename>data/graphics/logos/large/xbox.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/xbox.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/xbox.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100162</GUID>
+                    <Name>twitch logo</Name>
+                    <IconFilename>data/graphics/logos/large/twitch.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/twitch.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/twitch.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100163</GUID>
+                    <Name>ubisoft logo</Name>
+                    <IconFilename>data/graphics/logos/large/ubisoft.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/ubisoft.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/ubisoft.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100164</GUID>
+                    <Name>origin logo</Name>
+                    <IconFilename>data/graphics/logos/large/origin.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/origin.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/origin.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100165</GUID>
+                    <Name>dbd logo</Name>
+                    <IconFilename>data/graphics/logos/large/dbd.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/dbd.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/dbd.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100166</GUID>
+                    <Name>witcher logo</Name>
+                    <IconFilename>data/graphics/logos/large/witcher.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/witcher.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/witcher.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100167</GUID>
+                    <Name>assasinscreed logo</Name>
+                    <IconFilename>data/graphics/logos/large/assasinscreed.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/assasinscreed.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/assasinscreed.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100168</GUID>
+                    <Name>quake logo</Name>
+                    <IconFilename>data/graphics/logos/large/quake.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/quake.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/quake.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100169</GUID>
+                    <Name>ghostbusters logo</Name>
+                    <IconFilename>data/graphics/logos/large/ghostbusters.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/ghostbusters.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/ghostbusters.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100170</GUID>
+                    <Name>jurassicpark logo</Name>
+                    <IconFilename>data/graphics/logos/large/jurassicpark.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/jurassicpark.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/jurassicpark.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100171</GUID>
+                    <Name>startrek logo</Name>
+                    <IconFilename>data/graphics/logos/large/startrek.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/startrek.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/startrek.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100172</GUID>
+                    <Name>transformers logo</Name>
+                    <IconFilename>data/graphics/logos/large/transformers.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/transformers.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/transformers.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100173</GUID>
+                    <Name>hp1 logo</Name>
+                    <IconFilename>data/graphics/logos/large/hp1.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hp1.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hp1.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100174</GUID>
+                    <Name>hp2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/hp2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hp2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hp2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100175</GUID>
+                    <Name>hp3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/hp3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hp3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hp3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100176</GUID>
+                    <Name>hp4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/hp4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hp4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hp4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100177</GUID>
+                    <Name>simpson1 logo</Name>
+                    <IconFilename>data/graphics/logos/large/simpson1.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/simpson1.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/simpson1.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100178</GUID>
+                    <Name>simpson2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/simpson2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/simpson2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/simpson2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100179</GUID>
+                    <Name>simpson3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/simpson3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/simpson3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/simpson3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100180</GUID>
+                    <Name>simpson4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/simpson4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/simpson4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/simpson4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100181</GUID>
+                    <Name>rick1 logo</Name>
+                    <IconFilename>data/graphics/logos/large/rick1.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/rick1.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/rick1.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100182</GUID>
+                    <Name>rick2 logo</Name>
+                    <IconFilename>data/graphics/logos/large/rick2.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/rick2.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/rick2.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100183</GUID>
+                    <Name>rick3 logo</Name>
+                    <IconFilename>data/graphics/logos/large/rick3.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/rick3.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/rick3.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100184</GUID>
+                    <Name>rick4 logo</Name>
+                    <IconFilename>data/graphics/logos/large/rick4.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/rick4.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/rick4.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100185</GUID>
+                    <Name>avatarfilm logo</Name>
+                    <IconFilename>data/graphics/logos/large/avatarfilm.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/avatarfilm.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/avatarfilm.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100186</GUID>
+                    <Name>vikings logo</Name>
+                    <IconFilename>data/graphics/logos/large/vikings.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/vikings.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/vikings.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100187</GUID>
+                    <Name>attackontitan logo</Name>
+                    <IconFilename>data/graphics/logos/large/attackontitan.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/attackontitan.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/attackontitan.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100188</GUID>
+                    <Name>avengers logo</Name>
+                    <IconFilename>data/graphics/logos/large/avengers.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/avengers.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/avengers.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100189</GUID>
+                    <Name>sot logo</Name>
+                    <IconFilename>data/graphics/logos/large/sot.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/sot.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/sot.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100190</GUID>
+                    <Name>rust logo</Name>
+                    <IconFilename>data/graphics/logos/large/rust.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/rust.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/rust.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100191</GUID>
+                    <Name>starbound logo</Name>
+                    <IconFilename>data/graphics/logos/large/starbound.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/starbound.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/starbound.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100192</GUID>
+                    <Name>maplestory logo</Name>
+                    <IconFilename>data/graphics/logos/large/maplestory.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/maplestory.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/maplestory.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100193</GUID>
+                    <Name>wheel logo</Name>
+                    <IconFilename>data/graphics/logos/large/wheel.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/wheel.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/wheel.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100194</GUID>
+                    <Name>bomb logo</Name>
+                    <IconFilename>data/graphics/logos/large/bomb.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/bomb.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/bomb.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100195</GUID>
+                    <Name>hook logo</Name>
+                    <IconFilename>data/graphics/logos/large/hook.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/hook.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/hook.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500960']">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>100196</GUID>
+                    <Name>skull logo</Name>
+                    <IconFilename>data/graphics/logos/large/skull.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/graphics/logos/large/skull.png</DefaultLogo>
+                    <MiniLogo>data/graphics/logos/large/skull.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>	
+	
+    <ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100001</Logo>
+            </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100002</Logo>
+            </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100003</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100004</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100005</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100006</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100007</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100008</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100009</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100010</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100011</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100012</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100013</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100014</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100015</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100016</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100017</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100018</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100019</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100020</Logo>
+            </Item>
+    </ModOp>	
+	<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100021</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100022</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100023</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100024</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100025</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100026</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100027</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100028</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100029</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100030</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100031</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100032</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100033</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100034</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100035</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100036</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100037</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100038</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100039</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100040</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100041</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100042</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100043</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100044</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100045</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100046</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100047</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100048</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100049</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100050</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100051</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100052</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100053</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100054</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100055</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100056</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100057</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100058</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100059</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100060</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100061</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100062</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100063</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100064</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100065</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100066</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100067</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100068</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100069</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100070</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100071</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100072</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100073</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100074</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100075</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100076</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100077</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100078</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100079</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100080</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100081</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100082</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100083</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100084</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100085</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100086</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100087</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100088</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100089</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100090</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100091</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100092</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100093</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100094</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100095</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100096</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100097</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100098</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100099</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100100</Logo>
+            </Item>
+    </ModOp>	
+	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100101</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100102</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100103</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100104</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100105</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100106</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100107</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100108</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100109</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100110</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100111</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100112</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100113</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100114</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100115</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100116</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100117</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100118</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100119</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100120</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100121</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100122</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100123</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100124</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100125</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100126</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100127</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100128</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100129</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100130</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100131</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100132</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100133</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100134</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100135</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100136</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100137</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100138</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100139</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100140</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100141</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100142</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100143</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100144</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100145</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100146</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100147</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100148</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100149</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100150</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100151</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100152</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100153</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100154</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100155</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100156</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100157</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100158</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100159</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100160</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100161</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100162</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100163</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100164</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100165</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100166</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100167</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100168</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100169</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100170</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100171</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100172</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100173</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100174</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100175</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100176</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100177</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100178</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100179</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100180</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100181</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100182</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100183</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100184</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100185</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100186</Logo>
+            </Item>
+    </ModOp>	
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100187</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100188</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100189</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100190</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100191</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100192</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100193</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100194</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100195</Logo>
+            </Item>
+    </ModOp>
+		<ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+            <Item>
+                <Logo>100196</Logo>
+            </Item>
+    </ModOp>			
+</ModOps>

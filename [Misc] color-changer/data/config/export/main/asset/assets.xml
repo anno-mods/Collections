@@ -1,0 +1,36 @@
+<ModOps>
+  <ModOp Type="merge" GUID='2002447' Path="/Values/ParticipantRepresentationFeature/ParticipantColors">
+    <ParticipantColors>
+      <Color1>
+        <ParticipantColor>-12745274</ParticipantColor>
+      </Color1>
+      <Color2>
+        <ParticipantColor>-11172289</ParticipantColor>
+      </Color2>
+      <Color3>
+        <ParticipantColor>-6094848</ParticipantColor>
+      </Color3>
+      <Color4>
+        <ParticipantColor>-933326</ParticipantColor>
+      </Color4>
+      <Color5>
+        <ParticipantColor>-2465755</ParticipantColor>
+      </Color5>
+      <Color6>
+        <ParticipantColor>-9021742</ParticipantColor>
+      </Color6>
+      <Color7>
+        <ParticipantColor>-16723292</ParticipantColor>
+      </Color7>
+      <Color8>
+        <ParticipantColor>-9276814</ParticipantColor>
+      </Color8>
+      <Color9>
+        <ParticipantColor>-16777216</ParticipantColor>
+      </Color9>
+    </ParticipantColors>
+  </ModOp>
+<ModOp Type="replace" GUID="76,73" Path="/Values/Profile/DefaultColor">
+        <DefaultColor>Color9</DefaultColor>
+  </ModOp>
+</ModOps>
