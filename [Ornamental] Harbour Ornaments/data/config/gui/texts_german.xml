@@ -1,0 +1,135 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1900002</GUID>
+      <Text>Hafen Ornamente verschönern den Hafen und bringen Abwechslung ins Geschehen.</Text>
+    </Text>
+    <Text>
+      <GUID>1900003</GUID>
+      <Text>Ein gut platziertes Schiff ist eine wahre Pracht.</Text>
+    </Text>
+	<Text>
+      <GUID>1900004</GUID>
+      <Text>Kleines Lager ( Lagerkapazität +15t ).</Text>
+    </Text>
+	<Text>
+      <GUID>1900005</GUID>
+      <Text>Laufstege für den Kaibereich.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900006</GUID>
+      <Text>Auch auf den Laufstegen wird so manches abgeladen.</Text>
+    </Text>
+	<Text>
+      <GUID>1900007</GUID>
+      <Text>Fahnen für die Laufstege.Wenn schon Prunk,dann richtig.Jedes Objekt bringt 2 Attraktivitätspunkte</Text>
+    </Text>
+	<Text>
+      <GUID>1900008</GUID>
+      <Text>Auch auf den Laufstegen kann etwas Werbung nicht schaden.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900009</GUID>
+      <Text>Die wahre Schönheit der Natur.Jetzt auch am Hafen.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900010</GUID>
+      <Text>Wer rastet der rostet ? Aber doch nicht bei solchen Sitzgelegenheiten.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900011</GUID>
+      <Text>Schon gesehen ? Jack the Ripper wird gesucht ! Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900012</GUID>
+      <Text>Lalalaa... blowing in the wind.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900013</GUID>
+      <Text>Irgendwann so hoffen wir,kann man darüber laufen zum Pier.Jedes Objekt bringt 2 Attraktivitätspunkte</Text>
+    </Text>
+	<Text>
+      <GUID>1900014</GUID>
+      <Text>Erreichbar über Laufstegerampen oder direkt über den Kai.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900015</GUID>
+      <Text>Hafen Kräne sind unverzichtbare Lastenträger. Man kann nie genug davon haben.</Text>
+    </Text>
+	<Text>
+      <GUID>1900016</GUID>
+      <Text>Ehre wem Ehre gebührt. Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	<Text>
+      <GUID>1900017</GUID>
+      <Text>Alles was man sonst noch am Hafen brauchen kann.Märkte,Gebäude und natürlich Leute.Jedes Objekt bringt 2 Attraktivitätspunkte.</Text>
+    </Text>
+	
+	
+    
+    <Text>
+      <GUID>1900001</GUID>
+      <Text>Hafen Ornamente</Text>
+    </Text>
+    <Text>
+      <GUID>1900021</GUID>
+      <Text>Hafen Ornament Schiffe 90°</Text>
+    </Text>
+	<Text>
+      <GUID>1900022</GUID>
+      <Text>Hafen Depot</Text>
+    </Text>
+	<Text>
+      <GUID>1900023</GUID>
+      <Text>Laufstege</Text>
+    </Text>
+	<Text>
+      <GUID>1900024</GUID>
+      <Text>Laufstege Kisten</Text>
+    </Text>
+	<Text>
+      <GUID>1900025</GUID>
+      <Text>Laufstege Fahnen</Text>
+    </Text>
+	<Text>
+      <GUID>1900026</GUID>
+      <Text>Laufstege Werbetafeln</Text>
+    </Text>
+	<Text>
+      <GUID>1900027</GUID>
+      <Text>Kübelpflanzen Kai</Text>
+    </Text>
+	<Text>
+      <GUID>1900028</GUID>
+      <Text>Kai Sitzbänke</Text>
+    </Text>
+	<Text>
+      <GUID>1900029</GUID>
+      <Text>Kai Werbetafeln</Text>
+    </Text>
+	<Text>
+      <GUID>1900030</GUID>
+      <Text>Kai Fahnen</Text>
+    </Text>
+	<Text>
+      <GUID>1900031</GUID>
+      <Text>Kaibrücken (für Arnold)</Text>
+    </Text>
+	<Text>
+      <GUID>1900032</GUID>
+      <Text>Aussichtspodeste</Text>
+    </Text>
+	<Text>
+      <GUID>1900033</GUID>
+      <Text>Hafenkräne</Text>
+    </Text>
+	<Text>
+      <GUID>1900034</GUID>
+      <Text>Statuen und Brunnen</Text>
+    </Text>
+	<Text>
+      <GUID>1900035</GUID>
+      <Text>Hafen Allerlei</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,78 @@
+<ModOps>
+	<ModOp Type="add" Path="Templates/Group[Name = 'Economy']">
+        <Template>
+            <Name>HarbourOrnamentStuff</Name>
+            <Properties>
+                <Standard />
+                <Building>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <TerrainType>Water</TerrainType>
+                </Building>
+                <Blocking />
+                <Mesh />
+                <Cost />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ornament</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>14499</LineID>
+                </Text>
+                <Ornament />
+                <Culture/>
+                <Object />
+                <Selection>
+                    <GUIType>Ornamental</GUIType>
+                </Selection>
+                <AmbientMoodProvider/>
+                <Constructable />
+                <Maintenance />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                </VectorElement>
+                                <Sound>214784</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Locked />
+                <Pausable />
+                <Infolayer />
+            </Properties>
+        </Template>
+    </ModOp>
+</ModOps>

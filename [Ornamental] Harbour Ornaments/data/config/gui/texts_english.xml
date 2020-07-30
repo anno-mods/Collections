@@ -1,0 +1,135 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1900002</GUID>
+      <Text>Port ornaments beautify the port and bring variety to the events.</Text>
+    </Text>
+    <Text>
+      <GUID>1900003</GUID>
+      <Text>A well-placed ship is a true magnificence. </Text>
+    </Text>
+	<Text>
+      <GUID>1900004</GUID>
+      <Text>Small warehouse (storage capacity +15t).</Text>
+    </Text>
+	<Text>
+      <GUID>1900005</GUID>
+      <Text>footbridges for the quay area. each object brings 2 points of attraction. </Text>
+    </Text>
+	<Text>
+      <GUID>1900006</GUID>
+      <Text>Also on the catwalks many things are unloaded. </Text>
+    </Text>
+	<Text>
+      <GUID>1900007</GUID>
+      <Text>Flags for the catwalks.if already splendor,then right.every object brings 2 points of attraction</Text>
+    </Text>
+	<Text>
+      <GUID>1900008</GUID>
+      <Text>Even on the footbridges some advertising can't hurt.every object brings 2 points of attractiveness.</Text>
+    </Text>
+	<Text>
+      <GUID>1900009</GUID>
+      <Text>The true beauty of nature.now also at the harbour.every object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900010</GUID>
+      <Text>Who is rusting ? But not with seating like this. Each object brings 2 points of attractiveness.</Text>
+    </Text>
+	<Text>
+      <GUID>1900011</GUID>
+      <Text>See ya ? Jack the Ripper is wanted ! Each object brings 2 points of attraction. </Text>
+    </Text>
+	<Text>
+      <GUID>1900012</GUID>
+      <Text>Lalalalaa... blowing in the wind. each object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900013</GUID>
+      <Text>One day, we hope, one can walk over it to the pier, each object brings 2 points of attraction.</Text>
+    </Text>
+	<Text>
+      <GUID>1900014</GUID>
+      <Text>Accessible via catwalk ramps or directly via the quay.each object brings 2 points of attractiveness.</Text>
+    </Text>
+	<Text>
+      <GUID>1900015</GUID>
+      <Text>Harbour cranes are indispensable load carriers. You can never have enough of them.</Text>
+    </Text>
+	<Text>
+      <GUID>1900016</GUID>
+      <Text>Honour to whom honour is due. Each object brings 2 points of attractiveness.</Text>
+    </Text>
+	<Text>
+      <GUID>1900017</GUID>
+      <Text>Everything else you can need at the harbour.markets,buildings and of course people.every object brings 2 points of attractiveness.</Text>
+    </Text>
+	
+	
+    
+    <Text>
+      <GUID>1900001</GUID>
+      <Text>Port Ornaments></Text>
+    </Text>
+    <Text>
+      <GUID>1900021</GUID>
+      <Text>Port Ornament Ships 90°</Text>
+    </Text>
+	<Text>
+      <GUID>1900022</GUID>
+      <Text> Port Depot</Text>
+    </Text>
+	<Text>
+      <GUID>1900023</GUID>
+      <Text>Footbridges</Text>
+	</Text>   
+	<Text>
+      <GUID>1900024</GUID>
+      <Text>Footbridge crates</Text>
+    </Text>
+	<Text>
+      <GUID>1900025</GUID>
+      <Text>Footbridge Flags</Text>
+    </Text>
+	<Text>
+      <GUID>1900026</GUID>
+      <Text>Footbridge billboards</Text>
+    </Text>
+	<Text>
+      <GUID>1900027</GUID>
+      <Text>Potted plants quay</Text>
+    </Text>
+	<Text>
+      <GUID>1900028</GUID>
+      <Text>Quay benches</Text>
+    </Text>
+	<Text>
+      <GUID>1900029</GUID>
+      <Text>Quay billboards</Text>
+    </Text>
+	<Text>
+      <GUID>1900030</GUID>
+      <Text>Quay Flags</Text>
+    </Text>
+	<Text>
+      <GUID>1900031</GUID>
+      <Text>Bridges (for Arnold)</Text>
+    </Text>
+	<Text>
+      <GUID>1900032</GUID>
+      <Text>Viewing platforms</Text>
+    </Text>
+	<Text>
+      <GUID>1900033</GUID>
+      <Text>Port cranes></Text>
+    </Text>
+	<Text>
+      <GUID>1900034</GUID>
+      <Text>Statues and fountains</Text>
+    </Text>
+	<Text>
+      <GUID>1900035</GUID>
+      <Text>Port bunch of all kinds</Text>
+	</Text>
+  </ModOp>
+</ModOps>

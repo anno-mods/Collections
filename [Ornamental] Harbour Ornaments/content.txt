@@ -1,0 +1,41 @@
+Das ist ein hafen ornamenten mod.
+
+[Ornamental]Harbour_Ornaments final 1.0
+
+es erwarten euch :
+
+
+-mehrere schiffe.
+
+-ein beliebig erweiterbares lagerhaus mit jeweils 15 tonne lagerkapazität pro modul.
+
+-Kaimauernstege die abgesetzt zur kaimauer sind,aber mit einer rampe bis zur kaimauer reichen (nicht kaimauerboden eben). außerdem gibt es für jedes objekt 2 Attraktivitäts punkte.
+
+-Kisten für die Kaimauerstege.
+
+-Fahnen für Kaimauerstege,jeweils in rechts/links ausführung. auch hier gibt es für jedes objekt 2 Attraktivitäts punkte.
+
+-Werbetafeln für kaimauerstege.und weil die so "schön" sind,gibt es für jedes objekt 2 Attraktivitäts punkte.
+
+-Kübelpflanzen für die kaimauer,große auswahl und es gibt für jedes objekt 2 Attraktivitäts punkte.
+
+-mehrere Sitzbank variationen,sehr hübsch,deswegen gibt es für jedes objekt 2 Attraktivitäts punkte.
+
+-Werbetafeln für die kaimauer,beidseitig betrachtbar,viele verschiedene plakate und es gibt für jedes objekt 2 Attraktivitäts punkte.
+
+-Fahnen für die Kaimauer mit sockel,steigern die Attraktivität um 2 punkte pro fahne.
+
+-brücken,die als reine zierobjekte dienen.es gibt für jedes objekt 1 Attraktivitäts punkt.
+
+-Aussichtsplattformen in einer edlen ausführung,ausbaubar zu einem "plattformen-park".es gibt für jedes objekt 2 Attraktivitäts punkte.
+
+-mehrere Hafenkräne,in action aber auch stillstehend.für jedes objekt gibt es 2 Attraktivitäts punkte.
+
+-Statuen und Brunnen in diversen ausführungen,sehr detailreich, und es gibt für jedes objekt 2 Attraktivitäts punkte.
+
+-diverse belebte marktstände,gebäude oder auch einfach nur bewohner beim bunten treiben,und weils auch hier so schön ist, gibt es für jedes objekt 2 Attraktivitäts punkte.
+
+
+
+bei einigen objekten habe ich bewusst auf die kaimauer platzierung verzichtet,um noch freier bauen zu können.
+ich hoffe es bereitet euch freude und ihr habt spaß am dekorieren :)
