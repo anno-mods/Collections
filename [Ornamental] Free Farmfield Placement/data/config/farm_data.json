@@ -1,0 +1,82 @@
+{
+	"FarmData": [
+		{
+			"GUID": 1010262,
+			"module_limit": 144,
+			"module_GUID": 1010270,
+			"hard_farms": 1
+		},
+		{
+			"GUID": 1010264,
+			"module_limit": 96,
+			"module_GUID": 1010272,
+			"hard_farms": 2
+		},
+		{
+			"GUID": 1010265,
+			"module_limit": 72,
+			"module_GUID": 1010273,
+			"hard_farms": "None"
+		},
+		{
+			"GUID": 100655,
+			"module_limit": 128,
+			"module_GUID": 100657,
+			"hard_farms": 2
+		},
+		{
+			"GUID": 100654,
+			"module_limit": 108,
+			"module_GUID": 100656,
+			"hard_farms": 1
+		},
+		{
+			"GUID": 1010329,
+			"module_limit": 128,
+			"module_GUID": 1010334,
+			"hard_farms": "None"
+		},
+		{
+			"GUID": 1010330,
+			"module_limit": 192,
+			"module_GUID": 1010335,
+			"hard_farms": 1
+		},
+		{
+			"GUID": 1010331,
+			"module_limit": 144,
+			"module_GUID": 1010336,
+			"hard_farms": 1
+		},
+		{
+			"GUID": 1010332,
+			"module_limit": 128,
+			"module_GUID": 1010337,
+			"hard_farms": 2
+		},
+		{
+			"GUID": 1010333,
+			"module_limit": 144,
+			"module_GUID": 1010338,
+			"hard_farms": 2
+		},
+		{
+			"GUID": 101251,
+			"module_limit": 168,
+			"module_GUID": 101253,
+			"hard_farms": 2
+		},
+		{
+			"GUID": 101263,
+			"module_limit": 128,
+			"module_GUID": 101280,
+			"hard_farms": 1
+		},
+		{
+			"GUID": 101270,
+			"module_limit": 168,
+			"module_GUID": 101282,
+			"hard_farms": "None"
+		}
+	]
+}
