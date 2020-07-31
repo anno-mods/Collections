@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1800000200</GUID>
+      <Text>Schneiderei Clark</Text>
+    </Text>
+	<Text>
+      <GUID>1800000203</GUID>
+      <Text>Baumwollplantage</Text>
+    </Text>
+	<Text>
+      <GUID>1800000213</GUID>
+      <Text>Baumwollfeld</Text>
+    </Text>
+	<Text>
+      <GUID>1800000204</GUID>
+      <Text>Faserweiche Seidenballen</Text>
+    </Text>
+	<Text>
+      <GUID>1800000205</GUID>
+      <Text>Schneiderei Clark</Text>
+    </Text>		
+  </ModOp>
+</ModOps>

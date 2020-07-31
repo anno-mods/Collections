@@ -1,0 +1,14 @@
+[30.07.2020] V 0.8.1:
+
+Unreleased Alpha Testing
+
+-----------------------------
+
+[31.07.2020] V 1.0:
+
+Release
+
+fixes:
+Changed some Names
+
+-----------------------------

@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1800000200</GUID>
+      <Text>Tailoring Clark</Text>
+    </Text>
+	<Text>
+      <GUID>1800000203</GUID>
+      <Text>Cotton Farm</Text>
+    </Text>
+	<Text>
+      <GUID>1800000213</GUID>
+      <Text>Cotton Field</Text>
+    </Text>
+	<Text>
+      <GUID>1800000204</GUID>
+      <Text>Fiber soft cotton</Text>
+    </Text>
+	<Text>
+      <GUID>1800000205</GUID>
+      <Text>Tailoring Clark</Text>
+    </Text>		
+  </ModOp>
+</ModOps>
