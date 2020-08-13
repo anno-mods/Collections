@@ -43,7 +43,7 @@ Update 2.0 Notes:
 
   - Hotels and investor residences cannot be copied!
 
-  - The small train station and the chief post office show the error: "No warehouse nearby": The chief post office gets its letters directly from the small train station
+  - The small train station and the chief post office show the error: "No warehouse nearby": The chief post office gets its letters directly from the small train station and works.
 
 
 your faithfully
