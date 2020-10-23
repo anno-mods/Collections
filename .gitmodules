@@ -1,3 +1,6 @@
-[submodule "Spice-it-Up"]
-	path = Spice-it-Up
+[submodule "Serp's Mods"]
+	path = Serp's Mods
+	url = https://github.com/Serpens66/Anno-1800-Mods.git
+[submodule "Spice it Up"]
+	path = Spice it Up
 	url = https://github.com/anno-mods/Spice-it-Up.git
