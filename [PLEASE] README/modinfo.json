@@ -1,0 +1,78 @@
+{
+  "Version": "1",
+  "ModID": "ModID_myMod",
+  "IncompatibleIds": [
+    "ModId",
+    "ModId",
+    "ModId"
+  ],
+  "ModDependencies": [
+    "ModId",
+    "ModId",
+    "ModId"
+  ],
+  "Category": {
+    "Chinese": null,
+    "English": "String Category",
+    "French": null,
+    "German": "String Category",
+    "Italian": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "String Modname",
+    "French": null,
+    "German": "String Modname",
+    "Italian": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "String Description",
+    "French": null,
+    "German": "String Description",
+    "Italian": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": "String Issue 0",
+      "French": null,
+      "German": "String Issue 0",
+      "Italian": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    "Anarchist",
+    "SunkenTreasures",
+    "Botanica",
+    "ThePassage",
+    "SeatOfPower",
+    "BrightHarvest",
+    "LandOfLions",
+    "Christmas",
+    "AmusementPark",
+    "CityLife"
+  ],
+  "CreatorName": "Name",
+  "CreatorContact": "ContactLink"
+}
