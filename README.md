@@ -6,7 +6,7 @@
 
 <br />
 
-<p align="center"><a href="https://github.com/anno-mods/Modinfo">Modinfo</a><br /><em>Community GUID ranges</em><br /> Documentation, Serializable Classes and Sample files</p>
+<p align="center"><a href="https://github.com/taubenangriff/Modinfo">Modinfo</a><br /><em>Community GUID ranges</em><br /> Documentation, Serializable Classes and Sample files</p>
 
 <br />
 
