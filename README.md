@@ -14,4 +14,7 @@
     :fire: <a href="https://github.com/anno-mods/Spice-it-Up">Spice it Up</a>
     <br /><br />
     :fire: <a href="https://github.com/anno-mods/New-World-Tourism">New World Tourism</a>
+    <br /><br />
+    :house: <a href="https://github.com/jakobharder/anno-1800-jakobs-mods">Jakob's Collection</a>
+    
 </p>
