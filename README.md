@@ -17,5 +17,5 @@
     <br /><br />
     :house: <a href="https://github.com/jakobharder/anno-1800-jakobs-mods">Jakob's Collection</a>
     <br /><br />
-    🌳: <a href="https://github.com/stars/Taludas/lists/anno-1800-mods-by-taludas">Taludas' Mod Collection</a>
+    🌳 <a href="https://github.com/stars/Taludas/lists/anno-1800-mods-by-taludas">Taludas' Mod Collection</a>
 </p>
