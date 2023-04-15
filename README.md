@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://git.io/anno-mods"><img src="https://github.com/anno-mods.png"></a>
+    <a href="https://github.com/anno-mods"><img src="https://github.com/anno-mods.png"></a>
 </p>
 
 <h2 align="center">Anno 1800 Mod Collections</h2>
