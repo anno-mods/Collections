@@ -20,4 +20,6 @@
     🌳 <a href="https://github.com/stars/Taludas/lists/anno-1800-mods-by-taludas">Taludas' Mod Collection</a>
     <br /><br />
      <a href="https://github.com/xormenter/AnnoMods">Lordys' Mod Collection</a>
+    <br /><br />
+     <a href="https://github.com/lion053/AnnoMods">Lion053' Mod Collection</a>
 </p>
